@@ -9,7 +9,7 @@ Contrastive vision-language model for medical imaging that aligns CT volumes and
 
 **Image Encoder**: [VJEPA2](https://huggingface.co/facebook/vjepa2-vitg-fpc64-384) (ViT-G) with LoRA fine-tuning and a temporal CNN for depth downsampling.
 
-**Text Encoder**: [BiomedVLP-CXR-BERT-specialized](https://huggingface.co/microsoft/BiomedVLP-CXR-BERT-specialized) (frozen).
+**Text Encoder**: [BiomedVLP-CXR-BERT-specialized](https://huggingface.co/microsoft/BiomedVLP-CXR-BERT-specialized).
 
 **Fusion Modes** for combining multiple CT window reconstructions:
 
