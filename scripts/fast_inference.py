@@ -382,10 +382,10 @@ if __name__ == "__main__":
 
     inference = RadRateInferenceMultiReconstruction(
         clip,
-        data_folder='/capstor/store/cscs/swissai/a135/wp3-agents/workspace/CT-RATE/dataset/valid_fixed/dataset/valid_fixed/',
-        reports_file="/capstor/store/cscs/swissai/a135/wp3-agents/workspace/CT-RATE/dataset/radiology_text_reports/validation_reports.csv",
-        meta_file="/capstor/store/cscs/swissai/a135/wp3-agents/workspace/CT-RATE/dataset/metadata/validation_metadata.csv",
-        labels="/capstor/store/cscs/swissai/a135/wp3-agents/workspace/CT-RATE/dataset/valid_labels.csv",
+        data_folder='path_to_valid_fixed/',
+        reports_file="path_to_validation_reports.csv",
+        meta_file="path_to_validation_metadata.csv",
+        labels="path_to_valid_labels.csv",
         results_folder=args.results_folder,
         fusion_mode=args.fusion_mode
     )
