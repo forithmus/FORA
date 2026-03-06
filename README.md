@@ -1,4 +1,4 @@
-# RAD-RATE
+# FORA: Foundation for Omnimodal Radiology Alignment
 
 [![Tests](https://github.com/forithmus/RAD-RATE/actions/workflows/tests.yml/badge.svg)](https://github.com/forithmus/RAD-RATE/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/forithmus/RAD-RATE/branch/main/graph/badge.svg)](https://codecov.io/gh/forithmus/RAD-RATE)
