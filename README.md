@@ -266,3 +266,15 @@ Coverage report is generated as HTML in `htmlcov/`.
 | `test_fusion_modes.py` | All 4 fusion modes × all pooling strategies | End-to-end forward pass |
 | `test_vision_encoder.py` | ResidualTemporalDownsample, VJEPA2 preprocessing | CNN shapes, gradients |
 
+---
+
+## Citation
+
+If you use this repository, the dataset, or any of its components, please cite:
+
+```
+Coming soon
+```
+
+---
+
