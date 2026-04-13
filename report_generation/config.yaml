@@ -1,0 +1,86 @@
+data:
+  # CT-RATE (chest CT)
+  ctrate_folder: "/path/to/ctrate/train/"
+  ctrate_jsonl: "/path/to/findings_sentences.jsonl"
+  ctrate_meta: "/path/to/train_metadata.csv"
+  # Full-text reports CSV (Findings_EN + Impressions_EN) for SFT targets
+  reports_csv: "/path/to/train_reports.csv"
+  include_ctrate: true
+
+  # Merlin (abdominal CT) — uses default paths from CTReportDataset
+  include_merlin: false
+
+  # X-ray datasets
+  include_mimic: false
+  include_chexpert: false
+  include_padchest: false
+
+  # Single source fine-tuning (null = all enabled sources, or "ctrate"/"merlin"/"mimic"/etc.)
+  single_source: null
+
+model:
+  # RADRATE/FORA (frozen visual backbone from contrastive training)
+  radrate_checkpoint: "/path/to/radrate_checkpoint.pt"
+  radrate_dim: 1408
+  num_windows: 4
+
+  # Per-window attention poolers
+  per_window_num_queries: 256
+  per_window_num_layers: 2
+
+  # Perceiver resampler
+  perceiver_hidden_dim: 2048
+  perceiver_num_queries: 512
+  perceiver_num_layers: 6
+  perceiver_num_heads: 16
+  perceiver_dropout: 0.1
+
+  # LLM
+  llm_model_name: "Qwen/Qwen3.5-9B"
+  llm_hidden_dim: 4096
+  lora_r: 64
+  lora_alpha: 128
+  lora_dropout: 0.1
+  lora_target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+  # Pretrained SFT checkpoint (for resume or fine-tuning from prior run)
+  pretrained_checkpoint: null
+
+  # Freeze visual encoder (false = train poolers + perceiver + projection)
+  freeze_visual: false
+
+training:
+  max_steps: 30000
+  learning_rate: 1.0e-5        # LLM LoRA learning rate
+  visual_lr: 1.0e-6            # visual components learning rate
+  weight_decay: 0.01
+  warmup_steps: 500
+  max_grad_norm: 1.0
+
+  per_device_batch_size: 1
+  gradient_accumulation_steps: 4
+  bf16: true
+
+  max_report_length: 512       # max tokens per report (including EOS)
+  save_steps: 500
+  logging_steps: 10
+  generate_every: 500          # generate sample reports for W&B
+  num_generate_samples: 4
+  dataloader_num_workers: 4
+
+  output_dir: "./sft_results"
+  resume: false                # auto-resume from latest checkpoint
+
+wandb:
+  project: "fora-sft"
+  run_name: null               # auto-generated if null
+  tags:
+    - sft
+    - report-generation
