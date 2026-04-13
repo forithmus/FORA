@@ -15,7 +15,7 @@ Contrastive vision-language model for medical imaging that aligns CT volumes and
 
 | Mode | Strategy |
 |------|----------|
-| `early` | Stack windows into channels before the encoder |
+| `early` | Stack windows into channels before the CNN |
 | `mid_cnn` | Process separately through CNN, merge features, then transformer |
 | `late` | Siamese processing, merge at token level via masked average |
 | `late_attn` | Siamese processing with learned attention-based pooling |
