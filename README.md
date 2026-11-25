@@ -59,33 +59,6 @@ FORA has four parts, trained in sequence on routine CT examinations and their re
    evidence, and a Gemma-4-31B writer with LoRA adapters turns the plan and the image evidence into the Findings
    section. It is trained by supervised fine-tuning and direct preference optimization.
 
-## Results
-
-* **Recognition.** On 36,619 held-out CT examinations, FORA achieved a macro AUROC of 0.918, exceeding the strongest of 18 existing CT
-  models by 0.21. It also ranked first on three public benchmarks, including the Merlin test set (AUROC 0.907 versus 0.826).
-* **Localization.** On independent benchmarks for pulmonary emboli, renal masses and rib fractures, FORA's strongest spatial evidence
-  fell within annotated lesions at rates up to 348 times greater than chance, without any lesion annotation in training.
-* **Report generation.** FORA achieved more than threefold higher macro-averaged finding recall than the strongest existing report
-  generator.
-
-<p align="center">
-  <img src="assets/fig2_recognition_localization.png" alt="CT finding recognition and localization results" width="100%">
-</p>
-<p align="center"><sub><b>CT finding recognition and localization.</b> <b>a</b>, FORA and 18 comparison models on held-out CT examinations. <b>b</b>, AUPRC versus the strongest alternative across 2,132 finding-CT-type pairs. <b>c</b>, Public benchmarks. <b>d</b>, Performance across 12 CT types. <b>e</b>, AUROC advantage over the strongest alternative by CT type. <b>f</b>, Localization on four datasets.</sub></p>
-
-<p align="center">
-  <img src="assets/fig3_report_generation.png" alt="Grounded CT report generation results" width="100%">
-</p>
-<p align="center"><sub><b>Grounded CT report generation.</b> <b>a</b>, Reference and FORA reports for a validation chest CT with matched statements numbered, and FORA's evidence. <b>b</b>, Finding-level metrics and LLM-judge score of FORA and seven other report generators. <b>c</b>, The 12 most frequent report protocols. <b>d</b>, Performance by number of reference findings per report. <b>e</b>, FORA validation set, CT-RATE and Merlin.</sub></p>
-
-The architecture was first developed and benchmarked on chest radiographs, where it achieved state-of-the-art performance, before a
-separate model was trained on three-dimensional CT examinations.
-
-<p align="center">
-  <img src="assets/ed1_chest_radiographs.png" alt="FORA on chest radiographs" width="100%">
-</p>
-<p align="center"><sub><b>FORA on chest radiographs.</b> <b>a</b>, Reference and FORA reports for an internal validation radiograph with matched statements numbered, and FORA's evidence. <b>b</b>, Macro AUROC on six test sets. <b>c</b>, AUPRC for 128 findings. <b>d</b>, Performance by finding category. <b>e</b>, Localization on four box-annotated test sets. <b>f</b>, Radiologist boxes and FORA's evidence on PadChest-GR. <b>g</b>, Report generation. <b>h</b>, Recall by number of reference findings.</sub></p>
-
 ## Repository structure
 
 Each folder holds one stage of the pipeline and has its own README with inputs, outputs, commands and the
@@ -142,11 +115,6 @@ stage-specific requirements.
 * **Public benchmarks.** CT-RATE, the Merlin test set, RAD-ChestCT, KiTS23, RibFrac, FUMPE and ReXGroundingCT for CT,
   and RSNA Pneumonia, Open-I, ChestX-Det10, ChestX-ray14 and PadChest-GR for chest radiographs, are obtained from
   their original sources. [`evaluation/`](evaluation) documents the expected layout.
-
-<p align="center">
-  <img src="assets/fig4_cohort.png" alt="The FORA CT cohort and its report-derived labels" width="100%">
-</p>
-<p align="center"><sub><b>FORA cohort and report-derived supervision across 341,581 CT examinations from 238,469 patients.</b> <b>a</b>, Examination counts by CT type. <b>b</b>, Finding co-occurrence network. <b>c</b>, Scanner manufacturers and models. <b>d–f</b>, Slice spacing, positive labels per examination and model-input extent by CT type. <b>g</b>, Patient age. <b>h</b>, Report length by CT type. <b>i</b>, Label frequencies across the 1,459 concepts in the finding hierarchy. <b>j</b>, Asserted, uncertain and denied labels per report. <b>k,l</b>, Tube voltage and volume CT dose index.</sub></p>
 
 ## Models
 
