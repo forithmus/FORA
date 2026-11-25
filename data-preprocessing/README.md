@@ -75,7 +75,7 @@ view more in training than at inference.
 python extract_block23.py --manifest manifest.json --h5-dir H5 --worker W --local-dir /local/fora_cache   # W = 0..127
 ```
 
-One process per GPU (the paper data used 128 workers on 32 nodes with 4 GPUs). Each series is resampled, body-cropped and
+One process per GPU (128 workers on 32 nodes with 4 GPUs). Each series is resampled, body-cropped and
 encoded for all its views by the frozen teacher (blocks 1-23); body tokens are stored as int8 with per-crop scales and
 8 exact outlier channels. Runs resume from the per-worker journal. Worker 0 also writes `block24_state.pt`
 (block 24 + final norm of the teacher), the initialization of the trainable block 24 downstream.

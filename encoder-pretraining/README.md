@@ -34,7 +34,7 @@ The network itself is in `fora/encoder` (shared with sentence alignment, the cla
 ## Run
 
 Dependencies: PyTorch with FSDP2, `dinov3` (facebookresearch/dinov3 at commit 6876159, unmodified, on `PYTHONPATH`),
-h5py, nibabel, scipy. The paper runs used 32 nodes x 4 H200 (global batch 1,024). Run from this folder (or put it on
+h5py, nibabel, scipy. Training runs on 32 nodes x 4 H200 (global batch 1,024). Run from this folder (or put it on
 `PYTHONPATH`) with the repository root importable.
 
 ```bash

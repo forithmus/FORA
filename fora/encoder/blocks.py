@@ -5,7 +5,7 @@ Downstream stages keep blocks 1-23 frozen and train block 24 + the final norm:
 * ``block23_tokens`` runs the patch embedding and blocks 1-23 of a backbone (prefix + patch tokens, before any norm);
 * ``final_block`` applies a (block 24, norm) pair to such tokens with the full-crop RoPE; together they reproduce
   ``backbone.forward_features(x)['x_norm_patchtokens']`` exactly (tested);
-* ``Block24`` re-implements block 24 + norm for the CT block-23 *cache*, where each 64 x 192 x 192 crop keeps only its
+* ``Block24`` implements block 24 + norm for the CT block-23 *cache*, where each 64 x 192 x 192 crop keeps only its
   body tokens: crops are batched with a key-padding mask and every token keeps the RoPE of its position in the
   32 x 12 x 12 crop grid;
 * ``block24_state`` / ``build_block24`` move (block 24, norm) between a backbone and a plain state file.

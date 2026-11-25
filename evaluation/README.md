@@ -154,18 +154,6 @@ draws, macro means linearized as the mean of the per-cell influence values, pair
 2 x min(P(D* <= 0), P(D* >= 0)) on shared draws. X-ray classification intervals use 1,000 case resamples
 (`benchmarks/xray_score.py`), report-generation and judge intervals use 1,000 study or patient resamples.
 
-Check against the paper on the stored predictions (values rounded to 3 decimals as printed):
-
-| quantity | paper | this code |
-|---|---|---|
-| CT held-out macro AUROC, 2,132 cells, 95% CI | 0.918 (0.916-0.919) | 0.918 (0.916-0.919), linearization, patient multipliers |
-| CT held-out FORA vs CoLiPri, AUROC / AUPRC / BA / CRG | all P < 0.001 | P < 0.001 for all four (200,000 draws) |
-| CT held-out CoLiPri macro AUROC / CRG | 0.705 / 0.431 | 0.705 / 0.431 |
-| X-ray internal macro AUROC, 95% CI | 0.954 (0.949-0.960) | 0.954 (0.949-0.960), case bootstrap; 0.954 (0.949-0.960), linearization |
-| CT report judge score, FORA validation, 95% CI | 0.570 (0.566-0.573) | 0.570 (0.566-0.574) with seed 0; the upper limit is 0.573 or 0.574 depending on the seed (Monte-Carlo SD 0.0002) |
-
-The paper prints no other numerical interval or p-value in text; the remaining intervals are shown only in figures.
-
 ## Tests
 
 ```

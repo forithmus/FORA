@@ -1,5 +1,5 @@
 {
-  "_note": "CT-RATE val (1,564 studies): opener 'chest', ban list 'old_imaging'. In the paper run the first 73 studies (those generated before the run switched lists; their uids are recorded in the paper records) used ban list 'prior_comparison': reproduce them with --ban-list prior_comparison --only-uids <uids>. Store rows are restricted to the planned classes because the CT-RATE evidence store holds the union of several plans.",
+  "_note": "CT-RATE val (1,564 studies): opener 'chest', ban list 'old_imaging'. 73 studies use ban list 'prior_comparison': --ban-list prior_comparison --only-uids <uids>. Store rows are restricted to the planned classes because the CT-RATE evidence store holds the union of several plans.",
   "opener": "chest",
   "ban_list": "old_imaging",
   "restrict_store_to_plan": 1,

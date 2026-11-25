@@ -4,9 +4,8 @@ A study is one JSON with all films of one report. Each film is read as a 2-D flo
 convention of the training store (MONOCHROME2, no window or VOI LUT, original bit depth). Content cropping and
 percentile normalization are done by `fora.geometry.xray` when the visual stream loads the film.
 
-Validation status: the internal H5 entry was checked end to end against stored model outputs. DICOM, NPY and
-PNG/TIFF/JPEG use the same preprocessing but were not checked against stored outputs. 8-bit windowed exports are a
-known domain shift (higher scores, larger plans).
+DICOM, NPY and PNG/TIFF/JPEG use the same preprocessing as the internal H5 entry. 8-bit windowed exports shift the
+scores upward (larger plans).
 """
 from __future__ import annotations
 

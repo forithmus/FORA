@@ -24,8 +24,8 @@ finding classifier.
 
 ## Run
 
-Text model: CXR-BERT (`microsoft/BiomedVLP-CXR-BERT-specialized`, a local copy or the HF id in `text_model`). Paper runs:
-32 nodes x 4 GPUs = 128 reports per step. Run from this folder with the repository root on `PYTHONPATH`.
+Text model: CXR-BERT (`microsoft/BiomedVLP-CXR-BERT-specialized`, a local copy or the HF id in `text_model`). Training
+runs on 32 nodes x 4 GPUs = 128 reports per step. Run from this folder with the repository root on `PYTHONPATH`.
 
 ```bash
 # CT statements of the planned reports

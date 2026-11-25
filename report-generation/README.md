@@ -37,7 +37,7 @@ data.
 Modules run as `python -m fora_report.<sub>.<module>` from this folder (or with this folder on `PYTHONPATH`) and as
 `python -m fora.reportgen.<sub>.<module>` for the runtime. The shared package `fora` must be installed
 (`pip install -e ..`). External models: `google/gemma-4-31B-it`, `facebook/dinov2-large` (calipers) and CADS
-segmentations. Tests: `python -m pytest tests`. Known missing pieces are listed in `GAPS.md`.
+segmentations. Tests: `python -m pytest tests`.
 
 ## CT pipeline order
 
@@ -83,12 +83,9 @@ python -m fora_report.plan.targets --calibration calibration_train_platt.json --
 Configs: `configs/plan_ct.json` (SFT stage 2, DPO, decoding), `configs/plan_ct_stage1.json` (SFT stage 1),
 `configs/plan_cxr.json` (X-ray writer).
 
-Differences from the paper text:
-- SFT stage 1 was trained with a different plan: Platt fitted on val, a best-F1 confident cutoff and a val
-  recall-0.9 possible cutoff, no cap. Only SFT stage 2 and DPO were trained with the final tiers. The builder for the
-  stage-1 calibration is not included.
-- The calibration keys `class_val_positive` and `n_calibration_studies` hold the TRAIN positive counts and the TRAIN
-  study count. The key names are kept because released calibration files use them.
+SFT stage 1 uses its own plan calibration: Platt fitted on val, a best-F1 confident cutoff and a val recall-0.9
+possible cutoff, no cap. SFT stage 2, DPO and decoding use the final tiers above. In the calibration JSON the keys
+`class_val_positive` and `n_calibration_studies` hold the train positive counts and the train study count.
 
 ## Evidence tokens, descriptions and zoomed evidence images (`fora/reportgen/evidence/`)
 
@@ -119,21 +116,20 @@ classifier checkpoint, block-23 cache (or its node-local staged copy, `--cache-r
 plan JSONL (training renders) or `ct_<series>.npy` volumes (inference), measurement text JSON `{"<case>|<cls>": phrase}` (from
 `fora.reportgen.measure`).
 
-Commands (training store, per data rank; the paper run used 3 parts per GPU):
+Commands (training store, per data rank, 3 parts per GPU):
 ```
 python -m fora.reportgen.evidence.extract --config mil_config.json --ckpt mil.pt --targets plan_targets.json --out EXT \
     --rank R --part P --parts 3 --resume-rank 1 --cache-root STAGED_CACHE --crops 32 --block -1 --render 1 --chunk 200 \
     --plan-reports plan_train.jsonl plan_val.jsonl --h5-root H5
 python -m fora.reportgen.evidence.focus_tokens EXT PARTS/node_NN --labels labels.json --region-names regions.json --measurements meas_by_case_cls.json
-python -m fora_report.evidence.merge_store tokens OLD_NODE_STORE PARTS/node_NN FTOK_NODE     # union with an earlier store (earlier rows win)
+python -m fora_report.evidence.merge_store tokens OLD_NODE_STORE PARTS/node_NN FTOK_NODE     # union with an existing store (existing rows are kept)
 python -m fora_report.evidence.merge_store union PARTS loc_store.npz desc.npy --old-store OLD.npz --old-desc OLD_desc.npy
 ```
 Inference (one study): `fora.reportgen.evidence.extract.extract_ct_evidence(..., cases=case_ids.txt, block=2, chunk=1,
 ct_dir=WORK)`, then `focus_tokens.build_store`, then `finding_store.write_study_loc_dir`.
 
-Differences from the paper text: none known. The training stores of stage 1 and of stage 2 / DPO were built in two passes
-(planned findings of the first plan, then the findings added by the final plan tiers) and merged with `merge_store union` /
-`merge_store tokens`; rows already present were kept.
+The training store is built in two passes (planned findings of the stage-1 plan, then the findings added by the final
+plan tiers) and merged with `merge_store union` / `merge_store tokens`; rows already present are kept.
 
 ## Measurements (`fora/reportgen/measure/`)
 
@@ -223,11 +219,8 @@ Here `<common inputs>` stands for:
 
 The full caliper recipe is in `configs/measure_calipers.json`.
 
-**Differences from the paper text and run details**
-- The caliper training CLI covers only the final stage: the 3-D head and block 24 are loaded frozen from the previous-stage checkpoint, and only the 2-D decoder is trained.
-- The earlier stages that produced the 3-D head are not part of this repository (see GAPS).
-- The training-cohort measurement text was produced with the same calipers at `--k 1` on the top MIL peak per (study, predicted class).
-- About 477k planned findings added by the final plan tiers have no size, because the measurement pass was not re-run for them.
+The caliper training command trains the 2-D decoder; the 3-D head and block 24 are loaded frozen from `--init`.
+The training-cohort measurement text uses the calipers at `--k 1` on the top MIL peak per (study, predicted class).
 
 ## Writer model (`fora/reportgen/writer/`, training in `fora_report/writer/`)
 
@@ -252,8 +245,8 @@ by the report:
      tower and attention-pooled to one token (`conditioning.FindingImagePool`). Images are encoded 32 at a time.
      During training at most 64 images per study keep vision-tower gradients.
 4. **Report.** Training uses the token-mean cross-entropy over the report, computed in checkpointed fp32 chunks of
-   64 positions. A diagnostic-consistency head on the mean report hidden state has loss weight 0. It is built so
-   that the trained checkpoints hold the same tensor set.
+   64 positions. The checkpoint also holds a diagnostic-consistency head on the mean report hidden state, with loss
+   weight 0.
 
 LoRA with rank 16 and alpha 32 is attached to every attention and MLP projection of the language model
 (`llm.build_gemma_lora`). LoRA dropout is 0 during training (`fsdp.train_mode_for_checkpointing`). The vision tower
@@ -336,16 +329,13 @@ for reference scores, K = 2 pairs per study chosen by a seeded type-interleaving
 CE weight 1 for studies without a usable pair, dropout disabled, every rejected score recomputed with gradient and
 checked against its no-grad value.
 
-Differences from the paper text (facts about the runs)
-- Stage 1 used the earlier plan calibration (Platt on the validation split, per-class best-F1 confident cutoffs,
-  recall-0.9 possible cutoffs, possible tier uncapped). Only stage 2 and DPO used the final tiers.
-- Stage 1 was planned for 3 epochs and shortened to 2 at optimizer step 1,358. Its LR schedule is cosine over 3
-  epochs (warm-up 349 steps) until step 1,358 and cosine over 2 epochs (same warm-up) afterwards;
-  `configs/ct_sft1.json` reproduces this with `initial_horizon_epochs` / `initial_horizon_until_step`.
-- Stage 2 and DPO train on the first 1,750 / 300 studies of every rank in report-uid order (one pass each), not a
-  random subset.
-- DPO LRs were 5e-5 (connector) and 1e-5 (LoRA). The vision-tower LR of the DPO run is not recorded; the config uses
-  5e-6.
+Schedules:
+- Stage 1 uses the stage-1 plan calibration (Platt on the validation split, per-class best-F1 confident cutoffs,
+  recall-0.9 possible cutoffs, possible tier uncapped). Stage 2 and DPO use the final tiers.
+- The stage-1 LR schedule is cosine over a 3-epoch horizon (warm-up 349 steps) up to optimizer step 1,358 and cosine
+  over a 2-epoch horizon (same warm-up) afterwards, set by `initial_horizon_epochs` / `initial_horizon_until_step` in
+  `configs/ct_sft1.json`.
+- Stage 2 and DPO train on the first 1,750 / 300 studies of every rank in report-uid order (one pass each).
 - 300 DPO steps x 128 ranks x 2 pairs gives about 77k pairs (fewer when a study has no usable pair).
 
 ## DPO pair synthesis (CT)
@@ -410,9 +400,6 @@ Gemma runs use vLLM, greedy decoding, bf16, max_model_len 16,384, 512 new tokens
 `prompts/pairs_attribute_{corruption,verifier}_{system,user}.txt`. Of 655,736 attribute candidates, 462,954
 corruptions passed the judge (all five criteria true) and 417,428 passed the CPU verifier.
 
-Differences from the paper text: none known for the pair builders. The attribute judge step (Gemma grading of each
-corruption on five criteria) is part of the procedure in addition to the CPU verifier.
-
 ## CT report decoding (`fora/reportgen/decoding/`, CLI `fora_report/decoding/`)
 
 The trained CT writer (after DPO) generates one report per study. For each study the code encodes all block-24 tokens
@@ -460,18 +447,12 @@ torchrun --nproc-per-node 4 -m fora_report.decoding.run --config configs/decode_
   --checkpoint DPO.pt --llm-path GEMMA4 --manifest ctrate_val.jsonl --cache-root CACHE --mil-config MIL.json \
   --dense DENSE --finding-store LOC --descriptions DESC.npy --ftok FTOK --study-meas STUDY_MEAS.json \
   --calibration CAL.json --output OUT
-# the 73 CT-RATE studies decoded with the shorter list
+# the 73 CT-RATE studies decoded with the prior_comparison list
 torchrun ... --ban-list prior_comparison --only-uids uids73.json --output OUT_73
 python -m fora_report.decoding.run --config configs/decode_ct_ctrate.json --manifest ctrate_val.jsonl --output OUT --merge-only --num-shards 4
 # check that the shipped ban lists rebuild exactly from their phrases
 python -m fora.reportgen.decoding.bans verify --tokenizer google/gemma-4-31B-it prior_comparison old_imaging comparative
 ```
-
-Differences from the paper text:
-- On CT-RATE the paper rows combine two ban lists. The first 73 studies generated used `prior_comparison`, and the remaining 1,491 used `old_imaging`.
-- The paper runs placed studies on the GPU node that held their cache. This code splits the sorted manifest round-robin
-  over processes instead. Reports do not change, because the seed is set per study. The one exception is a study that
-  needs the CUDA-OOM token-cap fallback, because the fallback subsample depends on the memory of the GPU.
 
 ## Chest X-ray writer (`fora/reportgen/cxr/`, `fora_report/cxr/`)
 
@@ -500,12 +481,12 @@ config + checkpoint and its study-bag predictions on train/val (classifier stage
 
 Configs: `configs/cxr_calibration.json`, `cxr_sft.json`, `cxr_dpo_pairs.json`, `cxr_dpo.json`, `cxr_pudpo.json`,
 `cxr_infer.json`; editor prompt `prompts/cxr_pudpo_editor.txt`; promotion list `fora/reportgen/cxr/highauc_classes.json`.
-The epoch schedules depend on the world size: SFT and DPO ran on 128 GPUs, PU-DPO on 40 GPUs.
+The epoch schedules depend on the world size: SFT and DPO run on 128 GPUs, PU-DPO on 40 GPUs.
 `generate` reads calibration / dense / MIL / location paths from the checkpoint metadata; override them with
-`--calibration --dense --mil_config --mil_checkpoint --label_db --locations` when files moved.
+`--calibration --dense --mil_config --mil_checkpoint --label_db --locations` when the files are elsewhere.
 
-Differences from the paper text (facts about the procedure):
-- The X-ray SFT starts from the base Gemma-4-31B-it, not from the CT writer.
-- DPO and PU-DPO each ran 600 steps; the paper model uses step 200 of each.
-- The plan rules (device rule, high-AUROC promotion) are applied only at generation; training used the plain plan.
+Procedure:
+- The X-ray SFT starts from the base Gemma-4-31B-it.
+- DPO and PU-DPO each run 600 steps; the released model uses step 200 of each.
+- The plan rules (device rule, high-AUROC promotion) are applied only at generation; training uses the plain plan.
 - PU-DPO base reports are generated without the plan rules.

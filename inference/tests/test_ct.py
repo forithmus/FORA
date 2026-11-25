@@ -27,7 +27,7 @@ def test_parse_args_defaults(tmp_path):
 def test_seed_and_opener():
     from fora.reportgen.decoding.opener import OPENERS, auto_opener
     from fora.reportgen.decoding.sampling import stable_seed
-    # per-study seed of a public CT-RATE validation study, as recorded with its stored report
+    # per-study seed of a public CT-RATE validation study
     assert stable_seed("valid_508_a") == 908182996
     assert auto_opener([0, 4]) == "chest" and OPENERS["chest"].startswith("Findings:\n")
     assert auto_opener([2]) == "abdomen"

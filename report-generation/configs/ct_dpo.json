@@ -1,5 +1,5 @@
 {
-  "_comment": "CT writer offline DPO: --warm_start and --dpo_reference = the stage-2 SFT checkpoint (frozen reference). 300 optimizer steps = the first 300 studies (report-uid order) of every rank; the released writer is the step-300 checkpoint. Recorded LRs: connector 5e-5, LoRA 1e-5. The vision-tower LR of this run was not recorded in its metadata; 5e-6 (the stage-2 value, exported by the same launch chain) is the most likely value and is used here. Plan settings as stage 2.",
+  "_comment": "CT writer offline DPO: --warm_start and --dpo_reference = the stage-2 SFT checkpoint (frozen reference). 300 optimizer steps = the first 300 studies (report-uid order) of every rank; the released writer is the step-300 checkpoint. LRs: connector 5e-5, LoRA 1e-5, vision tower 5e-6. Plan settings as stage 2.",
   "epochs": 1,
   "limit_train_per_rank": 300,
   "connector_lr": 5e-5,

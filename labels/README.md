@@ -51,7 +51,7 @@ classifier (`cases.jsonl`, lines with `id` and `report`; split = train when the 
 M=<gemma-4-31B-it snapshot dir>
 # 0. input rows, one per (report, protocol class)
 python -m labels.ct.prepare_input --manifest manifest.csv --reports structured_reports.csv --output per_protocol_input.csv
-# global_input.csv: one row per report (346,441 reports; see GAPS.md)
+# global_input.csv: one row per report (346,441 reports)
 
 # 1a. per-protocol-vocabulary extraction (positives are unioned in step 5)
 python -m labels.ct.extract_findings --config configs/ct_extract_per_protocol.json --input per_protocol_input.csv \
@@ -95,9 +95,8 @@ python -m labels.ct.assign_heads --labels db_base/labels.npz --hierarchy labels/
     --config configs/ct_heads.json --output heads.json
 ```
 
-`--world` values in the step-0 to step-4 commands are the GPU counts of the paper runs and do not change results. Step 5 was rerun with this code from the recorded pass outputs: `db_final/labels.npz` is identical
-to the label DB used by the classifier, `db_base/labels.npz` plus `assign_heads` reproduces `data/ct/heads_1028.json`
-exactly, and the extraction-only DB of step 2 reproduces the recorded counts of the recall-input DB.
+`--world` values in the step-0 to step-4 commands are the GPU counts of the paper runs and do not change results. `db_final/labels.npz` is the label DB read by the classifier, and `db_base/labels.npz` plus
+`assign_heads` gives `data/ct/heads_1028.json`.
 
 Outputs: `labels.npz` (reports, cases, split, nodes[1459], state int8 [reports, 1459]), `heads.json`, `summary.json`.
 Label DB of the paper: 341,581 reports (304,962 train / 36,619 val), 9.97 positives per report on average; recall pass added
@@ -122,12 +121,11 @@ python -m labels.cxr.select_targets --label-db cxr_labels_scoped.sqlite --cases-
     --cases-val cases_val.jsonl --out-dir cxr_targets
 ```
 
-The index commands are reconstructed from the arguments recorded in the SQLite metadata. The index holds 311 labels: the
+The index holds 311 labels: the
 304 vocabulary leaves plus 7 extractor spellings that resolve to no leaf, kept as explicit labels. The scoped index adds
 anatomy-scoped negatives from explicit normal statements (high precision, weighted); they do not change the classifier
 targets. `select_targets` (target = asserted or uncertain; >= 50 train positives; "No Finding / Normal study" dropped)
-reproduces the 129 X-ray classes and target matrices of the classifier exactly from the paper's label index and case
-lists. The case lists (reports with at least one valid film) come from the X-ray case index of the classifier stage.
+gives the 129 X-ray classes and target matrices of the classifier. The case lists (reports with at least one valid film) come from the X-ray case index of the classifier stage.
 
 ## Report scoring (`report_scoring/`, Methods, report evaluation)
 
@@ -142,7 +140,7 @@ python -m labels.report_scoring.label_reports --tasks tasks.jsonl --output scori
 then group the rows of one (source, cohort, uid) and call `ct_states.Resolver().report_states(rows)`. Protocol classes:
 FORA studies use all protocol classes of the report, Merlin its labelled class, CT-RATE class 6 or 7 from the Technique
 field (`make_tasks.ctrate_protocol`). The extras list is rebuilt from the reference-report extraction CSV with
-`build_extras.py`; the shipped list reproduces the 1,106-label vocabulary and resolver counts of the scored index.
+`build_extras.py`; the shipped list gives the 1,106-label vocabulary.
 
 X-ray: generated and reference reports are labelled with `labels.cxr.extract_findings --chunk-size 2000` (input rows
 ReportUID = `<source>|<study id>`, findings = text without a leading "Findings:" header, empty impression), merged with

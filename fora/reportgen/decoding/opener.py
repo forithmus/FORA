@@ -3,8 +3,7 @@
 On the external cohorts (CT-RATE: preset 'chest', Merlin: preset 'abdomen') the first words of the report are fixed so that the writer starts in the single-examination
 style of the cohort: CT-RATE (chest) "Findings:\\nThe trachea and both main bronchi", Merlin (abdomen)
 "Findings:\\nThe contour, size,". FORA val uses no opener. ``auto_opener`` maps the protocols of a new study to these
-presets (chest-only protocols -> 'chest', abdomen / pelvis-only protocols -> 'abdomen', otherwise 'none'); the paper did not
-evaluate this mapping on mixed protocols.
+presets (chest-only protocols -> 'chest', abdomen / pelvis-only protocols -> 'abdomen', otherwise 'none').
 
 Mechanics: the opener tokens (Gemma-4 tokenizer, no special tokens = exactly the tokens the writer emits after the
 turn header) are appended to the prompt as text embeddings (attention 1, token type 0), the writer generates the

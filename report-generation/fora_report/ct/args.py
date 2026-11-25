@@ -57,9 +57,9 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--weight_decay", type=float, default=0.05)
     p.add_argument("--warmup_fraction", type=float, default=0.05)
     p.add_argument("--initial_horizon_epochs", type=int, default=0,
-                   help="planned epochs before the run was shortened (0 = none)")
+                   help="cosine horizon in epochs before --initial_horizon_until_step (0 = none)")
     p.add_argument("--initial_horizon_until_step", type=int, default=0,
-                   help="optimizer step at which the final horizon took over")
+                   help="optimizer step from which the final horizon applies")
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--warm_start", default="", help="initialise every trainable tensor from this checkpoint")
     p.add_argument("--resume", default="", help="exact resume (default: <results_dir>/latest.pt if present)")

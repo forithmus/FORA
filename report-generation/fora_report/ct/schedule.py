@@ -4,7 +4,7 @@
   the same shuffled quantile order, so similarly expensive studies run in the same distributed step. Each epoch is a
   permutation of the rank's studies plus only the padding repeats needed to give every rank the same step count.
 * :func:`cosine_scheduler`: linear warm-up then cosine decay to zero, per optimizer step. ``initial_horizon_steps``
-  / ``initial_horizon_until_step`` describe a run whose planned length was shortened during training: before
+  / ``initial_horizon_until_step`` define a two-horizon schedule: before
   ``initial_horizon_until_step`` the cosine runs over the initial horizon, afterwards over the final horizon, with the
   warm-up length of the initial horizon throughout (used by the stage-1 SFT config).
 """

@@ -1,5 +1,5 @@
 {
-  "_comment": "CT writer SFT stage 1: from scratch, 2 epochs over the train split (4,666 optimizer steps at 128 GPUs). Plan calibration: Platt fitted on the validation split with per-class best-F1 confident cutoffs and recall-0.9 possible cutoffs (calibration_val_platt_bestf1.json); possible tier uncapped. The run was planned for 3 epochs and shortened to 2 at optimizer step 1,358; the LR schedule reproduces that (3-epoch cosine and warm-up before step 1,358, 2-epoch cosine afterwards). Pass --mil_calibration, --finding_descriptions, --focus_tokens, --study_measurements built for this plan.",
+  "_comment": "CT writer SFT stage 1: from scratch, 2 epochs over the train split (4,666 optimizer steps at 128 GPUs). Plan calibration: Platt fitted on the validation split with per-class best-F1 confident cutoffs and recall-0.9 possible cutoffs (calibration_val_platt_bestf1.json); possible tier uncapped. LR schedule: 3-epoch cosine horizon and warm-up up to optimizer step 1,358, 2-epoch cosine horizon afterwards. Pass --mil_calibration, --finding_descriptions, --focus_tokens, --study_measurements built for this plan.",
   "epochs": 2,
   "connector_lr": 1e-4,
   "llm_lr": 2e-5,

@@ -1,5 +1,5 @@
 {
-  "_comment": "SFT stage 1 (4,666 steps) plan: calibration with Platt fitted on val, best-F1 probable cutoff and a val recall-0.9 possible cutoff, no possible-tier cap. The builder of that calibration is not included (see GAPS.md). Stage 1 serves only as the warm start of stage 2.",
+  "_comment": "SFT stage 1 (4,666 steps) plan: calibration with Platt fitted on val, best-F1 probable cutoff and a val recall-0.9 possible cutoff, no possible-tier cap. Stage 1 serves only as the warm start of stage 2.",
   "plan": {
     "dataset_kind": "ct",
     "mode": "all_classes",

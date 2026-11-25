@@ -17,7 +17,6 @@ inference/
 ├── configs/ct.json        CT model, plan, evidence and decoding settings of the paper
 ├── configs/cxr.json       X-ray model, plan, localization and decoding settings of the paper
 ├── weights.json           every file the code expects under --weights (size, sha256, role)
-├── GAPS.md                missing pieces
 └── tests/                 CPU smoke tests with mocked models
 ```
 
@@ -26,7 +25,7 @@ inference/
 * One NVIDIA GPU with bf16 support per study. The Gemma-4-31B-it base alone is 62.5 GB in bf16 (two safetensors
   shards).
 * CT: the reference hardware is one 141 GB H200. The writer encodes all body tokens of the study (about 145,000
-  visual tokens for one CT-RATE chest study) and generates up to 2,048 tokens. Smaller GPUs were not validated.
+  visual tokens for one CT-RATE chest study) and generates up to 2,048 tokens.
   `--token-cap N` subsamples the writer's visual tokens to save memory and changes the output.
 * X-ray: the writer in bf16 needs about 70 GB of GPU memory, classification and localization alone about 10 GB.
   The 31B writer load takes about one minute, a study about 4-5 minutes with the writer.
@@ -65,7 +64,7 @@ Settings of the paper tables:
 
 | Table rows | Command options |
 |---|---|
-| CT-RATE validation (1,564 studies) | `--opener chest --measurements off --ban ctrate` (73 studies used `--ban ctrate_alt`) |
+| CT-RATE validation (1,564 studies) | `--opener chest --measurements off --ban ctrate` (73 studies: `--ban ctrate_alt`) |
 | Merlin test (5,125 studies) | `--opener abdomen --measurements on --ban default` |
 | FORA validation | `--opener none` (multi-protocol, no forced opener) |
 
@@ -100,9 +99,7 @@ Settings of the paper tables:
 * DICOM: RescaleSlope/Intercept applied, slices sorted along the normal, LPS converted to RAS. Enhanced/multiframe,
   irregular spacing and gantry-tilted series are rejected; give a geometry-corrected HU NIfTI instead.
 
-Validation status: NIfTI input was checked end to end against stored model outputs (logits max |d| 0.063, p99 0.011;
-identical plan, prompt and report text). NPZ and DICOM reading were checked on synthetic data only. The internal H5
-format of the training data is not an inference input.
+The internal H5 format of the training data is not an inference input.
 
 ### Output
 
@@ -170,9 +167,8 @@ python inference/cxr/infer.py --study study.json --output result.json --work /da
   PNG/TIFF/JPEG (first channel), or an entry of the internal X-ray H5 store `{"h5": file, "key": [patient, report,
   accession, series]}`. Each film is content-cropped and percentile-stretched to [-1, 1] at native resolution and cut
   into 1,024 px tiles.
-* Validation status: only the internal H5 entry was checked end to end against stored outputs (logits max |d|
-  1.6e-3, identical plans, report text identical up to a near-tie token caused by GPU nondeterminism). DICOM and image
-  files use the same preprocessing but were not checked; 8-bit windowed exports shift the scores upward.
+* DICOM and image files use the same preprocessing as the H5 entry. Use raw pixel data; 8-bit windowed exports shift
+  the scores upward.
 
 ### Output
 

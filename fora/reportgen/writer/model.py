@@ -10,8 +10,8 @@ visual and classifier parts):
     [report target tokens]
 
 The training loss is the token-mean cross-entropy of the report (computed in checkpointed fp32 chunks), plus a
-diagnostic-consistency head on the mean report hidden state whose loss weight is 0 in the paper runs (the head is
-kept so that checkpoints load with the same tensor set).
+diagnostic-consistency head on the mean report hidden state with loss weight 0 (the head is part of the checkpoint
+tensor set).
 """
 from __future__ import annotations
 
