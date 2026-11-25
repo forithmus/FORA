@@ -96,9 +96,10 @@ stage-specific requirements.
 
 ## Models
 
-The trained CT and chest radiograph models will be released on Hugging Face under
-[Forithmus](https://huggingface.co/Forithmus). [`inference/`](inference) lists the files each model needs and runs
-a study end to end, from images to finding probabilities, evidence locations and a generated report. FORA can also
+The trained CT and chest radiograph models are available in the `weights/` folder of
+[huggingface.co/datasets/Forithmus/FORA](https://huggingface.co/datasets/Forithmus/FORA/tree/main/weights),
+together with the Gemma-4 and DINOv2 models they use, so the folder runs as is. [`inference/`](inference) lists the
+files each model needs and runs a study end to end, from images to finding probabilities, evidence locations and a generated report. FORA can also
 be used through the API at [api.forithmus.com](https://api.forithmus.com/) and explored interactively in
 [Litera](https://litera.forithmus.com/).
 

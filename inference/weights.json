@@ -1,17 +1,17 @@
 {
- "description": "Files expected under --weights by inference/ct/infer.py and inference/cxr/infer.py. Paths are relative to the weights directory. Hosting: <HF model repo>.",
+ "description": "Files expected under --weights by inference/ct/infer.py and inference/cxr/infer.py. Paths are relative to the weights directory. Download: the weights/ folder of huggingface.co/datasets/Forithmus/FORA (includes gemma-4-31B-it and dinov2-large).",
  "ct": [
   {
    "path": "ct/encoder.pt",
    "role": "CT 3-D DINO ViT-L EMA teacher backbone (blocks 1-24 weights; inference uses blocks 1-23), end of the Gram-anchoring phase, step 5,000",
-   "bytes": 1211681931,
-   "sha256": "4e79bee21d555400583153c11e573b587b26fecad0b96a4e9d23f7292a3761d3"
+   "bytes": 1211683243,
+   "sha256": "7888ad789642ee3389e957014438818129021979341151d76f64a2d33ba02f98"
   },
   {
    "path": "ct/mil.pt",
    "role": "CT organ-routed MIL: learned block 24 + head + class order (1,028), final stage epoch 4, raw weights (no EMA)",
-   "bytes": 60054528,
-   "sha256": "d94bd9e32af71dca43871d0bb3b18c03844ac3594500a6f37774ef38c629e670"
+   "bytes": 60053737,
+   "sha256": "3b234ea394c81c84e1bfdafa4a1f78a52335456484c4bf3c7e0c1397ec2f2cc0"
   },
   {
    "path": "ct/block24_state.pt",
@@ -22,20 +22,20 @@
   {
    "path": "ct/normalization.pt",
    "role": "fixed token standardisation (mean vector, rms) of the MIL input",
-   "bytes": 5849326,
-   "sha256": "631aeffd7d9c2be4e771bab758759a7cbeeeadea29f23811101f38e2c823192f"
+   "bytes": 5848807,
+   "sha256": "1e5166b219bd3f69d09272301ea12c83a831f133cf30d78219d4a9e5adcd1445"
   },
   {
    "path": "ct/mil_config.json",
    "role": "MIL configuration (training dict: model spec, position features, min_route_tokens, crops per chunk)",
-   "bytes": 932,
-   "sha256": "ab0a3b979763438a266c5c164a18c79e94fbad551c8397816864b180ece4a2a7"
+   "bytes": 916,
+   "sha256": "204761cd400ec595c2e0b8751943a035190fefe98e57d2f194af5ecf4e258cfb"
   },
   {
    "path": "ct/heads.json",
    "role": "finding heads (own and attached classes) of the 1,028-class vocabulary",
-   "bytes": 147022,
-   "sha256": "da3ea5499f729fc4774aed77b4a3d8d938b7435afb3e6731b8361e72c664414a"
+   "bytes": 144803,
+   "sha256": "a7818b15be9a04896fad746992677ce25411d3fb43843f6b4584c7920562d454"
   },
   {
    "path": "ct/class_region_bits.json",
@@ -58,20 +58,20 @@
   {
    "path": "ct/encoding.json",
    "role": "block-23 cache encoding (crop 64x192x192, stride = crop, int8 + 8 outliers)",
-   "bytes": 572,
-   "sha256": "95e2d637998098126ed75f4c26a79739bfa4469c5d6cfde17060b64e87d6078d"
+   "bytes": 567,
+   "sha256": "69e21ba6aafdb7889d845012c91d55829e0e4f847ef9fdcce9bf8ea37b1bb0c0"
   },
   {
    "path": "ct/calibration.json",
    "role": "per-class Platt coefficients and Youden cut-offs fitted on training predictions; confident = p >= 0.5",
-   "bytes": 244235,
-   "sha256": "08a6a6bfdbbb793c12ec909bfaba0c16850ee7d9fba42119ddc2810c55ed8e45"
+   "bytes": 243364,
+   "sha256": "0d5b2a0df2d881eff7570e22813520386d679462dc782c62f0e2050e238f4c85"
   },
   {
    "path": "ct/writer.pt",
    "role": "CT writer trainable tensors (LoRA r16/a32, visual resampler and connector, label conditioner, finding-token and finding-image layers) after SFT stages 1-2 and DPO step 300; loaded on top of the Gemma base",
-   "bytes": 1505292675,
-   "sha256": "ff93d34ee4cdb4369777edc812782ff6b1246d45677456834146d139e18bbcf0"
+   "bytes": 1505300234,
+   "sha256": "553c44ae4d7504907a9c3d0bb75b6ee3b47d32a678c252ebe3afa2a255b33cb9"
   },
   {
    "path": "ct/anatomy_measurement_calibration.json",
@@ -94,44 +94,44 @@
   {
    "path": "ct/calipers/air.pt",
    "role": "lesion caliper head, group air",
-   "bytes": 61475291,
-   "sha256": "090a64ba02e6aabef40f61e03388e18cbed0904b83de4e77dbbee9581ed3d152"
+   "bytes": 61463867,
+   "sha256": "48e51c09cae830d354ac8bde0695deac118f41a1381daebe6b2ade7689bb56f5"
   },
   {
    "path": "ct/calipers/cyst.pt",
    "role": "lesion caliper head, group cyst",
-   "bytes": 61475291,
-   "sha256": "a1d814a0aebcb66d9e08c7d8409052f93c2dc18bd679f9a4d9bb37a9ddad5ad4"
+   "bytes": 61469419,
+   "sha256": "f60440c35f1bcab2b0f5142134d14b4ced095a3de02d9c961093042eaab26df2"
   },
   {
    "path": "ct/calipers/node.pt",
    "role": "lesion caliper head, group node",
-   "bytes": 61475291,
-   "sha256": "b7e83a61bf6bcd2de1b033e2002aa326196d06351c72e53e737e6d4369a3abbf"
+   "bytes": 61469419,
+   "sha256": "69b2ec5d28b4c7df2b20e52dce5916b15d41f775d6346dde9fcd7264a14166bf"
   },
   {
    "path": "ct/calipers/nodule.pt",
    "role": "lesion caliper head, group nodule",
-   "bytes": 61475291,
-   "sha256": "076b93f6fde256967ff042a9bf5257df13d5eb8e75e7b9b541ddfa5ff6dade96"
+   "bytes": 61470219,
+   "sha256": "0a598b2a334ded4005bb9684efcc9db5e501489f5eab7bdb15c37f0968bac5f3"
   },
   {
    "path": "ct/calipers/solid.pt",
    "role": "lesion caliper head, group solid",
-   "bytes": 61475163,
-   "sha256": "cd6231d2edd9b6a3362e50b3dcdbddd0655ef0cd3c3cf77ac8f4eacc25fa5a54"
+   "bytes": 61469915,
+   "sha256": "618501ba199a94be6c61eda67482743fd31e8c0ede7225d9534a4837c44a893c"
   },
   {
    "path": "ct/calipers/stone.pt",
    "role": "lesion caliper head, group stone",
-   "bytes": 61475291,
-   "sha256": "4d780255cd8af7bbfe50a842156e66e1620e127b81030cb1e5f7a4ce59b60a06"
+   "bytes": 61470107,
+   "sha256": "d36f0315470a89a601fafde53b4c34878e24ee171865761e736b490fce137635"
   },
   {
    "path": "ct/calipers/thick.pt",
    "role": "lesion caliper head, group thick",
-   "bytes": 61475227,
-   "sha256": "1c71a1eabe1512b20bf3487ddd045650d229a090eaea71b0d95d6abdc8980482"
+   "bytes": 61470043,
+   "sha256": "31937944997fdfe8127526f2830a3d1a2a7e3d825e523c92ef6d87258003c646"
   },
   {
    "path": "ct/caliper_scale_air.json",
@@ -180,8 +180,8 @@
   {
    "path": "cxr/dino_teacher_backbone.pt",
    "role": "X-ray DINO ViT-L EMA teacher backbone (2-slice volume), step 30,000",
-   "bytes": 1211684875,
-   "sha256": "58e919c1a618be8e7e74435be5b76cc498cd6fbf544709ed0cbdfdfdcba186e7"
+   "bytes": 1211686379,
+   "sha256": "f0638e019dbaa53cd1c5674063101f130c001a89b8185fc52e07b847683ef4c1"
   },
   {
    "path": "cxr/dino_block24_init_state.pt",
@@ -192,26 +192,26 @@
   {
    "path": "cxr/mil.pt",
    "role": "X-ray MIL: learned block 24 + view embedding + head (129 classes), epoch 6 (step 12,078), raw weights",
-   "bytes": 113600067,
-   "sha256": "74b782fe93da0fec1252b053530e51d551fa587be977aa164c0cd49bdc3f3c3e"
+   "bytes": 113594029,
+   "sha256": "a649f97596b3c03e3bfc31cf3f0aaf0aee42d5ea26a1039c219a1d02dc96b0e7"
   },
   {
    "path": "cxr/mil_config.json",
    "role": "X-ray MIL configuration (encoder geometry, tile 1,024 px, max 64 films, model spec)",
-   "bytes": 1980,
-   "sha256": "91d3816bedba61ef331e6098a2e439f8810beeeffca78c05ff26b4c6ee56a8a8"
+   "bytes": 1946,
+   "sha256": "27c77ac42c7f755b4a40bd5700c5976146abd5adba37cee5ea30fa37fdd1ec5f"
   },
   {
    "path": "cxr/normalization.pt",
    "role": "fixed token standardisation of the X-ray MIL input",
-   "bytes": 6440,
-   "sha256": "51163838e51163a8ca0c6dea391769459e2c9c755ed582133fed4071761b849a"
+   "bytes": 6184,
+   "sha256": "c6d7f101ed02067c1631b6d42e6478f88500ddf0a9e940677c70ee0020809cef"
   },
   {
    "path": "cxr/calibration.json",
    "role": "per-class Platt coefficients and Youden cut-offs fitted on training predictions",
-   "bytes": 26080,
-   "sha256": "5c34f995ab272c99aaa379b5e6bf8a1a28314a47f525c35acb94e16b83ee1adc"
+   "bytes": 25639,
+   "sha256": "bc7809bf061671695e1e2b3eacc67a60bf57c6351fe6b0aea9129fa1da5449eb"
   },
   {
    "path": "cxr/labels.json",
@@ -234,20 +234,20 @@
   {
    "path": "cxr/highauc_classes.json",
    "role": "classes with internal-val AUROC >= 0.90 (>= 10 positives) eligible for promotion to confident",
-   "bytes": 7579,
-   "sha256": "4a66ceaac20c7e039a389943950d5351421dbee6e88970d9099bba8b7aebdba0"
+   "bytes": 7511,
+   "sha256": "b503a6e3d5e7c3a471ea83e09ecf6e90ac15931aa54f739db9d39b230e85fa9f"
   },
   {
    "path": "cxr/localization_reference_bc.json",
    "role": "normal-tissue level b_c per class (2,000 negative training studies)",
-   "bytes": 7606,
-   "sha256": "10ac70a22bbf8bcaab17967bec10c1d9ab7a4d988863605e7995d8e3317545c7"
+   "bytes": 7410,
+   "sha256": "d449ed176e9b1b1000dacd0248ad4f8fac885adf9ef85153aeab215df1beb02f"
   },
   {
    "path": "cxr/writer.pt",
    "role": "X-ray writer trainable tensors (LoRA r16/a32 + resampler, projection, label conditioner, finding-token projection) after SFT, DPO and PU-DPO step 200",
-   "bytes": 1022809121,
-   "sha256": "69a541cea58c8d581a06d03128967f35db1d6b144dd362f9f2efd0e6724902d0"
+   "bytes": 1022790035,
+   "sha256": "8e92ab304e53076725d58eb03a07965eda24c425540f4d7c6d0b9e948d75d2c1"
   }
  ],
  "external": {

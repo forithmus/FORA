@@ -32,13 +32,22 @@ inference/
 
 ## Weights
 
-The weights will be published on Hugging Face under Forithmus: `<HF model repo>`. Download the repository into one
-directory and pass it as `--weights`. `weights.json` lists every file with its size and sha256. External models:
+The weights are in the `weights/` folder of
+[huggingface.co/datasets/Forithmus/FORA](https://huggingface.co/datasets/Forithmus/FORA/tree/main/weights)
+(gated: accept the terms on the dataset page first). Download the folder and pass it as `--weights`:
 
-* `google/gemma-4-31B-it`, revision `3548789868c5356dbf307c98e6f609007b82b3eb` (full weights and tokenizer,
-  unmodified), into `WEIGHTS/gemma-4-31B-it` or pass `--gemma`.
-* `facebook/dinov2-large` (CT lesion calipers only, `--measurements on`), into `WEIGHTS/dinov2-large` or pass
-  `--dinov2`.
+```bash
+huggingface-cli download Forithmus/FORA --repo-type dataset --include "weights/*" --local-dir fora
+# then: --weights fora/weights
+```
+
+`weights.json` lists every file with its size and sha256. The folder also contains the two external models the code
+loads, unmodified:
+
+* `gemma-4-31B-it/`: `google/gemma-4-31B-it`, revision `3548789868c5356dbf307c98e6f609007b82b3eb` (full weights and
+  tokenizer), the base model of both report writers. Another copy can be passed with `--gemma`.
+* `dinov2-large/`: `facebook/dinov2-large` (CT lesion calipers only, `--measurements on`). Another copy can be passed
+  with `--dinov2`.
 * CADS for the CT organ masks (tasks 551-559). Pass its predict command with `--cads-command`; the script appends
   `-in DIR -out DIR -task all -np 4 -ns 4`. CADS is not needed when every series supplies `cads_parts`.
 * CXR-BERT is used only for sentence alignment during training and is not loaded at inference.
