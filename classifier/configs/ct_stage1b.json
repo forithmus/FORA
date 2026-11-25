@@ -1,0 +1,38 @@
+{
+ "cases": "${FORA_DATA}/mil/cases.jsonl",
+ "assign": "${FORA_DATA}/mil/assign_128ranks.json",
+ "split": "${FORA_DATA}/splits/split.json",
+ "labels": "${FORA_DATA}/labels/labels.npz",
+ "heads": "${FORA_DATA}/labels/heads.json",
+ "normalization": "${FORA_DATA}/cache/normalization.pt",
+ "block24_state": "${FORA_DATA}/cache/block24_state.pt",
+ "cache_root": "${FORA_DATA}/cache/series",
+ "region_root": "${FORA_DATA}/cache/regions",
+ "class_region_bits": "classifier/routes/class_region_bits_table2.json",
+ "stop_after_step": 26356,
+ "training": {
+  "epochs": 12,
+  "warmup_epochs": 0.25,
+  "seed": 0,
+  "crops_per_chunk": 8,
+  "bucket_size": 8,
+  "position_freqs": 4,
+  "min_route_tokens": 8,
+  "attach_decay": 0.5,
+  "prefetch_depth": 4,
+  "loader_workers": 3,
+  "gpu_bag_gib": 20.0,
+  "model": {
+   "lr_head": 0.001,
+   "wd_head": 0.05,
+   "lr_block": 2e-05,
+   "wd_block": 0.05,
+   "ema": 0.998,
+   "token_drop": 0.2,
+   "feature_drop": 0.1,
+   "soft_init": 5.0,
+   "lr_route": 0.01
+  },
+  "init_block_from": "${FORA_RUNS}/sentence_alignment_ct/ct_aligned_block24.pt"
+ }
+}

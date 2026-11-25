@@ -1,0 +1,339 @@
+{
+ "description": "Files expected under --weights by inference/ct/infer.py and inference/cxr/infer.py. Paths are relative to the weights directory. Hosting: <HF model repo>.",
+ "ct": [
+  {
+   "path": "ct/encoder.pt",
+   "role": "CT 3-D DINO ViT-L EMA teacher backbone (blocks 1-24 weights; inference uses blocks 1-23), end of the Gram-anchoring phase, step 5,000",
+   "bytes": 1211681931,
+   "sha256": "4e79bee21d555400583153c11e573b587b26fecad0b96a4e9d23f7292a3761d3"
+  },
+  {
+   "path": "ct/mil.pt",
+   "role": "CT organ-routed MIL: learned block 24 + head + class order (1,028), final stage epoch 4, raw weights (no EMA)",
+   "bytes": 60054528,
+   "sha256": "d94bd9e32af71dca43871d0bb3b18c03844ac3594500a6f37774ef38c629e670"
+  },
+  {
+   "path": "ct/block24_state.pt",
+   "role": "block-24 module construction state (RoPE / norm layout) loaded before the MIL block weights",
+   "bytes": 50406967,
+   "sha256": "7fa013289043d506c006a04ad628d0a83c5cb0049ac0f5146fc29d332f0bce41"
+  },
+  {
+   "path": "ct/normalization.pt",
+   "role": "fixed token standardisation (mean vector, rms) of the MIL input",
+   "bytes": 5849326,
+   "sha256": "631aeffd7d9c2be4e771bab758759a7cbeeeadea29f23811101f38e2c823192f"
+  },
+  {
+   "path": "ct/mil_config.json",
+   "role": "MIL configuration (training dict: model spec, position features, min_route_tokens, crops per chunk)",
+   "bytes": 932,
+   "sha256": "ab0a3b979763438a266c5c164a18c79e94fbad551c8397816864b180ece4a2a7"
+  },
+  {
+   "path": "ct/heads.json",
+   "role": "finding heads (own and attached classes) of the 1,028-class vocabulary",
+   "bytes": 147022,
+   "sha256": "da3ea5499f729fc4774aed77b4a3d8d938b7435afb3e6731b8361e72c664414a"
+  },
+  {
+   "path": "ct/class_region_bits.json",
+   "role": "per-finding route bitmask over the 63 CADS regions (30 classes unrouted)",
+   "bytes": 58721,
+   "sha256": "49eba67be9ca96453c1cf505b2065d58adebebb39eb82f2275bede06797dd5b7"
+  },
+  {
+   "path": "ct/labels.json",
+   "role": "ordered 1,028 finding names",
+   "bytes": 27889,
+   "sha256": "0be0b3f1f927e3e60e3c254fc896d1b6c2dfc306c743cd5a293729af94fa217d"
+  },
+  {
+   "path": "ct/region_names.json",
+   "role": "ordered 63 region names (bit order of the token region bits)",
+   "bytes": 813,
+   "sha256": "5070cc37900a4fc2c711289f2d17dd0d59382fddabe67562b283ae64bafcd994"
+  },
+  {
+   "path": "ct/encoding.json",
+   "role": "block-23 cache encoding (crop 64x192x192, stride = crop, int8 + 8 outliers)",
+   "bytes": 572,
+   "sha256": "95e2d637998098126ed75f4c26a79739bfa4469c5d6cfde17060b64e87d6078d"
+  },
+  {
+   "path": "ct/calibration.json",
+   "role": "per-class Platt coefficients and Youden cut-offs fitted on training predictions; confident = p >= 0.5",
+   "bytes": 244235,
+   "sha256": "08a6a6bfdbbb793c12ec909bfaba0c16850ee7d9fba42119ddc2810c55ed8e45"
+  },
+  {
+   "path": "ct/writer.pt",
+   "role": "CT writer trainable tensors (LoRA r16/a32, visual resampler and connector, label conditioner, finding-token and finding-image layers) after SFT stages 1-2 and DPO step 300; loaded on top of the Gemma base",
+   "bytes": 1505292675,
+   "sha256": "ff93d34ee4cdb4369777edc812782ff6b1246d45677456834146d139e18bbcf0"
+  },
+  {
+   "path": "ct/anatomy_measurement_calibration.json",
+   "role": "calibration of the CADS anatomy measurements (organ sizes, vessel diameters, midline shift)",
+   "bytes": 3118,
+   "sha256": "d39606b9ee8e40130abbb6116d8293d3185e3f18e91335afb76e75459829d19f"
+  },
+  {
+   "path": "ct/measurement_schema.json",
+   "role": "findings measured by the lesion calipers: measurement type, group, size prior",
+   "bytes": 11891,
+   "sha256": "2550426191afbd8893745664cee982f7ec15d189b2467fbb8f5058b1a439b3f9"
+  },
+  {
+   "path": "ct/caliper_groups.json",
+   "role": "seven caliper groups: (class, measurement type) pairs and exclusions",
+   "bytes": 6343,
+   "sha256": "93388325e219c786336fd7b8c2f159154f0cdc4417d9c1ad3550b6b76477e789"
+  },
+  {
+   "path": "ct/calipers/air.pt",
+   "role": "lesion caliper head, group air",
+   "bytes": 61475291,
+   "sha256": "090a64ba02e6aabef40f61e03388e18cbed0904b83de4e77dbbee9581ed3d152"
+  },
+  {
+   "path": "ct/calipers/cyst.pt",
+   "role": "lesion caliper head, group cyst",
+   "bytes": 61475291,
+   "sha256": "a1d814a0aebcb66d9e08c7d8409052f93c2dc18bd679f9a4d9bb37a9ddad5ad4"
+  },
+  {
+   "path": "ct/calipers/node.pt",
+   "role": "lesion caliper head, group node",
+   "bytes": 61475291,
+   "sha256": "b7e83a61bf6bcd2de1b033e2002aa326196d06351c72e53e737e6d4369a3abbf"
+  },
+  {
+   "path": "ct/calipers/nodule.pt",
+   "role": "lesion caliper head, group nodule",
+   "bytes": 61475291,
+   "sha256": "076b93f6fde256967ff042a9bf5257df13d5eb8e75e7b9b541ddfa5ff6dade96"
+  },
+  {
+   "path": "ct/calipers/solid.pt",
+   "role": "lesion caliper head, group solid",
+   "bytes": 61475163,
+   "sha256": "cd6231d2edd9b6a3362e50b3dcdbddd0655ef0cd3c3cf77ac8f4eacc25fa5a54"
+  },
+  {
+   "path": "ct/calipers/stone.pt",
+   "role": "lesion caliper head, group stone",
+   "bytes": 61475291,
+   "sha256": "4d780255cd8af7bbfe50a842156e66e1620e127b81030cb1e5f7a4ce59b60a06"
+  },
+  {
+   "path": "ct/calipers/thick.pt",
+   "role": "lesion caliper head, group thick",
+   "bytes": 61475227,
+   "sha256": "1c71a1eabe1512b20bf3487ddd045650d229a090eaea71b0d95d6abdc8980482"
+  },
+  {
+   "path": "ct/caliper_scale_air.json",
+   "role": "size scale calibration of caliper group air",
+   "bytes": 267,
+   "sha256": "386647fe555bc58e399d3effbfece5863ae563a393504603ac28627673917775"
+  },
+  {
+   "path": "ct/caliper_scale_cyst.json",
+   "role": "size scale calibration of caliper group cyst",
+   "bytes": 366,
+   "sha256": "d67e09243adc4215e932a52985cf1e04702171b4c2a854fde18e63dc6950e18a"
+  },
+  {
+   "path": "ct/caliper_scale_node.json",
+   "role": "size scale calibration of caliper group node",
+   "bytes": 336,
+   "sha256": "51094c4091f0d494d067a0350d5d3ecf5d361b332fc4e216453928acbb0a4257"
+  },
+  {
+   "path": "ct/caliper_scale_nodule.json",
+   "role": "size scale calibration of caliper group nodule",
+   "bytes": 332,
+   "sha256": "6f7557da7524871e6995cb6776f4dcfd6a97ced51ae2eceddaaa4145d57a2cc1"
+  },
+  {
+   "path": "ct/caliper_scale_solid.json",
+   "role": "size scale calibration of caliper group solid",
+   "bytes": 1204,
+   "sha256": "943e0e7de93aa3a8579a1174777eacb8688a56b90b1e1ce84bc2733e3d33f306"
+  },
+  {
+   "path": "ct/caliper_scale_stone.json",
+   "role": "size scale calibration of caliper group stone",
+   "bytes": 302,
+   "sha256": "f66f2916f5f9cd6dee4c7a936a31c429ba75177a355425f1d6179af2cbb95e99"
+  },
+  {
+   "path": "ct/caliper_scale_thick.json",
+   "role": "size scale calibration of caliper group thick",
+   "bytes": 735,
+   "sha256": "56999a2b39049c06e635e77bb3475d762c6343b4c9b2e33e9a9a7ddf23a285b4"
+  }
+ ],
+ "cxr": [
+  {
+   "path": "cxr/dino_teacher_backbone.pt",
+   "role": "X-ray DINO ViT-L EMA teacher backbone (2-slice volume), step 30,000",
+   "bytes": 1211684875,
+   "sha256": "58e919c1a618be8e7e74435be5b76cc498cd6fbf544709ed0cbdfdfdcba186e7"
+  },
+  {
+   "path": "cxr/dino_block24_init_state.pt",
+   "role": "block-24 module construction state loaded before the MIL block weights",
+   "bytes": 50407033,
+   "sha256": "c0da9ff418b8029d8aa73ac7d08d92fa31bf27112c6f13413939885e18036006"
+  },
+  {
+   "path": "cxr/mil.pt",
+   "role": "X-ray MIL: learned block 24 + view embedding + head (129 classes), epoch 6 (step 12,078), raw weights",
+   "bytes": 113600067,
+   "sha256": "74b782fe93da0fec1252b053530e51d551fa587be977aa164c0cd49bdc3f3c3e"
+  },
+  {
+   "path": "cxr/mil_config.json",
+   "role": "X-ray MIL configuration (encoder geometry, tile 1,024 px, max 64 films, model spec)",
+   "bytes": 1980,
+   "sha256": "91d3816bedba61ef331e6098a2e439f8810beeeffca78c05ff26b4c6ee56a8a8"
+  },
+  {
+   "path": "cxr/normalization.pt",
+   "role": "fixed token standardisation of the X-ray MIL input",
+   "bytes": 6440,
+   "sha256": "51163838e51163a8ca0c6dea391769459e2c9c755ed582133fed4071761b849a"
+  },
+  {
+   "path": "cxr/calibration.json",
+   "role": "per-class Platt coefficients and Youden cut-offs fitted on training predictions",
+   "bytes": 26080,
+   "sha256": "5c34f995ab272c99aaa379b5e6bf8a1a28314a47f525c35acb94e16b83ee1adc"
+  },
+  {
+   "path": "cxr/labels.json",
+   "role": "ordered 129 finding names",
+   "bytes": 4497,
+   "sha256": "e9587bd327bc2afd75e2f4def5621a8cdedd9e3b968cf0e836e64c270da646be"
+  },
+  {
+   "path": "cxr/class_groups.json",
+   "role": "vocabulary group of every class (selects the side/zone location wording)",
+   "bytes": 8145,
+   "sha256": "7a6cf0513880dd7ceb1ec46f9c57271dd79ecb60e9d9c12c3fae949958c04177"
+  },
+  {
+   "path": "cxr/device_classes.json",
+   "role": "20 device / hardware classes made confident at the train Youden cut-off",
+   "bytes": 842,
+   "sha256": "3887aa2ec582daea63decbd40592e448c99b12d195c39793d94d841a1fb45db4"
+  },
+  {
+   "path": "cxr/highauc_classes.json",
+   "role": "classes with internal-val AUROC >= 0.90 (>= 10 positives) eligible for promotion to confident",
+   "bytes": 7579,
+   "sha256": "4a66ceaac20c7e039a389943950d5351421dbee6e88970d9099bba8b7aebdba0"
+  },
+  {
+   "path": "cxr/localization_reference_bc.json",
+   "role": "normal-tissue level b_c per class (2,000 negative training studies)",
+   "bytes": 7606,
+   "sha256": "10ac70a22bbf8bcaab17967bec10c1d9ab7a4d988863605e7995d8e3317545c7"
+  },
+  {
+   "path": "cxr/writer.pt",
+   "role": "X-ray writer trainable tensors (LoRA r16/a32 + resampler, projection, label conditioner, finding-token projection) after SFT, DPO and PU-DPO step 200",
+   "bytes": 1022809121,
+   "sha256": "69a541cea58c8d581a06d03128967f35db1d6b144dd362f9f2efd0e6724902d0"
+  }
+ ],
+ "external": {
+  "gemma": {
+   "path": "gemma-4-31B-it",
+   "repo": "google/gemma-4-31B-it",
+   "revision": "3548789868c5356dbf307c98e6f609007b82b3eb",
+   "role": "writer base model (full weights + tokenizer, unmodified), both CT and X-ray",
+   "files": [
+    {
+     "name": "chat_template.jinja",
+     "bytes": 17466,
+     "sha256": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0"
+    },
+    {
+     "name": "config.json",
+     "bytes": 4621,
+     "sha256": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1"
+    },
+    {
+     "name": "generation_config.json",
+     "bytes": 208,
+     "sha256": "d4226bbe3117d2d253ba4609720ba82c6c4ce4627a9a6ae05387c78983ac03de"
+    },
+    {
+     "name": "model-00001-of-00002.safetensors",
+     "bytes": 49784788364,
+     "sha256": "eeef8791537bc04f110967c513149e037d2a9ae97d49add7291ebfa62806bbfa"
+    },
+    {
+     "name": "model-00002-of-00002.safetensors",
+     "bytes": 12761549884,
+     "sha256": "018912220f559f7025d60333e0996183cd538aa77ad6f4988a89ce47be681f10"
+    },
+    {
+     "name": "model.safetensors.index.json",
+     "bytes": 120246,
+     "sha256": "d4aff3b976d69c123a29d1c085d7ba4de1ac3f4ca1726a7f81e1b11462a64ea2"
+    },
+    {
+     "name": "processor_config.json",
+     "bytes": 1689,
+     "sha256": "32bdf45d2ad4cc29a0822ddd157a182de76644f0419a6228d151495256e9813c"
+    },
+    {
+     "name": "tokenizer.json",
+     "bytes": 32169626,
+     "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
+    },
+    {
+     "name": "tokenizer_config.json",
+     "bytes": 2095,
+     "sha256": "90c3a3ba5bf53818383a58e1a776cbcacd2a038d4812eaa373e1522f2d06f3df"
+    }
+   ]
+  },
+  "dinov2": {
+   "path": "dinov2-large",
+   "repo": "facebook/dinov2-large",
+   "revision": null,
+   "role": "2-D image features of the CT lesion calipers (--measurements on only)",
+   "files": [
+    {
+     "name": "config.json",
+     "bytes": 549,
+     "sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+    },
+    {
+     "name": "model.safetensors",
+     "bytes": 1217522888,
+     "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+    },
+    {
+     "name": "preprocessor_config.json",
+     "bytes": 436,
+     "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    }
+   ]
+  },
+  "cads": {
+   "role": "CT organ masks (tasks 551-559, '-task all'), run through --cads-command; not needed when every series supplies cads_parts",
+   "repo": "CADS (external tool with its own weights)"
+  },
+  "cxr_bert": {
+   "needed": false,
+   "role": "used only by the sentence-alignment stage; not loaded at inference"
+  }
+ }
+}

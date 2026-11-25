@@ -1,0 +1,15 @@
+{
+  "network": "teacher",
+  "feature": "block 23 residual stream (input of block 24)",
+  "width": 1024,
+  "crop": [64, 192, 192],
+  "stride": [64, 192, 192],
+  "blend": "none",
+  "spacing": [1.5, 0.5, 0.5],
+  "patch": [2, 16, 16],
+  "tokens": "all body tokens of every crop that contains a body token",
+  "format": "fora_int8_tokens",
+  "views": "FULL + distinct native DICOM windows + 10 mm lung slab MIP when a native lung window (centre < -250 HU) exists; all usable series",
+  "inference_brick_batch": 4,
+  "encoder_step": 5000
+}

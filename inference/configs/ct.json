@@ -1,0 +1,114 @@
+{
+  "model": "FORA CT",
+  "models": {
+    "encoder_step": 5000,
+    "classifier_steps": 38740,
+    "writer_dpo_step": 300,
+    "classifier_weights": "raw (no EMA)"
+  },
+  "artifacts": {
+    "encoder": "ct/encoder.pt",
+    "mil": "ct/mil.pt",
+    "mil_config": "ct/mil_config.json",
+    "block24_state": "ct/block24_state.pt",
+    "normalization": "ct/normalization.pt",
+    "heads": "ct/heads.json",
+    "class_region_bits": "ct/class_region_bits.json",
+    "labels": "ct/labels.json",
+    "region_names": "ct/region_names.json",
+    "encoding": "ct/encoding.json",
+    "calibration": "ct/calibration.json",
+    "writer": "ct/writer.pt",
+    "anatomy_measurement_calibration": "ct/anatomy_measurement_calibration.json",
+    "measurement_schema": "ct/measurement_schema.json",
+    "caliper_groups": "ct/caliper_groups.json",
+    "caliper_heads": "ct/calipers/{group}.pt",
+    "caliper_scales": "ct/caliper_scale_{group}.json",
+    "dinov2": "dinov2-large",
+    "gemma": "gemma-4-31B-it"
+  },
+  "encoder": {
+    "patch": [
+      2,
+      16,
+      16
+    ],
+    "brick_batch": 4
+  },
+  "views": {
+    "mip_rule": "inference",
+    "lung_mip_mm": 10.0
+  },
+  "classifier": {
+    "allow_tf32": false,
+    "cudnn_sdp": false,
+    "min_route_tokens": 8,
+    "gpu_bag_gib": 8.0
+  },
+  "plan": {
+    "mode": "all_classes",
+    "confident": "train-Platt calibrated p >= 0.5 (class_plan_threshold)",
+    "possible": "train Youden (class_possible_threshold)",
+    "builder_defaults": "fora.reportgen.plan.diagnostic_plan.DEFAULTS['ct']: possible tier capped at 20 findings ranked by calibrated probability, calibrated probability shown in the plan, six evidence images per finding; evidence descriptions as location text"
+  },
+  "evidence": {
+    "block": 2,
+    "render": 1,
+    "crops": 32,
+    "chunk": 1
+  },
+  "measurements": {
+    "default": "on",
+    "calipers": {
+      "ln_short_axis": true,
+      "workers": 2
+    }
+  },
+  "writer": {
+    "allow_tf32": true,
+    "float32_matmul_precision": "high",
+    "finding_image_soft_tokens": 140,
+    "crops_per_chunk": 32,
+    "gpu_bag_gib": 8.0,
+    "visual_seed_key": "42|{study_id}|infer"
+  },
+  "decoding": {
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "top_k": 0,
+    "num_beams": 1,
+    "seed_index": 42,
+    "max_new_tokens_total": 2048,
+    "opener_default": "auto",
+    "ban_default": "default",
+    "note": "Paper rows: CT-RATE used the chest opener, measurements off and the ctrate list (1,491 studies) or the ctrate_alt list (73 studies). Merlin used the abdomen opener, measurements on and the default list.",
+    "ban_lists": {
+      "default": "comparative (prior_comparison_phrases_comparative.json)",
+      "ctrate": "old_imaging (prior_comparison_phrases_old_imaging.json)",
+      "ctrate_alt": "prior_comparison (prior_comparison_phrases.json)",
+      "none": "no phrase ban"
+    },
+    "seed_rule": "int.from_bytes(sha256('temperature_v1|<study_id>|42')[:8], 'big') % 2**31, set immediately before generate()"
+  },
+  "cads": {
+    "tasks": [
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559
+    ],
+    "args": [
+      "-task",
+      "all",
+      "-np",
+      "4",
+      "-ns",
+      "4"
+    ]
+  }
+}

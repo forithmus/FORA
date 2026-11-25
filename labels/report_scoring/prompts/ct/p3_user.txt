@@ -1,0 +1,11 @@
+FINDINGS:
+{findings}
+
+IMPRESSION:
+{impression}
+
+PASS-1 LABELLING:
+{p1_json}
+
+PASS-2 QC:
+{p2_json}

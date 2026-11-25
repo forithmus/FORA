@@ -1,0 +1,644 @@
+{
+ "_comment": "X-ray benchmark label -> FORA X-ray classes. Score = max sigmoid over the mapped classes, training target = OR of the mapped classes. padchest_gr45 is a secondary protocol.",
+ "chestxray14": {
+  "Atelectasis": [
+   "Atelectasis (general)",
+   "Linear (discoid/plate) atelectasis",
+   "Lobar atelectasis (lobar collapse)",
+   "Segmental/subsegmental atelectasis"
+  ],
+  "Cardiomegaly": [
+   "Cardiomegaly",
+   "Left ventricular (LV) enlargement",
+   "Right atrial (RA) enlargement"
+  ],
+  "Effusion": [
+   "Pleural effusion (simple/free-flowing)",
+   "Small pleural effusion",
+   "Large / massive pleural effusion",
+   "Loculated pleural effusion",
+   "Fissural fluid / interlobar pseudotumor",
+   "Hydropneumothorax"
+  ],
+  "Infiltration": [
+   "Lung Opacity (airspace opacity, NOS)",
+   "Consolidation",
+   "Ground-glass opacity (GGO)",
+   "Bronchial wall thickening"
+  ],
+  "Mass": [
+   "Pulmonary mass"
+  ],
+  "Nodule": [
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules"
+  ],
+  "Pneumonia": [
+   "Pneumonia",
+   "Bronchopneumonia",
+   "Viral pneumonia pattern (general, non-COVID)",
+   "COVID-19 pneumonia pattern"
+  ],
+  "Pneumothorax": [
+   "Pneumothorax (simple/spontaneous)",
+   "Apical (small) pneumothorax",
+   "Hydropneumothorax"
+  ],
+  "Consolidation": [
+   "Consolidation",
+   "Air bronchogram"
+  ],
+  "Edema": [
+   "Edema (pulmonary edema, general/composite label)"
+  ],
+  "Emphysema": [
+   "Pulmonary emphysema",
+   "Subcutaneous emphysema"
+  ],
+  "Fibrosis": [
+   "Pulmonary fibrosis"
+  ],
+  "Pleural_Thickening": [
+   "Pleural thickening",
+   "Apical pleural cap",
+   "Calcified pleural plaques"
+  ],
+  "Hernia": [
+   "Hiatal hernia (sliding, Type I)"
+  ]
+ },
+ "chestxdet10": {
+  "Atelectasis": [
+   "Atelectasis (general)",
+   "Linear (discoid/plate) atelectasis",
+   "Lobar atelectasis (lobar collapse)",
+   "Segmental/subsegmental atelectasis"
+  ],
+  "Calcification": [
+   "Calcified granuloma",
+   "Costal cartilage calcification / costochondral junction hypertrophy"
+  ],
+  "Consolidation": [
+   "Consolidation",
+   "Air bronchogram"
+  ],
+  "Effusion": [
+   "Pleural effusion (simple/free-flowing)",
+   "Small pleural effusion",
+   "Large / massive pleural effusion",
+   "Loculated pleural effusion",
+   "Fissural fluid / interlobar pseudotumor",
+   "Hydropneumothorax"
+  ],
+  "Emphysema": [
+   "Pulmonary emphysema"
+  ],
+  "Fibrosis": [
+   "Pulmonary fibrosis"
+  ],
+  "Fracture": [
+   "Rib fracture, acute",
+   "Rib fracture, healed (with callus)",
+   "Clavicle fracture",
+   "Proximal humeral fracture"
+  ],
+  "Mass": [
+   "Pulmonary mass",
+   "Cardiophrenic angle mass"
+  ],
+  "Nodule": [
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules",
+   "Cavitation / cavitary lung lesion"
+  ],
+  "Pneumothorax": [
+   "Pneumothorax (simple/spontaneous)",
+   "Apical (small) pneumothorax",
+   "Hydropneumothorax"
+  ]
+ },
+ "rsna": {
+  "Pneumonia": [
+   "Pneumonia",
+   "Bronchopneumonia",
+   "Viral pneumonia pattern (general, non-COVID)",
+   "COVID-19 pneumonia pattern",
+   "Consolidation"
+  ]
+ },
+ "padchest_gr24": {
+  "NSG tube": {
+   "padchest_labels": [
+    "NSG tube"
+   ],
+   "fora_classes": [
+    "Nasogastric / orogastric (NG/OG) tube, normal position",
+    "Nasogastric / orogastric (NG) tube, normal position"
+   ]
+  },
+  "alveolar pattern": {
+   "padchest_labels": [
+    "alveolar pattern",
+    "consolidation",
+    "infiltrates"
+   ],
+   "fora_classes": [
+    "Consolidation",
+    "Pneumonia",
+    "Bronchopneumonia"
+   ]
+  },
+  "aortic atheromatosis": {
+   "padchest_labels": [
+    "aortic atheromatosis"
+   ],
+   "fora_classes": [
+    "Aortic calcification"
+   ]
+  },
+  "aortic elongation": {
+   "padchest_labels": [
+    "aortic elongation",
+    "descendent aortic elongation",
+    "supra aortic elongation"
+   ],
+   "fora_classes": [
+    "Unfolded aorta (aortic tortuosity/elongation)",
+    "Aortic enlargement (thoracic aortic aneurysm)"
+   ]
+  },
+  "atelectasis": {
+   "padchest_labels": [
+    "atelectasis",
+    "laminar atelectasis",
+    "lobar atelectasis",
+    "atelectasis basal",
+    "segmental atelectasis"
+   ],
+   "fora_classes": [
+    "Atelectasis (general)",
+    "Linear (discoid/plate) atelectasis",
+    "Lobar atelectasis (lobar collapse)",
+    "Segmental/subsegmental atelectasis"
+   ]
+  },
+  "bronchiectasis": {
+   "padchest_labels": [
+    "bronchiectasis"
+   ],
+   "fora_classes": [
+    "Bronchiectasis"
+   ]
+  },
+  "cardiomegaly": {
+   "padchest_labels": [
+    "cardiomegaly"
+   ],
+   "fora_classes": [
+    "Cardiomegaly"
+   ]
+  },
+  "central venous catheter": {
+   "padchest_labels": [
+    "central venous catheter",
+    "central venous catheter via jugular vein",
+    "central venous catheter via subclavian vein",
+    "reservoir central venous catheter"
+   ],
+   "fora_classes": [
+    "Central venous catheter (CVC), normal position",
+    "Central venous catheter via jugular vein",
+    "Implantable port / Port-a-Cath",
+    "CVC tip malposition"
+   ]
+  },
+  "electrical device": {
+   "padchest_labels": [
+    "electrical device",
+    "pacemaker",
+    "dual chamber device",
+    "single chamber device"
+   ],
+   "fora_classes": [
+    "Cardiac pacemaker"
+   ]
+  },
+  "endotracheal tube": {
+   "padchest_labels": [
+    "endotracheal tube"
+   ],
+   "fora_classes": [
+    "Endotracheal tube (ETT), normal position"
+   ]
+  },
+  "fracture": {
+   "padchest_labels": [
+    "rib fracture",
+    "callus rib fracture",
+    "clavicle fracture",
+    "humeral fracture",
+    "vertebral fracture",
+    "vertebral compression",
+    "vertebral anterior compression"
+   ],
+   "fora_classes": [
+    "Rib fracture, acute",
+    "Rib fracture, healed (with callus)",
+    "Clavicle fracture",
+    "Proximal humeral fracture"
+   ]
+  },
+  "goiter": {
+   "padchest_labels": [
+    "goiter"
+   ],
+   "fora_classes": [
+    "Superior mediastinal mass / enlargement"
+   ]
+  },
+  "hemidiaphragm elevation": {
+   "padchest_labels": [
+    "hemidiaphragm elevation"
+   ],
+   "fora_classes": [
+    "Elevated hemidiaphragm"
+   ]
+  },
+  "hiatal hernia": {
+   "padchest_labels": [
+    "hiatal hernia"
+   ],
+   "fora_classes": [
+    "Hiatal hernia (sliding, Type I)"
+   ]
+  },
+  "hyperinflated lung": {
+   "padchest_labels": [
+    "hyperinflated lung",
+    "air trapping",
+    "flattened diaphragm"
+   ],
+   "fora_classes": [
+    "Pulmonary hyperinflation (hyperexpansion)",
+    "Flattened hemidiaphragm(s)"
+   ]
+  },
+  "hypoexpansion": {
+   "padchest_labels": [
+    "hypoexpansion"
+   ],
+   "fora_classes": [
+    "Poor inspiration / low lung volumes"
+   ]
+  },
+  "interstitial pattern": {
+   "padchest_labels": [
+    "interstitial pattern",
+    "reticular interstitial pattern",
+    "reticulonodular interstitial pattern"
+   ],
+   "fora_classes": [
+    "Interstitial lung disease pattern (general)",
+    "Reticular pattern (interstitial)",
+    "Reticulonodular pattern"
+   ]
+  },
+  "nodule": {
+   "padchest_labels": [
+    "nodule",
+    "multiple nodules"
+   ],
+   "fora_classes": [
+    "Pulmonary nodule, solitary (SPN)",
+    "Multiple pulmonary nodules"
+   ]
+  },
+  "osteopenia": {
+   "padchest_labels": [
+    "osteopenia",
+    "osteoporosis"
+   ],
+   "fora_classes": [
+    "Osteopenia / osteoporosis"
+   ]
+  },
+  "pleural effusion": {
+   "padchest_labels": [
+    "pleural effusion"
+   ],
+   "fora_classes": [
+    "Pleural effusion (simple/free-flowing)",
+    "Small pleural effusion",
+    "Large / massive pleural effusion",
+    "Loculated pleural effusion"
+   ]
+  },
+  "pleural thickening": {
+   "padchest_labels": [
+    "pleural thickening",
+    "apical pleural thickening",
+    "calcified pleural thickening"
+   ],
+   "fora_classes": [
+    "Pleural thickening",
+    "Apical pleural cap",
+    "Calcified pleural plaques"
+   ]
+  },
+  "scoliosis": {
+   "padchest_labels": [
+    "scoliosis"
+   ],
+   "fora_classes": [
+    "Scoliosis"
+   ]
+  },
+  "vascular hilar enlargement": {
+   "padchest_labels": [
+    "vascular hilar enlargement"
+   ],
+   "fora_classes": [
+    "Hilar enlargement",
+    "Enlarged pulmonary artery (main PA prominence)"
+   ]
+  },
+  "vertebral degenerative changes": {
+   "padchest_labels": [
+    "vertebral degenerative changes"
+   ],
+   "fora_classes": [
+    "Vertebral degenerative changes / spondylosis"
+   ]
+  }
+ },
+ "padchest_gr45": {
+  "merge": {
+   "dual chamber device": "pacemaker",
+   "single chamber device": "pacemaker"
+  },
+  "mapping": {
+   "cardiomegaly": [
+    "Cardiomegaly"
+   ],
+   "aortic elongation": [
+    "Unfolded aorta (aortic tortuosity/elongation)",
+    "Aortic enlargement (thoracic aortic aneurysm)"
+   ],
+   "scoliosis": [
+    "Scoliosis"
+   ],
+   "chronic changes": [
+    "Chronic bronchitis changes"
+   ],
+   "interstitial pattern": [
+    "Interstitial lung disease pattern (general)",
+    "Reticular pattern (interstitial)",
+    "Reticulonodular pattern"
+   ],
+   "vascular hilar enlargement": [
+    "Hilar enlargement"
+   ],
+   "apical pleural thickening": [
+    "Apical pleural cap"
+   ],
+   "pleural effusion": [
+    "Pleural effusion (simple/free-flowing)",
+    "Small pleural effusion",
+    "Large / massive pleural effusion",
+    "Loculated pleural effusion"
+   ],
+   "air trapping": [
+    "Pulmonary hyperinflation (hyperexpansion)",
+    "COPD (chronic obstructive pulmonary disease)"
+   ],
+   "aortic atheromatosis": [
+    "Aortic calcification"
+   ],
+   "costophrenic angle blunting": [
+    "Blunting of the costophrenic angle"
+   ],
+   "vertebral degenerative changes": [
+    "Vertebral degenerative changes / spondylosis"
+   ],
+   "alveolar pattern": [
+    "Lung Opacity (airspace opacity, NOS)",
+    "Consolidation"
+   ],
+   "fibrotic band": [
+    "Pulmonary parenchymal bands"
+   ],
+   "calcified granuloma": [
+    "Calcified granuloma"
+   ],
+   "laminar atelectasis": [
+    "Linear (discoid/plate) atelectasis"
+   ],
+   "pacemaker": [
+    "Cardiac pacemaker"
+   ],
+   "callus rib fracture": [
+    "Rib fracture, healed (with callus)"
+   ],
+   "nipple shadow": [
+    "Nipple shadow"
+   ],
+   "sternotomy": [
+    "Median sternotomy / sternal wires (normal)"
+   ],
+   "suture material": [
+    "Surgical clips / vascular clips / suture material"
+   ],
+   "hilar congestion": [
+    "Hilar congestion"
+   ],
+   "nodule": [
+    "Pulmonary nodule, solitary (SPN)"
+   ],
+   "hiatal hernia": [
+    "Hiatal hernia (sliding, Type I)"
+   ],
+   "hemidiaphragm elevation": [
+    "Elevated hemidiaphragm"
+   ],
+   "atelectasis": [
+    "Atelectasis (general)",
+    "Linear (discoid/plate) atelectasis",
+    "Lobar atelectasis (lobar collapse)",
+    "Segmental/subsegmental atelectasis"
+   ],
+   "diaphragmatic eventration": [
+    "Diaphragmatic eventration"
+   ],
+   "hilar enlargement": [
+    "Hilar enlargement"
+   ],
+   "kyphosis": [
+    "Kyphosis (hyperkyphosis)"
+   ],
+   "bronchiectasis": [
+    "Bronchiectasis"
+   ],
+   "mammary prosthesis": [
+    "Breast implant / mammary prosthesis"
+   ],
+   "mastectomy": [
+    "Mastectomy (absent breast shadow)"
+   ],
+   "endotracheal tube": [
+    "Endotracheal tube (ETT), normal position"
+   ],
+   "NSG tube": [
+    "Nasogastric / orogastric (NG/OG) tube, normal position",
+    "Nasogastric / orogastric (NG) tube, normal position"
+   ],
+   "central venous catheter via jugular vein": [
+    "Central venous catheter via jugular vein",
+    "Central venous catheter (CVC), normal position"
+   ],
+   "reservoir central venous catheter": [
+    "Implantable port / Port-a-Cath",
+    "Central venous catheter (CVC), normal position"
+   ],
+   "hyperinflated lung": [
+    "Pulmonary hyperinflation (hyperexpansion)"
+   ],
+   "pulmonary mass": [
+    "Pulmonary mass",
+    "Cannonball metastases / pulmonary metastases"
+   ],
+   "sclerotic bone lesion": [
+    "Sclerotic (blastic) bone lesion"
+   ],
+   "reticular interstitial pattern": [
+    "Reticular pattern (interstitial)"
+   ],
+   "tracheostomy tube": [
+    "Tracheostomy tube"
+   ],
+   "flattened diaphragm": [
+    "Flattened hemidiaphragm(s)"
+   ],
+   "consolidation": [
+    "Consolidation"
+   ],
+   "rib fracture": [
+    "Rib fracture, acute",
+    "Rib fracture, healed (with callus)"
+   ],
+   "superior mediastinal enlargement": [
+    "Superior mediastinal mass / enlargement"
+   ]
+  }
+ },
+ "openi": {
+  "Atelectasis": [
+   "Atelectasis (general)",
+   "Linear (discoid/plate) atelectasis",
+   "Lobar atelectasis (lobar collapse)",
+   "Segmental/subsegmental atelectasis"
+  ],
+  "Cardiomegaly": [
+   "Cardiomegaly",
+   "Left ventricular (LV) enlargement",
+   "Right atrial (RA) enlargement"
+  ],
+  "Effusion": [
+   "Pleural effusion (simple/free-flowing)",
+   "Small pleural effusion",
+   "Large / massive pleural effusion",
+   "Loculated pleural effusion",
+   "Fissural fluid / interlobar pseudotumor",
+   "Hydropneumothorax"
+  ],
+  "Infiltration": [
+   "Lung Opacity (airspace opacity, NOS)",
+   "Consolidation",
+   "Ground-glass opacity (GGO)",
+   "Reticulonodular pattern"
+  ],
+  "Mass": [
+   "Pulmonary mass"
+  ],
+  "Nodule": [
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules"
+  ],
+  "Pneumonia": [
+   "Pneumonia",
+   "Bronchopneumonia",
+   "Viral pneumonia pattern (general, non-COVID)",
+   "COVID-19 pneumonia pattern",
+   "Consolidation"
+  ],
+  "Pneumothorax": [
+   "Pneumothorax (simple/spontaneous)",
+   "Apical (small) pneumothorax",
+   "Hydropneumothorax"
+  ],
+  "Edema": [
+   "Edema (pulmonary edema, general/composite label)"
+  ],
+  "Emphysema": [
+   "Pulmonary emphysema",
+   "Subcutaneous emphysema"
+  ],
+  "Fibrosis": [
+   "Pulmonary fibrosis",
+   "Interstitial lung disease pattern (general)"
+  ],
+  "Pleural_Thickening": [
+   "Pleural thickening",
+   "Apical pleural cap",
+   "Calcified pleural plaques"
+  ],
+  "Hernia": [
+   "Hiatal hernia (sliding, Type I)"
+  ],
+  "Fracture": [
+   "Rib fracture, acute",
+   "Rib fracture, healed (with callus)",
+   "Clavicle fracture",
+   "Proximal humeral fracture"
+  ],
+  "Opacity": [
+   "Lung Opacity (airspace opacity, NOS)",
+   "Consolidation",
+   "Ground-glass opacity (GGO)",
+   "Air bronchogram",
+   "Pneumonia",
+   "Bronchopneumonia",
+   "Viral pneumonia pattern (general, non-COVID)",
+   "COVID-19 pneumonia pattern",
+   "Edema (pulmonary edema, general/composite label)",
+   "Kerley B lines",
+   "Atelectasis (general)",
+   "Linear (discoid/plate) atelectasis",
+   "Lobar atelectasis (lobar collapse)",
+   "Segmental/subsegmental atelectasis",
+   "Pulmonary mass",
+   "Pulmonary lesion, unspecified (nodule vs mass)",
+   "Cannonball metastases / pulmonary metastases",
+   "Cavitation / cavitary lung lesion"
+  ],
+  "Lesion": [
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules",
+   "Pulmonary mass",
+   "Pulmonary lesion, unspecified (nodule vs mass)",
+   "Cannonball metastases / pulmonary metastases",
+   "Cavitation / cavitary lung lesion"
+  ],
+  "Calcified Granuloma": [
+   "Calcified granuloma",
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules",
+   "TB sequelae / healed (inactive) tuberculosis"
+  ],
+  "Granuloma": [
+   "Calcified granuloma",
+   "Pulmonary nodule, solitary (SPN)",
+   "Multiple pulmonary nodules",
+   "TB sequelae / healed (inactive) tuberculosis"
+  ]
+ }
+}

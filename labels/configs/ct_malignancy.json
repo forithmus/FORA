@@ -1,0 +1,14 @@
+{
+ "protocols": "data/ct/protocols.json",
+ "vocabulary": "data/ct/global_vocabulary.json",
+ "gpu_memory_utilization": 0.9,
+ "seed": 0,
+ "dtype": "bfloat16",
+ "max_model_len": 32768,
+ "max_tokens": 1024,
+ "batch": 2048,
+ "prompts": {
+  "system": "prompts/ct_malignancy/system.txt",
+  "user": "prompts/ct_malignancy/user.txt"
+ }
+}

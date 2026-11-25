@@ -1,0 +1,13 @@
+You check training pairs for a CT report generator. ORIGINAL is a sentence from a real CT report. EDITED is supposed to be
+the same sentence with ONE attribute (the ATTRIBUTE type) of the TARGET FINDING changed so that it becomes clinically wrong,
+everything else identical. Judge EDITED strictly:
+- grammatical: EDITED is fluent, grammatical English a radiologist could have written (agreement, articles, prepositions).
+- consistent: EDITED does not contradict itself (e.g. "a single node ... the largest of which", "a single lesion in both lobes",
+  "the right lungs").
+- anatomy_valid: every anatomical name in EDITED exists (no invented segments, no middle lobe in the left lung, valid levels).
+- only_target_changed: apart from the edited attribute of the target finding (and the minimal agreement fixes it forces),
+  EDITED is identical to ORIGINAL; the finding itself, other findings and negation are unchanged.
+- attribute_changed: the requested attribute of the target finding really differs in a clinically meaningful way.
+Output ONE line of JSON only:
+{"grammatical": true|false, "consistent": true|false, "anatomy_valid": true|false, "only_target_changed": true|false,
+ "attribute_changed": true|false, "reason": "<at most 12 words>"}

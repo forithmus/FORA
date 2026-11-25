@@ -1,0 +1,1855 @@
+{
+ "title": "Chest Radiograph",
+ "region": "Chest",
+ "hints": [
+  "A chest radiograph is a projection image: findings are described by zone (upper/mid/lower), side, and silhouette, not by segment.",
+  "Absence of a finding in the report is NOT a denial. Only label `denied` when the report explicitly negates it.",
+  "Technical-quality statements (rotation, projection, inspiration, exposure) are real, reportable findings here — label them, do not treat them as commentary.",
+  "Support devices and post-surgical changes are reportable findings; label them when stated.",
+  "Paediatric studies use the same vocabulary as adult studies."
+ ],
+ "second_look": [
+  "Tension pneumothorax",
+  "Pneumothorax (simple/spontaneous)",
+  "Deep sulcus sign (supine pneumothorax)",
+  "Pneumomediastinum",
+  "Pneumoperitoneum / free subdiaphragmatic air",
+  "Subcutaneous emphysema",
+  "Consolidation",
+  "Pleural effusion (simple/free-flowing)",
+  "Pulmonary mass",
+  "Pulmonary nodule, solitary (SPN)",
+  "Rib fracture, acute",
+  "Mediastinal widening",
+  "Aortic dissection (radiographic signs)",
+  "Endotracheal tube (ETT) malposition",
+  "NG/OG tube malposition",
+  "CVC tip malposition"
+ ],
+ "leaves": [
+  {
+   "name": "Asthma-related radiographic changes",
+   "syn": "asthmatic CXR changes",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Barrel chest / increased AP chest diameter",
+   "syn": "barrel-shaped chest; increased AP:transverse ratio",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Bronchial atresia",
+   "syn": "segmental bronchial atresia; congenital bronchial atresia",
+   "group": "Airways & chronic lung disease",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Bronchial wall thickening",
+   "syn": "peribronchial/tram-track thickening; thickened bronchial walls; bronchial cuffing (overlaps peribronchial cuffing)",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Bronchiectasis",
+   "syn": "bronchial dilatation; bronchial dilation",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Bulla (pulmonary bulla)",
+   "syn": "bullous emphysema; giant bulla; vanishing lung syndrome",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "COPD (chronic obstructive pulmonary disease)",
+   "syn": "",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Chronic bronchitis changes",
+   "syn": "dirty chest appearance; prominent bronchovascular markings",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Chronic fibrotic volume loss (cicatricial atelectasis)",
+   "syn": "fibrotic lobar volume loss",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Congenital lobar emphysema (congenital lobar overinflation)",
+   "syn": "congenital lobar overinflation (CLO)",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Fibrotic pulmonary sarcoidosis (Scadding stage IV)",
+   "syn": "stage IV sarcoidosis; fibrotic pulmonary sarcoidosis; sarcoid fibrosis; Progressive massive fibrosis (Scadding stage IV sarcoidosis)",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Flattened hemidiaphragm(s)",
+   "syn": "diaphragmatic flattening; low flat diaphragm",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Honeycombing (honeycomb lung)",
+   "syn": "honeycomb pattern",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Idiopathic pulmonary fibrosis (IPF)",
+   "syn": "UIP pattern",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Increased retrosternal airspace",
+   "syn": "enlarged retrosternal clear space",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Interstitial lung disease pattern (general)",
+   "syn": "ILD pattern; interstitial lung pattern",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Peribronchial cuffing",
+   "syn": "Peribronchial cuffing (edema-related); brass knuckle sign; brass knuckle sign (multiple confluent cuffed bronchi); bronchial cuffing; donut sign",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleuroparenchymal fibroelastosis (PPFE)",
+   "syn": "upper-lobe fibrosis with pleural thickening; idiopathic PPFE",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Progressive massive fibrosis (PMF)",
+   "syn": "conglomerate mass (pneumoconiosis); complicated pneumoconiosis; complicated silicosis",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary emphysema",
+   "syn": "emphysematous change; Attenuated/decreased peripheral vascular markings; vascular deficiency pattern; oligemic/attenuated pulmonary vasculature (emphysema-related); pruned vascular pattern",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary fibrosis",
+   "syn": "lung fibrosis; fibrotic lung disease",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary hyperinflation (hyperexpansion)",
+   "syn": "hyperexpanded lungs; over-inflation",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary oligemia",
+   "syn": "oligemic lung field; decreased pulmonary vascularity",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary parenchymal bands",
+   "syn": "fibrotic bands; scar bands",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Rib splaying / horizontal ribs / widened intercostal spaces",
+   "syn": "horizontalization of ribs; widened rib interspaces",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Saber-sheath trachea",
+   "syn": "sabre-sheath trachea",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Silicosis / pneumoconiosis nodular pattern",
+   "syn": "simple silicosis; pneumoconiotic nodules; coal workers' pneumoconiosis",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Tracheobronchial calcification",
+   "syn": "tracheal ring calcification; senile tracheal calcification; tracheopathia osteochondroplastica",
+   "group": "Airways & chronic lung disease",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Tracheobronchomegaly (Mounier-Kuhn syndrome)",
+   "syn": "Mounier-Kuhn syndrome; congenital tracheobronchomegaly",
+   "group": "Airways & chronic lung disease",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Unilateral hyperlucent lung (Swyer-James-MacLeod syndrome)",
+   "syn": "Swyer-James syndrome; MacLeod syndrome; unilateral hyperlucent lung syndrome",
+   "group": "Airways & chronic lung disease",
+   "type": "pathology"
+  },
+  {
+   "name": "Accessory fissure (superior accessory / inferior accessory / azygos variant)",
+   "syn": "superior accessory fissure; inferior accessory fissure; left minor fissure",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Azygos lobe / azygos fissure",
+   "syn": "azygos lobe variant; tadpole sign",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Bone island (enostosis)",
+   "syn": "enostosis; intraosseous bone island",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Cervical rib",
+   "syn": "supernumerary cervical rib; C7 rib",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Costal cartilage calcification / costochondral junction hypertrophy",
+   "syn": "calcified costal cartilage; costochondral junction hypertrophy",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Dextrocardia",
+   "syn": "right-sided heart",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Heterotaxy syndrome (situs ambiguus)",
+   "syn": "situs ambiguus; asplenia/polysplenia syndrome",
+   "group": "Anatomical variants",
+   "type": "pathology"
+  },
+  {
+   "name": "Nipple shadow",
+   "syn": "nipple opacity",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Pectus carinatum",
+   "syn": "pigeon chest",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Pectus excavatum",
+   "syn": "funnel chest; sunken chest",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Rib companion shadow (normal variant)",
+   "syn": "companion shadow of the rib; pleural companion shadow",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Situs inversus totalis",
+   "syn": "mirror-image situs; complete situs inversus",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Thoracic cage deformation (generic/other)",
+   "syn": "thoracic cage deformity; chest wall deformity (unspecified)",
+   "group": "Anatomical variants",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Bone metastasis",
+   "syn": "metastatic bone disease; skeletal metastasis",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Clavicle fracture",
+   "syn": "clavicular fracture; broken collarbone",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "DISH (diffuse idiopathic skeletal hyperostosis)",
+   "syn": "Forestier disease; axial hyperostosis",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Flail chest (segmental rib fractures)",
+   "syn": "flail segment; multiple/sequential rib fractures with paradoxical motion",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Glenohumeral (shoulder) osteoarthritis",
+   "syn": "shoulder degenerative joint disease; glenohumeral arthritis; non-axial articular degenerative changes",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Kyphosis (hyperkyphosis)",
+   "syn": "thoracic hyperkyphosis; dorsal kyphosis; round back",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Lytic bone lesion",
+   "syn": "osteolytic lesion; bone destruction (lytic)",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Osteopenia / osteoporosis",
+   "syn": "decreased bone mineral density; demineralization",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Proximal humeral fracture",
+   "syn": "humeral fracture (proximal); surgical-neck humerus fracture",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Rib fracture, acute",
+   "syn": "acute rib fracture; traumatic rib fracture",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Rib fracture, healed (with callus)",
+   "syn": "old rib fracture; healed/consolidated rib fracture; rib fracture callus; callus rib fracture",
+   "group": "Bones & chest wall",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Rib notching, inferior",
+   "syn": "Roesler sign; inferior rib notching",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Rib notching, superior",
+   "syn": "superior rib notching",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Rotator cuff arthropathy / subacromial space narrowing",
+   "syn": "cuff-tear arthropathy; acromiohumeral interval narrowing",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Scapular fracture",
+   "syn": "scapula fracture",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Sclerotic (blastic) bone lesion",
+   "syn": "osteoblastic lesion; blastic bone lesion",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Scoliosis",
+   "syn": "lateral spinal curvature",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Shoulder (glenohumeral) dislocation",
+   "syn": "anterior shoulder dislocation; posterior shoulder dislocation",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Sternal fracture",
+   "syn": "fractured sternum",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Sternoclavicular joint degenerative change / hypertrophy",
+   "syn": "sternoclavicular junction hypertrophy; SC joint osteoarthritis",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Vertebral body wedging / old compression deformity",
+   "syn": "anterior vertebral wedging; chronic wedge deformity; vertebral anterior compression",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Vertebral compression fracture (acute)",
+   "syn": "VCF; acute osteoporotic vertebral fracture; vertebral crush fracture",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Vertebral degenerative changes / spondylosis",
+   "syn": "spondylosis deformans; degenerative spine disease; Osteophytes (osteophytosis); bone spurs; vertebral osteophytosis; spondylotic spurs; claw/traction osteophytes",
+   "group": "Bones & chest wall",
+   "type": "pathology"
+  },
+  {
+   "name": "Boot-shaped heart (coeur en sabot)",
+   "syn": "coeur en sabot; sabot sign",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cardiac apex displacement",
+   "syn": "upturned cardiac apex; apex elevation",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cardiac calcification (general — coronary, valvular, myocardial)",
+   "syn": "coronary artery calcification (CAC); myocardial calcification",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cardiac valve calcification",
+   "syn": "aortic valve calcification; mitral (annular) calcification; calcific valvular stenosis",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cardiomegaly",
+   "syn": "enlarged heart; enlarged cardiac silhouette; cardiac enlargement",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cardiophrenic angle mass",
+   "syn": "pericardial fat pad; pericardial cyst; paracardiac mass",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Cor pulmonale",
+   "syn": "pulmonary heart disease; RV enlargement secondary to pulmonary hypertension",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Coronary artery calcification (CXR-detectable)",
+   "syn": "CAC on plain film",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Egg-on-a-string sign (transposition of the great arteries)",
+   "syn": "egg-shaped heart (d-TGA)",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Enlarged cardiomediastinum",
+   "syn": "cardiomediastinal silhouette enlargement; widened mediastinum (cardiac-inclusive usage)",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Epicardial fat pad sign",
+   "syn": "fat pad sign; pericardial fat-pad sign",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Left atrial (LA) enlargement",
+   "syn": "LA dilation",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Left ventricular (LV) enlargement",
+   "syn": "LV dilation; LV hypertrophy (radiographic correlate)",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Pericardial calcification / constrictive pericarditis",
+   "syn": "calcific pericarditis",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Pericardial effusion (water bottle sign)",
+   "syn": "water bottle heart; water-bottle-shaped cardiac silhouette; pericardial fluid",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumopericardium",
+   "syn": "air in the pericardial sac",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Right atrial (RA) enlargement",
+   "syn": "RA dilation",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Right ventricular (RV) enlargement",
+   "syn": "RV dilation; RV hypertrophy (radiographic correlate)",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Snowman sign (TAPVR, supracardiac type)",
+   "syn": "figure-of-8 sign; figure-of-8 heart; cottage loaf heart",
+   "group": "Cardiac & pericardial",
+   "type": "pathology"
+  },
+  {
+   "name": "Ascites (signs on CXR)",
+   "syn": "peritoneal fluid; abdominal fluid distension",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Chilaiditi sign / syndrome",
+   "syn": "hepatodiaphragmatic colonic interposition; pseudopneumoperitoneum",
+   "group": "Diaphragm & upper abdomen",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Congenital diaphragmatic hernia, Bochdalek type",
+   "syn": "posterolateral diaphragmatic hernia; Bochdalek hernia",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Congenital diaphragmatic hernia, Morgagni type",
+   "syn": "anterior/retrosternal diaphragmatic hernia; Morgagni-Larrey hernia",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Diaphragmatic eventration",
+   "syn": "eventration of the diaphragm",
+   "group": "Diaphragm & upper abdomen",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Diaphragmatic paralysis",
+   "syn": "diaphragm palsy; phrenic nerve paralysis; hemidiaphragm paralysis",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Elevated hemidiaphragm",
+   "syn": "Hemidiaphragm elevation (PadChest node); high diaphragm; raised hemidiaphragm",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Gallstones (calcified)",
+   "syn": "calcified gallstones; cholelithiasis calcification; Mercedes-Benz sign",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Gastric distension / dilated gastric bubble",
+   "syn": "gastric dilatation; distended stomach; prominent gastric air bubble",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Gastric volvulus / intrathoracic stomach",
+   "syn": "organoaxial/mesenteroaxial gastric volvulus; upside-down stomach",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Hepatomegaly (shadow on CXR)",
+   "syn": "enlarged liver shadow",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Hiatal hernia (sliding, Type I)",
+   "syn": "sliding hiatal hernia; hiatus hernia; esophageal hiatus hernia",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumoperitoneum / free subdiaphragmatic air",
+   "syn": "free intraperitoneal air; subdiaphragmatic free air",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Renal calculi (including staghorn calculus)",
+   "syn": "nephrolithiasis; renal stone",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Splenic calcification (calcified granuloma)",
+   "syn": "splenic granuloma; calcified splenic granulomas",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Splenomegaly (shadow on CXR)",
+   "syn": "enlarged spleen shadow",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Subdiaphragmatic mass (general)",
+   "syn": "subphrenic mass; subdiaphragmatic soft-tissue lesion",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Subphrenic abscess",
+   "syn": "subdiaphragmatic abscess",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Traumatic diaphragmatic hernia / rupture",
+   "syn": "diaphragmatic injury; blunt/penetrating diaphragmatic rupture",
+   "group": "Diaphragm & upper abdomen",
+   "type": "pathology"
+  },
+  {
+   "name": "Aortic calcification",
+   "syn": "aortic knob calcification; aortic arch calcification; atherosclerotic aortic calcification",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Aortic dissection (radiographic signs)",
+   "syn": "acute aortic syndrome (radiographic correlate); dissecting aortic aneurysm",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Aortic enlargement (thoracic aortic aneurysm)",
+   "syn": "aortic dilation; ascending/descending thoracic aortic aneurysm; prominent aortic knob; Aortic aneurysm",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Azygos vein enlargement",
+   "syn": "prominent azygos vein/arch; dilated azygos vein",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Coarctation of the aorta",
+   "syn": "aortic coarctation (CoA)",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Double aortic arch",
+   "syn": "",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Enlarged pulmonary artery (main PA prominence)",
+   "syn": "prominent main pulmonary artery segment; PA dilation; enlarged PA",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary arterial hypertension signs (central PA enlargement with pruning)",
+   "syn": "radiographic signs of pulmonary hypertension",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Right aortic arch",
+   "syn": "right-sided aortic arch",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Superior vena cava (SVC) dilation / obstruction signs",
+   "syn": "SVC syndrome (radiographic correlate); widened SVC interface",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "pathology"
+  },
+  {
+   "name": "Unfolded aorta (aortic tortuosity/elongation)",
+   "syn": "aortic unfolding; tortuous thoracic aorta; aortic elongation",
+   "group": "Great vessels & pulmonary vasculature",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Anterior mediastinal mass",
+   "syn": "prevascular compartment mass",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Azygoesophageal recess shift",
+   "syn": "",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Esophageal dilatation (mediastinal)",
+   "syn": "esophagic dilatation",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Goiter (intrathoracic / substernal)",
+   "syn": "",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Hilar congestion",
+   "syn": "",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Hilar enlargement",
+   "syn": "prominent hilum; hilar fullness",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Hilar lymphadenopathy",
+   "syn": "enlarged hilar lymph nodes; bilateral hilar lymphadenopathy (BHL)",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Mediastinal lipomatosis",
+   "syn": "mediastinic lipomatosis",
+   "group": "Mediastinum & hila",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Mediastinal lymphadenopathy",
+   "syn": "enlarged mediastinal lymph nodes; paratracheal/subcarinal/aortopulmonary-window lymphadenopathy",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Mediastinal shift",
+   "syn": "tracheal/mediastinal deviation; Tracheal deviation; tracheal shift; tracheal displacement",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Mediastinal widening",
+   "syn": "widened mediastinum",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Middle mediastinal mass",
+   "syn": "visceral compartment mass",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumomediastinum",
+   "syn": "mediastinal emphysema",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Posterior mediastinal mass",
+   "syn": "paravertebral compartment mass",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Superior mediastinal mass / enlargement",
+   "syn": "goiter (retrosternal); mediastinal mass",
+   "group": "Mediastinum & hila",
+   "type": "pathology"
+  },
+  {
+   "name": "Thymic sail sign",
+   "syn": "thymic wave sign; thymic notch sign; sail sign of the chest",
+   "group": "Mediastinum & hila",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "No Finding / Normal study",
+   "syn": "normal study; no acute cardiopulmonary abnormality; negative for pathology",
+   "group": "Normal / No finding",
+   "type": "normal"
+  },
+  {
+   "name": "Apical (small) pneumothorax",
+   "syn": "apical PTX; small rim pneumothorax",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Apical pleural cap",
+   "syn": "Apical pleuroparenchymal scarring (apical cap); apical capping; pulmonary apical cap",
+   "group": "Pleura",
+   "type": "anatomical_variant"
+  },
+  {
+   "name": "Blunting of the costophrenic angle",
+   "syn": "blunted CP angle; costophrenic angle obliteration",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Calcified pleural plaques",
+   "syn": "calcific pleural plaque; asbestos-related calcified pleural disease",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Chylothorax",
+   "syn": "chylous pleural effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Deep sulcus sign (supine pneumothorax)",
+   "syn": "",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Diffuse pleural calcification (non-plaque)",
+   "syn": "pleural calcification (general)",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Empyema (pleural)",
+   "syn": "pyothorax; pleural empyema; thoracic empyema; complicated parapneumonic effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Fibrothorax",
+   "syn": "diffuse pleural fibrosis",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Fissural fluid / interlobar pseudotumor",
+   "syn": "phantom tumor of the lung; vanishing tumor; loculated fissural effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Hemothorax",
+   "syn": "haemothorax; blood in the pleural space",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Hydropneumothorax",
+   "syn": "air-fluid level in the pleural space",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Hydrothorax (transudative, e.g. hepatic hydrothorax)",
+   "syn": "transudative pleural effusion; hepatic hydrothorax",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Large / massive pleural effusion",
+   "syn": "massive hydrothorax",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Loculated pleural effusion",
+   "syn": "encysted pleural effusion; compartmentalized effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Loculated pneumothorax",
+   "syn": "encysted pneumothorax",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Malignant pleural effusion",
+   "syn": "neoplastic pleural effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Malignant pleural mesothelioma",
+   "syn": "MPM; diffuse malignant mesothelioma",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Meniscus sign (Damoiseau-Ellis line)",
+   "syn": "Ellis sign; Ellis-Damoiseau line; curved line of Ellis",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Parapneumonic effusion",
+   "syn": "simple/complicated parapneumonic effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleural effusion (simple/free-flowing)",
+   "syn": "pleural fluid collection; hydrothorax (nonspecific use); effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleural metastases",
+   "syn": "metastatic pleural disease; secondary pleural malignancy",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleural plaques (non-calcified)",
+   "syn": "asbestos-related pleural plaque; hyaline pleural plaque",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleural thickening",
+   "syn": "pleural scarring; pleural fibrosis; pleural reaction",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pleural-based mass/opacity (extrapleural sign)",
+   "syn": "extrapleural lesion; pleural-based opacity; incomplete border sign",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumothorax (simple/spontaneous)",
+   "syn": "collapsed lung; PTX; primary spontaneous pneumothorax; secondary spontaneous pneumothorax",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumothorax ex vacuo",
+   "syn": "",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Small pleural effusion",
+   "syn": "minimal/trace pleural effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Solitary fibrous tumor of the pleura (SFTP)",
+   "syn": "localized fibrous mesothelioma (historical term); pleural fibroma",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Subpulmonic (infrapulmonary) pleural effusion",
+   "syn": "subpulmonic effusion; infrapulmonary effusion",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Tension pneumothorax",
+   "syn": "",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Trapped lung / non-expandable lung",
+   "syn": "non-expandable lung (NEL); lung entrapment",
+   "group": "Pleura",
+   "type": "pathology"
+  },
+  {
+   "name": "Breast conserving surgery / lumpectomy changes",
+   "syn": "post-lumpectomy changes; breast biopsy marker clip",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Cerclage wires (rib/sternal fracture fixation)",
+   "syn": "wire cerclage; rib fixation wire",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Coronary artery stent",
+   "syn": "cardiac stent; drug-eluting stent (DES); bare-metal stent (BMS)",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Embolization coils",
+   "syn": "vascular coils; bronchial artery/pulmonary AVM embolization coils",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Lobectomy, postoperative changes",
+   "syn": "post-lobectomy changes; segmentectomy changes",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Lung volume reduction surgery / bullectomy changes",
+   "syn": "LVRS changes; post-bullectomy changes",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Median sternotomy / sternal wires (normal)",
+   "syn": "sternotomy wires; sternal closure wires",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Osteosynthesis material (fracture fixation hardware)",
+   "syn": "internal fixation hardware; orthopedic plates/screws/wires",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Pneumonectomy, postoperative changes",
+   "syn": "post-pneumonectomy space",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Shoulder prosthesis / arthroplasty",
+   "syn": "shoulder replacement; humeral head prosthesis",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Spinal hardware / fusion instrumentation",
+   "syn": "pedicle screws; spinal rods; vertebral fusion hardware",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Sternal dehiscence / sternal wire fracture",
+   "syn": "sternal wire displacement; dancing sternal wires",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Surgical clips / vascular clips / suture material",
+   "syn": "hemoclips; CABG vascular clips; ligation clips",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Thoracic aortic stent graft (TEVAR)",
+   "syn": "endograft; TEVAR; EVAR (upper margin); Aortic endoprosthesis",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Thoracoplasty / rib resection (post-surgical)",
+   "syn": "Thoracoplasty, postoperative changes; post-thoracoplasty deformity; post-thoracotomy rib absence; thoracoplasty; transected rib",
+   "group": "Post-surgical & treatment changes",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Alveolar pulmonary edema",
+   "syn": "air-space edema; bat wing pattern; frank/overt pulmonary edema; pulmonary venous hypertension Stage 3",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Edema (pulmonary edema, general/composite label)",
+   "syn": "pulmonary edema; cardiogenic pulmonary edema; non-cardiogenic pulmonary edema; hydrostatic pulmonary edema; CHF/heart-failure lung",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Interstitial pulmonary edema",
+   "syn": "interstitial edema; early/mild cardiogenic pulmonary edema; pulmonary venous hypertension Stage 2",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Kerley A lines",
+   "syn": "septal lines type A",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Kerley B lines",
+   "syn": "septal lines type B; interlobular septal thickening (plain-film correlate)",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Kerley C lines",
+   "syn": "septal lines type C",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary venous congestion (cephalization)",
+   "syn": "vascular redistribution; upper-lobe blood flow redistribution; pulmonary venous hypertension Stage 1",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Vascular pedicle widening",
+   "syn": "widened vascular pedicle width (VPW)",
+   "group": "Pulmonary edema & vascular congestion",
+   "type": "pathology"
+  },
+  {
+   "name": "Acute respiratory distress syndrome (ARDS)",
+   "syn": "diffuse alveolar damage (pathologic correlate)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Air bronchogram",
+   "syn": "",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Aspergilloma (mycetoma / fungus ball)",
+   "syn": "fungus ball; mycetoma; Monod sign; air crescent sign",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Aspiration pneumonia / pneumonitis",
+   "syn": "aspiration pneumonitis; pulmonary aspiration",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Atelectasis (general)",
+   "syn": "lung collapse; pulmonary collapse; collapse (Fleischner synonym)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Batwing / butterfly opacity distribution",
+   "syn": "butterfly pattern; bat-wing appearance",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Bronchopneumonia",
+   "syn": "lobular pneumonia; patchy pneumonia",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "COVID-19 pneumonia pattern",
+   "syn": "SARS-CoV-2 pneumonia; coronavirus pneumonia",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Calcified granuloma",
+   "syn": "calcified pulmonary nodule; healed granuloma",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Cannonball metastases / pulmonary metastases",
+   "syn": "cannonball lesions; hematogenous pulmonary metastases; lung metastasis",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Cavitary tuberculosis",
+   "syn": "TB cavity; cavitating TB",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Cavitation / cavitary lung lesion",
+   "syn": "Chronic cavitary lung lesion; cavitary nodule/mass; cavitation (chronic); lung cavity",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Chronic eosinophilic pneumonia (CEP)",
+   "syn": "eosinophilic lung disease (subtype)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Consolidation",
+   "syn": "airspace consolidation; alveolar consolidation; air-space opacification",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Cryptogenic organizing pneumonia (COP/BOOP)",
+   "syn": "bronchiolitis obliterans organizing pneumonia; organizing pneumonia",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Diffuse pulmonary hemorrhage (alveolar hemorrhage)",
+   "syn": "diffuse alveolar hemorrhage (DAH); alveolar hemorrhage",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Exogenous lipoid pneumonia",
+   "syn": "lipoid pneumonia (exogenous form)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Ghon complex / Ghon focus",
+   "syn": "Ghon lesion; primary complex",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Golden S sign",
+   "syn": "Golden's S sign; reverse S sign of Golden",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Ground-glass opacity (GGO)",
+   "syn": "ground-glass shadowing; hazy opacity",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Juxtaphrenic peak sign",
+   "syn": "diaphragmatic tenting sign; Kattan sign",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Linear (discoid/plate) atelectasis",
+   "syn": "subsegmental atelectasis; plate-like atelectasis; laminar atelectasis",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Lobar atelectasis (lobar collapse)",
+   "syn": "complete lobar collapse",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Lobar pneumonia",
+   "syn": "lobar consolidation; alveolar pneumonia",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Luftsichel sign",
+   "syn": "",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Lung Opacity (airspace opacity, NOS)",
+   "syn": "pulmonary opacity; opacity NOS; ill-defined opacity",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Lung abscess",
+   "syn": "pulmonary abscess",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Middle lobe syndrome",
+   "syn": "right middle lobe syndrome",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Miliary pattern",
+   "syn": "miliary opacities; miliary nodules; miliary mottling",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Miliary tuberculosis",
+   "syn": "miliary TB; disseminated TB; hematogenous TB",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Multiple pulmonary nodules",
+   "syn": "multifocal nodules; numerous pulmonary nodules",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Necrotizing pneumonia",
+   "syn": "cavitary pneumonia; pulmonary gangrene (severe end of spectrum)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Non-calcified granuloma",
+   "syn": "indeterminate pulmonary granuloma",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pancoast tumor (superior sulcus tumor)",
+   "syn": "superior sulcus tumor; apical lung tumor",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Photographic negative of pulmonary edema (peripheral pattern)",
+   "syn": "reverse batwing pattern",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumatocele",
+   "syn": "pulmonary pseudocyst; post-infectious pneumatocele",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumocystis pneumonia (PCP/PJP)",
+   "syn": "Pneumocystis jirovecii pneumonia; PJP; Pneumocystis carinii pneumonia (older term)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pneumonia",
+   "syn": "pulmonary infection; infectious airspace disease; lung infection",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Post-primary (reactivation) tuberculosis",
+   "syn": "secondary TB; adult-type TB; reactivation TB",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Primary lung cancer (bronchogenic carcinoma)",
+   "syn": "lung carcinoma; lung tumor; bronchogenic carcinoma",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Primary pulmonary tuberculosis",
+   "syn": "",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary alveolar proteinosis (PAP)",
+   "syn": "alveolar lipoproteinosis",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary contusion",
+   "syn": "lung contusion; lung bruise",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary cyst",
+   "syn": "lung cyst",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary hamartoma",
+   "syn": "chondroid hamartoma",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary histoplasmosis (calcified granuloma pattern)",
+   "syn": "histoplasmoma; healed histoplasmosis",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary hydatid cyst (echinococcosis)",
+   "syn": "hydatid disease; pulmonary echinococcosis; hydatid disease of the lung",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary infarct (Hampton's hump)",
+   "syn": "Hampton's hump",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary lesion, unspecified (nodule vs mass)",
+   "syn": "pulmonary lesion (umbrella); Lung Lesion (unspecified nodule/mass — CheXpert umbrella)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary mass",
+   "syn": "lung mass; pulmonary tumor mass",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Pulmonary nodule, solitary (SPN)",
+   "syn": "solitary pulmonary nodule; coin lesion (legacy term); pulmonary nodule",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Radiation pneumonitis / radiation-induced lung disease",
+   "syn": "radiation-induced pneumonitis; post-radiotherapy lung injury",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Ranke complex",
+   "syn": "healed primary complex",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Reticular pattern (interstitial)",
+   "syn": "reticular opacities; linear/reticular pattern; net-like opacities",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Reticulonodular pattern",
+   "syn": "Reticulonodular pattern (fibrotic ILD); mixed reticulonodular pattern; reticulonodular opacities",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Round pneumonia",
+   "syn": "spherical pneumonia",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Rounded atelectasis (Blesovsky syndrome)",
+   "syn": "folded lung syndrome; Blesovsky syndrome; pulmonary pseudotumor (asbestos-related); round atelectasis",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Segmental/subsegmental atelectasis",
+   "syn": "segmental collapse",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Septic pulmonary emboli",
+   "syn": "septic embolism (pulmonary)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Silhouette sign",
+   "syn": "loss of silhouette; Felson's silhouette sign",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "TB sequelae / healed (inactive) tuberculosis",
+   "syn": "post-TB fibrotic changes; healed TB; inactive TB; calcified TB residua; tuberculosis sequelae",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Tuberculosis (pulmonary)",
+   "syn": "TB; pulmonary TB",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Upper-lobe fibrocavitary tuberculosis",
+   "syn": "apical fibrocavitary TB; chronic cavitary fibrotic TB",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Viral pneumonia pattern (general, non-COVID)",
+   "syn": "atypical pneumonia (viral); interstitial pneumonia (viral etiology)",
+   "group": "Pulmonary parenchyma & airspace",
+   "type": "pathology"
+  },
+  {
+   "name": "Breast implant / mammary prosthesis",
+   "syn": "mammary prosthesis; silicone/saline breast implant; breast prosthesis",
+   "group": "Soft tissues & breast",
+   "type": "support_device"
+  },
+  {
+   "name": "Calcified axillary/chest-wall lymph node",
+   "syn": "calcified adenopathy (axillary/chest wall location)",
+   "group": "Soft tissues & breast",
+   "type": "pathology"
+  },
+  {
+   "name": "Gynecomastia",
+   "syn": "male breast enlargement",
+   "group": "Soft tissues & breast",
+   "type": "pathology"
+  },
+  {
+   "name": "Mastectomy (absent breast shadow)",
+   "syn": "post-mastectomy change; absent breast shadow; surgery breast",
+   "group": "Soft tissues & breast",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Soft tissue gas (deep, non-emphysematous)",
+   "syn": "gas gangrene; necrotizing fasciitis gas; soft-tissue air (infectious)",
+   "group": "Soft tissues & breast",
+   "type": "pathology"
+  },
+  {
+   "name": "Soft tissue mass / chest wall mass",
+   "syn": "chest wall soft tissue mass; extrapleural soft-tissue mass; lipoma (benign example)",
+   "group": "Soft tissues & breast",
+   "type": "pathology"
+  },
+  {
+   "name": "Subcutaneous emphysema",
+   "syn": "SC emphysema; surgical emphysema",
+   "group": "Soft tissues & breast",
+   "type": "pathology"
+  },
+  {
+   "name": "Annuloplasty ring",
+   "syn": "mitral/tricuspid annuloplasty ring or band",
+   "group": "Support devices, tubes & lines",
+   "type": "post_surgical"
+  },
+  {
+   "name": "CVC tip malposition",
+   "syn": "malpositioned central line; CVC in azygos vein/contralateral vein/right ventricle",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Cardiac lead fracture / displacement (Twiddler syndrome)",
+   "syn": "lead dislodgement; lead migration; Twiddler's syndrome; Reel syndrome",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Cardiac pacemaker",
+   "syn": "permanent pacemaker; PPM",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Cardiac resynchronization therapy (CRT) device",
+   "syn": "CRT-P; CRT-D; biventricular pacemaker",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Central venous catheter (CVC), normal position",
+   "syn": "central line; subclavian/IJ line",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Central venous catheter via jugular vein",
+   "syn": "",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Central venous catheter via subclavian vein",
+   "syn": "",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Central venous catheter via umbilical vein",
+   "syn": "",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Chest tube (thoracostomy tube)",
+   "syn": "intercostal drain; tube thoracostomy",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Dual-chamber pacing device",
+   "syn": "",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "ECMO cannula (VA/VV)",
+   "syn": "extracorporeal membrane oxygenation cannula",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Endotracheal tube (ETT) malposition",
+   "syn": "ETT too proximal; ETT too distal; selective/right mainstem intubation; esophageal intubation",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Endotracheal tube (ETT), normal position",
+   "syn": "ET tube; tracheal tube; orotracheal/nasotracheal tube",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Enteric feeding tube (post-pyloric)",
+   "syn": "Dobhoff tube; small-bore feeding tube; nasojejunal (NJ) tube",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Esophageal stent",
+   "syn": "esophageal endoprosthesis; self-expanding metal stent (SEMS)",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Hemodialysis catheter (tunneled/non-tunneled)",
+   "syn": "dialysis catheter; Permcath; Vas-Cath",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Implantable cardioverter-defibrillator (ICD)",
+   "syn": "AICD",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Implantable port / Port-a-Cath",
+   "syn": "chemoport; totally implantable venous access device (TIVAD/TIVAP)",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Inferior vena cava (IVC) filter",
+   "syn": "vena cava filter; Greenfield filter",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Intra-aortic balloon pump (IABP)",
+   "syn": "aortic counterpulsation balloon",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Left ventricular assist device (LVAD)",
+   "syn": "VAD; HeartMate II/3; HVAD",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Mediastinal drain",
+   "syn": "post-cardiac-surgery mediastinal drain; substernal drain",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "NG/OG tube malposition",
+   "syn": "misplaced NG tube; coiled NG tube; bronchial NG tube",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Nasogastric / orogastric (NG/OG) tube, normal position",
+   "syn": "NGT; OGT; Levin/Salem sump tube; NSG tube",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "PICC line (peripherally inserted central catheter)",
+   "syn": "PICC; peripheral central line",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Pigtail catheter (small-bore pleural drain)",
+   "syn": "pigtail drain; pleural pigtail catheter",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Pinch-off syndrome / port-catheter fracture",
+   "syn": "catheter pinch-off sign; catheter fracture/embolization",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Prosthetic heart valve",
+   "syn": "valve replacement; mechanical valve; bioprosthesis; artificial heart valve",
+   "group": "Support devices, tubes & lines",
+   "type": "post_surgical"
+  },
+  {
+   "name": "Pulmonary artery (Swan-Ganz) catheter",
+   "syn": "PA catheter; right heart catheter",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Single-chamber pacing device",
+   "syn": "",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Support Devices (generic umbrella)",
+   "syn": "medical devices; tubes and lines; hardware",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Tracheostomy tube",
+   "syn": "trach tube; tracheostomy cannula",
+   "group": "Support devices, tubes & lines",
+   "type": "support_device"
+  },
+  {
+   "name": "Clothing / jewelry / external artifact",
+   "syn": "button artifact; snap artifact; hair braid artifact; external foreign object",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Cropped / incomplete field of view",
+   "syn": "cut-off lung apex/costophrenic angle",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "ECG leads / electrode artifacts",
+   "syn": "ECG monitoring leads; telemetry electrodes; snap electrodes",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Image artifact, general (equipment/processing)",
+   "syn": "grid artifact; detector artifact; processing artifact",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Lordotic projection",
+   "syn": "lordotic view artifact",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Over-exposure / under-exposure (technical factor)",
+   "syn": "overpenetrated film; underpenetrated film; incorrect exposure",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Patient motion / respiratory blur",
+   "syn": "motion artifact; blurred film",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Poor inspiration / low lung volumes",
+   "syn": "suboptimal inspiratory effort; low lung volume film",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Projection: AP vs PA acquisition",
+   "syn": "AP film; portable film magnification",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Pseudopneumoperitoneum (mimic bundle)",
+   "syn": "false pneumoperitoneum",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Rotation (patient positioning artifact)",
+   "syn": "rotated film; asymmetric clavicles",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Scapulae overlying lung fields",
+   "syn": "inadequately rotated scapulae",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  },
+  {
+   "name": "Skin-fold artifact mimicking pneumothorax",
+   "syn": "pseudo-pneumothorax (skin fold); skinfold artifact",
+   "group": "Technical & image quality",
+   "type": "technical_quality"
+  }
+ ]
+}

@@ -1,0 +1,794 @@
+{
+  "566": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 82,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 18.0
+  },
+  "552": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 81,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 4.0
+  },
+  "392": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 57,
+    "bits": 2149580800,
+    "node": true,
+    "ycmp": 0,
+    "prior": 16.0
+  },
+  "88": {
+    "mt": 1,
+    "grp": 2,
+    "kidx": 22,
+    "bits": 4096,
+    "node": false,
+    "ycmp": 0,
+    "prior": 13.0
+  },
+  "376": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 55,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 39.0
+  },
+  "546": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 78,
+    "bits": 2202246578176,
+    "node": false,
+    "ycmp": 3,
+    "prior": 4.5
+  },
+  "639": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 90,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 23.0
+  },
+  "33": {
+    "mt": 0,
+    "grp": 7,
+    "kidx": 7,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 8.0
+  },
+  "378": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 56,
+    "bits": 5297861039169,
+    "node": true,
+    "ycmp": 0,
+    "prior": 15.0
+  },
+  "212": {
+    "mt": 1,
+    "grp": 6,
+    "kidx": 34,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 10.0
+  },
+  "634": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 89,
+    "bits": 144115256795332608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 12.0
+  },
+  "666": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 94,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 4.5
+  },
+  "586": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 85,
+    "bits": 2149580800,
+    "node": true,
+    "ycmp": 0,
+    "prior": 15.0
+  },
+  "451": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 62,
+    "bits": 274877906944,
+    "node": false,
+    "ycmp": 0,
+    "prior": 29.0
+  },
+  "173": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 29,
+    "bits": 1313717681043540480,
+    "node": false,
+    "ycmp": 0,
+    "prior": 25.0
+  },
+  "502": {
+    "mt": 1,
+    "grp": 1,
+    "kidx": 69,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 20.0
+  },
+  "715": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 99,
+    "bits": 2305843009222082816,
+    "node": false,
+    "ycmp": 0,
+    "prior": 5.0
+  },
+  "535": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 75,
+    "bits": -1,
+    "node": false,
+    "ycmp": 0,
+    "prior": 23.0
+  },
+  "105": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 24,
+    "bits": 2202246578176,
+    "node": false,
+    "ycmp": 3,
+    "prior": 4.0
+  },
+  "229": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 35,
+    "bits": 144119385333236417,
+    "node": false,
+    "ycmp": 0,
+    "prior": 45.5
+  },
+  "191": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 32,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 5.5
+  },
+  "687": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 96,
+    "bits": 1152921504606846976,
+    "node": false,
+    "ycmp": 0,
+    "prior": 16.0
+  },
+  "574": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 84,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 25.0
+  },
+  "441": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 60,
+    "bits": 2814749767108608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 16.0
+  },
+  "158": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 28,
+    "bits": 2201137184768,
+    "node": false,
+    "ycmp": 0,
+    "prior": 25.0
+  },
+  "468": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 65,
+    "bits": 281492156579840,
+    "node": false,
+    "ycmp": 0,
+    "prior": 15.0
+  },
+  "19": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 3,
+    "bits": 4,
+    "node": false,
+    "ycmp": 0,
+    "prior": 16.0
+  },
+  "71": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 16,
+    "bits": 64,
+    "node": true,
+    "ycmp": 0,
+    "prior": 18.0
+  },
+  "537": {
+    "mt": 0,
+    "grp": 4,
+    "kidx": 76,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 11.0
+  },
+  "72": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 17,
+    "bits": 2149580800,
+    "node": true,
+    "ycmp": 0,
+    "prior": 16.15
+  },
+  "473": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 66,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 4.0
+  },
+  "78": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 19,
+    "bits": 256,
+    "node": false,
+    "ycmp": 0,
+    "prior": 4.0
+  },
+  "506": {
+    "mt": 1,
+    "grp": 2,
+    "kidx": 71,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 7.0
+  },
+  "254": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 38,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 6.0
+  },
+  "127": {
+    "mt": 0,
+    "grp": 7,
+    "kidx": 26,
+    "bits": 35184372105216,
+    "node": false,
+    "ycmp": 0,
+    "prior": 42.0
+  },
+  "551": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 80,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 4.0
+  },
+  "533": {
+    "mt": 0,
+    "grp": 4,
+    "kidx": 74,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 20.0
+  },
+  "604": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 88,
+    "bits": 16777216,
+    "node": false,
+    "ycmp": 0,
+    "prior": 10.0
+  },
+  "485": {
+    "mt": 1,
+    "grp": 1,
+    "kidx": 68,
+    "bits": 2148532224,
+    "node": false,
+    "ycmp": 0,
+    "prior": 10.0
+  },
+  "403": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 58,
+    "bits": 512,
+    "node": false,
+    "ycmp": 0,
+    "prior": 6.0
+  },
+  "73": {
+    "mt": 1,
+    "grp": 1,
+    "kidx": 18,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 21.0
+  },
+  "344": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 51,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 8.0
+  },
+  "692": {
+    "mt": 0,
+    "grp": 4,
+    "kidx": 97,
+    "bits": 2200096997384,
+    "node": false,
+    "ycmp": 0,
+    "prior": 12.0
+  },
+  "721": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 101,
+    "bits": 2305843009222082816,
+    "node": false,
+    "ycmp": 0,
+    "prior": 4.8
+  },
+  "458": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 63,
+    "bits": 68719542272,
+    "node": false,
+    "ycmp": 0,
+    "prior": 40.0
+  },
+  "57": {
+    "mt": 1,
+    "grp": 1,
+    "kidx": 15,
+    "bits": 824633720832,
+    "node": false,
+    "ycmp": 0,
+    "prior": 25.0
+  },
+  "177": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 31,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 22.5
+  },
+  "25": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 5,
+    "bits": 4,
+    "node": false,
+    "ycmp": 0,
+    "prior": 16.0
+  },
+  "150": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 27,
+    "bits": 32768,
+    "node": false,
+    "ycmp": 0,
+    "prior": 60.0
+  },
+  "374": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 54,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 35.0
+  },
+  "544": {
+    "mt": 0,
+    "grp": 0,
+    "kidx": 77,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 15.0
+  },
+  "590": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 86,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 6.5
+  },
+  "82": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 20,
+    "bits": 2251799813687296,
+    "node": false,
+    "ycmp": 0,
+    "prior": 6.0
+  },
+  "429": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 59,
+    "bits": 2305843009222082816,
+    "node": false,
+    "ycmp": 0,
+    "prior": 6.0
+  },
+  "370": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 53,
+    "bits": 16777216,
+    "node": false,
+    "ycmp": 0,
+    "prior": 35.0
+  },
+  "442": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 61,
+    "bits": 3096241923686400,
+    "node": false,
+    "ycmp": 0,
+    "prior": 7.0
+  },
+  "126": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 25,
+    "bits": 4294967296,
+    "node": true,
+    "ycmp": 0,
+    "prior": 17.0
+  },
+  "272": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 41,
+    "bits": 16777216,
+    "node": false,
+    "ycmp": 0,
+    "prior": 34.0
+  },
+  "335": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 47,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 33.0
+  },
+  "5": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 2,
+    "bits": 3578781499904,
+    "node": false,
+    "ycmp": 0,
+    "prior": 47.0
+  },
+  "269": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 40,
+    "bits": 16777216,
+    "node": false,
+    "ycmp": 0,
+    "prior": 19.0
+  },
+  "661": {
+    "mt": 1,
+    "grp": 6,
+    "kidx": 91,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 8.0
+  },
+  "49": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 12,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 23.0
+  },
+  "513": {
+    "mt": 1,
+    "grp": 4,
+    "kidx": 72,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 20.0
+  },
+  "22": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 4,
+    "bits": 4,
+    "node": false,
+    "ycmp": 0,
+    "prior": 28.0
+  },
+  "328": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 46,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 30.0
+  },
+  "504": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 70,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 14.15
+  },
+  "726": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 102,
+    "bits": 274877906944,
+    "node": false,
+    "ycmp": 0,
+    "prior": 31.0
+  },
+  "259": {
+    "mt": 1,
+    "grp": 2,
+    "kidx": 39,
+    "bits": 562949953421824,
+    "node": false,
+    "ycmp": 0,
+    "prior": 8.0
+  },
+  "36": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 8,
+    "bits": 2149580800,
+    "node": false,
+    "ycmp": 0,
+    "prior": 38.0
+  },
+  "719": {
+    "mt": 1,
+    "grp": 2,
+    "kidx": 100,
+    "bits": 256,
+    "node": false,
+    "ycmp": 0,
+    "prior": 9.0
+  },
+  "104": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 23,
+    "bits": 2149580800,
+    "node": true,
+    "ycmp": 0,
+    "prior": 12.0
+  },
+  "197": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 33,
+    "bits": 65536,
+    "node": false,
+    "ycmp": 0,
+    "prior": 20.0
+  },
+  "467": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 64,
+    "bits": 281492156579840,
+    "node": false,
+    "ycmp": 0,
+    "prior": 5.6
+  },
+  "241": {
+    "mt": 1,
+    "grp": 2,
+    "kidx": 36,
+    "bits": 262272,
+    "node": false,
+    "ycmp": 0,
+    "prior": 5.0
+  },
+  "603": {
+    "mt": 0,
+    "grp": 3,
+    "kidx": 87,
+    "bits": 70368744177664,
+    "node": false,
+    "ycmp": 0,
+    "prior": 5.5
+  },
+  "176": {
+    "mt": 0,
+    "grp": 1,
+    "kidx": 30,
+    "bits": 1024,
+    "node": true,
+    "ycmp": 0,
+    "prior": 24.0
+  },
+  "662": {
+    "mt": 1,
+    "grp": 6,
+    "kidx": 92,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 9.0
+  },
+  "341": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 50,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 3,
+    "prior": 5.0
+  },
+  "364": {
+    "mt": 0,
+    "grp": 7,
+    "kidx": 52,
+    "bits": 290517429061212672,
+    "node": false,
+    "ycmp": 0,
+    "prior": 39.0
+  },
+  "339": {
+    "mt": 0,
+    "grp": 6,
+    "kidx": 49,
+    "bits": 4194304,
+    "node": false,
+    "ycmp": 0,
+    "prior": 18.0
+  },
+  "476": {
+    "mt": 0,
+    "grp": 4,
+    "kidx": 67,
+    "bits": 37376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 55.0
+  },
+  "572": {
+    "mt": 0,
+    "grp": 2,
+    "kidx": 83,
+    "bits": 8388608,
+    "node": false,
+    "ycmp": 0,
+    "prior": 38.0
+  },
+  "532": {
+    "mt": 0,
+    "grp": 4,
+    "kidx": 73,
+    "bits": 2200096997376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 12.0
+  },
+  "86": {
+    "mt": 3,
+    "grp": 1,
+    "kidx": 21,
+    "bits": 1126449662693376,
+    "node": false,
+    "ycmp": 0,
+    "prior": 39.0
+  },
+  "295": {
+    "mt": 3,
+    "grp": 1,
+    "kidx": 44,
+    "bits": 2305843009222082816,
+    "node": false,
+    "ycmp": 0,
+    "prior": 13.0
+  },
+  "294": {
+    "mt": 3,
+    "grp": 1,
+    "kidx": 43,
+    "bits": 2305843009222082816,
+    "node": false,
+    "ycmp": 0,
+    "prior": 18.0
+  },
+  "47": {
+    "mt": 3,
+    "grp": 2,
+    "kidx": 11,
+    "bits": 274877906976,
+    "node": false,
+    "ycmp": 0,
+    "prior": 11.0
+  }
+}

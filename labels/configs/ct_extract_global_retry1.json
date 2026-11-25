@@ -1,0 +1,14 @@
+{
+ "prompt_dir": "prompts/ct_global",
+ "protocols": "data/ct/protocols.json",
+ "vocabulary": "data/ct/global_vocabulary.json",
+ "p1_max_tokens": 12288,
+ "p2_max_tokens": 4096,
+ "p3_max_tokens": 12288,
+ "repair_truncated": false,
+ "gpu_memory_utilization": 0.85,
+ "seed": 42,
+ "dtype": "auto",
+ "_comment": "Retry 1: reports with any non-pass row of the main run, 3x token budgets.",
+ "max_model_len": 65536
+}

@@ -1,0 +1,240 @@
+{
+ "_comment": "Benchmark finding -> FORA CT classes. Composite score = max over member logits; training target for the Youden cut-off = OR of member labels; scan_types = FORA scan types whose training studies fit the cut-off (fallback: all training studies when < 50 positives or < 50 negatives).",
+ "CT-RATE": {
+  "scan_types": [
+   "chest"
+  ],
+  "findings": {
+   "Medical material": [
+    "Medical material"
+   ],
+   "Arterial wall calcification": [
+    "Arterial wall calcification"
+   ],
+   "Cardiomegaly": [
+    "Cardiomegaly"
+   ],
+   "Pericardial effusion": [
+    "Pericardial effusion"
+   ],
+   "Coronary artery wall calcification": [
+    "Coronary artery calcification"
+   ],
+   "Hiatal hernia": [
+    "Hiatal hernia"
+   ],
+   "Lymphadenopathy": [
+    "Lymphadenopathy"
+   ],
+   "Emphysema": [
+    "Emphysema"
+   ],
+   "Atelectasis": [
+    "Atelectasis"
+   ],
+   "Lung nodule": [
+    "Pulmonary nodule"
+   ],
+   "Lung opacity": [
+    "Lung opacity"
+   ],
+   "Pulmonary fibrotic sequela": [
+    "Pulmonary fibrotic sequela"
+   ],
+   "Pleural effusion": [
+    "Pleural effusion"
+   ],
+   "Mosaic attenuation pattern": [
+    "Mosaic attenuation pattern"
+   ],
+   "Peribronchial thickening": [
+    "Peribronchial thickening"
+   ],
+   "Consolidation": [
+    "Consolidation"
+   ],
+   "Bronchiectasis": [
+    "Bronchiectasis"
+   ],
+   "Interlobular septal thickening": [
+    "Interlobular septal thickening"
+   ]
+  }
+ },
+ "RAD-ChestCT": {
+  "scan_types": [
+   "chest"
+  ],
+  "findings": {
+   "Medical material": [
+    "Medical material"
+   ],
+   "Calcification": [
+    "Arterial wall calcification",
+    "Coronary artery calcification"
+   ],
+   "Cardiomegaly": [
+    "Cardiomegaly"
+   ],
+   "Pericardial effusion": [
+    "Pericardial effusion"
+   ],
+   "Hiatal hernia": [
+    "Hiatal hernia"
+   ],
+   "Lymphadenopathy": [
+    "Lymphadenopathy"
+   ],
+   "Emphysema": [
+    "Emphysema"
+   ],
+   "Atelectasis": [
+    "Atelectasis"
+   ],
+   "Lung nodule": [
+    "Pulmonary nodule"
+   ],
+   "Lung opacity": [
+    "Lung opacity"
+   ],
+   "Pulmonary fibrotic sequela": [
+    "Pulmonary fibrotic sequela"
+   ],
+   "Pleural effusion": [
+    "Pleural effusion"
+   ],
+   "Peribronchial thickening": [
+    "Peribronchial thickening"
+   ],
+   "Consolidation": [
+    "Consolidation"
+   ],
+   "Bronchiectasis": [
+    "Bronchiectasis"
+   ],
+   "Interlobular septal thickening": [
+    "Interlobular septal thickening"
+   ]
+  }
+ },
+ "Merlin": {
+  "scan_types": [
+   "abdomen",
+   "CAP"
+  ],
+  "findings": {
+   "submucosal_edema": [
+    "Submucosal edema"
+   ],
+   "renal_hypodensities": [
+    "Renal hypodensities"
+   ],
+   "aortic_valve_calcification": [
+    "Aortic valve calcification"
+   ],
+   "coronary_calcification": [
+    "Coronary artery calcification"
+   ],
+   "thrombosis": [
+    "Thrombosis"
+   ],
+   "metastatic_disease": [
+    "Metastatic disease"
+   ],
+   "pancreatic_atrophy": [
+    "Pancreatic atrophy"
+   ],
+   "renal_cyst": [
+    "Renal cyst"
+   ],
+   "osteopenia": [
+    "Osteopenia"
+   ],
+   "surgically_absent_gallbladder": [
+    "Surgically absent gallbladder"
+   ],
+   "atelectasis": [
+    "Atelectasis"
+   ],
+   "abdominal_aortic_aneurysm": [
+    "Abdominal aortic aneurysm"
+   ],
+   "anasarca": [
+    "Soft tissue oedema"
+   ],
+   "hiatal_hernia": [
+    "Hiatal hernia"
+   ],
+   "lymphadenopathy": [
+    "Lymphadenopathy"
+   ],
+   "prostatomegaly": [
+    "Prostatomegaly"
+   ],
+   "biliary_ductal_dilation": [
+    "Biliary ductal dilation"
+   ],
+   "cardiomegaly": [
+    "Cardiomegaly"
+   ],
+   "splenomegaly": [
+    "Splenomegaly"
+   ],
+   "hepatomegaly": [
+    "Hepatomegaly"
+   ],
+   "atherosclerosis": [
+    "Atherosclerosis"
+   ],
+   "ascites": [
+    "Ascites"
+   ],
+   "pleural_effusion": [
+    "Pleural effusion"
+   ],
+   "hepatic_steatosis": [
+    "Hepatic steatosis"
+   ],
+   "appendicitis": [
+    "Appendicitis"
+   ],
+   "gallstones": [
+    "Cholelithiasis"
+   ],
+   "hydronephrosis": [
+    "Hydronephrosis"
+   ],
+   "bowel_obstruction": [
+    "Bowel obstruction"
+   ],
+   "free_air": [
+    "Pneumoperitoneum"
+   ],
+   "fracture": [
+    "Fracture"
+   ]
+  }
+ },
+ "KiTS23": {
+  "scan_types": [
+   "abdomen",
+   "CAP"
+  ],
+  "findings": {
+   "Renal cyst": [
+    "Renal cyst"
+   ]
+  }
+ },
+ "RibFrac": {
+  "scan_types": [
+   "chest",
+   "CAP"
+  ],
+  "findings": {
+   "Rib fracture": [
+    "Rib fracture"
+   ]
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "protocols": "data/ct/protocols.json",
+ "vocabulary": "data/ct/global_vocabulary.json",
+ "gpu_memory_utilization": 0.9,
+ "seed": 0,
+ "dtype": "bfloat16",
+ "_comment": "Recall pass. First run max_tokens 3072; retry run --max-tokens 6144.",
+ "max_model_len": 49152,
+ "max_tokens": 3072,
+ "batch": 1024,
+ "prompts": {
+  "relist_system": "prompts/ct_recall/relist_system.txt",
+  "relist_user": "prompts/ct_recall/relist_user.txt",
+  "missing_system": "prompts/ct_recall/missing_system.txt",
+  "missing_user": "prompts/ct_recall/missing_user.txt",
+  "verify_system": "prompts/ct_recall/verify_system.txt",
+  "verify_user": "prompts/ct_recall/verify_user.txt"
+ }
+}

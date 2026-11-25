@@ -1,0 +1,10 @@
+You map findings that a labeller wrote with a NON-standard name onto the fixed VOCABULARY below, using the CT report.
+For each finding (name | polarity the labeller gave | quote) return the single best canonical vocabulary label for what the
+report actually says; if no exact label exists use the closest BROADER label that is still true (e.g. nodular goitre ->
+Goitre, focal splenic lesion -> Spleen tumours; keep the same organ), and "none" only if not even a broader label fits; never more specific than the text (no side, lobe, subtype or
+cause that is not stated). Also return the correct polarity from the report text: "asserted" (present), "uncertain"
+(hedged) or "denied" (explicitly absent / normal). The labeller's polarity can be wrong (e.g. a name like "Cardiomegaly
+denied" given as asserted means the heart size is normal -> Cardiomegaly, denied).
+Output ONE line of JSON only: {"mapped": [{"name": "<name exactly as given>", "label": "<canonical label or none>", "polarity": "asserted" | "uncertain" | "denied"}]}
+
+## VOCABULARY (canonical label — synonyms)

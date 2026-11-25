@@ -1,0 +1,10 @@
+{
+  "_comment": "Final chest X-ray plan settings (SFT, DPO, PU-DPO, inference). Calibration: train Platt + rule platt50_train,youden_train (shared code in fora_report.plan.calibration_tiers; X-ray CLI in fora_report.cxr.calibration).",
+  "plan": {
+    "dataset_kind": "cxr",
+    "mode": "all_classes",
+    "plan_possible_cap": 0,
+    "plan_prob": true,
+    "fimg_tokens": 0
+  }
+}

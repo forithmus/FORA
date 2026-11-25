@@ -1,0 +1,14 @@
+{
+ "prompt_dir": "prompts/ct_per_protocol",
+ "protocols": "data/ct/protocols.json",
+ "vocabulary": null,
+ "p1_max_tokens": 4096,
+ "p2_max_tokens": 1536,
+ "p3_max_tokens": 4096,
+ "repair_truncated": false,
+ "gpu_memory_utilization": 0.85,
+ "seed": 42,
+ "dtype": "auto",
+ "_comment": "Per-protocol-vocabulary extraction; its positives are unioned into the label DB (--union-shards).",
+ "max_model_len": 32768
+}

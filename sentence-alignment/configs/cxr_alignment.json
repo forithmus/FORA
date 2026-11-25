@@ -1,0 +1,46 @@
+{
+ "h5_folder": "data/cxr/h5",
+ "splits_csv": "data/cxr/cxr_splits.csv",
+ "cases": "data/cxr/prep/cases_train.jsonl",
+ "teacher": "weights/cxr_teacher.pt",
+ "block24_state": "weights/cxr_block24_state.pt",
+ "normalization": "data/cxr/prep/normalization.pt",
+ "training": {
+  "epochs": 10,
+  "epochs_schedule": [
+   [
+    0,
+    100
+   ],
+   [
+    9000,
+    10
+   ]
+  ],
+  "warmup_steps": 300,
+  "seed": 0,
+  "tile": 1024,
+  "tiles_per_chunk": 8,
+  "frozen_batch": 8,
+  "max_films": 8,
+  "position_freqs": 4,
+  "prefetch_depth": 6,
+  "loader_workers": 4,
+  "max_sentences": 34,
+  "max_tokens": 128,
+  "bucket_size": 8,
+  "snapshot_every": 2000,
+  "model": {
+   "name": "cxr_alignment_b24_cabs",
+   "dim": 512,
+   "text_model": "microsoft/BiomedVLP-CXR-BERT-specialized",
+   "lr_block": 2e-05,
+   "lr_proj": 0.0001,
+   "lr_text": 1e-05,
+   "lr_temp": 0.001,
+   "wd": 0.05,
+   "pool_temperature_init": 14.285714285714285,
+   "position_scale": 1.0
+  }
+ }
+}

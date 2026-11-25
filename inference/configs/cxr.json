@@ -1,0 +1,52 @@
+{
+ "model": "FORA chest X-ray",
+ "models": {
+  "encoder_step": 30000,
+  "classifier_epoch": 6,
+  "classifier_step": 12078,
+  "classifier_weights": "raw (no EMA)",
+  "writer_pudpo_step": 200
+ },
+ "artifacts": {
+  "teacher": "cxr/dino_teacher_backbone.pt",
+  "block24_state": "cxr/dino_block24_init_state.pt",
+  "mil": "cxr/mil.pt",
+  "mil_config": "cxr/mil_config.json",
+  "normalization": "cxr/normalization.pt",
+  "calibration": "cxr/calibration.json",
+  "labels": "cxr/labels.json",
+  "class_groups": "cxr/class_groups.json",
+  "device_classes": "cxr/device_classes.json",
+  "high_auroc_classes": "cxr/highauc_classes.json",
+  "localization_reference": "cxr/localization_reference_bc.json",
+  "writer": "cxr/writer.pt",
+  "gemma": "gemma-4-31B-it"
+ },
+ "plan": {
+  "mode": "all_classes",
+  "confident": "train-Platt calibrated p >= 0.5, device classes at train Youden",
+  "possible": "train Youden",
+  "promote_k": 8,
+  "promote": "possible items of high-AUROC or device classes become confident, at most K per study, highest p first"
+ },
+ "films": {
+  "max_films": 64,
+  "view_kinds": {
+   "frontal": 0,
+   "pa": 0,
+   "ap": 0,
+   "lateral": 1,
+   "other": 2
+  }
+ },
+ "localization": {
+  "quantile": 0.995,
+  "focus_fraction_of_q995": 0.3,
+  "rule": "fora.mil.evidence.xray_film_focus: 4 mm Gaussian (token = 16 px x 430 mm / long side of the content box), foci = 8-connected components >= 0.3 x q99.5, HDR80 area share"
+ },
+ "decoding": {
+  "greedy": true,
+  "num_beams": 1,
+  "max_new_tokens": 1024
+ }
+}

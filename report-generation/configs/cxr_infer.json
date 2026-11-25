@@ -1,0 +1,8 @@
+{
+  "_comment": "X-ray report generation for the paper (fora_report.cxr.generate): PU-DPO step_000200.pt, greedy, plan rules on (device classes probable at train Youden; possible items of highauc_classes.json + devices promoted to probable, at most 8 per study by calibrated p).",
+  "max_new_tokens": 1024,
+  "num_beams": 1,
+  "do_sample": false,
+  "plan_rules": true,
+  "promote_k": 8
+}

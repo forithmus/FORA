@@ -1,0 +1,122 @@
+{
+ "parent": {
+  "Single-chamber pacing device": [
+   "Cardiac pacemaker"
+  ],
+  "Dual-chamber pacing device": [
+   "Cardiac pacemaker"
+  ],
+  "Pigtail catheter (small-bore pleural drain)": [
+   "Chest tube (thoracostomy tube)",
+   "Support Devices (generic umbrella)"
+  ],
+  "Enteric feeding tube (post-pyloric)": [
+   "Nasogastric / orogastric (NG/OG) tube, normal position"
+  ],
+  "Hemodialysis catheter (tunneled/non-tunneled)": [
+   "Central venous catheter (CVC), normal position"
+  ],
+  "Implantable port / Port-a-Cath": [
+   "Central venous catheter (CVC), normal position",
+   "Support Devices (generic umbrella)"
+  ],
+  "Large / massive pleural effusion": [
+   "Blunting of the costophrenic angle",
+   "Pleural effusion (simple/free-flowing)"
+  ],
+  "Apical (small) pneumothorax": [
+   "Pneumothorax (simple/spontaneous)"
+  ],
+  "Central venous catheter via jugular vein": [
+   "Central venous catheter (CVC), normal position",
+   "Support Devices (generic umbrella)"
+  ],
+  "PICC line (peripherally inserted central catheter)": [
+   "Central venous catheter (CVC), normal position"
+  ],
+  "Central venous catheter via subclavian vein": [
+   "Central venous catheter (CVC), normal position"
+  ],
+  "Calcified granuloma": [
+   "Pulmonary nodule, solitary (SPN)"
+  ],
+  "Interstitial pulmonary edema": [
+   "Edema (pulmonary edema, general/composite label)"
+  ],
+  "Small pleural effusion": [
+   "Blunting of the costophrenic angle",
+   "Pleural effusion (simple/free-flowing)"
+  ],
+  "Lobar atelectasis (lobar collapse)": [
+   "Atelectasis (general)"
+  ],
+  "Pulmonary emphysema": [
+   "COPD (chronic obstructive pulmonary disease)"
+  ],
+  "Loculated pleural effusion": [
+   "Blunting of the costophrenic angle",
+   "Pleural effusion (simple/free-flowing)"
+  ],
+  "CVC tip malposition": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Nasogastric / orogastric (NG/OG) tube, normal position": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Chest tube (thoracostomy tube)": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Diaphragmatic eventration": [
+   "Elevated hemidiaphragm"
+  ],
+  "Endotracheal tube (ETT), normal position": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Central venous catheter (CVC), normal position": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Cardiomegaly": [
+   "Enlarged cardiomediastinum"
+  ],
+  "Tracheostomy tube": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Cardiac pacemaker": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Pleural effusion (simple/free-flowing)": [
+   "Blunting of the costophrenic angle"
+  ],
+  "Linear (discoid/plate) atelectasis": [
+   "Atelectasis (general)"
+  ],
+  "ECG leads / electrode artifacts": [
+   "Support Devices (generic umbrella)"
+  ],
+  "Reticular pattern (interstitial)": [
+   "Interstitial lung disease pattern (general)"
+  ],
+  "Viral pneumonia pattern (general, non-COVID)": [
+   "Pneumonia"
+  ],
+  "Cannonball metastases / pulmonary metastases": [
+   "Lung Opacity (airspace opacity, NOS)"
+  ],
+  "Consolidation": [
+   "Lung Opacity (airspace opacity, NOS)"
+  ],
+  "Reticulonodular pattern": [
+   "Reticular pattern (interstitial)"
+  ],
+  "Implantable cardioverter-defibrillator (ICD)": [
+   "Cardiac pacemaker"
+  ]
+ },
+ "same_groups": [
+  [
+   "Linear (discoid/plate) atelectasis",
+   "Segmental/subsegmental atelectasis"
+  ]
+ ],
+ "sternal_rule": "cerclage-wire or suture-material quote mentioning the sternum also counts as Median sternotomy wires"
+}

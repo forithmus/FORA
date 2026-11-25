@@ -1,0 +1,17 @@
+{
+  "_comment": "X-ray writer PU-DPO. Data: fora_report.cxr.pudpo_subset (24,000 rare-stratified TRAIN studies) -> fora_report.cxr.generate --no-plan_rules with the DPO step_000200.pt (greedy base reports) -> labels-stage X-ray extractor -> fora_report.cxr.pudpo_pairs requests -> fora_report.cxr.pudpo_edit (google/gemma-4-31B-it, vLLM, greedy, max_model_len 6144, 1,024 new tokens) -> extractor on the edits -> pudpo_pairs finalize (91,107 pairs, 23,972 studies, 29,648 visits with repeats). Training (fora_report.cxr.train_pudpo): start = reference = DPO step_000200.pt; world 40 (10 nodes x 4 GPUs); 600 steps; the paper model is step_000200.pt (best macro balanced accuracy on a 2,048-study validation subset among steps 200/400/600).",
+  "subset": {"n": 24000, "per_class": 200, "seed": 20261102},
+  "pairs": {"seed": 20261102, "tau": 0.5},
+  "world_size": 40,
+  "max_steps": 600,
+  "dpo_beta": 0.1,
+  "dpo_weight": 1.0,
+  "dpo_chosen_ce_weight": 1.0,
+  "dpo_unpaired_ce_weight": 1.0,
+  "dpo_pairs_per_visit": 2,
+  "connector_lr": 2e-5,
+  "llm_lr": 5e-6,
+  "warmup_fraction": 0.02,
+  "save_every_steps": 100,
+  "checkpoint_used": "step_000200.pt"
+}

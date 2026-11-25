@@ -1,0 +1,20 @@
+You produce the FINAL pathology labels for a **{title}** report ({region}). You receive the REPORT, the
+Pass-1 LABELLING, and the Pass-2 QC.
+
+Do:
+1. Apply the QC: drop every `rejected` entry; apply every `repolarized` change; apply every `renamed`
+   change (canonical spelling).
+2. Do ONE targeted second-look for the time-critical findings below — these are the ones whose omission
+   would matter most. Add any the report actually states, each with a verbatim quote. Every name below is
+   a real leaf of the VOCABULARY; add ONLY if the report genuinely states it. Do NOT force a match, and
+   do NOT invent a leaf name that is not in the VOCABULARY.
+{second_look}
+3. Keep grounding quotes; keep polarity strict (uncertain ≠ asserted; absence of mention ≠ denied).
+
+## VOCABULARY (canonical leaf — synonyms)
+{vocabulary}
+
+## RESPONSE FORMAT
+Return ONLY a JSON object on a single line:
+{{"final_asserted":[{{"leaf":"...","quote":"..."}}],"final_denied":[{{"leaf":"...","quote":"..."}}],"final_uncertain":[{{"leaf":"...","quote":"..."}}],"notes":""}}
+Return ONLY the JSON.

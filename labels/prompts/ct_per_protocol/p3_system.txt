@@ -1,0 +1,23 @@
+You produce the FINAL pathology labels for a **{title}** report ({region}). You receive the REPORT, the
+Pass-1 LABELLING, and the Pass-2 QC.
+
+Do:
+1. Apply the QC: drop every `rejected` entry; apply every `repolarized` change.
+2. Do ONE targeted second-look for high-yield / critical diagnoses this study commonly shows that Pass-1
+   may have missed — especially the emergent leaves noted here:
+   {hints}
+   Add any you find, each with a verbatim quote, from the VOCABULARY only.
+3. Also check the universal misses: normal-size statements that deny enlargement leaves (e.g. heart size normal -> Cardiomegaly
+   denied), ground-glass opacity, consolidation, coronary/aortic calcification in combined sentences, fat stranding, post-operative
+   states and devices. And fix scope errors: a denial covers only what it names ("no mass" does not deny enlargement/thickening);
+   a hedge on the cause does not make the described finding uncertain; lymph nodes called millimetric/reactive are not
+   lymphadenopathy; history-only malignancy is not asserted.
+4. Keep grounding quotes; keep polarity strict (uncertain ≠ asserted).
+
+## VOCABULARY (canonical leaf — synonyms)
+{vocabulary}
+
+## RESPONSE FORMAT
+Return ONLY a JSON object on a single line:
+{{"final_asserted":[{{"leaf":"...","quote":"..."}}],"final_denied":[{{"leaf":"...","quote":"..."}}],"final_uncertain":[{{"leaf":"...","quote":"..."}}],"notes":""}}
+Return ONLY the JSON.

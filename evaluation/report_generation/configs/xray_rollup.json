@@ -1,0 +1,594 @@
+{
+ "map": [
+  {
+   "child": "COPD",
+   "parent": "COPD (chronic obstructive pulmonary disease)",
+   "rationale": "Same concept (extractor synonym)."
+  },
+  {
+   "child": "Pleural effusion",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "Same concept; the general pleural effusion is the scored class's default reading (small/large/loculated are separate siblings)."
+  },
+  {
+   "child": "Pulmonary metastases",
+   "parent": "Cannonball metastases / pulmonary metastases",
+   "rationale": "Same concept (extractor synonym)."
+  },
+  {
+   "child": "Clavicle fracture, healed (with callus)",
+   "parent": "Clavicle fracture",
+   "rationale": "A healed clavicle fracture is a clavicle fracture; scored class has no acuity qualifier."
+  },
+  {
+   "child": "Alveolar pulmonary edema",
+   "parent": "Edema (pulmonary edema, general/composite label)",
+   "rationale": "Alveolar edema is a form of pulmonary edema."
+  },
+  {
+   "child": "Interstitial pulmonary edema",
+   "parent": "Edema (pulmonary edema, general/composite label)",
+   "rationale": "Interstitial edema is a form of pulmonary edema."
+  },
+  {
+   "child": "Lobar pneumonia",
+   "parent": "Pneumonia",
+   "rationale": "Lobar pneumonia is a pneumonia."
+  },
+  {
+   "child": "Round pneumonia",
+   "parent": "Pneumonia",
+   "rationale": "Round pneumonia is a pneumonia."
+  },
+  {
+   "child": "Necrotizing pneumonia",
+   "parent": "Pneumonia",
+   "rationale": "Necrotizing pneumonia is a pneumonia."
+  },
+  {
+   "child": "Pneumocystis pneumonia (PCP/PJP)",
+   "parent": "Pneumonia",
+   "rationale": "PCP is an infectious pneumonia."
+  },
+  {
+   "child": "Idiopathic pulmonary fibrosis (IPF)",
+   "parent": "Pulmonary fibrosis",
+   "rationale": "IPF is a fibrosing lung disease by definition."
+  },
+  {
+   "child": "Fibrotic pulmonary sarcoidosis (Scadding stage IV)",
+   "parent": "Pulmonary fibrosis",
+   "rationale": "Scadding stage IV is defined as pulmonary fibrosis."
+  },
+  {
+   "child": "Progressive massive fibrosis (PMF)",
+   "parent": "Pulmonary fibrosis",
+   "rationale": "PMF is conglomerate pulmonary fibrosis."
+  },
+  {
+   "child": "Pleuroparenchymal fibroelastosis (PPFE)",
+   "parent": "Pulmonary fibrosis",
+   "rationale": "PPFE is a fibrosing lung disease (upper-lobe pleural and subpleural fibrosis)."
+  },
+  {
+   "child": "Hydrothorax (transudative, e.g. hepatic hydrothorax)",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "Hydrothorax is a transudative pleural effusion, matching the simple/free-flowing qualifier."
+  },
+  {
+   "child": "Chylothorax",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "Chylothorax is a pleural effusion and is radiographically a free-flowing effusion; scored class read as general effusion."
+  },
+  {
+   "child": "Hemothorax",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "Hemothorax is a pleural fluid collection; scored class read as general effusion (loculated is a separate sibling)."
+  },
+  {
+   "child": "Malignant pleural effusion",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "A malignant effusion is a pleural effusion; scored class read as general effusion."
+  },
+  {
+   "child": "Parapneumonic effusion",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "A parapneumonic effusion is a pleural effusion; scored class read as general effusion."
+  },
+  {
+   "child": "Subpulmonic (infrapulmonary) pleural effusion",
+   "parent": "Pleural effusion (simple/free-flowing)",
+   "rationale": "A subpulmonic effusion is a free-flowing effusion layering beneath the lung."
+  },
+  {
+   "child": "Tension pneumothorax",
+   "parent": "Pneumothorax (simple/spontaneous)",
+   "rationale": "A tension pneumothorax is a pneumothorax; scored class is the general pneumothorax label (apical/hydropneumothorax are siblings), so 'simple' is read as the default."
+  },
+  {
+   "child": "Loculated pneumothorax",
+   "parent": "Pneumothorax (simple/spontaneous)",
+   "rationale": "A loculated pneumothorax is a pneumothorax; scored class read as general pneumothorax."
+  },
+  {
+   "child": "Pneumothorax ex vacuo",
+   "parent": "Pneumothorax (simple/spontaneous)",
+   "rationale": "Pneumothorax ex vacuo is gas in the pleural space, i.e. a pneumothorax; scored class read as general pneumothorax."
+  },
+  {
+   "child": "Middle lobe syndrome",
+   "parent": "Lobar atelectasis (lobar collapse)",
+   "rationale": "Middle lobe syndrome is chronic/recurrent right middle lobe collapse."
+  },
+  {
+   "child": "Rounded atelectasis (Blesovsky syndrome)",
+   "parent": "Atelectasis (general)",
+   "rationale": "Rounded atelectasis is a form of atelectasis."
+  },
+  {
+   "child": "Cavitary tuberculosis",
+   "parent": "Cavitation / cavitary lung lesion",
+   "rationale": "Cavitary TB necessarily contains a cavitary lung lesion."
+  },
+  {
+   "child": "Upper-lobe fibrocavitary tuberculosis",
+   "parent": "Cavitation / cavitary lung lesion",
+   "rationale": "Fibrocavitary TB necessarily contains cavities (fibrosis is also implied; cavitation chosen as the single direct parent)."
+  },
+  {
+   "child": "Ranke complex",
+   "parent": "TB sequelae / healed (inactive) tuberculosis",
+   "rationale": "Ranke complex is the healed, calcified primary TB complex (calcified granuloma also implied)."
+  },
+  {
+   "child": "Pulmonary histoplasmosis (calcified granuloma pattern)",
+   "parent": "Calcified granuloma",
+   "rationale": "Label is explicitly the calcified-granuloma form."
+  },
+  {
+   "child": "Pneumatocele",
+   "parent": "Pulmonary cyst",
+   "rationale": "A pneumatocele is a thin-walled gas-filled lung cyst."
+  },
+  {
+   "child": "Fibrothorax",
+   "parent": "Pleural thickening",
+   "rationale": "Fibrothorax is extensive diffuse pleural thickening/fibrosis."
+  },
+  {
+   "child": "Pleural plaques (non-calcified)",
+   "parent": "Pleural thickening",
+   "rationale": "Pleural plaques are circumscribed pleural thickening (calcified plaques are a separate scored sibling)."
+  },
+  {
+   "child": "Solitary fibrous tumor of the pleura (SFTP)",
+   "parent": "Pleural-based mass/opacity (extrapleural sign)",
+   "rationale": "SFTP is a pleural-origin mass."
+  },
+  {
+   "child": "Flail chest (segmental rib fractures)",
+   "parent": "Rib fracture, acute",
+   "rationale": "Flail chest is acute segmental fracture of adjacent ribs."
+  },
+  {
+   "child": "Pectus excavatum",
+   "parent": "Thoracic cage deformation (generic/other)",
+   "rationale": "Pectus excavatum is a thoracic cage deformity."
+  },
+  {
+   "child": "Pectus carinatum",
+   "parent": "Thoracic cage deformation (generic/other)",
+   "rationale": "Pectus carinatum is a thoracic cage deformity."
+  },
+  {
+   "child": "Goiter (intrathoracic / substernal)",
+   "parent": "Superior mediastinal mass / enlargement",
+   "rationale": "A substernal goiter is a thoracic-inlet/superior mediastinal mass."
+  },
+  {
+   "child": "Pulmonary arterial hypertension signs (central PA enlargement with pruning)",
+   "parent": "Enlarged pulmonary artery (main PA prominence)",
+   "rationale": "The label is defined as central PA enlargement, which includes main PA prominence."
+  },
+  {
+   "child": "Single-chamber pacing device",
+   "parent": "Cardiac pacemaker",
+   "rationale": "A single-chamber pacing device is a pacemaker."
+  },
+  {
+   "child": "Dual-chamber pacing device",
+   "parent": "Cardiac pacemaker",
+   "rationale": "A dual-chamber pacing device is a pacemaker."
+  },
+  {
+   "child": "Pigtail catheter (small-bore pleural drain)",
+   "parent": "Chest tube (thoracostomy tube)",
+   "rationale": "A small-bore pleural pigtail drain is a thoracostomy tube."
+  },
+  {
+   "child": "Implantable cardioverter-defibrillator (ICD)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An ICD is a support device; not mapped to pacemaker because ICD is not strictly a pacemaker."
+  },
+  {
+   "child": "Cardiac resynchronization therapy (CRT) device",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "CRT (CRT-P or CRT-D) is a cardiac support device."
+  },
+  {
+   "child": "Cardiac lead fracture / displacement (Twiddler syndrome)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "Implies presence of a cardiac rhythm device, a support device."
+  },
+  {
+   "child": "Central venous catheter via subclavian vein",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "A CVC is a support device; 'CVC, normal position' qualifier is not implied."
+  },
+  {
+   "child": "PICC line (peripherally inserted central catheter)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "A PICC is a support device; 'CVC, normal position' qualifier is not implied."
+  },
+  {
+   "child": "Hemodialysis catheter (tunneled/non-tunneled)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "A dialysis catheter is a support device; normal-position qualifier not implied."
+  },
+  {
+   "child": "Pulmonary artery (Swan-Ganz) catheter",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "A Swan-Ganz catheter is a support device."
+  },
+  {
+   "child": "Pinch-off syndrome / port-catheter fracture",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "Implies a central venous port/catheter, a support device (port vs tunneled line not certain)."
+  },
+  {
+   "child": "Endotracheal tube (ETT) malposition",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "Implies an ETT, a support device; 'ETT, normal position' is contradicted."
+  },
+  {
+   "child": "NG/OG tube malposition",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "Implies an NG/OG tube, a support device; normal-position classes are contradicted."
+  },
+  {
+   "child": "Enteric feeding tube (post-pyloric)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "A feeding tube is a support device; NG normal-position class is not implied."
+  },
+  {
+   "child": "ECMO cannula (VA/VV)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An ECMO cannula is a support device."
+  },
+  {
+   "child": "Intra-aortic balloon pump (IABP)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An IABP is a support device."
+  },
+  {
+   "child": "Left ventricular assist device (LVAD)",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An LVAD is a support device."
+  },
+  {
+   "child": "Inferior vena cava (IVC) filter",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An IVC filter is an indwelling device of type support_device."
+  },
+  {
+   "child": "Esophageal stent",
+   "parent": "Support Devices (generic umbrella)",
+   "rationale": "An esophageal stent is an indwelling device of type support_device."
+  }
+ ],
+ "borderline_not_mapped": [
+  {
+   "child": "Acute respiratory distress syndrome (ARDS)",
+   "candidate": "Edema (pulmonary edema, general/composite label)",
+   "reason": "clinical syndrome (non-cardiogenic edema/DAD); a report of ARDS need not state edema"
+  },
+  {
+   "child": "Respiratory distress syndrome",
+   "candidate": "Edema (pulmonary edema, general/composite label)",
+   "reason": "clinical syndrome, not a radiographic subtype"
+  },
+  {
+   "child": "Aspiration pneumonia / pneumonitis",
+   "candidate": "Pneumonia",
+   "reason": "label merges chemical pneumonitis, which is not pneumonia"
+  },
+  {
+   "child": "Chronic eosinophilic pneumonia (CEP)",
+   "candidate": "Pneumonia",
+   "reason": "non-infectious; scored Pneumonia is read as infectious"
+  },
+  {
+   "child": "Cryptogenic organizing pneumonia (COP/BOOP)",
+   "candidate": "Pneumonia",
+   "reason": "non-infectious; scored Pneumonia is read as infectious"
+  },
+  {
+   "child": "Exogenous lipoid pneumonia",
+   "candidate": "Pneumonia",
+   "reason": "non-infectious chemical pneumonitis"
+  },
+  {
+   "child": "Septic pulmonary emboli",
+   "candidate": "Pneumonia",
+   "reason": "related infection, not a pneumonia subtype"
+  },
+  {
+   "child": "Lung abscess",
+   "candidate": "Cavitation / cavitary lung lesion",
+   "reason": "usually cavitates but early abscess may not"
+  },
+  {
+   "child": "Aspergilloma (mycetoma / fungus ball)",
+   "candidate": "Cavitation / cavitary lung lesion",
+   "reason": "grows in a pre-existing cavity; correlate, not is-a"
+  },
+  {
+   "child": "Empyema (pleural)",
+   "candidate": "Pleural effusion (simple/free-flowing)",
+   "reason": "complicated and often loculated, contradicting the simple/free-flowing qualifier (loculated effusion is a separate class)"
+  },
+  {
+   "child": "Meniscus sign (Damoiseau-Ellis line)",
+   "candidate": "Pleural effusion (simple/free-flowing)",
+   "reason": "sign of effusion, not a subtype"
+  },
+  {
+   "child": "Deep sulcus sign (supine pneumothorax)",
+   "candidate": "Pneumothorax (simple/spontaneous)",
+   "reason": "sign of pneumothorax, not a subtype"
+  },
+  {
+   "child": "Honeycombing (honeycomb lung)",
+   "candidate": "Pulmonary fibrosis",
+   "reason": "pattern/sign of end-stage fibrosis; excluded as a sign"
+  },
+  {
+   "child": "Golden S sign",
+   "candidate": "Lobar atelectasis (lobar collapse)",
+   "reason": "sign (RUL collapse plus central mass); excluded as a sign"
+  },
+  {
+   "child": "Luftsichel sign",
+   "candidate": "Lobar atelectasis (lobar collapse)",
+   "reason": "sign of LUL collapse"
+  },
+  {
+   "child": "Juxtaphrenic peak sign",
+   "candidate": "Lobar atelectasis (lobar collapse)",
+   "reason": "sign of upper lobe volume loss"
+  },
+  {
+   "child": "Miliary pattern",
+   "candidate": "Multiple pulmonary nodules",
+   "reason": "micronodular pattern; not usually reported as discrete multiple nodules"
+  },
+  {
+   "child": "Miliary tuberculosis",
+   "candidate": "Multiple pulmonary nodules",
+   "reason": "micronodular pattern; active TB, not TB sequelae"
+  },
+  {
+   "child": "Silicosis / pneumoconiosis nodular pattern",
+   "candidate": "Multiple pulmonary nodules",
+   "reason": "diffuse small-nodular pattern, closer to reticulonodular"
+  },
+  {
+   "child": "Kerley A lines",
+   "candidate": "Kerley B lines",
+   "reason": "sibling, not subtype"
+  },
+  {
+   "child": "Kerley C lines",
+   "candidate": "Kerley B lines",
+   "reason": "sibling, not subtype"
+  },
+  {
+   "child": "Batwing / butterfly opacity distribution",
+   "candidate": "Edema (pulmonary edema, general/composite label)",
+   "reason": "distribution pattern with several causes"
+  },
+  {
+   "child": "Pulmonary venous congestion (cephalization)",
+   "candidate": "Edema (pulmonary edema, general/composite label)",
+   "reason": "precedes/correlates with edema, not edema itself"
+  },
+  {
+   "child": "Non-calcified granuloma",
+   "candidate": "Pulmonary nodule, solitary (SPN)",
+   "reason": "not necessarily solitary"
+  },
+  {
+   "child": "Pulmonary hamartoma",
+   "candidate": "Pulmonary nodule, solitary (SPN)",
+   "reason": "usually SPN but can be a mass"
+  },
+  {
+   "child": "Pancoast tumor (superior sulcus tumor)",
+   "candidate": "Pulmonary mass",
+   "reason": "usually a mass but size not implied"
+  },
+  {
+   "child": "Primary lung cancer (bronchogenic carcinoma)",
+   "candidate": "Pulmonary mass",
+   "reason": "may be a nodule; diagnosis not a radiographic subtype"
+  },
+  {
+   "child": "Pulmonary hydatid cyst (echinococcosis)",
+   "candidate": "Pulmonary cyst",
+   "reason": "fluid-filled cyst usually appears as a mass on CXR"
+  },
+  {
+   "child": "Ghon complex / Ghon focus",
+   "candidate": "Calcified granuloma",
+   "reason": "may be active/non-calcified"
+  },
+  {
+   "child": "Splenic calcification (calcified granuloma)",
+   "candidate": "Calcified granuloma",
+   "reason": "scored class is pulmonary"
+  },
+  {
+   "child": "Malignant pleural mesothelioma",
+   "candidate": "Pleural thickening",
+   "reason": "usually pleural thickening/mass but a disease, not a radiographic subtype"
+  },
+  {
+   "child": "Pleural metastases",
+   "candidate": "Pleural-based mass/opacity (extrapleural sign)",
+   "reason": "may present as effusion or thickening only"
+  },
+  {
+   "child": "Anterior mediastinal mass",
+   "candidate": "Superior mediastinal mass / enlargement",
+   "reason": "sibling compartment"
+  },
+  {
+   "child": "Middle mediastinal mass",
+   "candidate": "Superior mediastinal mass / enlargement",
+   "reason": "sibling compartment"
+  },
+  {
+   "child": "Posterior mediastinal mass",
+   "candidate": "Superior mediastinal mass / enlargement",
+   "reason": "sibling compartment"
+  },
+  {
+   "child": "Mediastinal lipomatosis",
+   "candidate": "Mediastinal widening",
+   "reason": "may not widen mediastinum"
+  },
+  {
+   "child": "Vascular pedicle widening",
+   "candidate": "Mediastinal widening",
+   "reason": "distinct measurement"
+  },
+  {
+   "child": "Congenital diaphragmatic hernia, Morgagni type",
+   "candidate": "Cardiophrenic angle mass",
+   "reason": "typically presents so but not is-a"
+  },
+  {
+   "child": "Gastric volvulus / intrathoracic stomach",
+   "candidate": "Hiatal hernia (sliding, Type I)",
+   "reason": "paraesophageal (type III/IV), contradicts sliding type I"
+  },
+  {
+   "child": "Diaphragmatic paralysis",
+   "candidate": "Elevated hemidiaphragm",
+   "reason": "cause, not subtype"
+  },
+  {
+   "child": "Congenital lobar emphysema (congenital lobar overinflation)",
+   "candidate": "Pulmonary hyperinflation (hyperexpansion)",
+   "reason": "lobar overinflation, not true emphysema; generalized hyperinflation not implied"
+  },
+  {
+   "child": "Barrel chest / increased AP chest diameter",
+   "candidate": "Pulmonary hyperinflation (hyperexpansion)",
+   "reason": "sign of hyperinflation"
+  },
+  {
+   "child": "Increased retrosternal airspace",
+   "candidate": "Pulmonary hyperinflation (hyperexpansion)",
+   "reason": "sign of hyperinflation"
+  },
+  {
+   "child": "Right ventricular (RV) enlargement",
+   "candidate": "Cardiomegaly",
+   "reason": "chamber enlargement need not enlarge cardiac silhouette"
+  },
+  {
+   "child": "Left atrial (LA) enlargement",
+   "candidate": "Cardiomegaly",
+   "reason": "chamber enlargement need not enlarge cardiac silhouette"
+  },
+  {
+   "child": "Coronary artery calcification (CXR-detectable)",
+   "candidate": "Aortic calcification",
+   "reason": "sibling vascular calcification"
+  },
+  {
+   "child": "DISH (diffuse idiopathic skeletal hyperostosis)",
+   "candidate": "Vertebral degenerative changes / spondylosis",
+   "reason": "distinct enthesopathy"
+  },
+  {
+   "child": "Rotator cuff arthropathy / subacromial space narrowing",
+   "candidate": "Glenohumeral (shoulder) osteoarthritis",
+   "reason": "subacromial narrowing alone is not glenohumeral OA"
+  },
+  {
+   "child": "Bone island (enostosis)",
+   "candidate": "Sclerotic (blastic) bone lesion",
+   "reason": "benign variant; scored class is aimed at blastic lesions"
+  },
+  {
+   "child": "Thoracoplasty / rib resection (post-surgical)",
+   "candidate": "Thoracic cage deformation (generic/other)",
+   "reason": "post-surgical change; deformity is a consequence"
+  },
+  {
+   "child": "Sternal dehiscence / sternal wire fracture",
+   "candidate": "Median sternotomy / sternal wires (normal)",
+   "reason": "'normal' qualifier contradicted"
+  },
+  {
+   "child": "Coronary artery stent",
+   "candidate": "Support Devices (generic umbrella)",
+   "reason": "post-surgical implant, not typed as support device"
+  },
+  {
+   "child": "Embolization coils",
+   "candidate": "Support Devices (generic umbrella)",
+   "reason": "post-procedural implant"
+  },
+  {
+   "child": "Annuloplasty ring",
+   "candidate": "Prosthetic heart valve",
+   "reason": "ring repair is not a valve prosthesis"
+  },
+  {
+   "child": "Shoulder prosthesis / arthroplasty",
+   "candidate": "Osteosynthesis material (fracture fixation hardware)",
+   "reason": "arthroplasty is not fracture fixation"
+  },
+  {
+   "child": "Lobectomy, postoperative changes",
+   "candidate": "Pneumonectomy, postoperative changes",
+   "reason": "sibling procedure"
+  },
+  {
+   "child": "Breast conserving surgery / lumpectomy changes",
+   "candidate": "Mastectomy (absent breast shadow)",
+   "reason": "sibling procedure"
+  },
+  {
+   "child": "Accessory fissure (superior accessory / inferior accessory / azygos variant)",
+   "candidate": "Azygos lobe / azygos fissure",
+   "reason": "parent concept, not subtype"
+  },
+  {
+   "child": "Heterotaxy syndrome (situs ambiguus)",
+   "candidate": "Situs inversus totalis",
+   "reason": "distinct situs anomaly"
+  },
+  {
+   "child": "Soft tissue gas (deep, non-emphysematous)",
+   "candidate": "Subcutaneous emphysema",
+   "reason": "explicitly non-emphysematous"
+  }
+ ],
+ "dropped_by_policy": [
+  "Rotation (technical label)"
+ ]
+}

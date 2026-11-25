@@ -1,0 +1,8668 @@
+{
+ "own": [
+  {
+   "name": "Abdominal adhesions",
+   "train_pos": 506,
+   "train_neg": 304456,
+   "val_pos": 56,
+   "val_neg": 36563,
+   "kind": "leaf"
+  },
+  {
+   "name": "Abdominal aortic aneurysm",
+   "train_pos": 855,
+   "train_neg": 304107,
+   "val_pos": 80,
+   "val_neg": 36539,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Abdominal wall hernia",
+   "train_pos": 6663,
+   "train_neg": 298299,
+   "val_pos": 849,
+   "val_neg": 35770,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Aberrant right subclavian artery",
+   "train_pos": 496,
+   "train_neg": 304466,
+   "val_pos": 46,
+   "val_neg": 36573,
+   "kind": "leaf"
+  },
+  {
+   "name": "Abnormal renal rotation",
+   "train_pos": 657,
+   "train_neg": 304305,
+   "val_pos": 82,
+   "val_neg": 36537,
+   "kind": "leaf"
+  },
+  {
+   "name": "Abscess",
+   "train_pos": 1456,
+   "train_neg": 303506,
+   "val_pos": 164,
+   "val_neg": 36455,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Accessory hepatic vein",
+   "train_pos": 422,
+   "train_neg": 304540,
+   "val_pos": 50,
+   "val_neg": 36569,
+   "kind": "leaf"
+  },
+  {
+   "name": "Accessory maxillary ostium",
+   "train_pos": 649,
+   "train_neg": 304313,
+   "val_pos": 88,
+   "val_neg": 36531,
+   "kind": "leaf"
+  },
+  {
+   "name": "Accessory navicular bone",
+   "train_pos": 273,
+   "train_neg": 304689,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Accessory ossicle",
+   "train_pos": 801,
+   "train_neg": 304161,
+   "val_pos": 96,
+   "val_neg": 36523,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Accessory renal artery",
+   "train_pos": 765,
+   "train_neg": 304197,
+   "val_pos": 100,
+   "val_neg": 36519,
+   "kind": "leaf"
+  },
+  {
+   "name": "Acquired cholesteatoma",
+   "train_pos": 265,
+   "train_neg": 304697,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Acromioclavicular joint osteoarthritis",
+   "train_pos": 274,
+   "train_neg": 304688,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Acute pancreatitis",
+   "train_pos": 601,
+   "train_neg": 304361,
+   "val_pos": 68,
+   "val_neg": 36551,
+   "kind": "leaf"
+  },
+  {
+   "name": "Acute pyelonephritis",
+   "train_pos": 478,
+   "train_neg": 304484,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Acute rhinosinusitis",
+   "train_pos": 2108,
+   "train_neg": 302854,
+   "val_pos": 273,
+   "val_neg": 36346,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adenoid hypertrophy",
+   "train_pos": 1792,
+   "train_neg": 303170,
+   "val_pos": 190,
+   "val_neg": 36429,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adnexal lesion",
+   "train_pos": 5143,
+   "train_neg": 299819,
+   "val_pos": 562,
+   "val_neg": 36057,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Adrenal abnormality",
+   "train_pos": 15163,
+   "train_neg": 289799,
+   "val_pos": 1762,
+   "val_neg": 34857,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Adrenal adenoma",
+   "train_pos": 5515,
+   "train_neg": 299447,
+   "val_pos": 707,
+   "val_neg": 35912,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal calcification",
+   "train_pos": 587,
+   "train_neg": 304375,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal hyperplasia",
+   "train_pos": 1970,
+   "train_neg": 302992,
+   "val_pos": 213,
+   "val_neg": 36406,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal metastasis",
+   "train_pos": 1088,
+   "train_neg": 303874,
+   "val_pos": 117,
+   "val_neg": 36502,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal myelolipoma",
+   "train_pos": 244,
+   "train_neg": 304718,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal neoplasm",
+   "train_pos": 582,
+   "train_neg": 304380,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Adrenal nodule",
+   "train_pos": 11572,
+   "train_neg": 293390,
+   "val_pos": 1371,
+   "val_neg": 35248,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Agger nasi cell",
+   "train_pos": 660,
+   "train_neg": 304302,
+   "val_pos": 74,
+   "val_neg": 36545,
+   "kind": "leaf"
+  },
+  {
+   "name": "Air space nodules",
+   "train_pos": 648,
+   "train_neg": 304314,
+   "val_pos": 68,
+   "val_neg": 36551,
+   "kind": "leaf"
+  },
+  {
+   "name": "Air trapping",
+   "train_pos": 1051,
+   "train_neg": 303911,
+   "val_pos": 120,
+   "val_neg": 36499,
+   "kind": "leaf"
+  },
+  {
+   "name": "Airway dilatation",
+   "train_pos": 14767,
+   "train_neg": 290195,
+   "val_pos": 1716,
+   "val_neg": 34903,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Altered spinal lordosis",
+   "train_pos": 4344,
+   "train_neg": 300618,
+   "val_pos": 522,
+   "val_neg": 36097,
+   "kind": "leaf"
+  },
+  {
+   "name": "Anatomical variant",
+   "train_pos": 55696,
+   "train_neg": 249266,
+   "val_pos": 6836,
+   "val_neg": 29783,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Aneurysm",
+   "train_pos": 5372,
+   "train_neg": 299590,
+   "val_pos": 662,
+   "val_neg": 35957,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Angiomyolipoma",
+   "train_pos": 1036,
+   "train_neg": 303926,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Anterior cerebral artery hypoplasia or absence",
+   "train_pos": 252,
+   "train_neg": 304710,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Anterior circulation infarction",
+   "train_pos": 728,
+   "train_neg": 304234,
+   "val_pos": 91,
+   "val_neg": 36528,
+   "kind": "leaf"
+  },
+  {
+   "name": "Anterior mediastinal mass",
+   "train_pos": 874,
+   "train_neg": 304088,
+   "val_pos": 114,
+   "val_neg": 36505,
+   "kind": "leaf"
+  },
+  {
+   "name": "Anterolisthesis",
+   "train_pos": 1884,
+   "train_neg": 303078,
+   "val_pos": 215,
+   "val_neg": 36404,
+   "kind": "leaf"
+  },
+  {
+   "name": "Antrochoanal polyp",
+   "train_pos": 326,
+   "train_neg": 304636,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aortic aneurysm",
+   "train_pos": 4214,
+   "train_neg": 300748,
+   "val_pos": 515,
+   "val_neg": 36104,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aortic dilatation",
+   "train_pos": 13067,
+   "train_neg": 291895,
+   "val_pos": 1576,
+   "val_neg": 35043,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Aortic dissection",
+   "train_pos": 305,
+   "train_neg": 304657,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aortic mural thrombus",
+   "train_pos": 762,
+   "train_neg": 304200,
+   "val_pos": 100,
+   "val_neg": 36519,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aortic root dilatation",
+   "train_pos": 280,
+   "train_neg": 304682,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aortic valve calcification",
+   "train_pos": 2432,
+   "train_neg": 302530,
+   "val_pos": 315,
+   "val_neg": 36304,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Aortic valve replacement",
+   "train_pos": 418,
+   "train_neg": 304544,
+   "val_pos": 49,
+   "val_neg": 36570,
+   "kind": "leaf"
+  },
+  {
+   "name": "Aphakia",
+   "train_pos": 218,
+   "train_neg": 304744,
+   "val_pos": 23,
+   "val_neg": 36596,
+   "kind": "leaf"
+  },
+  {
+   "name": "Appendicitis",
+   "train_pos": 2360,
+   "train_neg": 302602,
+   "val_pos": 282,
+   "val_neg": 36337,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Appendicolith",
+   "train_pos": 455,
+   "train_neg": 304507,
+   "val_pos": 74,
+   "val_neg": 36545,
+   "kind": "leaf"
+  },
+  {
+   "name": "Arachnoid cyst",
+   "train_pos": 999,
+   "train_neg": 303963,
+   "val_pos": 117,
+   "val_neg": 36502,
+   "kind": "leaf"
+  },
+  {
+   "name": "Arterial stenosis or occlusion",
+   "train_pos": 9068,
+   "train_neg": 295894,
+   "val_pos": 1086,
+   "val_neg": 35533,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Arterial wall calcification",
+   "train_pos": 65388,
+   "train_neg": 239574,
+   "val_pos": 7645,
+   "val_neg": 28974,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Arterioportal shunt",
+   "train_pos": 204,
+   "train_neg": 304758,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Arteriovenous malformation",
+   "train_pos": 271,
+   "train_neg": 304691,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ascending aorta calcification",
+   "train_pos": 1452,
+   "train_neg": 303510,
+   "val_pos": 158,
+   "val_neg": 36461,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ascending aorta dilatation",
+   "train_pos": 9858,
+   "train_neg": 295104,
+   "val_pos": 1208,
+   "val_neg": 35411,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ascending aortic aneurysm",
+   "train_pos": 2752,
+   "train_neg": 302210,
+   "val_pos": 357,
+   "val_neg": 36262,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ascites",
+   "train_pos": 12725,
+   "train_neg": 292237,
+   "val_pos": 1430,
+   "val_neg": 35189,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Aspiration pneumonia",
+   "train_pos": 391,
+   "train_neg": 304571,
+   "val_pos": 60,
+   "val_neg": 36559,
+   "kind": "leaf"
+  },
+  {
+   "name": "Atelectasis",
+   "train_pos": 44653,
+   "train_neg": 260309,
+   "val_pos": 5258,
+   "val_neg": 31361,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Atherosclerosis",
+   "train_pos": 68383,
+   "train_neg": 236579,
+   "val_pos": 8009,
+   "val_neg": 28610,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Atrial enlargement",
+   "train_pos": 1592,
+   "train_neg": 303370,
+   "val_pos": 203,
+   "val_neg": 36416,
+   "kind": "leaf"
+  },
+  {
+   "name": "Atrophy",
+   "train_pos": 13939,
+   "train_neg": 291023,
+   "val_pos": 1595,
+   "val_neg": 35024,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Atypical pneumonia",
+   "train_pos": 1479,
+   "train_neg": 303483,
+   "val_pos": 166,
+   "val_neg": 36453,
+   "kind": "leaf"
+  },
+  {
+   "name": "Axillary lymphadenopathy",
+   "train_pos": 1442,
+   "train_neg": 303520,
+   "val_pos": 161,
+   "val_neg": 36458,
+   "kind": "leaf"
+  },
+  {
+   "name": "Azygos lobe",
+   "train_pos": 1027,
+   "train_neg": 303935,
+   "val_pos": 120,
+   "val_neg": 36499,
+   "kind": "leaf"
+  },
+  {
+   "name": "Barrel chest",
+   "train_pos": 348,
+   "train_neg": 304614,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Basal ganglia calcification",
+   "train_pos": 1019,
+   "train_neg": 303943,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Basal ganglia haemorrhage",
+   "train_pos": 231,
+   "train_neg": 304731,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Benign prostatic hyperplasia",
+   "train_pos": 512,
+   "train_neg": 304450,
+   "val_pos": 72,
+   "val_neg": 36547,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bilateral adrenal gland enlargement",
+   "train_pos": 1152,
+   "train_neg": 303810,
+   "val_pos": 123,
+   "val_neg": 36496,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bilateral axillary lymphadenopathy",
+   "train_pos": 618,
+   "train_neg": 304344,
+   "val_pos": 76,
+   "val_neg": 36543,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bilateral hilar lymphadenopathy",
+   "train_pos": 1875,
+   "train_neg": 303087,
+   "val_pos": 213,
+   "val_neg": 36406,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bilateral pleural effusion",
+   "train_pos": 10484,
+   "train_neg": 294478,
+   "val_pos": 1167,
+   "val_neg": 35452,
+   "kind": "leaf"
+  },
+  {
+   "name": "Biliary drainage catheter",
+   "train_pos": 680,
+   "train_neg": 304282,
+   "val_pos": 67,
+   "val_neg": 36552,
+   "kind": "leaf"
+  },
+  {
+   "name": "Biliary ductal dilation",
+   "train_pos": 3445,
+   "train_neg": 301517,
+   "val_pos": 372,
+   "val_neg": 36247,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Biliary stent",
+   "train_pos": 577,
+   "train_neg": 304385,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Biliary tract abnormality",
+   "train_pos": 4470,
+   "train_neg": 300492,
+   "val_pos": 484,
+   "val_neg": 36135,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Bladder calculus",
+   "train_pos": 781,
+   "train_neg": 304181,
+   "val_pos": 97,
+   "val_neg": 36522,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bladder cancer",
+   "train_pos": 362,
+   "train_neg": 304600,
+   "val_pos": 32,
+   "val_neg": 36587,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bladder wall trabeculation",
+   "train_pos": 282,
+   "train_neg": 304680,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bone erosion",
+   "train_pos": 1842,
+   "train_neg": 303120,
+   "val_pos": 240,
+   "val_neg": 36379,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bone island",
+   "train_pos": 1667,
+   "train_neg": 303295,
+   "val_pos": 220,
+   "val_neg": 36399,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bone lesion",
+   "train_pos": 15859,
+   "train_neg": 289103,
+   "val_pos": 1919,
+   "val_neg": 34700,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Bone metastases",
+   "train_pos": 4013,
+   "train_neg": 300949,
+   "val_pos": 454,
+   "val_neg": 36165,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bovine arch",
+   "train_pos": 200,
+   "train_neg": 304762,
+   "val_pos": 23,
+   "val_neg": 36596,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bowel dilatation",
+   "train_pos": 3728,
+   "train_neg": 301234,
+   "val_pos": 432,
+   "val_neg": 36187,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Bowel obstruction",
+   "train_pos": 1054,
+   "train_neg": 303908,
+   "val_pos": 125,
+   "val_neg": 36494,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Bowel wall thickening",
+   "train_pos": 5874,
+   "train_neg": 299088,
+   "val_pos": 697,
+   "val_neg": 35922,
+   "kind": "leaf"
+  },
+  {
+   "name": "Brain atrophy",
+   "train_pos": 7433,
+   "train_neg": 297529,
+   "val_pos": 874,
+   "val_neg": 35745,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Breast abnormality",
+   "train_pos": 4825,
+   "train_neg": 300137,
+   "val_pos": 535,
+   "val_neg": 36084,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Breast calcification",
+   "train_pos": 467,
+   "train_neg": 304495,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Breast cancer",
+   "train_pos": 1157,
+   "train_neg": 303805,
+   "val_pos": 122,
+   "val_neg": 36497,
+   "kind": "leaf"
+  },
+  {
+   "name": "Breast implant",
+   "train_pos": 935,
+   "train_neg": 304027,
+   "val_pos": 110,
+   "val_neg": 36509,
+   "kind": "leaf"
+  },
+  {
+   "name": "Breast mass",
+   "train_pos": 1832,
+   "train_neg": 303130,
+   "val_pos": 206,
+   "val_neg": 36413,
+   "kind": "leaf"
+  },
+  {
+   "name": "Breast skin thickening",
+   "train_pos": 1182,
+   "train_neg": 303780,
+   "val_pos": 135,
+   "val_neg": 36484,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bronchial stenosis",
+   "train_pos": 986,
+   "train_neg": 303976,
+   "val_pos": 132,
+   "val_neg": 36487,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bronchiectasis",
+   "train_pos": 14601,
+   "train_neg": 290361,
+   "val_pos": 1704,
+   "val_neg": 34915,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Bronchiolitis",
+   "train_pos": 1827,
+   "train_neg": 303135,
+   "val_pos": 241,
+   "val_neg": 36378,
+   "kind": "leaf"
+  },
+  {
+   "name": "Bronchopneumonia",
+   "train_pos": 977,
+   "train_neg": 303985,
+   "val_pos": 133,
+   "val_neg": 36486,
+   "kind": "leaf"
+  },
+  {
+   "name": "Burr hole",
+   "train_pos": 1234,
+   "train_neg": 303728,
+   "val_pos": 193,
+   "val_neg": 36426,
+   "kind": "leaf"
+  },
+  {
+   "name": "COVID-19",
+   "train_pos": 11216,
+   "train_neg": 293746,
+   "val_pos": 1360,
+   "val_neg": 35259,
+   "kind": "leaf"
+  },
+  {
+   "name": "Calcaneal fracture",
+   "train_pos": 263,
+   "train_neg": 304699,
+   "val_pos": 33,
+   "val_neg": 36586,
+   "kind": "leaf"
+  },
+  {
+   "name": "Calcaneal spur",
+   "train_pos": 341,
+   "train_neg": 304621,
+   "val_pos": 59,
+   "val_neg": 36560,
+   "kind": "leaf"
+  },
+  {
+   "name": "Calcified mediastinal lymph nodes",
+   "train_pos": 4423,
+   "train_neg": 300539,
+   "val_pos": 505,
+   "val_neg": 36114,
+   "kind": "leaf"
+  },
+  {
+   "name": "Calcified pulmonary nodules",
+   "train_pos": 11345,
+   "train_neg": 293617,
+   "val_pos": 1386,
+   "val_neg": 35233,
+   "kind": "leaf"
+  },
+  {
+   "name": "Calvarial thickening",
+   "train_pos": 632,
+   "train_neg": 304330,
+   "val_pos": 104,
+   "val_neg": 36515,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cam morphology",
+   "train_pos": 390,
+   "train_neg": 304572,
+   "val_pos": 49,
+   "val_neg": 36570,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cardiac calcification",
+   "train_pos": 3331,
+   "train_neg": 301631,
+   "val_pos": 424,
+   "val_neg": 36195,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cardiac chamber enlargement",
+   "train_pos": 3130,
+   "train_neg": 301832,
+   "val_pos": 370,
+   "val_neg": 36249,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cardiomegaly",
+   "train_pos": 15545,
+   "train_neg": 289417,
+   "val_pos": 1885,
+   "val_neg": 34734,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Carotid artery stenosis",
+   "train_pos": 1017,
+   "train_neg": 303945,
+   "val_pos": 95,
+   "val_neg": 36524,
+   "kind": "leaf"
+  },
+  {
+   "name": "Carotid artery tortuosity",
+   "train_pos": 207,
+   "train_neg": 304755,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cavum septum pellucidum",
+   "train_pos": 395,
+   "train_neg": 304567,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cavum vergae",
+   "train_pos": 316,
+   "train_neg": 304646,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Celiac artery stenosis",
+   "train_pos": 373,
+   "train_neg": 304589,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Central bronchiectasis",
+   "train_pos": 3025,
+   "train_neg": 301937,
+   "val_pos": 349,
+   "val_neg": 36270,
+   "kind": "leaf"
+  },
+  {
+   "name": "Central venous catheter",
+   "train_pos": 2952,
+   "train_neg": 302010,
+   "val_pos": 349,
+   "val_neg": 36270,
+   "kind": "leaf"
+  },
+  {
+   "name": "Centrilobular pulmonary emphysema",
+   "train_pos": 3693,
+   "train_neg": 301269,
+   "val_pos": 408,
+   "val_neg": 36211,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cephalohematoma",
+   "train_pos": 365,
+   "train_neg": 304597,
+   "val_pos": 52,
+   "val_neg": 36567,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cerebral atrophy",
+   "train_pos": 6620,
+   "train_neg": 298342,
+   "val_pos": 794,
+   "val_neg": 35825,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cerebral haemorrhagic contusion",
+   "train_pos": 367,
+   "train_neg": 304595,
+   "val_pos": 42,
+   "val_neg": 36577,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cerebral oedema",
+   "train_pos": 2950,
+   "train_neg": 302012,
+   "val_pos": 372,
+   "val_neg": 36247,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cerebral small vessel disease",
+   "train_pos": 5105,
+   "train_neg": 299857,
+   "val_pos": 635,
+   "val_neg": 35984,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cerumen impaction",
+   "train_pos": 1011,
+   "train_neg": 303951,
+   "val_pos": 107,
+   "val_neg": 36512,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cervical foraminal stenosis",
+   "train_pos": 551,
+   "train_neg": 304411,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cervical lymphadenopathy",
+   "train_pos": 1308,
+   "train_neg": 303654,
+   "val_pos": 152,
+   "val_neg": 36467,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chest wall lipoma",
+   "train_pos": 221,
+   "train_neg": 304741,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chest wall tumours",
+   "train_pos": 466,
+   "train_neg": 304496,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chilaiditi sign",
+   "train_pos": 312,
+   "train_neg": 304650,
+   "val_pos": 33,
+   "val_neg": 36586,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cholangiocarcinoma",
+   "train_pos": 212,
+   "train_neg": 304750,
+   "val_pos": 17,
+   "val_neg": 36602,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cholecystitis",
+   "train_pos": 757,
+   "train_neg": 304205,
+   "val_pos": 85,
+   "val_neg": 36534,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cholelithiasis",
+   "train_pos": 10170,
+   "train_neg": 294792,
+   "val_pos": 1272,
+   "val_neg": 35347,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cholesteatoma",
+   "train_pos": 403,
+   "train_neg": 304559,
+   "val_pos": 51,
+   "val_neg": 36568,
+   "kind": "leaf"
+  },
+  {
+   "name": "Choroid plexus calcification",
+   "train_pos": 672,
+   "train_neg": 304290,
+   "val_pos": 87,
+   "val_neg": 36532,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic kidney disease",
+   "train_pos": 213,
+   "train_neg": 304749,
+   "val_pos": 16,
+   "val_neg": 36603,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic liver disease",
+   "train_pos": 2516,
+   "train_neg": 302446,
+   "val_pos": 279,
+   "val_neg": 36340,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Chronic obstructive pulmonary disease",
+   "train_pos": 316,
+   "train_neg": 304646,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic otomastoiditis",
+   "train_pos": 1255,
+   "train_neg": 303707,
+   "val_pos": 145,
+   "val_neg": 36474,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic otomastoiditis with ossicular erosions",
+   "train_pos": 253,
+   "train_neg": 304709,
+   "val_pos": 24,
+   "val_neg": 36595,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic pyelonephritis",
+   "train_pos": 341,
+   "train_neg": 304621,
+   "val_pos": 43,
+   "val_neg": 36576,
+   "kind": "leaf"
+  },
+  {
+   "name": "Chronic rhinosinusitis",
+   "train_pos": 5059,
+   "train_neg": 299903,
+   "val_pos": 548,
+   "val_neg": 36071,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cirrhosis",
+   "train_pos": 952,
+   "train_neg": 304010,
+   "val_pos": 106,
+   "val_neg": 36513,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Clavicle fracture",
+   "train_pos": 212,
+   "train_neg": 304750,
+   "val_pos": 32,
+   "val_neg": 36587,
+   "kind": "leaf"
+  },
+  {
+   "name": "Clinoid process pneumatization",
+   "train_pos": 1555,
+   "train_neg": 303407,
+   "val_pos": 180,
+   "val_neg": 36439,
+   "kind": "leaf"
+  },
+  {
+   "name": "Coccyx angulation",
+   "train_pos": 355,
+   "train_neg": 304607,
+   "val_pos": 63,
+   "val_neg": 36556,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colitis",
+   "train_pos": 1121,
+   "train_neg": 303841,
+   "val_pos": 134,
+   "val_neg": 36485,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colonic diverticulitis",
+   "train_pos": 738,
+   "train_neg": 304224,
+   "val_pos": 92,
+   "val_neg": 36527,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colonic diverticulosis",
+   "train_pos": 4073,
+   "train_neg": 300889,
+   "val_pos": 521,
+   "val_neg": 36098,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colonic stricture",
+   "train_pos": 270,
+   "train_neg": 304692,
+   "val_pos": 28,
+   "val_neg": 36591,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colorectal cancer",
+   "train_pos": 2407,
+   "train_neg": 302555,
+   "val_pos": 244,
+   "val_neg": 36375,
+   "kind": "leaf"
+  },
+  {
+   "name": "Colostomy",
+   "train_pos": 720,
+   "train_neg": 304242,
+   "val_pos": 69,
+   "val_neg": 36550,
+   "kind": "leaf"
+  },
+  {
+   "name": "Complete fracture",
+   "train_pos": 373,
+   "train_neg": 304589,
+   "val_pos": 45,
+   "val_neg": 36574,
+   "kind": "leaf"
+  },
+  {
+   "name": "Compressive atelectasis",
+   "train_pos": 2317,
+   "train_neg": 302645,
+   "val_pos": 253,
+   "val_neg": 36366,
+   "kind": "leaf"
+  },
+  {
+   "name": "Concha bullosa",
+   "train_pos": 10978,
+   "train_neg": 293984,
+   "val_pos": 1341,
+   "val_neg": 35278,
+   "kind": "leaf"
+  },
+  {
+   "name": "Congenital cardiovascular anomaly",
+   "train_pos": 4208,
+   "train_neg": 300754,
+   "val_pos": 496,
+   "val_neg": 36123,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Congenital heart disease",
+   "train_pos": 512,
+   "train_neg": 304450,
+   "val_pos": 56,
+   "val_neg": 36563,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Congenital renal anomaly",
+   "train_pos": 2675,
+   "train_neg": 302287,
+   "val_pos": 342,
+   "val_neg": 36277,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Consolidation",
+   "train_pos": 20987,
+   "train_neg": 283975,
+   "val_pos": 2493,
+   "val_neg": 34126,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Contracted gallbladder",
+   "train_pos": 1924,
+   "train_neg": 303038,
+   "val_pos": 230,
+   "val_neg": 36389,
+   "kind": "leaf"
+  },
+  {
+   "name": "Contrast media extravasation",
+   "train_pos": 200,
+   "train_neg": 304762,
+   "val_pos": 17,
+   "val_neg": 36602,
+   "kind": "leaf"
+  },
+  {
+   "name": "Coronary artery anomaly",
+   "train_pos": 2862,
+   "train_neg": 302100,
+   "val_pos": 357,
+   "val_neg": 36262,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Coronary artery bypass graft",
+   "train_pos": 956,
+   "train_neg": 304006,
+   "val_pos": 110,
+   "val_neg": 36509,
+   "kind": "leaf"
+  },
+  {
+   "name": "Coronary artery calcification",
+   "train_pos": 34089,
+   "train_neg": 270873,
+   "val_pos": 3925,
+   "val_neg": 32694,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Coronary artery disease",
+   "train_pos": 37852,
+   "train_neg": 267110,
+   "val_pos": 4393,
+   "val_neg": 32226,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Coronary artery stenosis",
+   "train_pos": 4857,
+   "train_neg": 300105,
+   "val_pos": 585,
+   "val_neg": 36034,
+   "kind": "leaf"
+  },
+  {
+   "name": "Coronary artery stent",
+   "train_pos": 2631,
+   "train_neg": 302331,
+   "val_pos": 307,
+   "val_neg": 36312,
+   "kind": "leaf"
+  },
+  {
+   "name": "Coronary hypoplasia",
+   "train_pos": 278,
+   "train_neg": 304684,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Craniectomy defect",
+   "train_pos": 419,
+   "train_neg": 304543,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Craniotomy defect",
+   "train_pos": 2116,
+   "train_neg": 302846,
+   "val_pos": 292,
+   "val_neg": 36327,
+   "kind": "leaf"
+  },
+  {
+   "name": "Crazy paving pattern",
+   "train_pos": 1236,
+   "train_neg": 303726,
+   "val_pos": 151,
+   "val_neg": 36468,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cutaneous and subcutaneous metastases",
+   "train_pos": 437,
+   "train_neg": 304525,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cylindrical bronchiectasis",
+   "train_pos": 3473,
+   "train_neg": 301489,
+   "val_pos": 394,
+   "val_neg": 36225,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cyst",
+   "train_pos": 55498,
+   "train_neg": 249464,
+   "val_pos": 6484,
+   "val_neg": 30135,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cystic bronchiectasis",
+   "train_pos": 1273,
+   "train_neg": 303689,
+   "val_pos": 186,
+   "val_neg": 36433,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cystic lung lesion",
+   "train_pos": 8490,
+   "train_neg": 296472,
+   "val_pos": 1005,
+   "val_neg": 35614,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Cystic necrotic lymphadenopathy",
+   "train_pos": 469,
+   "train_neg": 304493,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cystic renal diseases",
+   "train_pos": 217,
+   "train_neg": 304745,
+   "val_pos": 26,
+   "val_neg": 36593,
+   "kind": "leaf"
+  },
+  {
+   "name": "Cystitis",
+   "train_pos": 500,
+   "train_neg": 304462,
+   "val_pos": 56,
+   "val_neg": 36563,
+   "kind": "leaf"
+  },
+  {
+   "name": "Deep brain stimulation device",
+   "train_pos": 1357,
+   "train_neg": 303605,
+   "val_pos": 212,
+   "val_neg": 36407,
+   "kind": "leaf"
+  },
+  {
+   "name": "Degenerative arthropathy",
+   "train_pos": 59926,
+   "train_neg": 245036,
+   "val_pos": 7192,
+   "val_neg": 29427,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Degenerative spine disease",
+   "train_pos": 53304,
+   "train_neg": 251658,
+   "val_pos": 6396,
+   "val_neg": 30223,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Delayed nephrogram",
+   "train_pos": 233,
+   "train_neg": 304729,
+   "val_pos": 18,
+   "val_neg": 36601,
+   "kind": "leaf"
+  },
+  {
+   "name": "Dental / periodontal abnormality",
+   "train_pos": 837,
+   "train_neg": 304125,
+   "val_pos": 94,
+   "val_neg": 36525,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Deviated nasal septum",
+   "train_pos": 26819,
+   "train_neg": 278143,
+   "val_pos": 3236,
+   "val_neg": 33383,
+   "kind": "leaf"
+  },
+  {
+   "name": "Device complication",
+   "train_pos": 1231,
+   "train_neg": 303731,
+   "val_pos": 142,
+   "val_neg": 36477,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Diaphragmatic elevation",
+   "train_pos": 1822,
+   "train_neg": 303140,
+   "val_pos": 222,
+   "val_neg": 36397,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diaphragmatic eventration",
+   "train_pos": 438,
+   "train_neg": 304524,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diastasis recti",
+   "train_pos": 963,
+   "train_neg": 303999,
+   "val_pos": 95,
+   "val_neg": 36524,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diffuse cerebellar atrophy",
+   "train_pos": 1889,
+   "train_neg": 303073,
+   "val_pos": 210,
+   "val_neg": 36409,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diffuse idiopathic skeletal hyperostosis",
+   "train_pos": 680,
+   "train_neg": 304282,
+   "val_pos": 98,
+   "val_neg": 36521,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diffuse pulmonary nodules",
+   "train_pos": 514,
+   "train_neg": 304448,
+   "val_pos": 68,
+   "val_neg": 36551,
+   "kind": "leaf"
+  },
+  {
+   "name": "Diverticular disease",
+   "train_pos": 4247,
+   "train_neg": 300715,
+   "val_pos": 548,
+   "val_neg": 36071,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Diverticulum",
+   "train_pos": 6188,
+   "train_neg": 298774,
+   "val_pos": 787,
+   "val_neg": 35832,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Dolichocolon",
+   "train_pos": 477,
+   "train_neg": 304485,
+   "val_pos": 60,
+   "val_neg": 36559,
+   "kind": "leaf"
+  },
+  {
+   "name": "Dolichoectasia",
+   "train_pos": 242,
+   "train_neg": 304720,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Drainage catheter",
+   "train_pos": 4086,
+   "train_neg": 300876,
+   "val_pos": 437,
+   "val_neg": 36182,
+   "kind": "leaf"
+  },
+  {
+   "name": "Duodenal diverticulum",
+   "train_pos": 481,
+   "train_neg": 304481,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Duplex collecting system",
+   "train_pos": 436,
+   "train_neg": 304526,
+   "val_pos": 56,
+   "val_neg": 36563,
+   "kind": "leaf"
+  },
+  {
+   "name": "Dural calcification",
+   "train_pos": 992,
+   "train_neg": 303970,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Embolism",
+   "train_pos": 200,
+   "train_neg": 304762,
+   "val_pos": 20,
+   "val_neg": 36599,
+   "kind": "leaf"
+  },
+  {
+   "name": "Emphysema",
+   "train_pos": 24235,
+   "train_neg": 280727,
+   "val_pos": 2835,
+   "val_neg": 33784,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Empyema and Pulmonary Abscess",
+   "train_pos": 217,
+   "train_neg": 304745,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Encephalomalacia",
+   "train_pos": 2204,
+   "train_neg": 302758,
+   "val_pos": 250,
+   "val_neg": 36369,
+   "kind": "leaf"
+  },
+  {
+   "name": "Endometrial fluid",
+   "train_pos": 508,
+   "train_neg": 304454,
+   "val_pos": 86,
+   "val_neg": 36533,
+   "kind": "leaf"
+  },
+  {
+   "name": "Endotracheal tube",
+   "train_pos": 865,
+   "train_neg": 304097,
+   "val_pos": 125,
+   "val_neg": 36494,
+   "kind": "leaf"
+  },
+  {
+   "name": "Enlarged perivascular spaces",
+   "train_pos": 508,
+   "train_neg": 304454,
+   "val_pos": 49,
+   "val_neg": 36570,
+   "kind": "leaf"
+  },
+  {
+   "name": "Enteritis",
+   "train_pos": 1252,
+   "train_neg": 303710,
+   "val_pos": 159,
+   "val_neg": 36460,
+   "kind": "leaf"
+  },
+  {
+   "name": "Enthesopathy",
+   "train_pos": 572,
+   "train_neg": 304390,
+   "val_pos": 80,
+   "val_neg": 36539,
+   "kind": "leaf"
+  },
+  {
+   "name": "Epiploic appendagitis",
+   "train_pos": 523,
+   "train_neg": 304439,
+   "val_pos": 74,
+   "val_neg": 36545,
+   "kind": "leaf"
+  },
+  {
+   "name": "Esophagojejunostomy",
+   "train_pos": 560,
+   "train_neg": 304402,
+   "val_pos": 59,
+   "val_neg": 36560,
+   "kind": "leaf"
+  },
+  {
+   "name": "Extra-axial collection",
+   "train_pos": 2154,
+   "train_neg": 302808,
+   "val_pos": 267,
+   "val_neg": 36352,
+   "kind": "leaf"
+  },
+  {
+   "name": "Extradural haematoma",
+   "train_pos": 301,
+   "train_neg": 304661,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Extrarenal pelvis",
+   "train_pos": 2161,
+   "train_neg": 302801,
+   "val_pos": 283,
+   "val_neg": 36336,
+   "kind": "leaf"
+  },
+  {
+   "name": "Facet joint arthropathy",
+   "train_pos": 2590,
+   "train_neg": 302372,
+   "val_pos": 320,
+   "val_neg": 36299,
+   "kind": "leaf"
+  },
+  {
+   "name": "Facial fractures",
+   "train_pos": 1625,
+   "train_neg": 303337,
+   "val_pos": 201,
+   "val_neg": 36418,
+   "kind": "leaf"
+  },
+  {
+   "name": "Faecal impaction",
+   "train_pos": 484,
+   "train_neg": 304478,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Faecolith",
+   "train_pos": 568,
+   "train_neg": 304394,
+   "val_pos": 84,
+   "val_neg": 36535,
+   "kind": "leaf"
+  },
+  {
+   "name": "Falx ossification",
+   "train_pos": 767,
+   "train_neg": 304195,
+   "val_pos": 90,
+   "val_neg": 36529,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fat necrosis",
+   "train_pos": 436,
+   "train_neg": 304526,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fat-containing adrenal lesions",
+   "train_pos": 427,
+   "train_neg": 304535,
+   "val_pos": 52,
+   "val_neg": 36567,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fatty pancreas",
+   "train_pos": 219,
+   "train_neg": 304743,
+   "val_pos": 33,
+   "val_neg": 36586,
+   "kind": "leaf"
+  },
+  {
+   "name": "Femoroacetabular impingement syndrome",
+   "train_pos": 589,
+   "train_neg": 304373,
+   "val_pos": 68,
+   "val_neg": 36551,
+   "kind": "leaf"
+  },
+  {
+   "name": "Femur fracture",
+   "train_pos": 751,
+   "train_neg": 304211,
+   "val_pos": 85,
+   "val_neg": 36534,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fibroatelectasis",
+   "train_pos": 3754,
+   "train_neg": 301208,
+   "val_pos": 444,
+   "val_neg": 36175,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fibroma",
+   "train_pos": 357,
+   "train_neg": 304605,
+   "val_pos": 42,
+   "val_neg": 36577,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fibula fracture",
+   "train_pos": 601,
+   "train_neg": 304361,
+   "val_pos": 81,
+   "val_neg": 36538,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fissural thickening",
+   "train_pos": 1092,
+   "train_neg": 303870,
+   "val_pos": 129,
+   "val_neg": 36490,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fistula",
+   "train_pos": 625,
+   "train_neg": 304337,
+   "val_pos": 67,
+   "val_neg": 36552,
+   "kind": "leaf"
+  },
+  {
+   "name": "Fluid collection",
+   "train_pos": 7140,
+   "train_neg": 297822,
+   "val_pos": 795,
+   "val_neg": 35824,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Focal fatty sparing of the liver",
+   "train_pos": 403,
+   "train_neg": 304559,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Focal hepatic steatosis",
+   "train_pos": 1185,
+   "train_neg": 303777,
+   "val_pos": 130,
+   "val_neg": 36489,
+   "kind": "leaf"
+  },
+  {
+   "name": "Focal liver lesion",
+   "train_pos": 24122,
+   "train_neg": 280840,
+   "val_pos": 2860,
+   "val_neg": 33759,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Foreign body",
+   "train_pos": 1816,
+   "train_neg": 303146,
+   "val_pos": 197,
+   "val_neg": 36422,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Fracture",
+   "train_pos": 15266,
+   "train_neg": 289696,
+   "val_pos": 1837,
+   "val_neg": 34782,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Frontal sinus aplasia",
+   "train_pos": 378,
+   "train_neg": 304584,
+   "val_pos": 57,
+   "val_neg": 36562,
+   "kind": "leaf"
+  },
+  {
+   "name": "Frontal sinus hypoplasia",
+   "train_pos": 1507,
+   "train_neg": 303455,
+   "val_pos": 201,
+   "val_neg": 36418,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gallbladder abnormality",
+   "train_pos": 14202,
+   "train_neg": 290760,
+   "val_pos": 1764,
+   "val_neg": 34855,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Gallbladder distension",
+   "train_pos": 1518,
+   "train_neg": 303444,
+   "val_pos": 177,
+   "val_neg": 36442,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gallbladder polyp",
+   "train_pos": 274,
+   "train_neg": 304688,
+   "val_pos": 44,
+   "val_neg": 36575,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gallbladder sludge",
+   "train_pos": 1393,
+   "train_neg": 303569,
+   "val_pos": 169,
+   "val_neg": 36450,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gallbladder wall thickening",
+   "train_pos": 1433,
+   "train_neg": 303529,
+   "val_pos": 218,
+   "val_neg": 36401,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastric adenocarcinoma",
+   "train_pos": 402,
+   "train_neg": 304560,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastric dilatation",
+   "train_pos": 410,
+   "train_neg": 304552,
+   "val_pos": 51,
+   "val_neg": 36568,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastric malignancy",
+   "train_pos": 961,
+   "train_neg": 304001,
+   "val_pos": 101,
+   "val_neg": 36518,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastric wall thickening",
+   "train_pos": 2341,
+   "train_neg": 302621,
+   "val_pos": 288,
+   "val_neg": 36331,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastritis",
+   "train_pos": 702,
+   "train_neg": 304260,
+   "val_pos": 89,
+   "val_neg": 36530,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gastrointestinal wall thickening",
+   "train_pos": 10965,
+   "train_neg": 293997,
+   "val_pos": 1296,
+   "val_neg": 35323,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Gastrojejunostomy",
+   "train_pos": 600,
+   "train_neg": 304362,
+   "val_pos": 57,
+   "val_neg": 36562,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gliosis",
+   "train_pos": 2321,
+   "train_neg": 302641,
+   "val_pos": 241,
+   "val_neg": 36378,
+   "kind": "leaf"
+  },
+  {
+   "name": "Goitre",
+   "train_pos": 3502,
+   "train_neg": 301460,
+   "val_pos": 379,
+   "val_neg": 36240,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Gonarthrosis",
+   "train_pos": 318,
+   "train_neg": 304644,
+   "val_pos": 46,
+   "val_neg": 36573,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gravity-dependent atelectasis",
+   "train_pos": 1843,
+   "train_neg": 303119,
+   "val_pos": 227,
+   "val_neg": 36392,
+   "kind": "leaf"
+  },
+  {
+   "name": "Groin hernia (inguinal/femoral)",
+   "train_pos": 3706,
+   "train_neg": 301256,
+   "val_pos": 432,
+   "val_neg": 36187,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Ground-glass nodule",
+   "train_pos": 3126,
+   "train_neg": 301836,
+   "val_pos": 360,
+   "val_neg": 36259,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ground-glass opacity",
+   "train_pos": 36224,
+   "train_neg": 268738,
+   "val_pos": 4355,
+   "val_neg": 32264,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Gunshot injury",
+   "train_pos": 213,
+   "train_neg": 304749,
+   "val_pos": 29,
+   "val_neg": 36590,
+   "kind": "leaf"
+  },
+  {
+   "name": "Gynecomastia",
+   "train_pos": 1121,
+   "train_neg": 303841,
+   "val_pos": 129,
+   "val_neg": 36490,
+   "kind": "leaf"
+  },
+  {
+   "name": "Haemangioma",
+   "train_pos": 4666,
+   "train_neg": 300296,
+   "val_pos": 555,
+   "val_neg": 36064,
+   "kind": "leaf"
+  },
+  {
+   "name": "Haematoma",
+   "train_pos": 3305,
+   "train_neg": 301657,
+   "val_pos": 384,
+   "val_neg": 36235,
+   "kind": "leaf"
+  },
+  {
+   "name": "Haemorrhage",
+   "train_pos": 9610,
+   "train_neg": 295352,
+   "val_pos": 1196,
+   "val_neg": 35423,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Haller cell",
+   "train_pos": 875,
+   "train_neg": 304087,
+   "val_pos": 108,
+   "val_neg": 36511,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hamartoma",
+   "train_pos": 201,
+   "train_neg": 304761,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hardware loosening",
+   "train_pos": 339,
+   "train_neg": 304623,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Heart failure",
+   "train_pos": 552,
+   "train_neg": 304410,
+   "val_pos": 62,
+   "val_neg": 36557,
+   "kind": "leaf"
+  },
+  {
+   "name": "Heart valve replacement",
+   "train_pos": 907,
+   "train_neg": 304055,
+   "val_pos": 106,
+   "val_neg": 36513,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic artery variation",
+   "train_pos": 616,
+   "train_neg": 304346,
+   "val_pos": 79,
+   "val_neg": 36540,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic atrophy",
+   "train_pos": 649,
+   "train_neg": 304313,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic calcification",
+   "train_pos": 4004,
+   "train_neg": 300958,
+   "val_pos": 556,
+   "val_neg": 36063,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic haemangioma",
+   "train_pos": 2938,
+   "train_neg": 302024,
+   "val_pos": 346,
+   "val_neg": 36273,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic hydatid cyst",
+   "train_pos": 272,
+   "train_neg": 304690,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic hypodense lesion",
+   "train_pos": 6877,
+   "train_neg": 298085,
+   "val_pos": 755,
+   "val_neg": 35864,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic metastases",
+   "train_pos": 4615,
+   "train_neg": 300347,
+   "val_pos": 495,
+   "val_neg": 36124,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic pseudolesion near falciform ligament",
+   "train_pos": 477,
+   "train_neg": 304485,
+   "val_pos": 62,
+   "val_neg": 36557,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic pseudolesions",
+   "train_pos": 2069,
+   "train_neg": 302893,
+   "val_pos": 244,
+   "val_neg": 36375,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatic steatosis",
+   "train_pos": 20841,
+   "train_neg": 284121,
+   "val_pos": 2540,
+   "val_neg": 34079,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hepatic vascular variant",
+   "train_pos": 1348,
+   "train_neg": 303614,
+   "val_pos": 173,
+   "val_neg": 36446,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hepatobiliary parasitic infection",
+   "train_pos": 304,
+   "train_neg": 304658,
+   "val_pos": 44,
+   "val_neg": 36575,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hepatocellular carcinoma",
+   "train_pos": 254,
+   "train_neg": 304708,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hepatomegaly",
+   "train_pos": 9406,
+   "train_neg": 295556,
+   "val_pos": 1146,
+   "val_neg": 35473,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hepatosplenomegaly",
+   "train_pos": 888,
+   "train_neg": 304074,
+   "val_pos": 108,
+   "val_neg": 36511,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hernia",
+   "train_pos": 25441,
+   "train_neg": 279521,
+   "val_pos": 3034,
+   "val_neg": 33585,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Heterotopic ossification",
+   "train_pos": 236,
+   "train_neg": 304726,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hiatal hernia",
+   "train_pos": 16702,
+   "train_neg": 288260,
+   "val_pos": 1924,
+   "val_neg": 34695,
+   "kind": "umbrella"
+  },
+  {
+   "name": "High riding jugular bulb",
+   "train_pos": 449,
+   "train_neg": 304513,
+   "val_pos": 46,
+   "val_neg": 36573,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hilar lymphadenopathy",
+   "train_pos": 4875,
+   "train_neg": 300087,
+   "val_pos": 583,
+   "val_neg": 36036,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hip osteoarthritis",
+   "train_pos": 780,
+   "train_neg": 304182,
+   "val_pos": 98,
+   "val_neg": 36521,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hip prosthesis",
+   "train_pos": 605,
+   "train_neg": 304357,
+   "val_pos": 69,
+   "val_neg": 36550,
+   "kind": "leaf"
+  },
+  {
+   "name": "Honeycombing",
+   "train_pos": 1013,
+   "train_neg": 303949,
+   "val_pos": 118,
+   "val_neg": 36501,
+   "kind": "leaf"
+  },
+  {
+   "name": "Horseshoe kidney",
+   "train_pos": 246,
+   "train_neg": 304716,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Humeral head fracture",
+   "train_pos": 366,
+   "train_neg": 304596,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Humerus fracture",
+   "train_pos": 853,
+   "train_neg": 304109,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hydatid cyst",
+   "train_pos": 393,
+   "train_neg": 304569,
+   "val_pos": 57,
+   "val_neg": 36562,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hydrocephalus",
+   "train_pos": 1087,
+   "train_neg": 303875,
+   "val_pos": 149,
+   "val_neg": 36470,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hydronephrosis",
+   "train_pos": 13932,
+   "train_neg": 291030,
+   "val_pos": 1750,
+   "val_neg": 34869,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Hydroureter",
+   "train_pos": 8684,
+   "train_neg": 296278,
+   "val_pos": 1055,
+   "val_neg": 35564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hydroureteronephrosis",
+   "train_pos": 5782,
+   "train_neg": 299180,
+   "val_pos": 695,
+   "val_neg": 35924,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hyperdense pulmonary nodules",
+   "train_pos": 11386,
+   "train_neg": 293576,
+   "val_pos": 1388,
+   "val_neg": 35231,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hyperdense renal cyst",
+   "train_pos": 952,
+   "train_neg": 304010,
+   "val_pos": 125,
+   "val_neg": 36494,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hyperostosis frontalis interna",
+   "train_pos": 471,
+   "train_neg": 304491,
+   "val_pos": 87,
+   "val_neg": 36532,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hyperostosis of the skull",
+   "train_pos": 598,
+   "train_neg": 304364,
+   "val_pos": 97,
+   "val_neg": 36522,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hypersensitivity pneumonitis",
+   "train_pos": 212,
+   "train_neg": 304750,
+   "val_pos": 23,
+   "val_neg": 36596,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hypertrophy of the caudate lobe",
+   "train_pos": 727,
+   "train_neg": 304235,
+   "val_pos": 77,
+   "val_neg": 36542,
+   "kind": "leaf"
+  },
+  {
+   "name": "Hypoplastic right coronary artery",
+   "train_pos": 878,
+   "train_neg": 304084,
+   "val_pos": 112,
+   "val_neg": 36507,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ileocolic anastomosis",
+   "train_pos": 583,
+   "train_neg": 304379,
+   "val_pos": 104,
+   "val_neg": 36515,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ileostomy",
+   "train_pos": 823,
+   "train_neg": 304139,
+   "val_pos": 91,
+   "val_neg": 36528,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ileus",
+   "train_pos": 1139,
+   "train_neg": 303823,
+   "val_pos": 132,
+   "val_neg": 36487,
+   "kind": "leaf"
+  },
+  {
+   "name": "Iliac artery stenosis",
+   "train_pos": 421,
+   "train_neg": 304541,
+   "val_pos": 58,
+   "val_neg": 36561,
+   "kind": "leaf"
+  },
+  {
+   "name": "Implant malposition",
+   "train_pos": 690,
+   "train_neg": 304272,
+   "val_pos": 77,
+   "val_neg": 36542,
+   "kind": "leaf"
+  },
+  {
+   "name": "Implantable venous access port",
+   "train_pos": 3746,
+   "train_neg": 301216,
+   "val_pos": 407,
+   "val_neg": 36212,
+   "kind": "leaf"
+  },
+  {
+   "name": "Incisional hernia",
+   "train_pos": 631,
+   "train_neg": 304331,
+   "val_pos": 78,
+   "val_neg": 36541,
+   "kind": "leaf"
+  },
+  {
+   "name": "Indirect inguinal hernia",
+   "train_pos": 234,
+   "train_neg": 304728,
+   "val_pos": 28,
+   "val_neg": 36591,
+   "kind": "leaf"
+  },
+  {
+   "name": "Infarction",
+   "train_pos": 1034,
+   "train_neg": 303928,
+   "val_pos": 102,
+   "val_neg": 36517,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Infected concha bullosa",
+   "train_pos": 389,
+   "train_neg": 304573,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Infectious bronchiolitis",
+   "train_pos": 368,
+   "train_neg": 304594,
+   "val_pos": 46,
+   "val_neg": 36573,
+   "kind": "leaf"
+  },
+  {
+   "name": "Inflammatory bowel disease",
+   "train_pos": 630,
+   "train_neg": 304332,
+   "val_pos": 77,
+   "val_neg": 36542,
+   "kind": "leaf"
+  },
+  {
+   "name": "Inguinal hernia",
+   "train_pos": 267,
+   "train_neg": 304695,
+   "val_pos": 32,
+   "val_neg": 36587,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Inspissated secretions",
+   "train_pos": 358,
+   "train_neg": 304604,
+   "val_pos": 45,
+   "val_neg": 36574,
+   "kind": "leaf"
+  },
+  {
+   "name": "Interbody cage",
+   "train_pos": 768,
+   "train_neg": 304194,
+   "val_pos": 82,
+   "val_neg": 36537,
+   "kind": "leaf"
+  },
+  {
+   "name": "Interlobular septal thickening",
+   "train_pos": 10389,
+   "train_neg": 294573,
+   "val_pos": 1209,
+   "val_neg": 35410,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Interstitial lung disease",
+   "train_pos": 2170,
+   "train_neg": 302792,
+   "val_pos": 258,
+   "val_neg": 36361,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Interstitial pneumonia",
+   "train_pos": 319,
+   "train_neg": 304643,
+   "val_pos": 49,
+   "val_neg": 36570,
+   "kind": "leaf"
+  },
+  {
+   "name": "Interstitial thickening",
+   "train_pos": 11410,
+   "train_neg": 293552,
+   "val_pos": 1334,
+   "val_neg": 35285,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intervertebral disc calcification",
+   "train_pos": 555,
+   "train_neg": 304407,
+   "val_pos": 65,
+   "val_neg": 36554,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intervertebral disc degeneration",
+   "train_pos": 6662,
+   "train_neg": 298300,
+   "val_pos": 800,
+   "val_neg": 35819,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intervertebral disc herniation",
+   "train_pos": 3660,
+   "train_neg": 301302,
+   "val_pos": 440,
+   "val_neg": 36179,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intra-articular fragments",
+   "train_pos": 1047,
+   "train_neg": 303915,
+   "val_pos": 128,
+   "val_neg": 36491,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intra-articular loose body",
+   "train_pos": 219,
+   "train_neg": 304743,
+   "val_pos": 23,
+   "val_neg": 36596,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracerebral haemorrhage",
+   "train_pos": 1796,
+   "train_neg": 303166,
+   "val_pos": 227,
+   "val_neg": 36392,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial aneurysm",
+   "train_pos": 426,
+   "train_neg": 304536,
+   "val_pos": 50,
+   "val_neg": 36569,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Intracranial arterial calcification",
+   "train_pos": 2672,
+   "train_neg": 302290,
+   "val_pos": 305,
+   "val_neg": 36314,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial atherosclerotic disease",
+   "train_pos": 733,
+   "train_neg": 304229,
+   "val_pos": 76,
+   "val_neg": 36543,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial calcification",
+   "train_pos": 3739,
+   "train_neg": 301223,
+   "val_pos": 469,
+   "val_neg": 36150,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Intracranial haemorrhage",
+   "train_pos": 4692,
+   "train_neg": 300270,
+   "val_pos": 646,
+   "val_neg": 35973,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Intracranial herniation",
+   "train_pos": 889,
+   "train_neg": 304073,
+   "val_pos": 93,
+   "val_neg": 36526,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial mass",
+   "train_pos": 2641,
+   "train_neg": 302321,
+   "val_pos": 330,
+   "val_neg": 36289,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Intracranial mass effect",
+   "train_pos": 2763,
+   "train_neg": 302199,
+   "val_pos": 360,
+   "val_neg": 36259,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Intracranial metastases",
+   "train_pos": 378,
+   "train_neg": 304584,
+   "val_pos": 48,
+   "val_neg": 36571,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial non-neoplastic cysts",
+   "train_pos": 1365,
+   "train_neg": 303597,
+   "val_pos": 155,
+   "val_neg": 36464,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intracranial tumours",
+   "train_pos": 1402,
+   "train_neg": 303560,
+   "val_pos": 178,
+   "val_neg": 36441,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intrahepatic biliary duct dilatation",
+   "train_pos": 1984,
+   "train_neg": 302978,
+   "val_pos": 224,
+   "val_neg": 36395,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intrapulmonary lymph nodes",
+   "train_pos": 1235,
+   "train_neg": 303727,
+   "val_pos": 162,
+   "val_neg": 36457,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intrasinus calcification",
+   "train_pos": 404,
+   "train_neg": 304558,
+   "val_pos": 64,
+   "val_neg": 36555,
+   "kind": "leaf"
+  },
+  {
+   "name": "Intrauterine device",
+   "train_pos": 923,
+   "train_neg": 304039,
+   "val_pos": 105,
+   "val_neg": 36514,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ischaemic stroke",
+   "train_pos": 5016,
+   "train_neg": 299946,
+   "val_pos": 619,
+   "val_neg": 36000,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Ischemic Stroke Infarct Core",
+   "train_pos": 3365,
+   "train_neg": 301597,
+   "val_pos": 426,
+   "val_neg": 36193,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ischemic gliosis",
+   "train_pos": 487,
+   "train_neg": 304475,
+   "val_pos": 60,
+   "val_neg": 36559,
+   "kind": "leaf"
+  },
+  {
+   "name": "Joint disease",
+   "train_pos": 5983,
+   "train_neg": 298979,
+   "val_pos": 756,
+   "val_neg": 35863,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Joint effusion",
+   "train_pos": 966,
+   "train_neg": 303996,
+   "val_pos": 127,
+   "val_neg": 36492,
+   "kind": "leaf"
+  },
+  {
+   "name": "Joint space narrowing",
+   "train_pos": 1624,
+   "train_neg": 303338,
+   "val_pos": 200,
+   "val_neg": 36419,
+   "kind": "leaf"
+  },
+  {
+   "name": "Jugular bulb variant",
+   "train_pos": 515,
+   "train_neg": 304447,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Kyphosis",
+   "train_pos": 6549,
+   "train_neg": 298413,
+   "val_pos": 752,
+   "val_neg": 35867,
+   "kind": "leaf"
+  },
+  {
+   "name": "Laminectomy defect",
+   "train_pos": 1534,
+   "train_neg": 303428,
+   "val_pos": 179,
+   "val_neg": 36440,
+   "kind": "leaf"
+  },
+  {
+   "name": "Large vessel occlusion",
+   "train_pos": 285,
+   "train_neg": 304677,
+   "val_pos": 31,
+   "val_neg": 36588,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left atrial enlargement",
+   "train_pos": 1088,
+   "train_neg": 303874,
+   "val_pos": 147,
+   "val_neg": 36472,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left coronary dominance",
+   "train_pos": 964,
+   "train_neg": 303998,
+   "val_pos": 111,
+   "val_neg": 36508,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left lower lobe collapse",
+   "train_pos": 987,
+   "train_neg": 303975,
+   "val_pos": 113,
+   "val_neg": 36506,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left lower lobe consolidation",
+   "train_pos": 2845,
+   "train_neg": 302117,
+   "val_pos": 317,
+   "val_neg": 36302,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left upper lobe collapse",
+   "train_pos": 258,
+   "train_neg": 304704,
+   "val_pos": 33,
+   "val_neg": 36586,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left upper lobe consolidation",
+   "train_pos": 1572,
+   "train_neg": 303390,
+   "val_pos": 181,
+   "val_neg": 36438,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left ventricular enlargement",
+   "train_pos": 1331,
+   "train_neg": 303631,
+   "val_pos": 162,
+   "val_neg": 36457,
+   "kind": "leaf"
+  },
+  {
+   "name": "Left ventricular hypertrophy",
+   "train_pos": 315,
+   "train_neg": 304647,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Linear atelectasis",
+   "train_pos": 24681,
+   "train_neg": 280281,
+   "val_pos": 2901,
+   "val_neg": 33718,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lipomatosis",
+   "train_pos": 231,
+   "train_neg": 304731,
+   "val_pos": 32,
+   "val_neg": 36587,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lipomatous lesions",
+   "train_pos": 1227,
+   "train_neg": 303735,
+   "val_pos": 144,
+   "val_neg": 36475,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver ablation site",
+   "train_pos": 411,
+   "train_neg": 304551,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver cysts",
+   "train_pos": 8643,
+   "train_neg": 296319,
+   "val_pos": 1058,
+   "val_neg": 35561,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver hypertrophy",
+   "train_pos": 1137,
+   "train_neg": 303825,
+   "val_pos": 150,
+   "val_neg": 36469,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver lobulation",
+   "train_pos": 2109,
+   "train_neg": 302853,
+   "val_pos": 257,
+   "val_neg": 36362,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver transplant",
+   "train_pos": 1589,
+   "train_neg": 303373,
+   "val_pos": 200,
+   "val_neg": 36419,
+   "kind": "leaf"
+  },
+  {
+   "name": "Liver tumours",
+   "train_pos": 5148,
+   "train_neg": 299814,
+   "val_pos": 555,
+   "val_neg": 36064,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lobar pneumonia",
+   "train_pos": 298,
+   "train_neg": 304664,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lower lobe bronchiectasis",
+   "train_pos": 1218,
+   "train_neg": 303744,
+   "val_pos": 133,
+   "val_neg": 36486,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lumbar spine fracture",
+   "train_pos": 1222,
+   "train_neg": 303740,
+   "val_pos": 172,
+   "val_neg": 36447,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lung cancer",
+   "train_pos": 3942,
+   "train_neg": 301020,
+   "val_pos": 455,
+   "val_neg": 36164,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lung hyperinflation",
+   "train_pos": 455,
+   "train_neg": 304507,
+   "val_pos": 44,
+   "val_neg": 36575,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lung mass",
+   "train_pos": 6036,
+   "train_neg": 298926,
+   "val_pos": 653,
+   "val_neg": 35966,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Lung opacity",
+   "train_pos": 49041,
+   "train_neg": 255921,
+   "val_pos": 5821,
+   "val_neg": 30798,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Lymphadenopathy",
+   "train_pos": 19197,
+   "train_neg": 285765,
+   "val_pos": 2296,
+   "val_neg": 34323,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Lymphangitis carcinomatosa",
+   "train_pos": 633,
+   "train_neg": 304329,
+   "val_pos": 65,
+   "val_neg": 36554,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lymphocele",
+   "train_pos": 255,
+   "train_neg": 304707,
+   "val_pos": 15,
+   "val_neg": 36604,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lymphoma",
+   "train_pos": 624,
+   "train_neg": 304338,
+   "val_pos": 83,
+   "val_neg": 36536,
+   "kind": "leaf"
+  },
+  {
+   "name": "Lytic bone metastases",
+   "train_pos": 961,
+   "train_neg": 304001,
+   "val_pos": 104,
+   "val_neg": 36515,
+   "kind": "leaf"
+  },
+  {
+   "name": "Malignant pleural disease",
+   "train_pos": 767,
+   "train_neg": 304195,
+   "val_pos": 127,
+   "val_neg": 36492,
+   "kind": "leaf"
+  },
+  {
+   "name": "Malleolar fracture",
+   "train_pos": 354,
+   "train_neg": 304608,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mandibular fracture",
+   "train_pos": 229,
+   "train_neg": 304733,
+   "val_pos": 20,
+   "val_neg": 36599,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mastoid air cell opacification",
+   "train_pos": 3039,
+   "train_neg": 301923,
+   "val_pos": 351,
+   "val_neg": 36268,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mastoid sclerosis",
+   "train_pos": 1660,
+   "train_neg": 303302,
+   "val_pos": 193,
+   "val_neg": 36426,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mastoidectomy",
+   "train_pos": 381,
+   "train_neg": 304581,
+   "val_pos": 43,
+   "val_neg": 36576,
+   "kind": "leaf"
+  },
+  {
+   "name": "Maxillary sinus hypoplasia",
+   "train_pos": 340,
+   "train_neg": 304622,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Maxillary sinus wall defect",
+   "train_pos": 596,
+   "train_neg": 304366,
+   "val_pos": 82,
+   "val_neg": 36537,
+   "kind": "leaf"
+  },
+  {
+   "name": "Median arcuate ligament syndrome",
+   "train_pos": 206,
+   "train_neg": 304756,
+   "val_pos": 17,
+   "val_neg": 36602,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mediastinal lymphadenopathy",
+   "train_pos": 10674,
+   "train_neg": 294288,
+   "val_pos": 1326,
+   "val_neg": 35293,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mediastinal mass",
+   "train_pos": 2656,
+   "train_neg": 302306,
+   "val_pos": 356,
+   "val_neg": 36263,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Mediastinal shift",
+   "train_pos": 1480,
+   "train_neg": 303482,
+   "val_pos": 204,
+   "val_neg": 36415,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mediastinal/hilar lymphadenopathy",
+   "train_pos": 11970,
+   "train_neg": 292992,
+   "val_pos": 1482,
+   "val_neg": 35137,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Medical material",
+   "train_pos": 40700,
+   "train_neg": 264262,
+   "val_pos": 4828,
+   "val_neg": 31791,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Mega cisterna magna",
+   "train_pos": 437,
+   "train_neg": 304525,
+   "val_pos": 43,
+   "val_neg": 36576,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mesenteric abnormality",
+   "train_pos": 6803,
+   "train_neg": 298159,
+   "val_pos": 859,
+   "val_neg": 35760,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Mesenteric fat stranding",
+   "train_pos": 4287,
+   "train_neg": 300675,
+   "val_pos": 510,
+   "val_neg": 36109,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mesenteric lymph node calcification",
+   "train_pos": 257,
+   "train_neg": 304705,
+   "val_pos": 29,
+   "val_neg": 36590,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mesenteric lymphadenopathy",
+   "train_pos": 1569,
+   "train_neg": 303393,
+   "val_pos": 204,
+   "val_neg": 36415,
+   "kind": "leaf"
+  },
+  {
+   "name": "Metacarpal fracture",
+   "train_pos": 227,
+   "train_neg": 304735,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Metal foreign body",
+   "train_pos": 1025,
+   "train_neg": 303937,
+   "val_pos": 98,
+   "val_neg": 36521,
+   "kind": "leaf"
+  },
+  {
+   "name": "Metastatic disease",
+   "train_pos": 14534,
+   "train_neg": 290428,
+   "val_pos": 1600,
+   "val_neg": 35019,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Metatarsal fracture",
+   "train_pos": 310,
+   "train_neg": 304652,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Middle cerebral artery infarct",
+   "train_pos": 656,
+   "train_neg": 304306,
+   "val_pos": 83,
+   "val_neg": 36536,
+   "kind": "leaf"
+  },
+  {
+   "name": "Middle lobe bronchiectasis",
+   "train_pos": 400,
+   "train_neg": 304562,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Middle turbinate hypertrophy",
+   "train_pos": 7479,
+   "train_neg": 297483,
+   "val_pos": 905,
+   "val_neg": 35714,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mitral annular calcification",
+   "train_pos": 390,
+   "train_neg": 304572,
+   "val_pos": 45,
+   "val_neg": 36574,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mitral valve calcification",
+   "train_pos": 1062,
+   "train_neg": 303900,
+   "val_pos": 120,
+   "val_neg": 36499,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mixed attenuation bone lesion",
+   "train_pos": 567,
+   "train_neg": 304395,
+   "val_pos": 63,
+   "val_neg": 36556,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mixed lytic and sclerotic bone metastases",
+   "train_pos": 259,
+   "train_neg": 304703,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Mosaic attenuation pattern",
+   "train_pos": 9330,
+   "train_neg": 295632,
+   "val_pos": 1128,
+   "val_neg": 35491,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Mucoid impaction",
+   "train_pos": 2432,
+   "train_neg": 302530,
+   "val_pos": 290,
+   "val_neg": 36329,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Multinodular goitre",
+   "train_pos": 440,
+   "train_neg": 304522,
+   "val_pos": 60,
+   "val_neg": 36559,
+   "kind": "leaf"
+  },
+  {
+   "name": "Multiple myeloma",
+   "train_pos": 358,
+   "train_neg": 304604,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Muscle atrophy",
+   "train_pos": 753,
+   "train_neg": 304209,
+   "val_pos": 93,
+   "val_neg": 36526,
+   "kind": "leaf"
+  },
+  {
+   "name": "Myocardial bridging",
+   "train_pos": 1492,
+   "train_neg": 303470,
+   "val_pos": 188,
+   "val_neg": 36431,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasal bone fracture",
+   "train_pos": 935,
+   "train_neg": 304027,
+   "val_pos": 113,
+   "val_neg": 36506,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasal cavity abnormality",
+   "train_pos": 25519,
+   "train_neg": 279443,
+   "val_pos": 3035,
+   "val_neg": 33584,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Nasal septal spur",
+   "train_pos": 7261,
+   "train_neg": 297701,
+   "val_pos": 877,
+   "val_neg": 35742,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasal septum perforation",
+   "train_pos": 276,
+   "train_neg": 304686,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasal stenosis",
+   "train_pos": 3605,
+   "train_neg": 301357,
+   "val_pos": 430,
+   "val_neg": 36189,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasogastric tube",
+   "train_pos": 1522,
+   "train_neg": 303440,
+   "val_pos": 197,
+   "val_neg": 36422,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nasopharyngeal wall thickening",
+   "train_pos": 429,
+   "train_neg": 304533,
+   "val_pos": 59,
+   "val_neg": 36560,
+   "kind": "leaf"
+  },
+  {
+   "name": "Nephrocalcinosis",
+   "train_pos": 459,
+   "train_neg": 304503,
+   "val_pos": 72,
+   "val_neg": 36547,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Nephrostomy catheter",
+   "train_pos": 263,
+   "train_neg": 304699,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Obstructive hydrocephalus",
+   "train_pos": 233,
+   "train_neg": 304729,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Obstructive uropathy",
+   "train_pos": 4972,
+   "train_neg": 299990,
+   "val_pos": 623,
+   "val_neg": 35996,
+   "kind": "leaf"
+  },
+  {
+   "name": "Oesophageal carcinoma",
+   "train_pos": 200,
+   "train_neg": 304762,
+   "val_pos": 14,
+   "val_neg": 36605,
+   "kind": "leaf"
+  },
+  {
+   "name": "Oesophageal dilatation",
+   "train_pos": 895,
+   "train_neg": 304067,
+   "val_pos": 85,
+   "val_neg": 36534,
+   "kind": "leaf"
+  },
+  {
+   "name": "Oesophageal wall thickening",
+   "train_pos": 1203,
+   "train_neg": 303759,
+   "val_pos": 148,
+   "val_neg": 36471,
+   "kind": "leaf"
+  },
+  {
+   "name": "Omental cake",
+   "train_pos": 270,
+   "train_neg": 304692,
+   "val_pos": 26,
+   "val_neg": 36593,
+   "kind": "leaf"
+  },
+  {
+   "name": "Onodi cell",
+   "train_pos": 307,
+   "train_neg": 304655,
+   "val_pos": 53,
+   "val_neg": 36566,
+   "kind": "leaf"
+  },
+  {
+   "name": "Orbital abnormality",
+   "train_pos": 1314,
+   "train_neg": 303648,
+   "val_pos": 131,
+   "val_neg": 36488,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Organising pneumonia",
+   "train_pos": 280,
+   "train_neg": 304682,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Organomegaly",
+   "train_pos": 12782,
+   "train_neg": 292180,
+   "val_pos": 1532,
+   "val_neg": 35087,
+   "kind": "leaf"
+  },
+  {
+   "name": "Orthodontic appliance",
+   "train_pos": 471,
+   "train_neg": 304491,
+   "val_pos": 71,
+   "val_neg": 36548,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteoarthritis",
+   "train_pos": 2059,
+   "train_neg": 302903,
+   "val_pos": 268,
+   "val_neg": 36351,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Osteochondral lesion",
+   "train_pos": 225,
+   "train_neg": 304737,
+   "val_pos": 39,
+   "val_neg": 36580,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteolytic bone lesion",
+   "train_pos": 2351,
+   "train_neg": 302611,
+   "val_pos": 274,
+   "val_neg": 36345,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteoma",
+   "train_pos": 1069,
+   "train_neg": 303893,
+   "val_pos": 114,
+   "val_neg": 36505,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteomeatal complex obstruction",
+   "train_pos": 6420,
+   "train_neg": 298542,
+   "val_pos": 761,
+   "val_neg": 35858,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteonecrosis",
+   "train_pos": 228,
+   "train_neg": 304734,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteopenia",
+   "train_pos": 6745,
+   "train_neg": 298217,
+   "val_pos": 825,
+   "val_neg": 35794,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Osteophyte",
+   "train_pos": 23575,
+   "train_neg": 281387,
+   "val_pos": 2801,
+   "val_neg": 33818,
+   "kind": "leaf"
+  },
+  {
+   "name": "Osteoporosis",
+   "train_pos": 5208,
+   "train_neg": 299754,
+   "val_pos": 630,
+   "val_neg": 35989,
+   "kind": "leaf"
+  },
+  {
+   "name": "Otitis media",
+   "train_pos": 2209,
+   "train_neg": 302753,
+   "val_pos": 250,
+   "val_neg": 36369,
+   "kind": "leaf"
+  },
+  {
+   "name": "Otomastoiditis",
+   "train_pos": 4071,
+   "train_neg": 300891,
+   "val_pos": 460,
+   "val_neg": 36159,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Ovarian cancer",
+   "train_pos": 515,
+   "train_neg": 304447,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ovarian cyst",
+   "train_pos": 3693,
+   "train_neg": 301269,
+   "val_pos": 432,
+   "val_neg": 36187,
+   "kind": "leaf"
+  },
+  {
+   "name": "PEG tube",
+   "train_pos": 322,
+   "train_neg": 304640,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pacemaker",
+   "train_pos": 1040,
+   "train_neg": 303922,
+   "val_pos": 97,
+   "val_neg": 36522,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pancreatic abnormality",
+   "train_pos": 4323,
+   "train_neg": 300639,
+   "val_pos": 527,
+   "val_neg": 36092,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pancreatic atrophy",
+   "train_pos": 1025,
+   "train_neg": 303937,
+   "val_pos": 121,
+   "val_neg": 36498,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pancreatic calcifications",
+   "train_pos": 306,
+   "train_neg": 304656,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pancreatic duct dilatation",
+   "train_pos": 702,
+   "train_neg": 304260,
+   "val_pos": 87,
+   "val_neg": 36532,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pancreatic neoplasms",
+   "train_pos": 1546,
+   "train_neg": 303416,
+   "val_pos": 208,
+   "val_neg": 36411,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pancreatic parenchymal disease",
+   "train_pos": 2311,
+   "train_neg": 302651,
+   "val_pos": 274,
+   "val_neg": 36345,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pancreatitis",
+   "train_pos": 1024,
+   "train_neg": 303938,
+   "val_pos": 118,
+   "val_neg": 36501,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Panlobular emphysema",
+   "train_pos": 1226,
+   "train_neg": 303736,
+   "val_pos": 141,
+   "val_neg": 36478,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paraaortic lymphadenopathy",
+   "train_pos": 2811,
+   "train_neg": 302151,
+   "val_pos": 318,
+   "val_neg": 36301,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paradoxical middle turbinate",
+   "train_pos": 449,
+   "train_neg": 304513,
+   "val_pos": 52,
+   "val_neg": 36567,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paranasal sinus disease",
+   "train_pos": 31640,
+   "train_neg": 273322,
+   "val_pos": 3755,
+   "val_neg": 32864,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Paranasal sinus fractures",
+   "train_pos": 446,
+   "train_neg": 304516,
+   "val_pos": 59,
+   "val_neg": 36560,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paranasal sinus mucosal thickening",
+   "train_pos": 23710,
+   "train_neg": 281252,
+   "val_pos": 2832,
+   "val_neg": 33787,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paranasal sinus osteoma",
+   "train_pos": 634,
+   "train_neg": 304328,
+   "val_pos": 67,
+   "val_neg": 36552,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paranasal sinus retention cyst",
+   "train_pos": 9541,
+   "train_neg": 295421,
+   "val_pos": 1111,
+   "val_neg": 35508,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paraoesophageal hernia",
+   "train_pos": 200,
+   "train_neg": 304762,
+   "val_pos": 28,
+   "val_neg": 36591,
+   "kind": "leaf"
+  },
+  {
+   "name": "Paraseptal emphysema",
+   "train_pos": 4552,
+   "train_neg": 300410,
+   "val_pos": 510,
+   "val_neg": 36109,
+   "kind": "leaf"
+  },
+  {
+   "name": "Parasitic infection",
+   "train_pos": 403,
+   "train_neg": 304559,
+   "val_pos": 60,
+   "val_neg": 36559,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Paraumbilical hernia",
+   "train_pos": 207,
+   "train_neg": 304755,
+   "val_pos": 24,
+   "val_neg": 36595,
+   "kind": "leaf"
+  },
+  {
+   "name": "Part-solid lung nodule",
+   "train_pos": 993,
+   "train_neg": 303969,
+   "val_pos": 121,
+   "val_neg": 36498,
+   "kind": "leaf"
+  },
+  {
+   "name": "Passive atelectasis",
+   "train_pos": 1747,
+   "train_neg": 303215,
+   "val_pos": 218,
+   "val_neg": 36401,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pathological fracture",
+   "train_pos": 401,
+   "train_neg": 304561,
+   "val_pos": 76,
+   "val_neg": 36543,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pathological gas",
+   "train_pos": 1436,
+   "train_neg": 303526,
+   "val_pos": 133,
+   "val_neg": 36486,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pectus excavatum",
+   "train_pos": 265,
+   "train_neg": 304697,
+   "val_pos": 23,
+   "val_neg": 36596,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pedicle screws",
+   "train_pos": 1852,
+   "train_neg": 303110,
+   "val_pos": 207,
+   "val_neg": 36412,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pelvic fractures",
+   "train_pos": 622,
+   "train_neg": 304340,
+   "val_pos": 78,
+   "val_neg": 36541,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pelvic lymphadenopathy",
+   "train_pos": 1039,
+   "train_neg": 303923,
+   "val_pos": 105,
+   "val_neg": 36514,
+   "kind": "leaf"
+  },
+  {
+   "name": "Perforated appendix",
+   "train_pos": 217,
+   "train_neg": 304745,
+   "val_pos": 28,
+   "val_neg": 36591,
+   "kind": "leaf"
+  },
+  {
+   "name": "Perforation",
+   "train_pos": 1035,
+   "train_neg": 303927,
+   "val_pos": 110,
+   "val_neg": 36509,
+   "kind": "leaf"
+  },
+  {
+   "name": "Peribronchial thickening",
+   "train_pos": 15094,
+   "train_neg": 289868,
+   "val_pos": 1744,
+   "val_neg": 34875,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Peribronchovascular consolidation",
+   "train_pos": 244,
+   "train_neg": 304718,
+   "val_pos": 26,
+   "val_neg": 36593,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pericardial effusion",
+   "train_pos": 7474,
+   "train_neg": 297488,
+   "val_pos": 852,
+   "val_neg": 35767,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pericardial fat pad",
+   "train_pos": 338,
+   "train_neg": 304624,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pericardial thickening",
+   "train_pos": 548,
+   "train_neg": 304414,
+   "val_pos": 68,
+   "val_neg": 36551,
+   "kind": "leaf"
+  },
+  {
+   "name": "Peripheral arterial disease",
+   "train_pos": 621,
+   "train_neg": 304341,
+   "val_pos": 66,
+   "val_neg": 36553,
+   "kind": "leaf"
+  },
+  {
+   "name": "Periportal edema",
+   "train_pos": 528,
+   "train_neg": 304434,
+   "val_pos": 66,
+   "val_neg": 36553,
+   "kind": "leaf"
+  },
+  {
+   "name": "Periportal lymphadenopathy",
+   "train_pos": 751,
+   "train_neg": 304211,
+   "val_pos": 99,
+   "val_neg": 36520,
+   "kind": "leaf"
+  },
+  {
+   "name": "Perirenal fat stranding",
+   "train_pos": 4177,
+   "train_neg": 300785,
+   "val_pos": 535,
+   "val_neg": 36084,
+   "kind": "leaf"
+  },
+  {
+   "name": "Peritoneal abnormality",
+   "train_pos": 3782,
+   "train_neg": 301180,
+   "val_pos": 413,
+   "val_neg": 36206,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Peritoneal carcinomatosis",
+   "train_pos": 2613,
+   "train_neg": 302349,
+   "val_pos": 257,
+   "val_neg": 36362,
+   "kind": "leaf"
+  },
+  {
+   "name": "Peritoneal thickening",
+   "train_pos": 1501,
+   "train_neg": 303461,
+   "val_pos": 150,
+   "val_neg": 36469,
+   "kind": "leaf"
+  },
+  {
+   "name": "Peritonitis",
+   "train_pos": 215,
+   "train_neg": 304747,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pharyngeal/tonsillar disease",
+   "train_pos": 2392,
+   "train_neg": 302570,
+   "val_pos": 266,
+   "val_neg": 36353,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Phlebolith",
+   "train_pos": 1509,
+   "train_neg": 303453,
+   "val_pos": 195,
+   "val_neg": 36424,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pineal calcification",
+   "train_pos": 907,
+   "train_neg": 304055,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pituitary region masses",
+   "train_pos": 259,
+   "train_neg": 304703,
+   "val_pos": 28,
+   "val_neg": 36591,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pleural abnormality",
+   "train_pos": 29333,
+   "train_neg": 275629,
+   "val_pos": 3356,
+   "val_neg": 33263,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pleural calcification",
+   "train_pos": 2207,
+   "train_neg": 302755,
+   "val_pos": 277,
+   "val_neg": 36342,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pleural effusion",
+   "train_pos": 19408,
+   "train_neg": 285554,
+   "val_pos": 2185,
+   "val_neg": 34434,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pleural metastases",
+   "train_pos": 538,
+   "train_neg": 304424,
+   "val_pos": 74,
+   "val_neg": 36545,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pleural plaque",
+   "train_pos": 1116,
+   "train_neg": 303846,
+   "val_pos": 144,
+   "val_neg": 36475,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pleural retraction",
+   "train_pos": 3134,
+   "train_neg": 301828,
+   "val_pos": 361,
+   "val_neg": 36258,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pleural thickening",
+   "train_pos": 9198,
+   "train_neg": 295764,
+   "val_pos": 1135,
+   "val_neg": 35484,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pleuroparenchymal fibrosis",
+   "train_pos": 2170,
+   "train_neg": 302792,
+   "val_pos": 219,
+   "val_neg": 36400,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pneumobilia",
+   "train_pos": 981,
+   "train_neg": 303981,
+   "val_pos": 101,
+   "val_neg": 36518,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pneumocephalus",
+   "train_pos": 2389,
+   "train_neg": 302573,
+   "val_pos": 354,
+   "val_neg": 36265,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pneumomediastinum",
+   "train_pos": 254,
+   "train_neg": 304708,
+   "val_pos": 31,
+   "val_neg": 36588,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pneumonia",
+   "train_pos": 27919,
+   "train_neg": 277043,
+   "val_pos": 3314,
+   "val_neg": 33305,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pneumoperitoneum",
+   "train_pos": 1266,
+   "train_neg": 303696,
+   "val_pos": 131,
+   "val_neg": 36488,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pneumothorax",
+   "train_pos": 823,
+   "train_neg": 304139,
+   "val_pos": 82,
+   "val_neg": 36537,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Portal hypertension",
+   "train_pos": 1223,
+   "train_neg": 303739,
+   "val_pos": 121,
+   "val_neg": 36498,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Portal vein dilatation",
+   "train_pos": 345,
+   "train_neg": 304617,
+   "val_pos": 51,
+   "val_neg": 36568,
+   "kind": "leaf"
+  },
+  {
+   "name": "Portosystemic collaterals",
+   "train_pos": 832,
+   "train_neg": 304130,
+   "val_pos": 75,
+   "val_neg": 36544,
+   "kind": "leaf"
+  },
+  {
+   "name": "Post-surgical state",
+   "train_pos": 47192,
+   "train_neg": 257770,
+   "val_pos": 5660,
+   "val_neg": 30959,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Posterior cerebral artery infarct",
+   "train_pos": 276,
+   "train_neg": 304686,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Postoperative pneumoperitoneum",
+   "train_pos": 316,
+   "train_neg": 304646,
+   "val_pos": 42,
+   "val_neg": 36577,
+   "kind": "leaf"
+  },
+  {
+   "name": "Primary intraosseous haemangioma",
+   "train_pos": 1515,
+   "train_neg": 303447,
+   "val_pos": 189,
+   "val_neg": 36430,
+   "kind": "leaf"
+  },
+  {
+   "name": "Primary malignancy",
+   "train_pos": 13472,
+   "train_neg": 291490,
+   "val_pos": 1449,
+   "val_neg": 35170,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Primary renal neoplasia",
+   "train_pos": 1373,
+   "train_neg": 303589,
+   "val_pos": 149,
+   "val_neg": 36470,
+   "kind": "leaf"
+  },
+  {
+   "name": "Prominent processus vaginalis",
+   "train_pos": 271,
+   "train_neg": 304691,
+   "val_pos": 36,
+   "val_neg": 36583,
+   "kind": "leaf"
+  },
+  {
+   "name": "Prostate disease",
+   "train_pos": 6413,
+   "train_neg": 298549,
+   "val_pos": 739,
+   "val_neg": 35880,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Prostatic calcification",
+   "train_pos": 1385,
+   "train_neg": 303577,
+   "val_pos": 160,
+   "val_neg": 36459,
+   "kind": "leaf"
+  },
+  {
+   "name": "Prostatomegaly",
+   "train_pos": 5282,
+   "train_neg": 299680,
+   "val_pos": 613,
+   "val_neg": 36006,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pubic ramus fracture",
+   "train_pos": 305,
+   "train_neg": 304657,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary artery ectasia",
+   "train_pos": 1212,
+   "train_neg": 303750,
+   "val_pos": 142,
+   "val_neg": 36477,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary artery enlargement",
+   "train_pos": 5487,
+   "train_neg": 299475,
+   "val_pos": 661,
+   "val_neg": 35958,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary artery stenosis",
+   "train_pos": 227,
+   "train_neg": 304735,
+   "val_pos": 42,
+   "val_neg": 36577,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary aspiration diseases",
+   "train_pos": 400,
+   "train_neg": 304562,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary bleb",
+   "train_pos": 639,
+   "train_neg": 304323,
+   "val_pos": 75,
+   "val_neg": 36544,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary bulla",
+   "train_pos": 3916,
+   "train_neg": 301046,
+   "val_pos": 466,
+   "val_neg": 36153,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary calcification",
+   "train_pos": 12259,
+   "train_neg": 292703,
+   "val_pos": 1479,
+   "val_neg": 35140,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary cavity",
+   "train_pos": 1366,
+   "train_neg": 303596,
+   "val_pos": 180,
+   "val_neg": 36439,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary congestion",
+   "train_pos": 310,
+   "train_neg": 304652,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary cyst",
+   "train_pos": 4576,
+   "train_neg": 300386,
+   "val_pos": 532,
+   "val_neg": 36087,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary embolism",
+   "train_pos": 1880,
+   "train_neg": 303082,
+   "val_pos": 200,
+   "val_neg": 36419,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary fibrosis",
+   "train_pos": 2414,
+   "train_neg": 302548,
+   "val_pos": 285,
+   "val_neg": 36334,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary fibrotic sequela",
+   "train_pos": 46779,
+   "train_neg": 258183,
+   "val_pos": 5407,
+   "val_neg": 31212,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary fungal disease",
+   "train_pos": 411,
+   "train_neg": 304551,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary hypertension",
+   "train_pos": 760,
+   "train_neg": 304202,
+   "val_pos": 85,
+   "val_neg": 36534,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary infection",
+   "train_pos": 29899,
+   "train_neg": 275063,
+   "val_pos": 3556,
+   "val_neg": 33063,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary metastases",
+   "train_pos": 5418,
+   "train_neg": 299544,
+   "val_pos": 612,
+   "val_neg": 36007,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary micronodule",
+   "train_pos": 3332,
+   "train_neg": 301630,
+   "val_pos": 398,
+   "val_neg": 36221,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary nodule",
+   "train_pos": 61737,
+   "train_neg": 243225,
+   "val_pos": 7458,
+   "val_neg": 29161,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Pulmonary oedema",
+   "train_pos": 1051,
+   "train_neg": 303911,
+   "val_pos": 97,
+   "val_neg": 36522,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary parenchymal bands",
+   "train_pos": 14575,
+   "train_neg": 290387,
+   "val_pos": 1684,
+   "val_neg": 34935,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary trunk dilatation",
+   "train_pos": 3975,
+   "train_neg": 300987,
+   "val_pos": 487,
+   "val_neg": 36132,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pulmonary tuberculosis",
+   "train_pos": 626,
+   "train_neg": 304336,
+   "val_pos": 70,
+   "val_neg": 36549,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pure ground glass nodule",
+   "train_pos": 1679,
+   "train_neg": 303283,
+   "val_pos": 192,
+   "val_neg": 36427,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pyelolithiasis",
+   "train_pos": 2179,
+   "train_neg": 302783,
+   "val_pos": 262,
+   "val_neg": 36357,
+   "kind": "leaf"
+  },
+  {
+   "name": "Pyelonephritis",
+   "train_pos": 1048,
+   "train_neg": 303914,
+   "val_pos": 133,
+   "val_neg": 36486,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Radial head fracture",
+   "train_pos": 224,
+   "train_neg": 304738,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Radiation-induced lung disease",
+   "train_pos": 1280,
+   "train_neg": 303682,
+   "val_pos": 113,
+   "val_neg": 36506,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Radiation-induced pulmonary fibrosis",
+   "train_pos": 229,
+   "train_neg": 304733,
+   "val_pos": 24,
+   "val_neg": 36595,
+   "kind": "leaf"
+  },
+  {
+   "name": "Radius fracture",
+   "train_pos": 839,
+   "train_neg": 304123,
+   "val_pos": 101,
+   "val_neg": 36518,
+   "kind": "leaf"
+  },
+  {
+   "name": "Raised intracranial pressure",
+   "train_pos": 220,
+   "train_neg": 304742,
+   "val_pos": 19,
+   "val_neg": 36600,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal artery calcification",
+   "train_pos": 354,
+   "train_neg": 304608,
+   "val_pos": 50,
+   "val_neg": 36569,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal artery stenosis",
+   "train_pos": 469,
+   "train_neg": 304493,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal atrophy",
+   "train_pos": 2882,
+   "train_neg": 302080,
+   "val_pos": 314,
+   "val_neg": 36305,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal calculus",
+   "train_pos": 18420,
+   "train_neg": 286542,
+   "val_pos": 2316,
+   "val_neg": 34303,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Renal cell carcinoma",
+   "train_pos": 319,
+   "train_neg": 304643,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal cortical defect",
+   "train_pos": 1257,
+   "train_neg": 303705,
+   "val_pos": 152,
+   "val_neg": 36467,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal cortical scar",
+   "train_pos": 349,
+   "train_neg": 304613,
+   "val_pos": 44,
+   "val_neg": 36575,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal cyst",
+   "train_pos": 27287,
+   "train_neg": 277675,
+   "val_pos": 3139,
+   "val_neg": 33480,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Renal edema",
+   "train_pos": 710,
+   "train_neg": 304252,
+   "val_pos": 94,
+   "val_neg": 36525,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal hypertrophy",
+   "train_pos": 882,
+   "train_neg": 304080,
+   "val_pos": 93,
+   "val_neg": 36526,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal hypodensities",
+   "train_pos": 27780,
+   "train_neg": 277182,
+   "val_pos": 3196,
+   "val_neg": 33423,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Renal hypoplasia",
+   "train_pos": 249,
+   "train_neg": 304713,
+   "val_pos": 38,
+   "val_neg": 36581,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal lobulation",
+   "train_pos": 1335,
+   "train_neg": 303627,
+   "val_pos": 162,
+   "val_neg": 36457,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal mass",
+   "train_pos": 2846,
+   "train_neg": 302116,
+   "val_pos": 311,
+   "val_neg": 36308,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Renal parenchymal disease",
+   "train_pos": 6155,
+   "train_neg": 298807,
+   "val_pos": 713,
+   "val_neg": 35906,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Renal sinus cyst",
+   "train_pos": 1807,
+   "train_neg": 303155,
+   "val_pos": 184,
+   "val_neg": 36435,
+   "kind": "leaf"
+  },
+  {
+   "name": "Renal vascular variant",
+   "train_pos": 1292,
+   "train_neg": 303670,
+   "val_pos": 182,
+   "val_neg": 36437,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Resection cavity",
+   "train_pos": 1262,
+   "train_neg": 303700,
+   "val_pos": 168,
+   "val_neg": 36451,
+   "kind": "leaf"
+  },
+  {
+   "name": "Retroaortic left renal vein",
+   "train_pos": 362,
+   "train_neg": 304600,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Retrocecal appendix",
+   "train_pos": 672,
+   "train_neg": 304290,
+   "val_pos": 95,
+   "val_neg": 36524,
+   "kind": "leaf"
+  },
+  {
+   "name": "Retrolisthesis",
+   "train_pos": 882,
+   "train_neg": 304080,
+   "val_pos": 106,
+   "val_neg": 36513,
+   "kind": "leaf"
+  },
+  {
+   "name": "Rib fracture",
+   "train_pos": 2624,
+   "train_neg": 302338,
+   "val_pos": 276,
+   "val_neg": 36343,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Riedel lobe",
+   "train_pos": 244,
+   "train_neg": 304718,
+   "val_pos": 40,
+   "val_neg": 36579,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right hilar lymphadenopathy",
+   "train_pos": 1806,
+   "train_neg": 303156,
+   "val_pos": 207,
+   "val_neg": 36412,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right lower lobe collapse",
+   "train_pos": 996,
+   "train_neg": 303966,
+   "val_pos": 102,
+   "val_neg": 36517,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right lower lobe consolidation",
+   "train_pos": 3740,
+   "train_neg": 301222,
+   "val_pos": 443,
+   "val_neg": 36176,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right middle lobe consolidation",
+   "train_pos": 1983,
+   "train_neg": 302979,
+   "val_pos": 229,
+   "val_neg": 36390,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right paratracheal lymphadenopathy",
+   "train_pos": 3077,
+   "train_neg": 301885,
+   "val_pos": 379,
+   "val_neg": 36240,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right upper lobe collapse",
+   "train_pos": 219,
+   "train_neg": 304743,
+   "val_pos": 27,
+   "val_neg": 36592,
+   "kind": "leaf"
+  },
+  {
+   "name": "Right upper lobe consolidation",
+   "train_pos": 2222,
+   "train_neg": 302740,
+   "val_pos": 268,
+   "val_neg": 36351,
+   "kind": "leaf"
+  },
+  {
+   "name": "Round atelectasis",
+   "train_pos": 356,
+   "train_neg": 304606,
+   "val_pos": 56,
+   "val_neg": 36563,
+   "kind": "leaf"
+  },
+  {
+   "name": "Saccular cerebral aneurysm",
+   "train_pos": 344,
+   "train_neg": 304618,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sacroiliitis",
+   "train_pos": 895,
+   "train_neg": 304067,
+   "val_pos": 107,
+   "val_neg": 36512,
+   "kind": "leaf"
+  },
+  {
+   "name": "Salivary gland disease",
+   "train_pos": 685,
+   "train_neg": 304277,
+   "val_pos": 69,
+   "val_neg": 36550,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Sarcoidosis",
+   "train_pos": 321,
+   "train_neg": 304641,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Scalp Edema",
+   "train_pos": 466,
+   "train_neg": 304496,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Scaphoid fracture",
+   "train_pos": 207,
+   "train_neg": 304755,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Schmorl node",
+   "train_pos": 3197,
+   "train_neg": 301765,
+   "val_pos": 366,
+   "val_neg": 36253,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sclerosing mesenteritis",
+   "train_pos": 816,
+   "train_neg": 304146,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sclerotic bone lesion",
+   "train_pos": 6393,
+   "train_neg": 298569,
+   "val_pos": 806,
+   "val_neg": 35813,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sclerotic bone metastases",
+   "train_pos": 1281,
+   "train_neg": 303681,
+   "val_pos": 156,
+   "val_neg": 36463,
+   "kind": "leaf"
+  },
+  {
+   "name": "Scoliosis",
+   "train_pos": 10451,
+   "train_neg": 294511,
+   "val_pos": 1327,
+   "val_neg": 35292,
+   "kind": "leaf"
+  },
+  {
+   "name": "Segmental atelectasis",
+   "train_pos": 1491,
+   "train_neg": 303471,
+   "val_pos": 188,
+   "val_neg": 36431,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sialadenitis",
+   "train_pos": 243,
+   "train_neg": 304719,
+   "val_pos": 18,
+   "val_neg": 36601,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sialolithiasis",
+   "train_pos": 409,
+   "train_neg": 304553,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Simple hepatic cyst",
+   "train_pos": 5318,
+   "train_neg": 299644,
+   "val_pos": 627,
+   "val_neg": 35992,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sinonasal anatomical variant",
+   "train_pos": 29100,
+   "train_neg": 275862,
+   "val_pos": 3503,
+   "val_neg": 33116,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Sinonasal polyposis",
+   "train_pos": 2490,
+   "train_neg": 302472,
+   "val_pos": 288,
+   "val_neg": 36331,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sinusitis",
+   "train_pos": 15326,
+   "train_neg": 289636,
+   "val_pos": 1744,
+   "val_neg": 34875,
+   "kind": "leaf"
+  },
+  {
+   "name": "Skin laceration",
+   "train_pos": 254,
+   "train_neg": 304708,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Skull fracture",
+   "train_pos": 931,
+   "train_neg": 304031,
+   "val_pos": 126,
+   "val_neg": 36493,
+   "kind": "leaf"
+  },
+  {
+   "name": "Skull tumours",
+   "train_pos": 434,
+   "train_neg": 304528,
+   "val_pos": 55,
+   "val_neg": 36564,
+   "kind": "leaf"
+  },
+  {
+   "name": "Skull vault osteoma",
+   "train_pos": 269,
+   "train_neg": 304693,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sleeve gastrectomy",
+   "train_pos": 313,
+   "train_neg": 304649,
+   "val_pos": 34,
+   "val_neg": 36585,
+   "kind": "leaf"
+  },
+  {
+   "name": "Small airways disease",
+   "train_pos": 10096,
+   "train_neg": 294866,
+   "val_pos": 1258,
+   "val_neg": 35361,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Small bowel obstruction",
+   "train_pos": 514,
+   "train_neg": 304448,
+   "val_pos": 57,
+   "val_neg": 36562,
+   "kind": "leaf"
+  },
+  {
+   "name": "Small intestine diverticular disease",
+   "train_pos": 498,
+   "train_neg": 304464,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Small pulmonary nodules",
+   "train_pos": 47274,
+   "train_neg": 257688,
+   "val_pos": 5701,
+   "val_neg": 30918,
+   "kind": "leaf"
+  },
+  {
+   "name": "Soft tissue calcification",
+   "train_pos": 2155,
+   "train_neg": 302807,
+   "val_pos": 269,
+   "val_neg": 36350,
+   "kind": "leaf"
+  },
+  {
+   "name": "Soft tissue oedema",
+   "train_pos": 7913,
+   "train_neg": 297049,
+   "val_pos": 929,
+   "val_neg": 35690,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Solitary pulmonary nodule",
+   "train_pos": 2518,
+   "train_neg": 302444,
+   "val_pos": 306,
+   "val_neg": 36313,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spinal canal or foraminal stenosis",
+   "train_pos": 4578,
+   "train_neg": 300384,
+   "val_pos": 561,
+   "val_neg": 36058,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Spinal compression fracture",
+   "train_pos": 3637,
+   "train_neg": 301325,
+   "val_pos": 433,
+   "val_neg": 36186,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spinal cord compression",
+   "train_pos": 480,
+   "train_neg": 304482,
+   "val_pos": 47,
+   "val_neg": 36572,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spinal curvature abnormality",
+   "train_pos": 18626,
+   "train_neg": 286336,
+   "val_pos": 2274,
+   "val_neg": 34345,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Spinal fracture",
+   "train_pos": 4649,
+   "train_neg": 300313,
+   "val_pos": 561,
+   "val_neg": 36058,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Spinal fusion",
+   "train_pos": 604,
+   "train_neg": 304358,
+   "val_pos": 72,
+   "val_neg": 36547,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spinal instrumentation",
+   "train_pos": 3521,
+   "train_neg": 301441,
+   "val_pos": 443,
+   "val_neg": 36176,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spinal ligament ossification",
+   "train_pos": 1126,
+   "train_neg": 303836,
+   "val_pos": 148,
+   "val_neg": 36471,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Spinal stenosis",
+   "train_pos": 1352,
+   "train_neg": 303610,
+   "val_pos": 163,
+   "val_neg": 36456,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spleen tumours",
+   "train_pos": 1091,
+   "train_neg": 303871,
+   "val_pos": 125,
+   "val_neg": 36494,
+   "kind": "leaf"
+  },
+  {
+   "name": "Splenic calcification",
+   "train_pos": 964,
+   "train_neg": 303998,
+   "val_pos": 110,
+   "val_neg": 36509,
+   "kind": "leaf"
+  },
+  {
+   "name": "Splenic cyst",
+   "train_pos": 599,
+   "train_neg": 304363,
+   "val_pos": 73,
+   "val_neg": 36546,
+   "kind": "leaf"
+  },
+  {
+   "name": "Splenic infarct",
+   "train_pos": 384,
+   "train_neg": 304578,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Splenomegaly",
+   "train_pos": 4963,
+   "train_neg": 299999,
+   "val_pos": 572,
+   "val_neg": 36047,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Splenunculus",
+   "train_pos": 5959,
+   "train_neg": 299003,
+   "val_pos": 745,
+   "val_neg": 35874,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spondylolisthesis",
+   "train_pos": 3552,
+   "train_neg": 301410,
+   "val_pos": 436,
+   "val_neg": 36183,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Spondylolysis",
+   "train_pos": 1569,
+   "train_neg": 303393,
+   "val_pos": 216,
+   "val_neg": 36403,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spondylosis",
+   "train_pos": 36029,
+   "train_neg": 268933,
+   "val_pos": 4337,
+   "val_neg": 32282,
+   "kind": "leaf"
+  },
+  {
+   "name": "Spontaneous splenorenal shunt",
+   "train_pos": 314,
+   "train_neg": 304648,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Staghorn calculus",
+   "train_pos": 500,
+   "train_neg": 304462,
+   "val_pos": 66,
+   "val_neg": 36553,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post appendectomy",
+   "train_pos": 293,
+   "train_neg": 304669,
+   "val_pos": 46,
+   "val_neg": 36573,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post colectomy",
+   "train_pos": 1549,
+   "train_neg": 303413,
+   "val_pos": 249,
+   "val_neg": 36370,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post gastrectomy",
+   "train_pos": 1509,
+   "train_neg": 303453,
+   "val_pos": 164,
+   "val_neg": 36455,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post hemicolectomy",
+   "train_pos": 711,
+   "train_neg": 304251,
+   "val_pos": 118,
+   "val_neg": 36501,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post hepatectomy",
+   "train_pos": 334,
+   "train_neg": 304628,
+   "val_pos": 52,
+   "val_neg": 36567,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post hysterectomy",
+   "train_pos": 2885,
+   "train_neg": 302077,
+   "val_pos": 324,
+   "val_neg": 36295,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post lobectomy",
+   "train_pos": 1362,
+   "train_neg": 303600,
+   "val_pos": 146,
+   "val_neg": 36473,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post lung resection",
+   "train_pos": 1823,
+   "train_neg": 303139,
+   "val_pos": 223,
+   "val_neg": 36396,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Status post mastectomy",
+   "train_pos": 1330,
+   "train_neg": 303632,
+   "val_pos": 146,
+   "val_neg": 36473,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post nephrectomy",
+   "train_pos": 941,
+   "train_neg": 304021,
+   "val_pos": 90,
+   "val_neg": 36529,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post orchiectomy",
+   "train_pos": 270,
+   "train_neg": 304692,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post pneumonectomy",
+   "train_pos": 230,
+   "train_neg": 304732,
+   "val_pos": 51,
+   "val_neg": 36568,
+   "kind": "leaf"
+  },
+  {
+   "name": "Status post splenectomy",
+   "train_pos": 980,
+   "train_neg": 303982,
+   "val_pos": 99,
+   "val_neg": 36520,
+   "kind": "leaf"
+  },
+  {
+   "name": "Sternotomy",
+   "train_pos": 2673,
+   "train_neg": 302289,
+   "val_pos": 301,
+   "val_neg": 36318,
+   "kind": "leaf"
+  },
+  {
+   "name": "Stroke",
+   "train_pos": 5042,
+   "train_neg": 299920,
+   "val_pos": 627,
+   "val_neg": 35992,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Subarachnoid haemorrhage",
+   "train_pos": 1066,
+   "train_neg": 303896,
+   "val_pos": 138,
+   "val_neg": 36481,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subarticular zone stenosis",
+   "train_pos": 912,
+   "train_neg": 304050,
+   "val_pos": 120,
+   "val_neg": 36499,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subchondral cyst",
+   "train_pos": 1396,
+   "train_neg": 303566,
+   "val_pos": 168,
+   "val_neg": 36451,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subclavian artery stenosis",
+   "train_pos": 291,
+   "train_neg": 304671,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subcutaneous emphysema",
+   "train_pos": 1545,
+   "train_neg": 303417,
+   "val_pos": 198,
+   "val_neg": 36421,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subcutaneous nodule",
+   "train_pos": 814,
+   "train_neg": 304148,
+   "val_pos": 91,
+   "val_neg": 36528,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subdural haemorrhage",
+   "train_pos": 1335,
+   "train_neg": 303627,
+   "val_pos": 169,
+   "val_neg": 36450,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subdural hygroma",
+   "train_pos": 564,
+   "train_neg": 304398,
+   "val_pos": 53,
+   "val_neg": 36566,
+   "kind": "leaf"
+  },
+  {
+   "name": "Subfalcine herniation",
+   "train_pos": 641,
+   "train_neg": 304321,
+   "val_pos": 67,
+   "val_neg": 36552,
+   "kind": "leaf"
+  },
+  {
+   "name": "Submandibular gland enlargement",
+   "train_pos": 269,
+   "train_neg": 304693,
+   "val_pos": 26,
+   "val_neg": 36593,
+   "kind": "leaf"
+  },
+  {
+   "name": "Submucosal edema",
+   "train_pos": 1047,
+   "train_neg": 303915,
+   "val_pos": 115,
+   "val_neg": 36504,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Subpleural pulmonary nodules",
+   "train_pos": 5349,
+   "train_neg": 299613,
+   "val_pos": 672,
+   "val_neg": 35947,
+   "kind": "leaf"
+  },
+  {
+   "name": "Substernal goitre",
+   "train_pos": 645,
+   "train_neg": 304317,
+   "val_pos": 90,
+   "val_neg": 36529,
+   "kind": "leaf"
+  },
+  {
+   "name": "Superior mesenteric artery stenosis",
+   "train_pos": 273,
+   "train_neg": 304689,
+   "val_pos": 30,
+   "val_neg": 36589,
+   "kind": "leaf"
+  },
+  {
+   "name": "Surgical clip",
+   "train_pos": 3228,
+   "train_neg": 301734,
+   "val_pos": 398,
+   "val_neg": 36221,
+   "kind": "leaf"
+  },
+  {
+   "name": "Surgical suture",
+   "train_pos": 6768,
+   "train_neg": 298194,
+   "val_pos": 852,
+   "val_neg": 35767,
+   "kind": "leaf"
+  },
+  {
+   "name": "Surgically absent gallbladder",
+   "train_pos": 10651,
+   "train_neg": 294311,
+   "val_pos": 1304,
+   "val_neg": 35315,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Syndesmophyte",
+   "train_pos": 906,
+   "train_neg": 304056,
+   "val_pos": 114,
+   "val_neg": 36505,
+   "kind": "leaf"
+  },
+  {
+   "name": "Synostosis",
+   "train_pos": 843,
+   "train_neg": 304119,
+   "val_pos": 118,
+   "val_neg": 36501,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tarsal fracture",
+   "train_pos": 582,
+   "train_neg": 304380,
+   "val_pos": 66,
+   "val_neg": 36553,
+   "kind": "leaf"
+  },
+  {
+   "name": "Temporal bone abnormality",
+   "train_pos": 5074,
+   "train_neg": 299888,
+   "val_pos": 568,
+   "val_neg": 36051,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Terminal ileitis",
+   "train_pos": 694,
+   "train_neg": 304268,
+   "val_pos": 77,
+   "val_neg": 36542,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thoracic aortic aneurysm",
+   "train_pos": 3261,
+   "train_neg": 301701,
+   "val_pos": 417,
+   "val_neg": 36202,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thoracic aortic dilatation",
+   "train_pos": 12068,
+   "train_neg": 292894,
+   "val_pos": 1478,
+   "val_neg": 35141,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thoracolumbar spine fracture",
+   "train_pos": 260,
+   "train_neg": 304702,
+   "val_pos": 20,
+   "val_neg": 36599,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thrombosis",
+   "train_pos": 4943,
+   "train_neg": 300019,
+   "val_pos": 543,
+   "val_neg": 36076,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Thymic hyperplasia",
+   "train_pos": 338,
+   "train_neg": 304624,
+   "val_pos": 35,
+   "val_neg": 36584,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thymic remnant",
+   "train_pos": 2485,
+   "train_neg": 302477,
+   "val_pos": 304,
+   "val_neg": 36315,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thyroid calcification",
+   "train_pos": 2087,
+   "train_neg": 302875,
+   "val_pos": 225,
+   "val_neg": 36394,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thyroid disease",
+   "train_pos": 9201,
+   "train_neg": 295761,
+   "val_pos": 1059,
+   "val_neg": 35560,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Thyroid heterogeneity",
+   "train_pos": 1799,
+   "train_neg": 303163,
+   "val_pos": 189,
+   "val_neg": 36430,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thyroid hyperplasia",
+   "train_pos": 474,
+   "train_neg": 304488,
+   "val_pos": 50,
+   "val_neg": 36569,
+   "kind": "leaf"
+  },
+  {
+   "name": "Thyroid nodule",
+   "train_pos": 6666,
+   "train_neg": 298296,
+   "val_pos": 763,
+   "val_neg": 35856,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Tibia fracture",
+   "train_pos": 846,
+   "train_neg": 304116,
+   "val_pos": 97,
+   "val_neg": 36522,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tonsillar Hypertrophy",
+   "train_pos": 204,
+   "train_neg": 304758,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheal calcification",
+   "train_pos": 405,
+   "train_neg": 304557,
+   "val_pos": 54,
+   "val_neg": 36565,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheal deviation",
+   "train_pos": 686,
+   "train_neg": 304276,
+   "val_pos": 77,
+   "val_neg": 36542,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheal diverticulum",
+   "train_pos": 867,
+   "train_neg": 304095,
+   "val_pos": 121,
+   "val_neg": 36498,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheal secretions",
+   "train_pos": 946,
+   "train_neg": 304016,
+   "val_pos": 100,
+   "val_neg": 36519,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheobronchial abnormality",
+   "train_pos": 3987,
+   "train_neg": 300975,
+   "val_pos": 512,
+   "val_neg": 36107,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Tracheobronchial calcification",
+   "train_pos": 1128,
+   "train_neg": 303834,
+   "val_pos": 147,
+   "val_neg": 36472,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheobronchial stenosis",
+   "train_pos": 1668,
+   "train_neg": 303294,
+   "val_pos": 217,
+   "val_neg": 36402,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheobronchopathia osteochondroplastica",
+   "train_pos": 319,
+   "train_neg": 304643,
+   "val_pos": 43,
+   "val_neg": 36576,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheomegaly",
+   "train_pos": 222,
+   "train_neg": 304740,
+   "val_pos": 15,
+   "val_neg": 36604,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tracheostomy",
+   "train_pos": 908,
+   "train_neg": 304054,
+   "val_pos": 86,
+   "val_neg": 36533,
+   "kind": "leaf"
+  },
+  {
+   "name": "Traction bronchiectasis",
+   "train_pos": 2916,
+   "train_neg": 302046,
+   "val_pos": 324,
+   "val_neg": 36295,
+   "kind": "leaf"
+  },
+  {
+   "name": "Transependymal oedema",
+   "train_pos": 260,
+   "train_neg": 304702,
+   "val_pos": 20,
+   "val_neg": 36599,
+   "kind": "leaf"
+  },
+  {
+   "name": "Transitional vertebra",
+   "train_pos": 611,
+   "train_neg": 304351,
+   "val_pos": 81,
+   "val_neg": 36538,
+   "kind": "leaf"
+  },
+  {
+   "name": "Traumatic Brain Injury",
+   "train_pos": 622,
+   "train_neg": 304340,
+   "val_pos": 76,
+   "val_neg": 36543,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tree-in-bud pattern",
+   "train_pos": 4473,
+   "train_neg": 300489,
+   "val_pos": 521,
+   "val_neg": 36098,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tuberculosis",
+   "train_pos": 838,
+   "train_neg": 304124,
+   "val_pos": 95,
+   "val_neg": 36524,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Turbinate atrophy",
+   "train_pos": 238,
+   "train_neg": 304724,
+   "val_pos": 25,
+   "val_neg": 36594,
+   "kind": "leaf"
+  },
+  {
+   "name": "Turbinate hypertrophy",
+   "train_pos": 17629,
+   "train_neg": 287333,
+   "val_pos": 2081,
+   "val_neg": 34538,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tympanic membrane abnormality",
+   "train_pos": 874,
+   "train_neg": 304088,
+   "val_pos": 106,
+   "val_neg": 36513,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Tympanic membrane perforation",
+   "train_pos": 376,
+   "train_neg": 304586,
+   "val_pos": 49,
+   "val_neg": 36570,
+   "kind": "leaf"
+  },
+  {
+   "name": "Tympanic membrane thickening",
+   "train_pos": 542,
+   "train_neg": 304420,
+   "val_pos": 61,
+   "val_neg": 36558,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ulnar styloid fracture",
+   "train_pos": 202,
+   "train_neg": 304760,
+   "val_pos": 21,
+   "val_neg": 36598,
+   "kind": "leaf"
+  },
+  {
+   "name": "Umbilical hernia",
+   "train_pos": 4536,
+   "train_neg": 300426,
+   "val_pos": 581,
+   "val_neg": 36038,
+   "kind": "leaf"
+  },
+  {
+   "name": "Upper lobe bronchiectasis",
+   "train_pos": 207,
+   "train_neg": 304755,
+   "val_pos": 20,
+   "val_neg": 36599,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ureteral stent",
+   "train_pos": 732,
+   "train_neg": 304230,
+   "val_pos": 86,
+   "val_neg": 36533,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ureteric calculus",
+   "train_pos": 8531,
+   "train_neg": 296431,
+   "val_pos": 1096,
+   "val_neg": 35523,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ureteropelvic junction stenosis",
+   "train_pos": 317,
+   "train_neg": 304645,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Urinary bladder abnormality",
+   "train_pos": 4038,
+   "train_neg": 300924,
+   "val_pos": 505,
+   "val_neg": 36114,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Urinary bladder diverticulum",
+   "train_pos": 320,
+   "train_neg": 304642,
+   "val_pos": 41,
+   "val_neg": 36578,
+   "kind": "leaf"
+  },
+  {
+   "name": "Urinary bladder wall thickening",
+   "train_pos": 2382,
+   "train_neg": 302580,
+   "val_pos": 299,
+   "val_neg": 36320,
+   "kind": "leaf"
+  },
+  {
+   "name": "Urinary tract dilatation",
+   "train_pos": 14578,
+   "train_neg": 290384,
+   "val_pos": 1826,
+   "val_neg": 34793,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Urolithiasis",
+   "train_pos": 23215,
+   "train_neg": 281747,
+   "val_pos": 2956,
+   "val_neg": 33663,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Urothelial thickening",
+   "train_pos": 669,
+   "train_neg": 304293,
+   "val_pos": 90,
+   "val_neg": 36529,
+   "kind": "leaf"
+  },
+  {
+   "name": "Uterine abnormality",
+   "train_pos": 3491,
+   "train_neg": 301471,
+   "val_pos": 446,
+   "val_neg": 36173,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Uterine calcification",
+   "train_pos": 405,
+   "train_neg": 304557,
+   "val_pos": 45,
+   "val_neg": 36574,
+   "kind": "leaf"
+  },
+  {
+   "name": "Uterine enlargement",
+   "train_pos": 617,
+   "train_neg": 304345,
+   "val_pos": 87,
+   "val_neg": 36532,
+   "kind": "leaf"
+  },
+  {
+   "name": "Uterine leiomyoma",
+   "train_pos": 1703,
+   "train_neg": 303259,
+   "val_pos": 218,
+   "val_neg": 36401,
+   "kind": "leaf"
+  },
+  {
+   "name": "Uterine mass or neoplasm",
+   "train_pos": 2045,
+   "train_neg": 302917,
+   "val_pos": 251,
+   "val_neg": 36368,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Vacuum phenomenon",
+   "train_pos": 3508,
+   "train_neg": 301454,
+   "val_pos": 487,
+   "val_neg": 36132,
+   "kind": "leaf"
+  },
+  {
+   "name": "Valvular calcification",
+   "train_pos": 3243,
+   "train_neg": 301719,
+   "val_pos": 414,
+   "val_neg": 36205,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Varices",
+   "train_pos": 929,
+   "train_neg": 304033,
+   "val_pos": 106,
+   "val_neg": 36513,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vascular stent",
+   "train_pos": 3833,
+   "train_neg": 301129,
+   "val_pos": 451,
+   "val_neg": 36168,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vascular tortuosity",
+   "train_pos": 1506,
+   "train_neg": 303456,
+   "val_pos": 189,
+   "val_neg": 36430,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vasogenic cerebral oedema",
+   "train_pos": 835,
+   "train_neg": 304127,
+   "val_pos": 122,
+   "val_neg": 36497,
+   "kind": "leaf"
+  },
+  {
+   "name": "Venous stenosis or occlusion",
+   "train_pos": 857,
+   "train_neg": 304105,
+   "val_pos": 84,
+   "val_neg": 36535,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Venous thrombosis",
+   "train_pos": 1674,
+   "train_neg": 303288,
+   "val_pos": 165,
+   "val_neg": 36454,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ventricular asymmetry",
+   "train_pos": 749,
+   "train_neg": 304213,
+   "val_pos": 90,
+   "val_neg": 36529,
+   "kind": "leaf"
+  },
+  {
+   "name": "Ventriculomegaly",
+   "train_pos": 6401,
+   "train_neg": 298561,
+   "val_pos": 760,
+   "val_neg": 35859,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Ventriculoperitoneal shunt",
+   "train_pos": 798,
+   "train_neg": 304164,
+   "val_pos": 116,
+   "val_neg": 36503,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral artery hypoplasia",
+   "train_pos": 869,
+   "train_neg": 304093,
+   "val_pos": 95,
+   "val_neg": 36524,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral artery occlusion",
+   "train_pos": 267,
+   "train_neg": 304695,
+   "val_pos": 22,
+   "val_neg": 36597,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral artery stenosis",
+   "train_pos": 525,
+   "train_neg": 304437,
+   "val_pos": 59,
+   "val_neg": 36560,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral developmental variant",
+   "train_pos": 1492,
+   "train_neg": 303470,
+   "val_pos": 207,
+   "val_neg": 36412,
+   "kind": "umbrella"
+  },
+  {
+   "name": "Vertebral haemangioma",
+   "train_pos": 1420,
+   "train_neg": 303542,
+   "val_pos": 179,
+   "val_neg": 36440,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral height loss",
+   "train_pos": 5056,
+   "train_neg": 299906,
+   "val_pos": 620,
+   "val_neg": 35999,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebral metastases",
+   "train_pos": 740,
+   "train_neg": 304222,
+   "val_pos": 96,
+   "val_neg": 36523,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vertebroplasty",
+   "train_pos": 480,
+   "train_neg": 304482,
+   "val_pos": 53,
+   "val_neg": 36566,
+   "kind": "leaf"
+  },
+  {
+   "name": "Vulnerable plaque",
+   "train_pos": 364,
+   "train_neg": 304598,
+   "val_pos": 37,
+   "val_neg": 36582,
+   "kind": "leaf"
+  },
+  {
+   "name": "Watershed cerebral infarction",
+   "train_pos": 215,
+   "train_neg": 304747,
+   "val_pos": 32,
+   "val_neg": 36587,
+   "kind": "leaf"
+  }
+ ],
+ "attached": [
+  {
+   "name": "Acute peripancreatic fluid collection",
+   "parent": "Acute pancreatitis",
+   "train_pos": 139,
+   "train_neg": 304823,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Acute respiratory distress syndrome",
+   "parent": "Lung opacity",
+   "train_pos": 112,
+   "train_neg": 304850,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Adult cystic renal disease",
+   "parent": "Cystic renal diseases",
+   "train_pos": 179,
+   "train_neg": 304783,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Anasarca",
+   "parent": "Soft tissue oedema",
+   "train_pos": 159,
+   "train_neg": 304803,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Anomalous course of coronary arteries",
+   "parent": "Coronary artery anomaly",
+   "train_pos": 176,
+   "train_neg": 304786,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Antrolith",
+   "parent": "Intrasinus calcification",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Aortic coarctation",
+   "parent": "Congenital heart disease",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Aortic intramural haematoma",
+   "parent": "Haemorrhage",
+   "train_pos": 63,
+   "train_neg": 304899,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Aortoiliac occlusive disease",
+   "parent": "Arterial stenosis or occlusion",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Asbestos-related benign pleural disease",
+   "parent": "Pleural abnormality",
+   "train_pos": 70,
+   "train_neg": 304892,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Atrial septal defect",
+   "parent": "Congenital heart disease",
+   "train_pos": 156,
+   "train_neg": 304806,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Basilar artery aneurysm",
+   "parent": "Intracranial aneurysm",
+   "train_pos": 35,
+   "train_neg": 304927,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Basilar artery hypoplasia",
+   "parent": "Anatomical variant",
+   "train_pos": 88,
+   "train_neg": 304874,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Basilar skull fracture",
+   "parent": "Skull fracture",
+   "train_pos": 132,
+   "train_neg": 304830,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Bicuspid Aortic Valve",
+   "parent": "Congenital heart disease",
+   "train_pos": 71,
+   "train_neg": 304891,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Bilateral renal enlargement",
+   "parent": "Renal parenchymal disease",
+   "train_pos": 169,
+   "train_neg": 304793,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Biliary obstruction",
+   "parent": "Biliary tract abnormality",
+   "train_pos": 106,
+   "train_neg": 304856,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Bilioma",
+   "parent": "Biliary tract abnormality",
+   "train_pos": 93,
+   "train_neg": 304869,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Brachiocephalic vein stenosis",
+   "parent": "Venous stenosis or occlusion",
+   "train_pos": 21,
+   "train_neg": 304941,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Brain arteriovenous malformation",
+   "parent": "Arteriovenous malformation",
+   "train_pos": 94,
+   "train_neg": 304868,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Breast cancer metastasis",
+   "parent": "Metastatic disease",
+   "train_pos": 151,
+   "train_neg": 304811,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Bronchiolectasis",
+   "parent": "Airway dilatation",
+   "train_pos": 197,
+   "train_neg": 304765,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Broncholithiasis",
+   "parent": "Tracheobronchial abnormality",
+   "train_pos": 91,
+   "train_neg": 304871,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Burst fracture",
+   "parent": "Spinal fracture",
+   "train_pos": 125,
+   "train_neg": 304837,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Cachexia",
+   "parent": "Muscle atrophy",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Calcific tendinitis",
+   "parent": "Soft tissue calcification",
+   "train_pos": 159,
+   "train_neg": 304803,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Calcification of the globe",
+   "parent": "Orbital abnormality",
+   "train_pos": 94,
+   "train_neg": 304868,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Calyceal diverticulum",
+   "parent": "Diverticulum",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Cerebral cortical calcification",
+   "parent": "Intracranial calcification",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Cervical cancer",
+   "parent": "Primary malignancy",
+   "train_pos": 130,
+   "train_neg": 304832,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Cervical lymph node metastasis",
+   "parent": "Metastatic disease",
+   "train_pos": 82,
+   "train_neg": 304880,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Cervical spine fractures",
+   "parent": "Spinal fracture",
+   "train_pos": 183,
+   "train_neg": 304779,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Cholangitis",
+   "parent": "Biliary tract abnormality",
+   "train_pos": 127,
+   "train_neg": 304835,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Choroidal fissure cyst",
+   "parent": "Intracranial non-neoplastic cysts",
+   "train_pos": 34,
+   "train_neg": 304928,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Chronic pancreatitis",
+   "parent": "Pancreatitis",
+   "train_pos": 97,
+   "train_neg": 304865,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Cicatrisation atelectasis",
+   "parent": "Atelectasis",
+   "train_pos": 21,
+   "train_neg": 304941,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Colonic lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 37,
+   "train_neg": 304925,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Communicating hydrocephalus",
+   "parent": "Hydrocephalus",
+   "train_pos": 162,
+   "train_neg": 304800,
+   "val_pos": 17,
+   "val_neg": 36602
+  },
+  {
+   "name": "Complex midfacial fracture",
+   "parent": "Facial fractures",
+   "train_pos": 111,
+   "train_neg": 304851,
+   "val_pos": 17,
+   "val_neg": 36602
+  },
+  {
+   "name": "Congenital anomalies of the posterior atlas arch",
+   "parent": "Vertebral developmental variant",
+   "train_pos": 60,
+   "train_neg": 304902,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Congenital lumbar spinal stenosis",
+   "parent": "Spinal canal or foraminal stenosis",
+   "train_pos": 43,
+   "train_neg": 304919,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Connective tissue disease-related interstitial lung disease",
+   "parent": "Interstitial lung disease",
+   "train_pos": 185,
+   "train_neg": 304777,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Cor pulmonale",
+   "parent": "Pulmonary hypertension",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Coronary artery aneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Coronary artery-to-pulmonary artery fistula",
+   "parent": "Fistula",
+   "train_pos": 31,
+   "train_neg": 304931,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Crista galli pneumatization",
+   "parent": "Sinonasal anatomical variant",
+   "train_pos": 171,
+   "train_neg": 304791,
+   "val_pos": 22,
+   "val_neg": 36597
+  },
+  {
+   "name": "Crohn disease",
+   "parent": "Inflammatory bowel disease",
+   "train_pos": 199,
+   "train_neg": 304763,
+   "val_pos": 27,
+   "val_neg": 36592
+  },
+  {
+   "name": "Crossed fused renal ectopia",
+   "parent": "Congenital renal anomaly",
+   "train_pos": 20,
+   "train_neg": 304942,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Cystic hepatic metastases",
+   "parent": "Hepatic metastases",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Dehiscent jugular bulb",
+   "parent": "Jugular bulb variant",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Dentigerous cyst",
+   "parent": "Cyst",
+   "train_pos": 52,
+   "train_neg": 304910,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Dermoid cyst",
+   "parent": "Cyst",
+   "train_pos": 170,
+   "train_neg": 304792,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Developmental Venous Anomaly",
+   "parent": "Anatomical variant",
+   "train_pos": 45,
+   "train_neg": 304917,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Diffuse pleural thickening",
+   "parent": "Pleural thickening",
+   "train_pos": 133,
+   "train_neg": 304829,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Diffuse tracheal narrowing",
+   "parent": "Tracheobronchial abnormality",
+   "train_pos": 28,
+   "train_neg": 304934,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Direct inguinal hernia",
+   "parent": "Inguinal hernia",
+   "train_pos": 31,
+   "train_neg": 304931,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Double Renal Vein",
+   "parent": "Renal vascular variant",
+   "train_pos": 175,
+   "train_neg": 304787,
+   "val_pos": 31,
+   "val_neg": 36588
+  },
+  {
+   "name": "Double outlet right ventricle",
+   "parent": "Congenital heart disease",
+   "train_pos": 22,
+   "train_neg": 304940,
+   "val_pos": 0,
+   "val_neg": 36619
+  },
+  {
+   "name": "Dual left anterior descending coronary artery",
+   "parent": "Coronary artery anomaly",
+   "train_pos": 92,
+   "train_neg": 304870,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Ectopic kidney",
+   "parent": "Congenital renal anomaly",
+   "train_pos": 194,
+   "train_neg": 304768,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Empyema",
+   "parent": "Empyema and Pulmonary Abscess",
+   "train_pos": 180,
+   "train_neg": 304782,
+   "val_pos": 36,
+   "val_neg": 36583
+  },
+  {
+   "name": "Enchondroma",
+   "parent": "Bone lesion",
+   "train_pos": 121,
+   "train_neg": 304841,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Endometrial carcinoma",
+   "parent": "Uterine mass or neoplasm",
+   "train_pos": 155,
+   "train_neg": 304807,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Endometrial thickening",
+   "parent": "Uterine abnormality",
+   "train_pos": 136,
+   "train_neg": 304826,
+   "val_pos": 22,
+   "val_neg": 36597
+  },
+  {
+   "name": "Enlarged extraocular muscles",
+   "parent": "Orbital abnormality",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Epidermal inclusion cyst",
+   "parent": "Cyst",
+   "train_pos": 191,
+   "train_neg": 304771,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Exophytic hepatic mass",
+   "parent": "Focal liver lesion",
+   "train_pos": 113,
+   "train_neg": 304849,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Expiratory central airway collapse",
+   "parent": "Tracheobronchial abnormality",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Extranodal extension",
+   "parent": "Lymphadenopathy",
+   "train_pos": 24,
+   "train_neg": 304938,
+   "val_pos": 0,
+   "val_neg": 36619
+  },
+  {
+   "name": "Extrapleural lipomatosis",
+   "parent": "Lipomatosis",
+   "train_pos": 178,
+   "train_neg": 304784,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Extrapulmonary tuberculosis",
+   "parent": "Tuberculosis",
+   "train_pos": 22,
+   "train_neg": 304940,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Facet joint vacuum phenomenon",
+   "parent": "Vacuum phenomenon",
+   "train_pos": 106,
+   "train_neg": 304856,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Faecaloma",
+   "parent": "Faecal impaction",
+   "train_pos": 65,
+   "train_neg": 304897,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Fahr syndrome",
+   "parent": "Basal ganglia calcification",
+   "train_pos": 22,
+   "train_neg": 304940,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Fat containing liver lesions",
+   "parent": "Focal liver lesion",
+   "train_pos": 64,
+   "train_neg": 304898,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Fat containing solitary pulmonary nodule",
+   "parent": "Pulmonary nodule",
+   "train_pos": 30,
+   "train_neg": 304932,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Femoral hernia",
+   "parent": "Groin hernia (inguinal/femoral)",
+   "train_pos": 30,
+   "train_neg": 304932,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Fibrotic idiopathic interstitial pneumonia",
+   "parent": "Interstitial pneumonia",
+   "train_pos": 67,
+   "train_neg": 304895,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Fibrous dysplasia",
+   "parent": "Bone lesion",
+   "train_pos": 178,
+   "train_neg": 304784,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Flash filling hepatic haemangioma",
+   "parent": "Hepatic haemangioma",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Focal interstitial pulmonary fibrosis",
+   "parent": "Pulmonary fibrotic sequela",
+   "train_pos": 65,
+   "train_neg": 304897,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Focal nodular hyperplasia",
+   "parent": "Focal liver lesion",
+   "train_pos": 87,
+   "train_neg": 304875,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Frontal Sinus Hyperplasia",
+   "parent": "Sinonasal anatomical variant",
+   "train_pos": 132,
+   "train_neg": 304830,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Fundal adenomyomatosis",
+   "parent": "Gallbladder abnormality",
+   "train_pos": 55,
+   "train_neg": 304907,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Fungal sinusitis",
+   "parent": "Sinusitis",
+   "train_pos": 85,
+   "train_neg": 304877,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Gallbladder adenomyomatosis",
+   "parent": "Gallbladder abnormality",
+   "train_pos": 125,
+   "train_neg": 304837,
+   "val_pos": 20,
+   "val_neg": 36599
+  },
+  {
+   "name": "Gallbladder perforation",
+   "parent": "Gallbladder abnormality",
+   "train_pos": 42,
+   "train_neg": 304920,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Gastric diverticulum",
+   "parent": "Diverticulum",
+   "train_pos": 63,
+   "train_neg": 304899,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Gastric varices",
+   "parent": "Portosystemic collaterals",
+   "train_pos": 22,
+   "train_neg": 304940,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Gastrointestinal bleeding",
+   "parent": "Haemorrhage",
+   "train_pos": 85,
+   "train_neg": 304877,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Gastrointestinal stromal tumour",
+   "parent": "Primary malignancy",
+   "train_pos": 85,
+   "train_neg": 304877,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Gastrointestinal tract lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 120,
+   "train_neg": 304842,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Giant ethmoid bulla",
+   "parent": "Sinonasal anatomical variant",
+   "train_pos": 36,
+   "train_neg": 304926,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Haemorrhagic stroke",
+   "parent": "Intracranial haemorrhage",
+   "train_pos": 71,
+   "train_neg": 304891,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Haemorrhagic transformation of ischaemic stroke",
+   "parent": "Intracranial haemorrhage",
+   "train_pos": 192,
+   "train_neg": 304770,
+   "val_pos": 37,
+   "val_neg": 36582
+  },
+  {
+   "name": "Haemothorax",
+   "parent": "Haemorrhage",
+   "train_pos": 118,
+   "train_neg": 304844,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Haemotympanum",
+   "parent": "Haemorrhage",
+   "train_pos": 55,
+   "train_neg": 304907,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Head and neck squamous cell carcinoma",
+   "parent": "Primary malignancy",
+   "train_pos": 56,
+   "train_neg": 304906,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Hill-Sachs defect",
+   "parent": "Humeral head fracture",
+   "train_pos": 116,
+   "train_neg": 304846,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Hydrosalpinx",
+   "parent": "Adnexal lesion",
+   "train_pos": 101,
+   "train_neg": 304861,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Hyperattenuating cerebral metastases",
+   "parent": "Intracranial metastases",
+   "train_pos": 21,
+   "train_neg": 304941,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Hyperattenuating paranasal sinus opacification",
+   "parent": "Paranasal sinus disease",
+   "train_pos": 105,
+   "train_neg": 304857,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Hypervascular liver lesions",
+   "parent": "Focal liver lesion",
+   "train_pos": 197,
+   "train_neg": 304765,
+   "val_pos": 28,
+   "val_neg": 36591
+  },
+  {
+   "name": "Hypoplastic circumflex artery",
+   "parent": "Coronary hypoplasia",
+   "train_pos": 144,
+   "train_neg": 304818,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Idiopathic interstitial pneumonia",
+   "parent": "Interstitial pneumonia",
+   "train_pos": 80,
+   "train_neg": 304882,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Idiopathic pulmonary fibrosis",
+   "parent": "Interstitial pneumonia",
+   "train_pos": 67,
+   "train_neg": 304895,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Iliofemoral deep vein thrombosis",
+   "parent": "Venous thrombosis",
+   "train_pos": 28,
+   "train_neg": 304934,
+   "val_pos": 0,
+   "val_neg": 36619
+  },
+  {
+   "name": "Impacted teeth",
+   "parent": "Dental / periodontal abnormality",
+   "train_pos": 168,
+   "train_neg": 304794,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Implant migration",
+   "parent": "Device complication",
+   "train_pos": 104,
+   "train_neg": 304858,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Incarcerated hernia",
+   "parent": "Hernia",
+   "train_pos": 51,
+   "train_neg": 304911,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Infectious colitis",
+   "parent": "Colitis",
+   "train_pos": 148,
+   "train_neg": 304814,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Inferior orbital wall fracture",
+   "parent": "Orbital abnormality",
+   "train_pos": 164,
+   "train_neg": 304798,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Interarterial course of the right coronary artery",
+   "parent": "Coronary artery anomaly",
+   "train_pos": 46,
+   "train_neg": 304916,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Interstitial oedematous pancreatitis",
+   "parent": "Acute pancreatitis",
+   "train_pos": 196,
+   "train_neg": 304766,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Intracranial arterial fenestration",
+   "parent": "Anatomical variant",
+   "train_pos": 29,
+   "train_neg": 304933,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Intracranial lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 104,
+   "train_neg": 304858,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Intraductal papillary mucinous neoplasm",
+   "parent": "Pancreatic neoplasms",
+   "train_pos": 77,
+   "train_neg": 304885,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Intramuscular lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 83,
+   "train_neg": 304879,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Intraosseous ganglion",
+   "parent": "Bone lesion",
+   "train_pos": 194,
+   "train_neg": 304768,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Intraosseous lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 68,
+   "train_neg": 304894,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Ischaemic colitis",
+   "parent": "Colitis",
+   "train_pos": 28,
+   "train_neg": 304934,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Kyphoscoliosis",
+   "parent": "Kyphosis",
+   "train_pos": 153,
+   "train_neg": 304809,
+   "val_pos": 26,
+   "val_neg": 36593
+  },
+  {
+   "name": "Lamina papyracea dehiscence",
+   "parent": "Orbital abnormality",
+   "train_pos": 161,
+   "train_neg": 304801,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Large bowel obstruction",
+   "parent": "Bowel obstruction",
+   "train_pos": 120,
+   "train_neg": 304842,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Laryngeal cancer",
+   "parent": "Primary malignancy",
+   "train_pos": 125,
+   "train_neg": 304837,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Left circumflex artery arising from the right coronary sinus",
+   "parent": "Coronary artery anomaly",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Left-sided superior vena cava",
+   "parent": "Congenital cardiovascular anomaly",
+   "train_pos": 40,
+   "train_neg": 304922,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Limbus vertebra",
+   "parent": "Anatomical variant",
+   "train_pos": 175,
+   "train_neg": 304787,
+   "val_pos": 30,
+   "val_neg": 36589
+  },
+  {
+   "name": "Lobar consolidation",
+   "parent": "Consolidation",
+   "train_pos": 125,
+   "train_neg": 304837,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Lobar intracerebral haemorrhage",
+   "parent": "Intracerebral haemorrhage",
+   "train_pos": 92,
+   "train_neg": 304870,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Localised pulmonary emphysema",
+   "parent": "Emphysema",
+   "train_pos": 96,
+   "train_neg": 304866,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Low attenuation lymphadenopathy",
+   "parent": "Lymphadenopathy",
+   "train_pos": 26,
+   "train_neg": 304936,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Lung abscess",
+   "parent": "Empyema and Pulmonary Abscess",
+   "train_pos": 42,
+   "train_neg": 304920,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Lung adenocarcinoma",
+   "parent": "Lung cancer",
+   "train_pos": 53,
+   "train_neg": 304909,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Lytic skull lesion",
+   "parent": "Osteolytic bone lesion",
+   "train_pos": 145,
+   "train_neg": 304817,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Malignant melanoma",
+   "parent": "Primary malignancy",
+   "train_pos": 94,
+   "train_neg": 304868,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Malignant pleural mesothelioma",
+   "parent": "Malignant pleural disease",
+   "train_pos": 141,
+   "train_neg": 304821,
+   "val_pos": 31,
+   "val_neg": 36588
+  },
+  {
+   "name": "Mandibular protrusion",
+   "parent": "Anatomical variant",
+   "train_pos": 160,
+   "train_neg": 304802,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Mandibular retrusion",
+   "parent": "Anatomical variant",
+   "train_pos": 140,
+   "train_neg": 304822,
+   "val_pos": 23,
+   "val_neg": 36596
+  },
+  {
+   "name": "Maxillary protrusion",
+   "parent": "Anatomical variant",
+   "train_pos": 131,
+   "train_neg": 304831,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Mediastinal lipomatosis",
+   "parent": "Lipomatosis",
+   "train_pos": 27,
+   "train_neg": 304935,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Medium vessel occlusion",
+   "parent": "Arterial stenosis or occlusion",
+   "train_pos": 69,
+   "train_neg": 304893,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Medullary nephrocalcinosis",
+   "parent": "Nephrocalcinosis",
+   "train_pos": 64,
+   "train_neg": 304898,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Megarectum",
+   "parent": "Bowel dilatation",
+   "train_pos": 56,
+   "train_neg": 304906,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Meningothelial meningioma",
+   "parent": "Intracranial tumours",
+   "train_pos": 58,
+   "train_neg": 304904,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Mesenteric ischaemia",
+   "parent": "Mesenteric abnormality",
+   "train_pos": 112,
+   "train_neg": 304850,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Mesenteric lymphadenitis",
+   "parent": "Mesenteric lymphadenopathy",
+   "train_pos": 102,
+   "train_neg": 304860,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Middle cerebral artery occlusion",
+   "parent": "Arterial stenosis or occlusion",
+   "train_pos": 176,
+   "train_neg": 304786,
+   "val_pos": 29,
+   "val_neg": 36590
+  },
+  {
+   "name": "Middle ear granulation tissue",
+   "parent": "Otomastoiditis",
+   "train_pos": 39,
+   "train_neg": 304923,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Morgagni hernia",
+   "parent": "Hernia",
+   "train_pos": 51,
+   "train_neg": 304911,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Multiple intracranial calcifications",
+   "parent": "Intracranial calcification",
+   "train_pos": 90,
+   "train_neg": 304872,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Myocardial infarction",
+   "parent": "Infarction",
+   "train_pos": 55,
+   "train_neg": 304907,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Myositis ossificans",
+   "parent": "Heterotopic ossification",
+   "train_pos": 99,
+   "train_neg": 304863,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Nabothian cyst",
+   "parent": "Cyst",
+   "train_pos": 120,
+   "train_neg": 304842,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Nasal synechia",
+   "parent": "Nasal cavity abnormality",
+   "train_pos": 145,
+   "train_neg": 304817,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Nasopharyngeal carcinoma",
+   "parent": "Primary malignancy",
+   "train_pos": 104,
+   "train_neg": 304858,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Necrotising pancreatitis",
+   "parent": "Acute pancreatitis",
+   "train_pos": 95,
+   "train_neg": 304867,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Neuroendocrine neoplasm",
+   "parent": "Primary malignancy",
+   "train_pos": 88,
+   "train_neg": 304874,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Non-Hodgkin lymphoma",
+   "parent": "Lymphoma",
+   "train_pos": 58,
+   "train_neg": 304904,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Non-small cell lung cancer",
+   "parent": "Lung cancer",
+   "train_pos": 58,
+   "train_neg": 304904,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Ocular foreign body",
+   "parent": "Orbital abnormality",
+   "train_pos": 56,
+   "train_neg": 304906,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Odontogenic sinusitis",
+   "parent": "Sinusitis",
+   "train_pos": 45,
+   "train_neg": 304917,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Oesophageal foreign body",
+   "parent": "Foreign body",
+   "train_pos": 26,
+   "train_neg": 304936,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Omental infarction",
+   "parent": "Infarction",
+   "train_pos": 161,
+   "train_neg": 304801,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Orbital blow-out fracture",
+   "parent": "Orbital abnormality",
+   "train_pos": 98,
+   "train_neg": 304864,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Os fabella",
+   "parent": "Accessory ossicle",
+   "train_pos": 85,
+   "train_neg": 304877,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Os trigonum",
+   "parent": "Accessory ossicle",
+   "train_pos": 186,
+   "train_neg": 304776,
+   "val_pos": 17,
+   "val_neg": 36602
+  },
+  {
+   "name": "Ossification of the ligamentum flavum",
+   "parent": "Spinal ligament ossification",
+   "train_pos": 130,
+   "train_neg": 304832,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Ossification of the posterior longitudinal ligament",
+   "parent": "Spinal ligament ossification",
+   "train_pos": 174,
+   "train_neg": 304788,
+   "val_pos": 25,
+   "val_neg": 36594
+  },
+  {
+   "name": "Osteoarthritis of the temporomandibular joint",
+   "parent": "Osteoarthritis",
+   "train_pos": 97,
+   "train_neg": 304865,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Osteophyte-induced adjacent pulmonary atelectasis and fibrosis",
+   "parent": "Osteophyte",
+   "train_pos": 185,
+   "train_neg": 304777,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Ovarian venous varix",
+   "parent": "Varices",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Pancreatic duct stone",
+   "parent": "Pancreatic calcifications",
+   "train_pos": 20,
+   "train_neg": 304942,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Pancreatic lipoma",
+   "parent": "Lipomatous lesions",
+   "train_pos": 99,
+   "train_neg": 304863,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Paracicatricial emphysema",
+   "parent": "Emphysema",
+   "train_pos": 34,
+   "train_neg": 304928,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Parapneumonic effusion",
+   "parent": "Pleural effusion",
+   "train_pos": 51,
+   "train_neg": 304911,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Parotid gland enlargement",
+   "parent": "Salivary gland disease",
+   "train_pos": 102,
+   "train_neg": 304860,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Parotitis",
+   "parent": "Sialadenitis",
+   "train_pos": 44,
+   "train_neg": 304918,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Partial anomalous pulmonary venous return",
+   "parent": "Congenital heart disease",
+   "train_pos": 42,
+   "train_neg": 304920,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Patellar fracture",
+   "parent": "Fracture",
+   "train_pos": 120,
+   "train_neg": 304842,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Patent ductus arteriosus",
+   "parent": "Congenital heart disease",
+   "train_pos": 116,
+   "train_neg": 304846,
+   "val_pos": 17,
+   "val_neg": 36602
+  },
+  {
+   "name": "Pelvic abscess",
+   "parent": "Abscess",
+   "train_pos": 96,
+   "train_neg": 304866,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Penetrating atherosclerotic ulcer",
+   "parent": "Atherosclerosis",
+   "train_pos": 57,
+   "train_neg": 304905,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Periapical granuloma",
+   "parent": "Dental / periodontal abnormality",
+   "train_pos": 90,
+   "train_neg": 304872,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Peritonsillar abscess",
+   "parent": "Abscess",
+   "train_pos": 39,
+   "train_neg": 304923,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Phthisis bulbi",
+   "parent": "Orbital abnormality",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Pineal cyst",
+   "parent": "Intracranial non-neoplastic cysts",
+   "train_pos": 30,
+   "train_neg": 304932,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Pleural adhesions",
+   "parent": "Pleural abnormality",
+   "train_pos": 26,
+   "train_neg": 304936,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Pleural pseudotumour",
+   "parent": "Pleural effusion",
+   "train_pos": 31,
+   "train_neg": 304931,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Pneumatocele",
+   "parent": "Cystic lung lesion",
+   "train_pos": 61,
+   "train_neg": 304901,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Pneumatosis intestinalis",
+   "parent": "Pathological gas",
+   "train_pos": 76,
+   "train_neg": 304886,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Porcelain gallbladder",
+   "parent": "Gallbladder abnormality",
+   "train_pos": 28,
+   "train_neg": 304934,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Portal vein variation",
+   "parent": "Hepatic vascular variant",
+   "train_pos": 113,
+   "train_neg": 304849,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Post-primary pulmonary tuberculosis",
+   "parent": "Pulmonary tuberculosis",
+   "train_pos": 36,
+   "train_neg": 304926,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Posterior cerebral artery hypoplasia",
+   "parent": "Anatomical variant",
+   "train_pos": 172,
+   "train_neg": 304790,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Posterior malleolus fracture",
+   "parent": "Malleolar fracture",
+   "train_pos": 80,
+   "train_neg": 304882,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Proctitis",
+   "parent": "Gastrointestinal wall thickening",
+   "train_pos": 93,
+   "train_neg": 304869,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Proptosis",
+   "parent": "Orbital abnormality",
+   "train_pos": 136,
+   "train_neg": 304826,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Prostate cancer",
+   "parent": "Prostate disease",
+   "train_pos": 170,
+   "train_neg": 304792,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Prostatitis",
+   "parent": "Prostate disease",
+   "train_pos": 21,
+   "train_neg": 304941,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Pseudoaneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 84,
+   "train_neg": 304878,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Pseudomyxoma peritonei",
+   "parent": "Peritoneal abnormality",
+   "train_pos": 74,
+   "train_neg": 304888,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Pulmonary arteriovenous malformation",
+   "parent": "Arteriovenous malformation",
+   "train_pos": 51,
+   "train_neg": 304911,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Pulmonary aspergillosis",
+   "parent": "Pulmonary fungal disease",
+   "train_pos": 37,
+   "train_neg": 304925,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Pulmonary contusion",
+   "parent": "Lung opacity",
+   "train_pos": 189,
+   "train_neg": 304773,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Pulmonary hamartoma",
+   "parent": "Hamartoma",
+   "train_pos": 161,
+   "train_neg": 304801,
+   "val_pos": 22,
+   "val_neg": 36597
+  },
+  {
+   "name": "Pulmonary infarction",
+   "parent": "Infarction",
+   "train_pos": 187,
+   "train_neg": 304775,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Pulmonary mycetoma",
+   "parent": "Pulmonary fungal disease",
+   "train_pos": 32,
+   "train_neg": 304930,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Pulmonary sarcoidosis",
+   "parent": "Sarcoidosis",
+   "train_pos": 171,
+   "train_neg": 304791,
+   "val_pos": 23,
+   "val_neg": 36596
+  },
+  {
+   "name": "Ranke complex",
+   "parent": "Calcified pulmonary nodules",
+   "train_pos": 44,
+   "train_neg": 304918,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Renal agenesis",
+   "parent": "Congenital renal anomaly",
+   "train_pos": 122,
+   "train_neg": 304840,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Renal artery aneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 39,
+   "train_neg": 304923,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Renal infarction",
+   "parent": "Infarction",
+   "train_pos": 137,
+   "train_neg": 304825,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Renal transplant",
+   "parent": "Post-surgical state",
+   "train_pos": 167,
+   "train_neg": 304795,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Resorptive atelectasis",
+   "parent": "Atelectasis",
+   "train_pos": 133,
+   "train_neg": 304829,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Respiratory bronchiolitis",
+   "parent": "Bronchiolitis",
+   "train_pos": 170,
+   "train_neg": 304792,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Retained ballistic fragments",
+   "parent": "Foreign body",
+   "train_pos": 36,
+   "train_neg": 304926,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Retroaortic coronary course",
+   "parent": "Coronary artery anomaly",
+   "train_pos": 48,
+   "train_neg": 304914,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Retroverted uterus",
+   "parent": "Anatomical variant",
+   "train_pos": 162,
+   "train_neg": 304800,
+   "val_pos": 21,
+   "val_neg": 36598
+  },
+  {
+   "name": "Right adrenalectomy",
+   "parent": "Post-surgical state",
+   "train_pos": 98,
+   "train_neg": 304864,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Right aortic arch",
+   "parent": "Congenital cardiovascular anomaly",
+   "train_pos": 178,
+   "train_neg": 304784,
+   "val_pos": 13,
+   "val_neg": 36606
+  },
+  {
+   "name": "Ruptured saccular aneurysm",
+   "parent": "Saccular cerebral aneurysm",
+   "train_pos": 58,
+   "train_neg": 304904,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Scaphoid non-union",
+   "parent": "Scaphoid fracture",
+   "train_pos": 22,
+   "train_neg": 304940,
+   "val_pos": 1,
+   "val_neg": 36618
+  },
+  {
+   "name": "Scapula Fracture",
+   "parent": "Fracture",
+   "train_pos": 159,
+   "train_neg": 304803,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Serous cystadenoma of the pancreas",
+   "parent": "Pancreatic neoplasms",
+   "train_pos": 21,
+   "train_neg": 304941,
+   "val_pos": 0,
+   "val_neg": 36619
+  },
+  {
+   "name": "Simple splenic cyst",
+   "parent": "Splenic cyst",
+   "train_pos": 174,
+   "train_neg": 304788,
+   "val_pos": 23,
+   "val_neg": 36596
+  },
+  {
+   "name": "Skull metastases",
+   "parent": "Skull tumours",
+   "train_pos": 116,
+   "train_neg": 304846,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Small renal mass",
+   "parent": "Renal mass",
+   "train_pos": 53,
+   "train_neg": 304909,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Solitary sclerotic bone lesion",
+   "parent": "Sclerotic bone lesion",
+   "train_pos": 131,
+   "train_neg": 304831,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Sphenoid sinus hypoplasia",
+   "parent": "Sinonasal anatomical variant",
+   "train_pos": 159,
+   "train_neg": 304803,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Spina bifida occulta",
+   "parent": "Vertebral developmental variant",
+   "train_pos": 110,
+   "train_neg": 304852,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Spinal synovial cyst",
+   "parent": "Cyst",
+   "train_pos": 29,
+   "train_neg": 304933,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Spinal wedge fracture",
+   "parent": "Spinal compression fracture",
+   "train_pos": 39,
+   "train_neg": 304923,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Splenic artery aneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 119,
+   "train_neg": 304843,
+   "val_pos": 9,
+   "val_neg": 36610
+  },
+  {
+   "name": "Splenic haemangioma",
+   "parent": "Spleen tumours",
+   "train_pos": 140,
+   "train_neg": 304822,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Splenic vein thrombosis",
+   "parent": "Venous thrombosis",
+   "train_pos": 63,
+   "train_neg": 304899,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Spontaneous retroperitoneal haemorrhage",
+   "parent": "Haemorrhage",
+   "train_pos": 37,
+   "train_neg": 304925,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Status post colorectal cancer surgery",
+   "parent": "Post-surgical state",
+   "train_pos": 142,
+   "train_neg": 304820,
+   "val_pos": 24,
+   "val_neg": 36595
+  },
+  {
+   "name": "Status post distal pancreatectomy",
+   "parent": "Post-surgical state",
+   "train_pos": 151,
+   "train_neg": 304811,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Status post partial nephrectomy",
+   "parent": "Post-surgical state",
+   "train_pos": 164,
+   "train_neg": 304798,
+   "val_pos": 22,
+   "val_neg": 36597
+  },
+  {
+   "name": "Sternal fracture",
+   "parent": "Fracture",
+   "train_pos": 97,
+   "train_neg": 304865,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Sternoclavicular joint osteoarthritis",
+   "parent": "Osteoarthritis",
+   "train_pos": 186,
+   "train_neg": 304776,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Strangulating bowel obstruction",
+   "parent": "Bowel obstruction",
+   "train_pos": 42,
+   "train_neg": 304920,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Surgical haemostatic material",
+   "parent": "Medical material",
+   "train_pos": 44,
+   "train_neg": 304918,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Talc pleurodesis",
+   "parent": "Medical material",
+   "train_pos": 33,
+   "train_neg": 304929,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Temporomandibular joint dislocation",
+   "parent": "Joint disease",
+   "train_pos": 34,
+   "train_neg": 304928,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Thoracic aortic stenosis",
+   "parent": "Arterial stenosis or occlusion",
+   "train_pos": 31,
+   "train_neg": 304931,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Thyroid carcinoma",
+   "parent": "Thyroid disease",
+   "train_pos": 47,
+   "train_neg": 304915,
+   "val_pos": 8,
+   "val_neg": 36611
+  },
+  {
+   "name": "Thyroiditis",
+   "parent": "Thyroid disease",
+   "train_pos": 126,
+   "train_neg": 304836,
+   "val_pos": 17,
+   "val_neg": 36602
+  },
+  {
+   "name": "Tibial plateau fracture",
+   "parent": "Tibia fracture",
+   "train_pos": 168,
+   "train_neg": 304794,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Tibiotalar spurs",
+   "parent": "Osteophyte",
+   "train_pos": 81,
+   "train_neg": 304881,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Tonsillolith",
+   "parent": "Pharyngeal/tonsillar disease",
+   "train_pos": 170,
+   "train_neg": 304792,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Tornwaldt cyst",
+   "parent": "Cyst",
+   "train_pos": 42,
+   "train_neg": 304920,
+   "val_pos": 4,
+   "val_neg": 36615
+  },
+  {
+   "name": "Tracheal wall thickening",
+   "parent": "Tracheobronchial abnormality",
+   "train_pos": 78,
+   "train_neg": 304884,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Tracheobronchial branching anomalies",
+   "parent": "Anatomical variant",
+   "train_pos": 31,
+   "train_neg": 304931,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Tracheomalacia",
+   "parent": "Tracheobronchial abnormality",
+   "train_pos": 23,
+   "train_neg": 304939,
+   "val_pos": 3,
+   "val_neg": 36616
+  },
+  {
+   "name": "Transient hepatic attenuation differences",
+   "parent": "Hepatic pseudolesions",
+   "train_pos": 135,
+   "train_neg": 304827,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Transtentorial herniation",
+   "parent": "Intracranial herniation",
+   "train_pos": 192,
+   "train_neg": 304770,
+   "val_pos": 22,
+   "val_neg": 36597
+  },
+  {
+   "name": "Traumatic subarachnoid haemorrhage",
+   "parent": "Traumatic Brain Injury",
+   "train_pos": 37,
+   "train_neg": 304925,
+   "val_pos": 5,
+   "val_neg": 36614
+  },
+  {
+   "name": "Trichilemmal cyst",
+   "parent": "Cyst",
+   "train_pos": 44,
+   "train_neg": 304918,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Tricuspid valve calcification",
+   "parent": "Valvular calcification",
+   "train_pos": 75,
+   "train_neg": 304887,
+   "val_pos": 16,
+   "val_neg": 36603
+  },
+  {
+   "name": "Trimalleolar fracture",
+   "parent": "Malleolar fracture",
+   "train_pos": 25,
+   "train_neg": 304937,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "True aneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 48,
+   "train_neg": 304914,
+   "val_pos": 7,
+   "val_neg": 36612
+  },
+  {
+   "name": "Tumour deposit",
+   "parent": "Metastatic disease",
+   "train_pos": 81,
+   "train_neg": 304881,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Tympanic membrane retraction",
+   "parent": "Tympanic membrane abnormality",
+   "train_pos": 194,
+   "train_neg": 304768,
+   "val_pos": 27,
+   "val_neg": 36592
+  },
+  {
+   "name": "Tympanosclerosis",
+   "parent": "Temporal bone abnormality",
+   "train_pos": 29,
+   "train_neg": 304933,
+   "val_pos": 6,
+   "val_neg": 36613
+  },
+  {
+   "name": "Upper tract urothelial carcinoma",
+   "parent": "Primary malignancy",
+   "train_pos": 103,
+   "train_neg": 304859,
+   "val_pos": 12,
+   "val_neg": 36607
+  },
+  {
+   "name": "Urachal remnant",
+   "parent": "Anatomical variant",
+   "train_pos": 119,
+   "train_neg": 304843,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Urinary bladder hernia",
+   "parent": "Urinary bladder abnormality",
+   "train_pos": 135,
+   "train_neg": 304827,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Urothelial carcinoma of the bladder",
+   "parent": "Bladder cancer",
+   "train_pos": 139,
+   "train_neg": 304823,
+   "val_pos": 10,
+   "val_neg": 36609
+  },
+  {
+   "name": "Usual Interstitial Pneumonia",
+   "parent": "Interstitial pneumonia",
+   "train_pos": 126,
+   "train_neg": 304836,
+   "val_pos": 18,
+   "val_neg": 36601
+  },
+  {
+   "name": "Varicose bronchiectasis",
+   "parent": "Bronchiectasis",
+   "train_pos": 119,
+   "train_neg": 304843,
+   "val_pos": 11,
+   "val_neg": 36608
+  },
+  {
+   "name": "Venous thromboembolism",
+   "parent": "Thrombosis",
+   "train_pos": 37,
+   "train_neg": 304925,
+   "val_pos": 2,
+   "val_neg": 36617
+  },
+  {
+   "name": "Ventricular septal defect",
+   "parent": "Congenital heart disease",
+   "train_pos": 159,
+   "train_neg": 304803,
+   "val_pos": 14,
+   "val_neg": 36605
+  },
+  {
+   "name": "Vertebral artery loop",
+   "parent": "Vascular tortuosity",
+   "train_pos": 106,
+   "train_neg": 304856,
+   "val_pos": 19,
+   "val_neg": 36600
+  },
+  {
+   "name": "Vertebral body pathological fracture",
+   "parent": "Pathological fracture",
+   "train_pos": 129,
+   "train_neg": 304833,
+   "val_pos": 30,
+   "val_neg": 36589
+  },
+  {
+   "name": "Visceral artery aneurysm",
+   "parent": "Aneurysm",
+   "train_pos": 173,
+   "train_neg": 304789,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Visceral mediastinal mass",
+   "parent": "Mediastinal mass",
+   "train_pos": 170,
+   "train_neg": 304792,
+   "val_pos": 15,
+   "val_neg": 36604
+  },
+  {
+   "name": "Visceral pleural invasion",
+   "parent": "Primary malignancy",
+   "train_pos": 100,
+   "train_neg": 304862,
+   "val_pos": 11,
+   "val_neg": 36608
+  }
+ ],
+ "rare_orphans": [
+  "Acute aortic syndrome",
+  "Ahaustral colon",
+  "Allergic rhinitis",
+  "Ankylosing spondylitis (thoracic manifestations)",
+  "Asbestos-related diseases",
+  "Atlanto-occipital assimilation",
+  "Basilar invagination",
+  "Bone Torsion",
+  "Bowel wall fat deposition",
+  "Bronchial arterial enlargement",
+  "Cavernoma",
+  "Cerebrovascular malformations",
+  "Cervical artery dissection",
+  "Cervical spine injury",
+  "Chiari malformation",
+  "Chronic bronchitis",
+  "Chronic osteomyelitis",
+  "Contrast staining",
+  "Coronary arterial ectasia",
+  "Coup-contrecoup injury",
+  "Craniosynostosis",
+  "Craniovertebral junction anomaly",
+  "Eagle syndrome",
+  "Elastofibroma dorsi",
+  "Endoleak",
+  "Esophagitis",
+  "Facial clefts",
+  "Femoral anteversion",
+  "Focal calvarial thinning",
+  "Gastrointestinal leiomyoma",
+  "Gluteal injection site granuloma",
+  "Granulomatous lung disease",
+  "Hepatic capsular retraction",
+  "Hepatolithiasis",
+  "Heterotaxy syndrome",
+  "Hip dysplasia",
+  "Hydrocele",
+  "Hypostasis",
+  "Hypoxic-ischaemic encephalopathy",
+  "Intestinal nonrotation",
+  "Intra-articular gas",
+  "Intraosseous gas",
+  "Intussusception",
+  "Irritable bowel syndrome",
+  "Lateral hemivertebra",
+  "Limb ischaemia",
+  "Liver trauma",
+  "Milk of calcium",
+  "Nephroptosis",
+  "Nutcracker phenomenon",
+  "Nutmeg liver",
+  "Otosclerosis",
+  "Panniculitis",
+  "Parathyroid adenoma",
+  "Parathyroid tumour",
+  "Patellar subluxation",
+  "Pelvic congestion syndrome",
+  "Pelvic inflammatory disease",
+  "Penetrating trauma",
+  "Pericarditis",
+  "Phlegmon",
+  "Pincer morphology",
+  "Plagiocephaly",
+  "Pneumaturia",
+  "Post-radiation changes in the neck",
+  "Pseudomeningocele",
+  "Pubic diastasis",
+  "Randall plaques",
+  "Renal forniceal rupture",
+  "Renal sinus lipomatosis",
+  "Right heart strain",
+  "Semicircular canal dehiscence",
+  "Situs / laterality anomaly",
+  "Situs inversus",
+  "Splenic granulomatous disease",
+  "Splenosis",
+  "Sternal defect",
+  "Superior semicircular canal dehiscence syndrome",
+  "Talocalcaneal coalition",
+  "Tarsal coalition",
+  "Tegmen tympani defect",
+  "Transient intussusception",
+  "Trochlear dysplasia",
+  "Vasculitis",
+  "Vertebral artery ectasia",
+  "Wallerian degeneration"
+ ],
+ "no_head": [
+  "Abusive head trauma",
+  "Acquired cystic kidney disease",
+  "Acute aspiration pneumonitis",
+  "Acute eosinophilic pneumonia",
+  "Adhesive otitis media",
+  "Adrenal insufficiency",
+  "Aggressive vertebral haemangioma",
+  "Aicardi-Goutières syndrome",
+  "Allergic bronchopulmonary aspergillosis",
+  "Allergic fungal sinusitis",
+  "Alpha-1-antitrypsin deficiency",
+  "Alveolar sarcoidosis",
+  "Amiodarone deposition in the liver",
+  "Amiodarone lung",
+  "Amoebic colitis",
+  "Amyand hernia",
+  "Annular pancreas",
+  "Annuloaortic ectasia",
+  "Anomalous aortic origin of coronary artery",
+  "Anti-synthetase syndrome",
+  "Antiphospholipid syndrome (pulmonary manifestations)",
+  "Aortic ductus diverticulum",
+  "Arrested pneumatisation of the skull base",
+  "Ascariasis",
+  "Aspiration bronchiolitis",
+  "Atypical adenomatous hyperplasia",
+  "Autosplenectomy",
+  "Azygos continuation of the inferior vena cava",
+  "Barosinusitis",
+  "Behçet disease",
+  "Benign notochordal cell tumour",
+  "Bony Coalition",
+  "Bony sequestrum",
+  "Bronchial diverticulum",
+  "Bronchial hamartoma",
+  "Bronchomalacia",
+  "Bronchopulmonary dysplasia",
+  "Buckle rib fracture",
+  "Butterfly fragment fracture",
+  "Calcaneonavicular coalition",
+  "Carbon monoxide poisoning",
+  "Cardiac sclerosis",
+  "Cardiovascular postmortem changes",
+  "Carotid web",
+  "Caseous calcification of the mitral annulus",
+  "Cavitating pneumonia",
+  "Centrifugal enhancement liver haemangioma",
+  "Cephalic arch stenosis",
+  "Cerebral amyloid angiopathy",
+  "Cerebral malaria",
+  "Chalk stick fracture",
+  "Charcot joint",
+  "Chlamydia pneumonia",
+  "Cholecystoduodenal fistula",
+  "Cholecystoenteric fistula",
+  "Chronic aspiration pneumonia",
+  "Chronic interstitial pneumonitis",
+  "Chronic mesenteric ischaemia",
+  "Chronic otomastoiditis with tympanosclerosis",
+  "Chronic pulmonary aspergillosis",
+  "Chronic thromboembolic pulmonary hypertension",
+  "Circumcaval ureter",
+  "Cirrhosis-associated nodule (LR2)",
+  "Clonorchiasis",
+  "Clostridioides difficile colitis",
+  "Cochlear incomplete partition",
+  "Colorectal villous adenoma",
+  "Combined pulmonary fibrosis and emphysema",
+  "Congenital cytomegalovirus infection",
+  "Congenital megaureter",
+  "Congenital tracheomalacia",
+  "Coronary cameral fistula",
+  "Cosmetic silicone injection",
+  "Crystal arthropathy",
+  "Cutaneous squamous cell carcinoma",
+  "Cystic adrenal neoplasm",
+  "Cysticercosis",
+  "Cystitis cystica",
+  "Cystitis glandularis",
+  "Dacryocystitis",
+  "Dacryocystocele",
+  "Decomposition",
+  "Dermal filler injection",
+  "Die-punch fracture",
+  "Diffuse alveolar damage",
+  "Diffuse colonic nodularity",
+  "Diffuse large B-cell lymphoma",
+  "Diffuse panbronchiolitis",
+  "Diffuse small bowel disease",
+  "Digestive system neuroendocrine tumours",
+  "Disproportionately enlarged subarachnoid space hydrocephalus",
+  "Distal radioulnar joint instability",
+  "Domestically acquired particulate lung disease",
+  "Dorsocervical fat pad",
+  "Double-chambered right ventricle",
+  "Drowning",
+  "Drug-induced renal calculi",
+  "Dual right coronary artery",
+  "Ductus deferens calcification",
+  "Duplication of the inferior vena cava",
+  "Dysphagia lusoria",
+  "Dysphagia megalatriensis",
+  "Dysplastic liver nodules",
+  "Ectopic parathyroid gland",
+  "Ectopic ureter",
+  "Endobronchial tuberculosis",
+  "Endogenous lipoid pneumonia",
+  "Enlarged vestibular aqueduct",
+  "Enteroenteric fistula",
+  "Enterolithiasis",
+  "Excessive dynamic airway collapse",
+  "Excessive lateral pressure syndrome",
+  "External auditory canal exostoses",
+  "Extramural vascular invasion",
+  "Facet joint tropism",
+  "Fascioliasis",
+  "Fatty falx cerebri",
+  "Fatty nodal metaplasia",
+  "Fibrin sheath",
+  "Fibromuscular dysplasia",
+  "Fibrothorax",
+  "Fibular trochlea hypertrophy",
+  "Follicular lymphoma",
+  "Foreign body aspiration",
+  "Free standing bronchiectasis",
+  "Gallbladder empyema",
+  "Gallstone pancreatitis",
+  "Gangrenous cholecystitis",
+  "Gastric wall fatty infiltration",
+  "Gastrointestinal angiodysplasia",
+  "Giant hepatic haemangioma",
+  "Glass foreign body",
+  "Glenoid hypoplasia",
+  "Glenoid retroversion",
+  "Gout",
+  "HIV-associated dementia",
+  "HIV-associated salivary gland disease",
+  "HIV/AIDS (pulmonary and thoracic manifestations)",
+  "Hairy pleural plaque",
+  "Hemifacial microsomia",
+  "Hepatic Schistosomiasis",
+  "Hereditary haemorrhagic telangiectasia",
+  "High attenuation lymphadenopathy",
+  "High attenuation mucus",
+  "Hippocampal calcification",
+  "Hyperattenuating pulmonary mass lesion",
+  "Hyperextension cervical injury",
+  "Hyperostosis frontoparietalis",
+  "Hypertensive intracerebral haemorrhage",
+  "Hypervascular metastases",
+  "Hypoglobus",
+  "Ileocaecal tuberculosis",
+  "Iliac vein occlusion",
+  "In situ pulmonary artery thrombosis",
+  "Incisive canal cyst",
+  "Increased splenic attenuation",
+  "Inflammatory abdominal aortic aneurysm",
+  "Inflammatory bronchiolitis",
+  "Inflammatory pseudopolyp",
+  "Ingested bones",
+  "Interarterial course of the left coronary artery",
+  "Intercalary bone",
+  "Intermuscular lipoma",
+  "Interstitial lung abnormality",
+  "Interstitial pneumonia with autoimmune features",
+  "Intra-adenoidal retention cyst",
+  "Intramural fat of the urinary bladder",
+  "Intraosseous pneumatocyst",
+  "Intrapancreatic accessory spleen",
+  "Intrathoracic sleeve migration",
+  "Intravascular lung metastases",
+  "Ischaemic penumbra",
+  "Ischiopubic synchondrosis asymmetry",
+  "Isolated intrahepatic biliary duct dilatation",
+  "Jejunoileal diverticulosis",
+  "Jugular bulb diverticulum",
+  "Kommerell diverticulum",
+  "Kümmell disease",
+  "Ladd bands",
+  "Lady Windermere syndrome",
+  "Large vessel vasculitis",
+  "Laryngeal cyst",
+  "Ligamentum arteriosum calcification",
+  "Lipomatosis of the ileocaecal valve",
+  "Lipomatous hypertrophy of the interatrial septum",
+  "Liquefactive necrosis",
+  "Lower gastrointestinal bleeding",
+  "Luxury perfusion",
+  "Mandibular torus",
+  "Marijuana lung",
+  "Mass-forming chronic pancreatitis",
+  "Maxillary torus",
+  "May-Thurner syndrome",
+  "Meckel diverticulitis",
+  "Medication-related osteonecrosis of the jaw",
+  "Medullary sponge kidney",
+  "Meniscal ossicle",
+  "Metastatic calcification",
+  "Metastatic pulmonary calcification",
+  "Methotrexate lung disease",
+  "Metopic ridge",
+  "Middle ear atelectasis",
+  "Mitral valve leaflet calcification",
+  "Mondini malformation",
+  "Mulberry stone",
+  "Multifocal hepatic steatosis",
+  "Myocardial ischaemia",
+  "Myochosis coli",
+  "Myringosclerosis",
+  "Necrotising pneumonia",
+  "Neurocysticercosis",
+  "Neurofibromatosis type 1",
+  "Neurogenic thoracic outlet syndrome",
+  "Non-atherosclerotic coronary artery disease",
+  "Nontoxic megacolon",
+  "Occipital vertebra",
+  "Oesophageal leiomyoma",
+  "Oligometastases",
+  "Oppenheimer ossicle",
+  "Organophosphate poisoning",
+  "Ossicular chain fixation",
+  "Osteoma cutis",
+  "Pantaloon hernia",
+  "Paracaval lipoma",
+  "Paradoxical reaction in tuberculosis",
+  "Paraduodenal hernia",
+  "Parasymphyseal insufficiency fracture",
+  "Parenchymal lung disease",
+  "Patulous tube syndrome",
+  "Pedunculated hepatic haemangioma",
+  "Periampullary diverticulum",
+  "Periapical cemento-osseous dysplasia",
+  "Pericoronitis",
+  "Periodontal ligament widening",
+  "Peritoneal loose body",
+  "Persistent descending mesocolon",
+  "Persistent embryonic artery",
+  "Persistent hypoglossal artery",
+  "Persistent hypophyseal canal",
+  "Persistent primitive trigeminal artery",
+  "Persistent sciatic artery",
+  "Persistent stapedial artery",
+  "Pituitary hyperplasia",
+  "Platybasia",
+  "Pleural effusion secondary to pulmonary embolism",
+  "Pneumatosis coli",
+  "Pneumatosis cystoides intestinalis",
+  "Popliteal artery entrapment syndrome",
+  "Porcelain aorta",
+  "Port site hernia",
+  "Portal hypertensive gastroenterocolopathy",
+  "Postmortem changes",
+  "Preinvasive adenocarcinoma lesion of the lung",
+  "Preinvasive lesions of the lung",
+  "Prepulmonic coronary course",
+  "Primary pulmonary tuberculosis",
+  "Proliferating trichilemmal cyst",
+  "Protruding aortic plaque",
+  "Pterygoalar and pterygospinous ligament ossification",
+  "Pulmonary Pseudomonas aeruginosa infection",
+  "Pulmonary arterial atherosclerosis",
+  "Pulmonary hypertension associated with chronic obstructive pulmonary disease",
+  "Pulmonary hypoplasia",
+  "Pulmonary manifestations of psoriasis",
+  "Pulmonary meningothelial nodules",
+  "Pulmonary necrotising granuloma",
+  "Pulmonary non-tuberculous mycobacterial infection",
+  "Pulmonary paragonimiasis",
+  "Pulmonary schistosomiasis",
+  "Pulmonary valve calcification",
+  "Quadrigeminal cistern lipoma",
+  "Radiation-induced enteritis",
+  "Radiation-induced organising pneumonia",
+  "Ranula",
+  "Reduced leaflet motion",
+  "Regenerative liver nodule",
+  "Renal hilar lip",
+  "Renal leiomyoma",
+  "Renal papillary adenoma",
+  "Renal vein varices",
+  "Respiratory postmortem changes",
+  "Retro-odontoid pseudotumour",
+  "Reversible bronchiectasis",
+  "Rigid spine",
+  "Rokitansky nodule",
+  "Sabre-sheath trachea",
+  "Scaphocephaly",
+  "Schistosomiasis",
+  "Scleroderma",
+  "Second branchial cleft cyst",
+  "Secondary malignant cardiac tumour",
+  "Secondary pleural lymphoma",
+  "Segmental fracture",
+  "Seminal vesiculitis",
+  "Senile calcific scleral plaques",
+  "Sialosis",
+  "Sigmoid kidney",
+  "Sigmoid sinus dehiscence",
+  "Sigmoid sinus diverticulum",
+  "Single coronary artery",
+  "Sjögren disease (thoracic manifestations)",
+  "Skeletal fluorosis",
+  "Small lymphocytic lymphoma",
+  "Smoking-related interstitial fibrosis",
+  "Smoking-related interstitial lung disease",
+  "Splenic hamartoma",
+  "Splenic pseudocyst",
+  "Splenic volvulus",
+  "Split atlas",
+  "Spontaneous rib fracture",
+  "Stafne bone cavity",
+  "Staphyloma",
+  "Subclavian steal syndrome",
+  "Subependymal cyst",
+  "Submassive pulmonary embolism",
+  "Subscapularis insufficiency after shoulder arthroplasty",
+  "Superior mesenteric artery compression disorders",
+  "Superior mesenteric artery syndrome",
+  "Superior vena caval duplication",
+  "Swyer-James syndrome",
+  "Systemic lupus erythematosus (gastrointestinal manifestations)",
+  "Systemic lupus erythematosus (thoracic manifestations)",
+  "Tamoxifen-induced hepatic steatosis",
+  "Tension pneumothorax",
+  "Thin-cap fibroatheroma",
+  "Thoracolith",
+  "Thyroglossal duct cyst",
+  "Thyroid eye disease",
+  "Tibial torsion",
+  "Tonsillitis",
+  "Tophaceous Gout",
+  "Transitional aneurysm",
+  "Transverse sinus stenosis",
+  "Trefoil spinal canal",
+  "Trochlear apparatus calcification",
+  "Tropical pancreatitis",
+  "Tuberculous pleuritis",
+  "Typhoid fever",
+  "Unclassifiable interstitial lung disease",
+  "Ureteritis cystica",
+  "Urinary Schistosomiasis",
+  "Uterine lipoleiomyoma",
+  "Vertebral scalloping"
+ ],
+ "removed": [
+  "Crystalluria",
+  "Gastroesophageal reflux"
+ ],
+ "note": "Final CT classifier heads: 749 own + 279 parent-attached = 1,028 classes (class order = own then attached). Tiers and counts were computed by labels/ct/assign_heads.py on the label DB built with hierarchy_base.json; Crystalluria and Gastroesophageal reflux are excluded (not visible on CT, configs/ct_heads.json). train_pos/train_neg feed the classifier positive weights."
+}

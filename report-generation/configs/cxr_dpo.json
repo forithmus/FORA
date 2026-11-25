@@ -1,0 +1,18 @@
+{
+  "_comment": "X-ray writer DPO (fora_report.cxr.train_dpo): start = reference = the SFT checkpoint_epoch002.pt; world 128 (32 nodes x 4 GPUs); 600 steps, checkpoints every 100. The paper model continues from step_000200.pt (chosen among steps 200/400/600 by finding-level metrics of greedy generations on the internal validation set). Same --calibration, --dense, MIL and --locations arguments as SFT (checked).",
+  "world_size": 128,
+  "max_steps": 600,
+  "dpo_beta": 0.1,
+  "dpo_weight": 1.0,
+  "dpo_chosen_ce_weight": 1.0,
+  "dpo_unpaired_ce_weight": 1.0,
+  "dpo_pairs_per_visit": 2,
+  "dpo_mix": 1.0,
+  "dpo_recompute_tolerance": 0.5,
+  "dpo_recompute_abort": 20.0,
+  "connector_lr": 2e-5,
+  "llm_lr": 5e-6,
+  "warmup_fraction": 0.02,
+  "save_every_steps": 100,
+  "checkpoint_used": "step_000200.pt"
+}

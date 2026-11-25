@@ -1,0 +1,21 @@
+{
+  "_comment": "Lesion calipers (fora.reportgen.measure.caliper). One run per finding group of data/measure/caliper_groups.json; --exclude = that group's 'exclude' string. Paths are placeholders.",
+  "groups": ["air", "cyst", "node", "nodule", "solid", "stone", "thick"],
+  "train": {
+    "args": ["train", "--init", "<previous caliper checkpoint of the group>", "--cand", "<candidates with OOF size prior, rank < 8>", "--targets", "<report measurement targets>",
+             "--info", "<per-target report content / shape / multiplicity npz>", "--ln-short-axis", "--k", "8", "--epochs", "2", "--bs", "4", "--lr-dec", "3e-4",
+             "--w-meas", "1.0", "--w-prior2", "0.3", "--w-cv", "0.5", "--w-feat", "0.5", "--w-content", "0.5", "--w-shape", "0.2", "--w-multi", "0.3",
+             "--w-tv", "0.02", "--w-anchor3d", "0.3", "--workers", "12", "--ahead", "24"],
+    "checkpoint_used": "head_ep1.pt (last epoch)"
+  },
+  "calibration_inference": {
+    "args": ["infer", "--split", "all", "--k", "16"],
+    "then": "python -m fora.reportgen.measure.scale_calibration OUT --cand ... --targets ... --k 16 --out data/measure/caliper_scale_<group>.json"
+  },
+  "training_text_inference": {
+    "args": ["infer", "--cand", "cand_local.npz", "--targets", "targets_local.npz", "--split", "all", "--k", "1", "--workers", "6"]
+  },
+  "deployment_inference": {
+    "args": ["infer", "--split", "all", "--k", "1", "--workers", "2"]
+  }
+}

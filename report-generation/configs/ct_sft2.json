@@ -1,0 +1,20 @@
+{
+  "_comment": "CT writer SFT stage 2: continues from the stage-1 checkpoint (--warm_start checkpoint_epoch002.pt of stage 1; every trainable tensor loaded, optimizer and schedule reset) with the final plan tiers: train-split Platt, confident = calibrated p >= 0.5 (never below the train Youden cutoff), possible = train Youden cutoff capped to the top 20 by calibrated p (calibration_train_platt.json). 1,750 optimizer steps = the first 1,750 studies (report-uid order) of every rank, one pass.",
+  "epochs": 1,
+  "limit_train_per_rank": 1750,
+  "connector_lr": 5e-5,
+  "llm_lr": 1e-5,
+  "vision_lr": 5e-6,
+  "weight_decay": 0.05,
+  "warmup_fraction": 0.05,
+  "seed": 42,
+  "plan_possible_cap": 20,
+  "plan_cap_rank": "prob",
+  "target_global_batch": 128,
+  "dino_token_cap": 524288,
+  "max_report_tokens": 2048,
+  "fimg_tokens": 6,
+  "fimg_soft_tokens": 140,
+  "save_every_steps": 100,
+  "keep_checkpoint_every": 100
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "Synthetic X-ray DPO pairs from TRAIN reports (fora_report.cxr.dpo_pairs) with the X-ray calibration and dense logits. Result: 202,000 pairs over 126,996 studies.",
+  "seed": 20261031,
+  "workers": 48,
+  "target": "omission=55000,multi_omission=25000,insertion_plan_fp=35000,insertion_random=35000,normalised=40000,repetition=12000"
+}

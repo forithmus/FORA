@@ -1,0 +1,59 @@
+{
+ "h5_root": "${FORA_XRAY_H5}",
+ "cases_train": "${FORA_DATA}/xray/cases_train.jsonl",
+ "cases_val": "${FORA_DATA}/xray/cases_val.jsonl",
+ "labels": "${FORA_DATA}/xray/labels.npz",
+ "teacher_backbone": "${FORA_RUNS}/xray_dino/teacher_backbone.pt",
+ "block24_state": "${FORA_RUNS}/xray_dino/block24_state.pt",
+ "normalization": "${FORA_RUNS}/xray_dino/normalization.pt",
+ "init_block_from": "${FORA_RUNS}/sentence_alignment_xray/cxr_aligned_block24.pt",
+ "training": {
+  "epochs": 6,
+  "warmup_epochs": 0.25,
+  "seed": 0,
+  "tile": 1024,
+  "tiles_per_chunk": 8,
+  "frozen_batch": 8,
+  "max_films": 64,
+  "position_freqs": 4,
+  "bucket_size": 8,
+  "prefetch_depth": 6,
+  "loader_workers": 8,
+  "min_eval_pos": 10,
+  "model": {
+   "lr_head": 0.001,
+   "wd_head": 0.05,
+   "lr_block": 2e-05,
+   "wd_block": 0.05,
+   "ema": 0.998,
+   "token_drop": 0.2,
+   "feature_drop": 0.1,
+   "soft_init": 5.0,
+   "lr_route": 0.01,
+   "position_scale": 1.0
+  },
+  "augment": {
+   "p_gamma": 0.5,
+   "gamma": [
+    0.7,
+    1.4
+   ],
+   "stretch_lo_pct_max": 3.0,
+   "stretch_hi_pct_min": 97.0,
+   "p_histeq": 0.3,
+   "p_resample": 0.5,
+   "resample_long": [
+    1024,
+    2048
+   ],
+   "p_quant8": 0.5,
+   "quant_lo_pct_max": 2.0,
+   "quant_hi_pct_min": 98.0,
+   "p_jpeg": 0.3,
+   "jpeg_quality": [
+    60,
+    95
+   ]
+  }
+ }
+}

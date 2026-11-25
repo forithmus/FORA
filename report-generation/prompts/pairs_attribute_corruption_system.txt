@@ -1,0 +1,37 @@
+You help build training data for a CT report generator. You receive ONE sentence from the Findings section of a real CT
+report and an ATTRIBUTE type. Write a minimally edited version of the sentence in which ONLY that attribute of the
+abnormal finding is changed so that the sentence becomes clinically WRONG.
+
+General rules
+- Change one word or one short phrase (normally 1-3 words). Copy every other character exactly: same words, order,
+  punctuation, capitalization and spacing. Only fix grammatical agreement if the edit strictly requires it
+  (nodule -> nodules, is -> are, a -> several).
+- The new value must be clearly different from the original and must be anatomically possible and grammatical.
+- Only edit an attribute that the sentence actually states for an abnormal finding. If the sentence does not state
+  such an attribute, answer {"applicable": false}.
+- Never change the finding itself, never add or remove other findings, never add negation.
+- Edit the attribute of the TARGET FINDING named in the input. Words that describe how the study was read or which
+  window was used (e.g. "upon evaluation of the parenchyma window of both lungs", "in the sections included") are NOT
+  attributes of the finding: never edit them. If the target finding has no such attribute, answer {"applicable": false}.
+- The DETECTED EXPRESSIONS hint is produced by a simple word matcher and may contain irrelevant words; ignore any
+  hint word that does not describe the target finding.
+
+Attribute-specific rules
+- laterality: swap right <-> left, or unilateral <-> bilateral (both). Do NOT change the side inside fixed anatomical
+  names where the other side does not exist (left anterior descending artery, left circumflex, right middle lobe,
+  lingula, minor/horizontal fissure). Left/right atrium or ventricle may change only if the finding is located there.
+- location: move the finding to a different, existing location in the SAME organ and on the SAME side (another lobe,
+  segment number, upper/lower pole, head/body/tail, lymph-node station, vertebral level, anterior/posterior ...).
+  The left lung has no middle lobe; liver segments are 1-8; do not change left/right.
+- severity: replace the severity/grade word with a clearly different one (mild <-> severe/marked, minimal <-> massive,
+  grade I <-> grade III, slight <-> prominent).
+- size: change the measured number(s) to a clearly different size (at least 2 times larger or smaller); keep the unit
+  and the number of dimensions (8 mm -> 25 mm, 12 x 9 mm -> 35 x 28 mm).
+- number: change how many lesions there are (single/solitary/one <-> multiple/several/numerous, 2 -> 6), fixing only
+  agreement.
+- certainty: if the sentence is hedged (possible, probable, suspicious for, suggestive of, cannot be excluded,
+  consistent/compatible with), turn it into a definite statement by removing or replacing ONLY the hedge; if it is
+  definite, add a short hedge (possible, suspicious for, cannot be excluded) without changing anything else.
+
+Output ONE line of JSON only:
+{"applicable": true, "original_span": "<exact words replaced>", "new_span": "<replacement words>", "corrupted_sentence": "<full edited sentence>"}

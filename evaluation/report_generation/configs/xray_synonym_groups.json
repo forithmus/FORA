@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "NG/OG tube, normal position",
+      "members": ["Nasogastric / orogastric (NG/OG) tube, normal position", "Nasogastric / orogastric (NG) tube, normal position"],
+      "rationale": "Two spellings of the same class; identical device and position."
+    },
+    {
+      "name": "Bronchial wall thickening",
+      "members": ["Bronchial wall thickening", "Peribronchial cuffing"],
+      "rationale": "Peribronchial cuffing is the radiographic name for thickened bronchial walls seen end-on, so the two terms describe the same ring and tram-track appearance."
+    },
+    {
+      "name": "Small pleural effusion / costophrenic blunting",
+      "members": ["Small pleural effusion", "Blunting of the costophrenic angle"],
+      "rationale": "On a frontal radiograph a small effusion appears as a blunted costophrenic angle, and many reporters write 'blunting' for exactly this appearance."
+    },
+    {
+      "name": "Linear band-like opacity",
+      "members": ["Linear (discoid/plate) atelectasis", "Pulmonary parenchymal bands"],
+      "rationale": "Both describe a thin linear or band-like basal opacity; whether it is called plate atelectasis or a parenchymal band or linear scar depends on the reader's habit, not on the image."
+    }
+  ],
+  "considered_not_grouped": [
+    {"members": ["Pleural effusion (simple/free-flowing)", "Small pleural effusion", "Large / massive pleural effusion", "Loculated pleural effusion"], "reason": "Parent and its size or morphology subtypes. Only the small-effusion and blunting pair is merged."},
+    {"members": ["Blunting of the costophrenic angle", "Pleural thickening"], "reason": "Blunting can also come from pleural thickening or scarring, but it is most often reported for small effusions. Blunting was put with small effusion, not with thickening."},
+    {"members": ["Pulmonary hyperinflation (hyperexpansion)", "Flattened hemidiaphragm(s)", "Rib splaying / horizontal ribs / widened intercostal spaces"], "reason": "Flattened diaphragms and horizontal ribs are individual signs that together make up hyperinflation. A report naming one sign does not always imply the global finding, so they are not merged."},
+    {"members": ["Pulmonary emphysema", "COPD (chronic obstructive pulmonary disease)", "Pulmonary hyperinflation (hyperexpansion)"], "reason": "These are disease labels inferred from a sign (hyperinflation), not terminology variants."},
+    {"members": ["Chronic bronchitis changes", "Bronchial wall thickening"], "reason": "Clinical disease versus the radiographic sign."},
+    {"members": ["Cardiomegaly", "Enlarged cardiomediastinum", "Left ventricular (LV) enlargement", "Right atrial (RA) enlargement"], "reason": "Enlarged cardiomediastinum also covers the mediastinum, and the chamber enlargements are subtypes of cardiomegaly."},
+    {"members": ["Mediastinal widening", "Superior mediastinal mass / enlargement", "Enlarged cardiomediastinum"], "reason": "Widening of the superior mediastinum is close to 'superior mediastinal enlargement', but that class also covers a discrete mass. Enlarged cardiomediastinum includes the heart. Not merged, to stay strict."},
+    {"members": ["Aortic enlargement (thoracic aortic aneurysm)", "Unfolded aorta (aortic tortuosity/elongation)"], "reason": "Unfolding is elongation without dilatation, so it is a different finding, even though the two are sometimes confused."},
+    {"members": ["Hilar enlargement", "Hilar lymphadenopathy", "Enlarged pulmonary artery (main PA prominence)", "Hilar congestion"], "reason": "Hilar enlargement is a sign. The others are distinct causes (nodes, arteries, venous congestion)."},
+    {"members": ["Atelectasis (general)", "Lobar atelectasis (lobar collapse)", "Segmental/subsegmental atelectasis", "Linear (discoid/plate) atelectasis", "Chronic fibrotic volume loss (cicatricial atelectasis)"], "reason": "Parent and child subtypes with distinct appearances."},
+    {"members": ["Consolidation", "Lung Opacity (airspace opacity, NOS)", "Pneumonia", "Bronchopneumonia", "Ground-glass opacity (GGO)"], "reason": "Lung opacity is an umbrella term. Pneumonia is a diagnosis, not the consolidation sign. GGO is a different density."},
+    {"members": ["Viral pneumonia pattern (general, non-COVID)", "COVID-19 pneumonia pattern"], "reason": "Explicitly separate etiologic classes."},
+    {"members": ["Multiple pulmonary nodules", "Cannonball metastases / pulmonary metastases"], "reason": "Appearance versus diagnosis. Multiple nodules have many causes."},
+    {"members": ["Pulmonary nodule, solitary (SPN)", "Pulmonary mass", "Pulmonary lesion, unspecified (nodule vs mass)"], "reason": "These are distinguished by size, and the unspecified class is the parent."},
+    {"members": ["Reticular pattern (interstitial)", "Reticulonodular pattern", "Interstitial lung disease pattern (general)", "Pulmonary fibrosis"], "reason": "Different patterns, a parent class, and a disease."},
+    {"members": ["Kerley B lines", "Edema (pulmonary edema, general/composite label)"], "reason": "A specific sign versus the composite disease label."},
+    {"members": ["Bulla (pulmonary bulla)", "Pulmonary cyst", "Cavitation / cavitary lung lesion"], "reason": "These lucent lesions differ in wall thickness and context, and radiologists distinguish them."},
+    {"members": ["Calcified granuloma", "TB sequelae / healed (inactive) tuberculosis"], "reason": "A specific lesion versus an aetiologic composite."},
+    {"members": ["Apical pleural cap", "Pleural thickening"], "reason": "An apical cap is a specific localized subtype."},
+    {"members": ["Calcified pleural plaques", "Diffuse pleural calcification (non-plaque)"], "reason": "The class definitions explicitly separate them."},
+    {"members": ["Pneumothorax (simple/spontaneous)", "Apical (small) pneumothorax", "Hydropneumothorax"], "reason": "Subtypes or a different appearance (air-fluid level)."},
+    {"members": ["Elevated hemidiaphragm", "Diaphragmatic eventration"], "reason": "Eventration is one cause of elevation, often with a focal contour bulge. These are related, not synonyms."},
+    {"members": ["Chilaiditi sign / syndrome", "Pneumoperitoneum / free subdiaphragmatic air"], "reason": "Chilaiditi is the classic mimic of pneumoperitoneum, a different finding."},
+    {"members": ["Median sternotomy / sternal wires (normal)", "Cerclage wires (rib/sternal fracture fixation)"], "reason": "Sternal wires are often called 'sternal cerclage' in reports and look identical. However, the cerclage class also covers rib fixation and is defined by fracture fixation, so they are not merged. This is a borderline call."},
+    {"members": ["Cerclage wires (rib/sternal fracture fixation)", "Osteosynthesis material (fracture fixation hardware)"], "reason": "Cerclage is a subtype of osteosynthesis."},
+    {"members": ["Central venous catheter (CVC), normal position", "Central venous catheter via jugular vein", "Implantable port / Port-a-Cath", "CVC tip malposition", "Support Devices (generic umbrella)"], "reason": "Subtypes and an umbrella class with distinct meanings."},
+    {"members": ["Dextrocardia", "Situs inversus totalis"], "reason": "Dextrocardia is one component of situs inversus. Situs inversus additionally requires abdominal inversion."},
+    {"members": ["Bone metastasis", "Lytic bone lesion", "Sclerotic (blastic) bone lesion"], "reason": "Diagnosis versus the radiographic lesion appearances."},
+    {"members": ["Pneumomediastinum", "Subcutaneous emphysema"], "reason": "These co-occur but are different locations of air."}
+  ]
+}

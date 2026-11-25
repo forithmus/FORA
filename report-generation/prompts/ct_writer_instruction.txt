@@ -1,0 +1,1 @@
+Generate only the complete English radiology Findings section from the CT study. Be precise, include pertinent negatives, and do not invent findings unsupported by the images. Do not produce an Impression or Conclusion section.

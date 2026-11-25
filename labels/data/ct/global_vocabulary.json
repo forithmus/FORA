@@ -1,0 +1,7297 @@
+[
+ {
+  "name": "Amyand hernia",
+  "syn": "Inguinal hernia containing the appendix",
+  "role": "global"
+ },
+ {
+  "name": "Direct inguinal hernia",
+  "syn": "Direct groin hernia",
+  "role": "global"
+ },
+ {
+  "name": "Femoral hernia",
+  "syn": "Femoral herniation",
+  "role": "global"
+ },
+ {
+  "name": "Incarcerated hernia",
+  "syn": "Irreducible hernia",
+  "role": "global"
+ },
+ {
+  "name": "Incisional hernia",
+  "syn": "Incisional herniae",
+  "role": "global"
+ },
+ {
+  "name": "Indirect inguinal hernia",
+  "syn": "Indirect inguinal herniae",
+  "role": "global"
+ },
+ {
+  "name": "Intrathoracic sleeve migration",
+  "syn": "Intrathoracic migration of the gastric sleeve; Sleeve gastrectomy migration",
+  "role": "global"
+ },
+ {
+  "name": "Morgagni hernia",
+  "syn": "Anterior congenital diaphragmatic hernia; Foramen of Morgagni hernia",
+  "role": "global"
+ },
+ {
+  "name": "Pantaloon hernia",
+  "syn": "Romberg hernia; Saddlebag hernia",
+  "role": "global"
+ },
+ {
+  "name": "Paraduodenal hernia",
+  "syn": "Hernia of Landzert; Hernia of Waldeyer; Internal paraduodenal hernia",
+  "role": "global"
+ },
+ {
+  "name": "Paraoesophageal hernia",
+  "syn": "Paraesophageal hernia; Rolling hiatus hernia; Type II hiatus hernia; Type III hiatus hernia; Type IV hiatus hernia",
+  "role": "global"
+ },
+ {
+  "name": "Paraumbilical hernia",
+  "syn": "Paraumbilical herniae",
+  "role": "global"
+ },
+ {
+  "name": "Port site hernia",
+  "syn": "Trocarsite hernia",
+  "role": "global"
+ },
+ {
+  "name": "Umbilical hernia",
+  "syn": "Umbilical herniae",
+  "role": "global"
+ },
+ {
+  "name": "Urinary bladder hernia",
+  "syn": "scrotal cystocele",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal adenoma",
+  "syn": "Adrenal cortical adenoma",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal metastasis",
+  "syn": "Metastatic adrenal disease",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal myelolipoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal neoplasm",
+  "syn": "Adrenal neoplasms; Adrenal gland tumours",
+  "role": "global"
+ },
+ {
+  "name": "Cystic adrenal neoplasm",
+  "syn": "Cystic adrenal tumor",
+  "role": "global"
+ },
+ {
+  "name": "Fat-containing adrenal lesions",
+  "syn": "Adrenal lipomatous lesions",
+  "role": "global"
+ },
+ {
+  "name": "Bronchial stenosis",
+  "syn": "bronchial strictures",
+  "role": "global"
+ },
+ {
+  "name": "Broncholithiasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bronchomalacia",
+  "syn": "excessive airway collapsibility",
+  "role": "global"
+ },
+ {
+  "name": "Congenital tracheomalacia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse tracheal narrowing",
+  "syn": "Diffuse tracheal stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Excessive dynamic airway collapse",
+  "syn": "EDAC; Dynamic tracheal collapse",
+  "role": "global"
+ },
+ {
+  "name": "Expiratory central airway collapse",
+  "syn": "ECAC",
+  "role": "global"
+ },
+ {
+  "name": "High attenuation mucus",
+  "syn": "HAM; hyperattenuating mucus",
+  "role": "global"
+ },
+ {
+  "name": "Inspissated secretions",
+  "syn": "thickened secretions",
+  "role": "global"
+ },
+ {
+  "name": "Sabre-sheath trachea",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheal secretions",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheal wall thickening",
+  "syn": "Tracheal wall edema; Tracheal wall hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Tracheobronchial stenosis",
+  "syn": "tracheobronchial narrowing",
+  "role": "global"
+ },
+ {
+  "name": "Tracheobronchopathia osteochondroplastica",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheomalacia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheomegaly",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intrahepatic biliary duct dilatation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Isolated intrahepatic biliary duct dilatation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Acromioclavicular joint osteoarthritis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Aggressive vertebral haemangioma",
+  "syn": "Aggressive spinal haemangioma",
+  "role": "global"
+ },
+ {
+  "name": "Basilar skull fracture",
+  "syn": "Base of skull fracture; Skull base fracture",
+  "role": "global"
+ },
+ {
+  "name": "Benign notochordal cell tumour",
+  "syn": "giant notochordal hamartoma; giant notochordal rest; vertebral intraosseous chordoma",
+  "role": "global"
+ },
+ {
+  "name": "Bone island",
+  "syn": "enostosis",
+  "role": "global"
+ },
+ {
+  "name": "Bone metastases",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Buckle rib fracture",
+  "syn": "Incomplete rib fracture; Torus rib fracture",
+  "role": "global"
+ },
+ {
+  "name": "Burst fracture",
+  "syn": "Axial compression fracture",
+  "role": "global"
+ },
+ {
+  "name": "Butterfly fragment fracture",
+  "syn": "Comminuted long bone fracture with butterfly fragment",
+  "role": "global"
+ },
+ {
+  "name": "Calcaneal fracture",
+  "syn": "Fracture of the calcaneus; Heel fracture",
+  "role": "global"
+ },
+ {
+  "name": "Cervical spine fractures",
+  "syn": "C-spine fractures; Cervical vertebral fractures",
+  "role": "global"
+ },
+ {
+  "name": "Chalk stick fracture",
+  "syn": "Carrot stick fracture",
+  "role": "global"
+ },
+ {
+  "name": "Clavicle fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Complete fracture",
+  "syn": "Bicortical fracture",
+  "role": "global"
+ },
+ {
+  "name": "Complex midfacial fracture",
+  "syn": "Multiple midface fractures",
+  "role": "global"
+ },
+ {
+  "name": "Die-punch fracture",
+  "syn": "Lunate fossa fracture of the distal radius",
+  "role": "global"
+ },
+ {
+  "name": "Enchondroma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Facet joint arthropathy",
+  "syn": "Facet joint arthrosis; Facet joint osteoarthritis",
+  "role": "global"
+ },
+ {
+  "name": "Facet joint vacuum phenomenon",
+  "syn": "degenerative intrafacetal gas",
+  "role": "global"
+ },
+ {
+  "name": "Facial fractures",
+  "syn": "Maxillofacial fractures",
+  "role": "global"
+ },
+ {
+  "name": "Femur fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fibrous dysplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fibula fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gonarthrosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hill-Sachs defect",
+  "syn": "Hill-Sachs fracture; Hill-Sachs lesion",
+  "role": "global"
+ },
+ {
+  "name": "Hip osteoarthritis",
+  "syn": "Coxarthrosis",
+  "role": "global"
+ },
+ {
+  "name": "Humeral head fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Humerus fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Inferior orbital wall fracture",
+  "syn": "Blow-out fracture of the orbital floor",
+  "role": "global"
+ },
+ {
+  "name": "Intervertebral disc calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intervertebral disc degeneration",
+  "syn": "Intervertebral osteochondrosis; Degenerative disc disease",
+  "role": "global"
+ },
+ {
+  "name": "Intervertebral disc herniation",
+  "syn": "HNP; disc extrusion; disc herniation; disc protrusion; disc sequestration; herniated disc; herniated nucleus pulposus; prolapsed disc",
+  "role": "global"
+ },
+ {
+  "name": "Intraosseous ganglion",
+  "syn": "Intraosseous ganglion cyst; Juxta-articular bone cyst",
+  "role": "global"
+ },
+ {
+  "name": "Intraosseous lipoma",
+  "syn": "Calcaneal intraosseous lipoma",
+  "role": "global"
+ },
+ {
+  "name": "Intraosseous pneumatocyst",
+  "syn": "intraosseous gas-containing bone lesion",
+  "role": "global"
+ },
+ {
+  "name": "Kümmell disease",
+  "syn": "delayed post-traumatic vertebral body collapse; osteonecrosis of the vertebral body",
+  "role": "global"
+ },
+ {
+  "name": "Lumbar spine fracture",
+  "syn": "Lumbar burst fracture; Lumbar compression fracture; Lumbar vertebral fracture",
+  "role": "global"
+ },
+ {
+  "name": "Lytic bone metastases",
+  "syn": "Osteolytic bone metastases; Osteolytic metastases",
+  "role": "global"
+ },
+ {
+  "name": "Lytic skull lesion",
+  "syn": "Calvarial lytic lesion; Osteolytic skull lesion",
+  "role": "global"
+ },
+ {
+  "name": "Malleolar fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mandibular fracture",
+  "syn": "Fracture of the mandible",
+  "role": "global"
+ },
+ {
+  "name": "Metacarpal fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Metatarsal fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mixed attenuation bone lesion",
+  "syn": "mixed lytic and sclerotic bone lesion",
+  "role": "global"
+ },
+ {
+  "name": "Mixed lytic and sclerotic bone metastases",
+  "syn": "Mixed osteolytic and osteoblastic metastases",
+  "role": "global"
+ },
+ {
+  "name": "Nasal bone fracture",
+  "syn": "Fracture of the nasal bones",
+  "role": "global"
+ },
+ {
+  "name": "Orbital blow-out fracture",
+  "syn": "Blow-out fracture of the orbit",
+  "role": "global"
+ },
+ {
+  "name": "Osteoarthritis of the temporomandibular joint",
+  "syn": "Degenerative joint disease of the TMJ; TMJ osteoarthritis",
+  "role": "global"
+ },
+ {
+  "name": "Osteolytic bone lesion",
+  "syn": "lucent bone lesion; lytic bone lesion",
+  "role": "global"
+ },
+ {
+  "name": "Osteoma",
+  "syn": "ivory exostosis; parosteal osteoma",
+  "role": "global"
+ },
+ {
+  "name": "Osteophyte",
+  "syn": "Bone spur; Bony spur; bony spurs; osteophytic lipping",
+  "role": "global"
+ },
+ {
+  "name": "Osteophyte-induced adjacent pulmonary atelectasis and fibrosis",
+  "syn": "Osteophyte-induced lung fibrosis",
+  "role": "global"
+ },
+ {
+  "name": "Osteoporosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Paranasal sinus fractures",
+  "syn": "Facial sinus fractures",
+  "role": "global"
+ },
+ {
+  "name": "Paranasal sinus osteoma",
+  "syn": "Sinonasal osteoma",
+  "role": "global"
+ },
+ {
+  "name": "Parasymphyseal insufficiency fracture",
+  "syn": "Pelvic insufficiency fracture of the parasymphyseal region",
+  "role": "global"
+ },
+ {
+  "name": "Patellar fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pathological fracture",
+  "syn": "Fragility fracture",
+  "role": "global"
+ },
+ {
+  "name": "Pelvic fractures",
+  "syn": "Acetabular fracture; Pelvic ring disruption",
+  "role": "global"
+ },
+ {
+  "name": "Posterior malleolus fracture",
+  "syn": "Volkmann fracture",
+  "role": "global"
+ },
+ {
+  "name": "Primary intraosseous haemangioma",
+  "syn": "haemangiomas of bone; intracortical haemangioma; sacral haemangioma; skull vault haemangioma; vertebral haemangioma",
+  "role": "global"
+ },
+ {
+  "name": "Pubic ramus fracture",
+  "syn": "Pelvic ramus fracture; Pubic rami fracture",
+  "role": "global"
+ },
+ {
+  "name": "Radial head fracture",
+  "syn": "Fracture of the radial head",
+  "role": "global"
+ },
+ {
+  "name": "Radius fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Scaphoid fracture",
+  "syn": "Fracture of the scaphoid",
+  "role": "global"
+ },
+ {
+  "name": "Scaphoid non-union",
+  "syn": "Nonunion of the scaphoid",
+  "role": "global"
+ },
+ {
+  "name": "Scapula Fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Schmorl node",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sclerotic bone lesion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sclerotic bone metastases",
+  "syn": "Osteoblastic bone metastases; Osteoblastic metastasis; Osteosclerotic metastasis; Sclerotic bone metastasis",
+  "role": "global"
+ },
+ {
+  "name": "Segmental fracture",
+  "syn": "Segmental bone fracture",
+  "role": "global"
+ },
+ {
+  "name": "Skull fracture",
+  "syn": "Cranial fracture",
+  "role": "global"
+ },
+ {
+  "name": "Skull metastases",
+  "syn": "Cranial metastases; Metastatic bone disease of the skull",
+  "role": "global"
+ },
+ {
+  "name": "Skull tumours",
+  "syn": "Calvarial tumors; Skull neoplasms",
+  "role": "global"
+ },
+ {
+  "name": "Skull vault osteoma",
+  "syn": "Osteoma of the skull vault",
+  "role": "global"
+ },
+ {
+  "name": "Solitary sclerotic bone lesion",
+  "syn": "osteoblastic lesion; osteosclerotic lesion",
+  "role": "global"
+ },
+ {
+  "name": "Spinal compression fracture",
+  "syn": "VCF; Vertebral compression fracture",
+  "role": "global"
+ },
+ {
+  "name": "Spinal wedge fracture",
+  "syn": "Wedge compression fracture",
+  "role": "global"
+ },
+ {
+  "name": "Spondylosis",
+  "syn": "Spinal degeneration",
+  "role": "global"
+ },
+ {
+  "name": "Spontaneous rib fracture",
+  "syn": "Fragility rib fracture",
+  "role": "global"
+ },
+ {
+  "name": "Sternal fracture",
+  "syn": "Fracture of the sternum",
+  "role": "global"
+ },
+ {
+  "name": "Sternoclavicular joint osteoarthritis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Subchondral cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tarsal fracture",
+  "syn": "Fractures of the tarsal bones",
+  "role": "global"
+ },
+ {
+  "name": "Thoracolumbar spine fracture",
+  "syn": "T-L spine fracture; Thoracolumbar vertebral fracture",
+  "role": "global"
+ },
+ {
+  "name": "Tibia fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tibial plateau fracture",
+  "syn": "Bumper fracture; Fender fracture",
+  "role": "global"
+ },
+ {
+  "name": "Tibiotalar spurs",
+  "syn": "Anterior ankle spurs; Tibiotalar osteophytes",
+  "role": "global"
+ },
+ {
+  "name": "Trimalleolar fracture",
+  "syn": "Cotton fracture",
+  "role": "global"
+ },
+ {
+  "name": "Ulnar styloid fracture",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vacuum phenomenon",
+  "syn": "aseptic gas collections",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral body pathological fracture",
+  "syn": "Malignant vertebral fracture; Neoplastic vertebral fracture",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral haemangioma",
+  "syn": "Intraosseous haemangioma of the spine",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral metastases",
+  "syn": "Metastatic spinal disease; Spinal metastases; Spinal metastasis",
+  "role": "global"
+ },
+ {
+  "name": "Anterior circulation infarction",
+  "syn": "Anterior circulation stroke; Ischemic stroke of the anterior circulation",
+  "role": "global"
+ },
+ {
+  "name": "Basal ganglia calcification",
+  "syn": "Intracranial calcification of the basal ganglia",
+  "role": "global"
+ },
+ {
+  "name": "Cerebral cortical calcification",
+  "syn": "gyral calcification",
+  "role": "global"
+ },
+ {
+  "name": "Choroid plexus calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Communicating hydrocephalus",
+  "syn": "Non-obstructive hydrocephalus",
+  "role": "global"
+ },
+ {
+  "name": "Disproportionately enlarged subarachnoid space hydrocephalus",
+  "syn": "DESH",
+  "role": "global"
+ },
+ {
+  "name": "Dural calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fahr syndrome",
+  "syn": "Fahr disease; bilateral striatopallidodentate calcinosis; primary familial brain calcification",
+  "role": "global"
+ },
+ {
+  "name": "Falx ossification",
+  "syn": "Calcification of the falx; Ossified falx cerebri",
+  "role": "global"
+ },
+ {
+  "name": "Hippocampal calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hyperattenuating cerebral metastases",
+  "syn": "Hyperdense brain metastases",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial herniation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial metastases",
+  "syn": "Brain metastases; Haemorrhagic brain metastases; Haemorrhagic intracranial metastases; Hemorrhagic brain metastases; Hemorrhagic intracranial metastases; Secondary intracranial neoplasms",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial tumours",
+  "syn": "Brain tumors; Intracranial neoplasms",
+  "role": "global"
+ },
+ {
+  "name": "Ischemic Stroke Infarct Core",
+  "syn": "infarct core",
+  "role": "global"
+ },
+ {
+  "name": "Meningothelial meningioma",
+  "syn": "endothelial meningioma; syncytial meningioma",
+  "role": "global"
+ },
+ {
+  "name": "Middle cerebral artery infarct",
+  "syn": "MCA infarct; MCA infarction; MCA stroke; Middle cerebral artery infarction; Ischaemic stroke of the MCA territory",
+  "role": "global"
+ },
+ {
+  "name": "Multiple intracranial calcifications",
+  "syn": "Intracranial calcifications",
+  "role": "global"
+ },
+ {
+  "name": "Obstructive hydrocephalus",
+  "syn": "Non-communicating hydrocephalus",
+  "role": "global"
+ },
+ {
+  "name": "Pituitary region masses",
+  "syn": "Sellar and suprasellar masses",
+  "role": "global"
+ },
+ {
+  "name": "Posterior cerebral artery infarct",
+  "syn": "PCA stroke; PCA territory infarction",
+  "role": "global"
+ },
+ {
+  "name": "Subfalcine herniation",
+  "syn": "cingulate hernia",
+  "role": "global"
+ },
+ {
+  "name": "Transependymal oedema",
+  "syn": "interstitial cerebral oedema; periventricular lucency",
+  "role": "global"
+ },
+ {
+  "name": "Transtentorial herniation",
+  "syn": "Central transtentorial herniation; Uncal herniation; Upward transtentorial herniation",
+  "role": "global"
+ },
+ {
+  "name": "Vasogenic cerebral oedema",
+  "syn": "Vasogenic edema",
+  "role": "global"
+ },
+ {
+  "name": "Watershed cerebral infarction",
+  "syn": "border zone infarct",
+  "role": "global"
+ },
+ {
+  "name": "Aortic valve replacement",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Biliary drainage catheter",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Biliary stent",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Breast implant",
+  "syn": "Breast prosthesis",
+  "role": "global"
+ },
+ {
+  "name": "Central venous catheter",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Coronary artery bypass graft",
+  "syn": "CABG; CAG",
+  "role": "global"
+ },
+ {
+  "name": "Coronary artery stent",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cosmetic silicone injection",
+  "syn": "Free silicone injection; Silicone granuloma; Siliconoma",
+  "role": "global"
+ },
+ {
+  "name": "Deep brain stimulation device",
+  "syn": "Deep brain stimulation catheter; Deep brain stimulation electrode; Deep brain stimulation electrodes; Deep brain stimulation implant",
+  "role": "global"
+ },
+ {
+  "name": "Dermal filler injection",
+  "syn": "injectable fillers",
+  "role": "global"
+ },
+ {
+  "name": "Drainage catheter",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Endotracheal tube",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fibrin sheath",
+  "syn": "proteinaceous film encasing catheter",
+  "role": "global"
+ },
+ {
+  "name": "Hardware loosening",
+  "syn": "Implant loosening",
+  "role": "global"
+ },
+ {
+  "name": "Heart valve replacement",
+  "syn": "Heart valve prosthesis",
+  "role": "global"
+ },
+ {
+  "name": "Hip prosthesis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Implant malposition",
+  "syn": "Hardware malposition",
+  "role": "global"
+ },
+ {
+  "name": "Implant migration",
+  "syn": "hardware migration; implant displacement",
+  "role": "global"
+ },
+ {
+  "name": "Implantable venous access port",
+  "syn": "Port catheter",
+  "role": "global"
+ },
+ {
+  "name": "Interbody cage",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intrauterine device",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nasogastric tube",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nephrostomy catheter",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Orthodontic appliance",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pacemaker",
+  "syn": "Cardiac pacemaker",
+  "role": "global"
+ },
+ {
+  "name": "Pedicle screws",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "PEG tube",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Spinal instrumentation",
+  "syn": "Spinal fixation device",
+  "role": "global"
+ },
+ {
+  "name": "Sternotomy",
+  "syn": "Status post sternotomy; Sternal suture",
+  "role": "global"
+ },
+ {
+  "name": "Subscapularis insufficiency after shoulder arthroplasty",
+  "syn": "Post-arthroplasty subscapularis failure; Subscapularis deficiency after shoulder arthroplasty",
+  "role": "global"
+ },
+ {
+  "name": "Surgical clip",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Surgical haemostatic material",
+  "syn": "Oxidised regenerated cellulose; Surgicel",
+  "role": "global"
+ },
+ {
+  "name": "Surgical suture",
+  "syn": "Surgical sutures",
+  "role": "global"
+ },
+ {
+  "name": "Talc pleurodesis",
+  "syn": "Chemical pleurodesis with talc",
+  "role": "global"
+ },
+ {
+  "name": "Tracheostomy",
+  "syn": "Tracheal Cannula; Tracheostomy cannula",
+  "role": "global"
+ },
+ {
+  "name": "Ureteral stent",
+  "syn": "Double J stent",
+  "role": "global"
+ },
+ {
+  "name": "Vascular stent",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ventriculoperitoneal shunt",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vertebroplasty",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Amoebic colitis",
+  "syn": "Amoebiasis of the colon",
+  "role": "global"
+ },
+ {
+  "name": "Bowel wall thickening",
+  "syn": "Intestinal wall thickening",
+  "role": "global"
+ },
+ {
+  "name": "Clostridioides difficile colitis",
+  "syn": "C. diff colitis; Clostridium difficile colitis; Pseudomembranous colitis",
+  "role": "global"
+ },
+ {
+  "name": "Colitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Colonic diverticulitis",
+  "syn": "Diverticulitis",
+  "role": "global"
+ },
+ {
+  "name": "Colonic diverticulosis",
+  "syn": "Diverticulosis",
+  "role": "global"
+ },
+ {
+  "name": "Enteritis",
+  "syn": "Small bowel inflammation",
+  "role": "global"
+ },
+ {
+  "name": "Faecaloma",
+  "syn": "severe faecal impaction",
+  "role": "global"
+ },
+ {
+  "name": "Gastric wall thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ileus",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Infectious colitis",
+  "syn": "Infective colitis",
+  "role": "global"
+ },
+ {
+  "name": "Ischaemic colitis",
+  "syn": "Ischemic colitis",
+  "role": "global"
+ },
+ {
+  "name": "Large bowel obstruction",
+  "syn": "Colonic obstruction; LBO",
+  "role": "global"
+ },
+ {
+  "name": "Megarectum",
+  "syn": "Irreversible dilation of the rectum",
+  "role": "global"
+ },
+ {
+  "name": "Nontoxic megacolon",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Oesophageal wall thickening",
+  "syn": "Esophageal wall thickening",
+  "role": "global"
+ },
+ {
+  "name": "Perforated appendix",
+  "syn": "perforated appendicitis; ruptured appendix",
+  "role": "global"
+ },
+ {
+  "name": "Proctitis",
+  "syn": "Inflammation of the rectum",
+  "role": "global"
+ },
+ {
+  "name": "Radiation-induced enteritis",
+  "syn": "Chronic radiation enteritis; Radiation enteropathy",
+  "role": "global"
+ },
+ {
+  "name": "Small bowel obstruction",
+  "syn": "SBO",
+  "role": "global"
+ },
+ {
+  "name": "Strangulating bowel obstruction",
+  "syn": "Ischemic bowel obstruction; Strangulated bowel obstruction",
+  "role": "global"
+ },
+ {
+  "name": "Terminal ileitis",
+  "syn": "Inflammation of the terminal ileum",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder empyema",
+  "syn": "suppurative cholecystitis",
+  "role": "global"
+ },
+ {
+  "name": "Gangrenous cholecystitis",
+  "syn": "Gangrenous gallbladder",
+  "role": "global"
+ },
+ {
+  "name": "Acquired cystic kidney disease",
+  "syn": "ACKD",
+  "role": "global"
+ },
+ {
+  "name": "Acute peripancreatic fluid collection",
+  "syn": "APFC",
+  "role": "global"
+ },
+ {
+  "name": "Adult cystic renal disease",
+  "syn": "Adult polycystic kidney disease; Autosomal dominant polycystic kidney disease",
+  "role": "global"
+ },
+ {
+  "name": "Arachnoid cyst",
+  "syn": "intra-arachnoid cyst",
+  "role": "global"
+ },
+ {
+  "name": "Autosplenectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Basal ganglia haemorrhage",
+  "syn": "Hypertensive basal ganglia haemorrhage; Intracerebral haemorrhage of the basal ganglia",
+  "role": "global"
+ },
+ {
+  "name": "Bilioma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bronchial diverticulum",
+  "syn": "bronchial diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Cachexia",
+  "syn": "Cancer cachexia; Cardiac cachexia",
+  "role": "global"
+ },
+ {
+  "name": "Calyceal diverticulum",
+  "syn": "pyelocalyceal diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Cephalohematoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cerebral atrophy",
+  "syn": "Compensatory enlargement of the CSF spaces; Cortical atrophy; Hydrocephalus ex vacuo",
+  "role": "global"
+ },
+ {
+  "name": "Cerebral haemorrhagic contusion",
+  "syn": "brain bruise",
+  "role": "global"
+ },
+ {
+  "name": "Choroidal fissure cyst",
+  "syn": "choroid fissure cyst",
+  "role": "global"
+ },
+ {
+  "name": "Cystic renal diseases",
+  "syn": "Renal cystic disease",
+  "role": "global"
+ },
+ {
+  "name": "Dentigerous cyst",
+  "syn": "follicular cyst",
+  "role": "global"
+ },
+ {
+  "name": "Dermoid cyst",
+  "syn": "Mature cystic teratoma",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse cerebellar atrophy",
+  "syn": "Cerebellar atrophy",
+  "role": "global"
+ },
+ {
+  "name": "Duodenal diverticulum",
+  "syn": "Duodenal diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Epidermal inclusion cyst",
+  "syn": "Epidermal cyst; Sebaceous cyst",
+  "role": "global"
+ },
+ {
+  "name": "Extradural haematoma",
+  "syn": "EDH; Epidural hematoma; Extradural and Subdural Haematoma",
+  "role": "global"
+ },
+ {
+  "name": "Foreign body aspiration",
+  "syn": "Airway foreign body; Inhaled foreign body",
+  "role": "global"
+ },
+ {
+  "name": "Gastric diverticulum",
+  "syn": "Gastric diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Gastrointestinal bleeding",
+  "syn": "GI bleed; Gastrointestinal hemorrhage",
+  "role": "global"
+ },
+ {
+  "name": "Glass foreign body",
+  "syn": "Retained glass",
+  "role": "global"
+ },
+ {
+  "name": "Haematoma",
+  "syn": "Haematomata; Hematoma",
+  "role": "global"
+ },
+ {
+  "name": "Haemorrhagic stroke",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Haemorrhagic transformation of ischaemic stroke",
+  "syn": "haemorrhagic infarction",
+  "role": "global"
+ },
+ {
+  "name": "Haemothorax",
+  "syn": "haematothorax",
+  "role": "global"
+ },
+ {
+  "name": "Haemotympanum",
+  "syn": "Blood in the middle ear",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic atrophy",
+  "syn": "Liver atrophy",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic hydatid cyst",
+  "syn": "Hydatid cyst of the liver",
+  "role": "global"
+ },
+ {
+  "name": "Hydatid cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hyperdense renal cyst",
+  "syn": "Benign hyperattenuating renal cyst",
+  "role": "global"
+ },
+ {
+  "name": "Hypertensive intracerebral haemorrhage",
+  "syn": "Hypertensive ICH",
+  "role": "global"
+ },
+ {
+  "name": "Incisive canal cyst",
+  "syn": "NPDC; nasopalatine duct cyst",
+  "role": "global"
+ },
+ {
+  "name": "Ingested bones",
+  "syn": "Foreign body ingestion (bone)",
+  "role": "global"
+ },
+ {
+  "name": "Intra-adenoidal retention cyst",
+  "syn": "adenoidal retention cyst; intra-adenoid cyst; mucous retention cysts of the nasopharynx",
+  "role": "global"
+ },
+ {
+  "name": "Intracerebral haemorrhage",
+  "syn": "Intracerebral haematoma",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial non-neoplastic cysts",
+  "syn": "Non-neoplastic intracranial cystic lesions",
+  "role": "global"
+ },
+ {
+  "name": "Jejunoileal diverticulosis",
+  "syn": "Jejunal diverticula; Jejunoileal diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Laryngeal cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Liver cysts",
+  "syn": "Hepatic cyst",
+  "role": "global"
+ },
+ {
+  "name": "Lobar intracerebral haemorrhage",
+  "syn": "Lobar ICH",
+  "role": "global"
+ },
+ {
+  "name": "Lower gastrointestinal bleeding",
+  "syn": "LGIB",
+  "role": "global"
+ },
+ {
+  "name": "Lung abscess",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Lymphocele",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Meckel diverticulitis",
+  "syn": "Inflamed Meckel diverticulum",
+  "role": "global"
+ },
+ {
+  "name": "Metal foreign body",
+  "syn": "Metallic foreign body",
+  "role": "global"
+ },
+ {
+  "name": "Muscle atrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nabothian cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ocular foreign body",
+  "syn": "IOFB; Intraocular foreign body",
+  "role": "global"
+ },
+ {
+  "name": "Oesophageal foreign body",
+  "syn": "Esophageal foreign body; Food impaction",
+  "role": "global"
+ },
+ {
+  "name": "Paranasal sinus retention cyst",
+  "syn": "mucous retention cyst",
+  "role": "global"
+ },
+ {
+  "name": "Pelvic abscess",
+  "syn": "Tubo-ovarian abscess",
+  "role": "global"
+ },
+ {
+  "name": "Periampullary diverticulum",
+  "syn": "Duodenal diverticulum (periampullary)",
+  "role": "global"
+ },
+ {
+  "name": "Peritonsillar abscess",
+  "syn": "quinsy",
+  "role": "global"
+ },
+ {
+  "name": "Pineal cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ranula",
+  "syn": "cervical ranula; diving ranula; plunging ranula; sublingual retention cyst",
+  "role": "global"
+ },
+ {
+  "name": "Renal atrophy",
+  "syn": "shrunken kidney",
+  "role": "global"
+ },
+ {
+  "name": "Renal sinus cyst",
+  "syn": "parapelvic cyst; peripelvic cyst",
+  "role": "global"
+ },
+ {
+  "name": "Retained ballistic fragments",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Second branchial cleft cyst",
+  "syn": "Second branchial cleft anomaly",
+  "role": "global"
+ },
+ {
+  "name": "Simple hepatic cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Simple splenic cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Small intestine diverticular disease",
+  "syn": "Duodenal diverticulosis; Small bowel diverticulosis",
+  "role": "global"
+ },
+ {
+  "name": "Spinal synovial cyst",
+  "syn": "juxtafacet cyst; lumbar extradural cyst; spinal ganglion cyst",
+  "role": "global"
+ },
+ {
+  "name": "Splenic cyst",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Splenic pseudocyst",
+  "syn": "secondary splenic cyst",
+  "role": "global"
+ },
+ {
+  "name": "Spontaneous retroperitoneal haemorrhage",
+  "syn": "Spontaneous retroperitoneal bleed",
+  "role": "global"
+ },
+ {
+  "name": "Subarachnoid haemorrhage",
+  "syn": "SAH",
+  "role": "global"
+ },
+ {
+  "name": "Subdural haemorrhage",
+  "syn": "Subdural hematoma; SDH; Subdural haematoma",
+  "role": "global"
+ },
+ {
+  "name": "Subependymal cyst",
+  "syn": "Germinolytic cyst; Post-haemorrhagic subependymal cyst",
+  "role": "global"
+ },
+ {
+  "name": "Thyroglossal duct cyst",
+  "syn": "TGDC; median cervical cyst; thyroglossal cyst; thyroglossal duct remnant",
+  "role": "global"
+ },
+ {
+  "name": "Tornwaldt cyst",
+  "syn": "Thornwald cyst; Thornwaldt cyst; Tornwaldt disease",
+  "role": "global"
+ },
+ {
+  "name": "Tracheal diverticulum",
+  "syn": "Paratracheal air cyst; Tracheocele",
+  "role": "global"
+ },
+ {
+  "name": "Traumatic subarachnoid haemorrhage",
+  "syn": "tSAH",
+  "role": "global"
+ },
+ {
+  "name": "Trichilemmal cyst",
+  "syn": "Trichilemmel cyst; pilar cyst",
+  "role": "global"
+ },
+ {
+  "name": "Turbinate atrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Urinary bladder diverticulum",
+  "syn": "Bladder diverticula; Bladder diverticulum; Urinary bladder diverticula",
+  "role": "global"
+ },
+ {
+  "name": "Calcification of the globe",
+  "syn": "Intraocular calcification",
+  "role": "global"
+ },
+ {
+  "name": "Enlarged extraocular muscles",
+  "syn": "Extraocular muscle enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Hypoglobus",
+  "syn": "inferior displacement of the globe",
+  "role": "global"
+ },
+ {
+  "name": "Lamina papyracea dehiscence",
+  "syn": "Defect of the medial orbital wall",
+  "role": "global"
+ },
+ {
+  "name": "Phthisis bulbi",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Proptosis",
+  "syn": "Exophthalmos",
+  "role": "global"
+ },
+ {
+  "name": "Senile calcific scleral plaques",
+  "syn": "senile scleral plaques",
+  "role": "global"
+ },
+ {
+  "name": "Staphyloma",
+  "syn": "Anterior staphyloma; Posterior staphyloma",
+  "role": "global"
+ },
+ {
+  "name": "Thyroid eye disease",
+  "syn": "Endocrine orbitopathy; Graves' ophthalmopathy; Thyroid-associated orbitopathy",
+  "role": "global"
+ },
+ {
+  "name": "Trochlear apparatus calcification",
+  "syn": "Calcification of the trochlea",
+  "role": "global"
+ },
+ {
+  "name": "Aberrant right subclavian artery",
+  "syn": "Arteria lusoria; Bayford syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Anomalous aortic origin of coronary artery",
+  "syn": "AAOCA; ACAOS; Anomalous origin of the coronary artery arising from the opposite sinus",
+  "role": "global"
+ },
+ {
+  "name": "Anomalous course of coronary arteries",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Atrial enlargement",
+  "syn": "Atrial dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Atrial septal defect",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Azygos continuation of the inferior vena cava",
+  "syn": "Absence of the hepatic segment of the IVC with azygos continuation; Azygos continuation of the IVC; Interrupted IVC; Interrupted inferior vena cava with azygos continuation",
+  "role": "global"
+ },
+ {
+  "name": "Bicuspid Aortic Valve",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Caseous calcification of the mitral annulus",
+  "syn": "Caseous mitral annular calcification; Toothpaste tumour",
+  "role": "global"
+ },
+ {
+  "name": "Coronary artery-to-pulmonary artery fistula",
+  "syn": "Coronary-pulmonary artery fistula",
+  "role": "global"
+ },
+ {
+  "name": "Coronary cameral fistula",
+  "syn": "Coronary artery-to-chamber fistula",
+  "role": "global"
+ },
+ {
+  "name": "Coronary hypoplasia",
+  "syn": "HCAD; hypoplastic coronary artery disease",
+  "role": "global"
+ },
+ {
+  "name": "Double outlet right ventricle",
+  "syn": "DORV",
+  "role": "global"
+ },
+ {
+  "name": "Double-chambered right ventricle",
+  "syn": "DCRV; cor triventriculare",
+  "role": "global"
+ },
+ {
+  "name": "Dual left anterior descending coronary artery",
+  "syn": "Dual LAD",
+  "role": "global"
+ },
+ {
+  "name": "Dual right coronary artery",
+  "syn": "Duplication of the right coronary artery; Split right coronary artery",
+  "role": "global"
+ },
+ {
+  "name": "Dysphagia lusoria",
+  "syn": "Bayford syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Dysphagia megalatriensis",
+  "syn": "cardiac dysphagia; cardiovascular dysphagia",
+  "role": "global"
+ },
+ {
+  "name": "Hypoplastic circumflex artery",
+  "syn": "Hypoplastic Cx; Hypoplastic coronary artery disease",
+  "role": "global"
+ },
+ {
+  "name": "Hypoplastic right coronary artery",
+  "syn": "Right rudimentary coronary artery; Underdeveloped right coronary artery",
+  "role": "global"
+ },
+ {
+  "name": "Interarterial course of the left coronary artery",
+  "syn": "Anomalous left coronary artery from the right sinus of Valsalva; Malignant coronary arterial course",
+  "role": "global"
+ },
+ {
+  "name": "Interarterial course of the right coronary artery",
+  "syn": "Aberrant origin of the right coronary artery from the left coronary sinus; Malignant course of the right coronary artery",
+  "role": "global"
+ },
+ {
+  "name": "Kommerell diverticulum",
+  "syn": "diverticulum of Kommerell",
+  "role": "global"
+ },
+ {
+  "name": "Left atrial enlargement",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Left circumflex artery arising from the right coronary sinus",
+  "syn": "Anomalous LCx; Anomalous origin of the left circumflex artery from the right sinus of Valsalva",
+  "role": "global"
+ },
+ {
+  "name": "Left ventricular enlargement",
+  "syn": "Left ventricular dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Left-sided superior vena cava",
+  "syn": "PLSVC; Persistent left superior vena cava",
+  "role": "global"
+ },
+ {
+  "name": "Mitral annular calcification",
+  "syn": "MAC",
+  "role": "global"
+ },
+ {
+  "name": "Mitral valve calcification",
+  "syn": "MVL",
+  "role": "global"
+ },
+ {
+  "name": "Mitral valve leaflet calcification",
+  "syn": "mitral leaflet calcification",
+  "role": "global"
+ },
+ {
+  "name": "Myocardial bridging",
+  "syn": "Myocardial bridging of the coronary arteries; Tunnelled artery",
+  "role": "global"
+ },
+ {
+  "name": "Partial anomalous pulmonary venous return",
+  "syn": "PAPVC; PAPVR; Partial anomalous pulmonary venous connection",
+  "role": "global"
+ },
+ {
+  "name": "Patent ductus arteriosus",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Prepulmonic coronary course",
+  "syn": "Prepulmonic anomalous coronary artery course",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary valve calcification",
+  "syn": "Calcified pulmonary valve",
+  "role": "global"
+ },
+ {
+  "name": "Retroaortic coronary course",
+  "syn": "Anomalous retroaortic coronary artery; Retroaortic anomalous coronary",
+  "role": "global"
+ },
+ {
+  "name": "Right aortic arch",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Single coronary artery",
+  "syn": "Single coronary ostium",
+  "role": "global"
+ },
+ {
+  "name": "Superior vena caval duplication",
+  "syn": "Double SVC; Persistent left superior vena cava with right superior vena cava",
+  "role": "global"
+ },
+ {
+  "name": "Tricuspid valve calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ventricular septal defect",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Extrapulmonary tuberculosis",
+  "syn": "Extrapulmonary TB",
+  "role": "global"
+ },
+ {
+  "name": "Ileocaecal tuberculosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Paradoxical reaction in tuberculosis",
+  "syn": "Tuberculosis paradoxical reaction",
+  "role": "global"
+ },
+ {
+  "name": "Tuberculous pleuritis",
+  "syn": "Pleural tuberculosis; Tuberculous pleural effusion",
+  "role": "global"
+ },
+ {
+  "name": "Abnormal renal rotation",
+  "syn": "Renal malrotation",
+  "role": "global"
+ },
+ {
+  "name": "Acute pyelonephritis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Angiomyolipoma",
+  "syn": "AML; Renal angiomyolipoma",
+  "role": "global"
+ },
+ {
+  "name": "Bilateral renal enlargement",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic kidney disease",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic pyelonephritis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Crossed fused renal ectopia",
+  "syn": "Crossed fused ectopia",
+  "role": "global"
+ },
+ {
+  "name": "Duplex collecting system",
+  "syn": "Double collecting system; duplex kidney; duplicated collecting system",
+  "role": "global"
+ },
+ {
+  "name": "Ectopic kidney",
+  "syn": "Renal ectopia",
+  "role": "global"
+ },
+ {
+  "name": "Horseshoe kidney",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hydroureteronephrosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Medullary nephrocalcinosis",
+  "syn": "Renal medullary nephrocalcinosis",
+  "role": "global"
+ },
+ {
+  "name": "Medullary sponge kidney",
+  "syn": "MSK",
+  "role": "global"
+ },
+ {
+  "name": "Primary renal neoplasia",
+  "syn": "Primary renal tumors",
+  "role": "global"
+ },
+ {
+  "name": "Pyelolithiasis",
+  "syn": "stone in the renal pelvis; renal pelvis stones",
+  "role": "global"
+ },
+ {
+  "name": "Renal agenesis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal cortical defect",
+  "syn": "focal cortical thinning",
+  "role": "global"
+ },
+ {
+  "name": "Renal cortical scar",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal edema",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal hypoplasia",
+  "syn": "Congenitally small kidney",
+  "role": "global"
+ },
+ {
+  "name": "Renal leiomyoma",
+  "syn": "Leiomyoma of the kidney",
+  "role": "global"
+ },
+ {
+  "name": "Renal papillary adenoma",
+  "syn": "Papillary adenoma of the kidney",
+  "role": "global"
+ },
+ {
+  "name": "Sigmoid kidney",
+  "syn": "S-shaped kidney",
+  "role": "global"
+ },
+ {
+  "name": "Small renal mass",
+  "syn": "SRM; cT1a renal mass",
+  "role": "global"
+ },
+ {
+  "name": "Staghorn calculus",
+  "syn": "coral calculus",
+  "role": "global"
+ },
+ {
+  "name": "Cardiac sclerosis",
+  "syn": "Cardiac cirrhosis",
+  "role": "global"
+ },
+ {
+  "name": "Centrifugal enhancement liver haemangioma",
+  "syn": "Inside-out enhancement liver haemangioma",
+  "role": "global"
+ },
+ {
+  "name": "Cirrhosis-associated nodule (LR2)",
+  "syn": "LR2 nodule; probably benign cirrhosis-associated nodule",
+  "role": "global"
+ },
+ {
+  "name": "Cystic hepatic metastases",
+  "syn": "Cystic liver metastases",
+  "role": "global"
+ },
+ {
+  "name": "Dysplastic liver nodules",
+  "syn": "Dysplastic nodules of the liver",
+  "role": "global"
+ },
+ {
+  "name": "Exophytic hepatic mass",
+  "syn": "Exophytic hepatic lesion; Exophytic liver tumor",
+  "role": "global"
+ },
+ {
+  "name": "Fat containing liver lesions",
+  "syn": "Hepatic steatotic lesions; Lipomatous liver lesions",
+  "role": "global"
+ },
+ {
+  "name": "Flash filling hepatic haemangioma",
+  "syn": "flash filling hepatic venous malformation",
+  "role": "global"
+ },
+ {
+  "name": "Focal fatty sparing of the liver",
+  "syn": "Focal hepatic fat sparing",
+  "role": "global"
+ },
+ {
+  "name": "Focal nodular hyperplasia",
+  "syn": "FNH",
+  "role": "global"
+ },
+ {
+  "name": "Gastric varices",
+  "syn": "Gastric varix",
+  "role": "global"
+ },
+ {
+  "name": "Giant hepatic haemangioma",
+  "syn": "giant hepatic venous malformation",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic haemangioma",
+  "syn": "hepatic venous malformation",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic hypodense lesion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic metastases",
+  "syn": "Liver metastases; Metastatic liver disease",
+  "role": "global"
+ },
+ {
+  "name": "Hepatocellular carcinoma",
+  "syn": "HCC; hepatoma; Hepatocellular carcinoma in cirrhosis",
+  "role": "global"
+ },
+ {
+  "name": "Hepatosplenomegaly",
+  "syn": "Enlargement of liver and spleen",
+  "role": "global"
+ },
+ {
+  "name": "Hypervascular liver lesions",
+  "syn": "Arterial phase hyperenhancing liver lesions",
+  "role": "global"
+ },
+ {
+  "name": "Liver tumours",
+  "syn": "Hepatic neoplasms; Liver masses",
+  "role": "global"
+ },
+ {
+  "name": "Pedunculated hepatic haemangioma",
+  "syn": "Exophytic hepatic haemangioma",
+  "role": "global"
+ },
+ {
+  "name": "Portal hypertensive gastroenterocolopathy",
+  "syn": "Portal hypertensive colopathy; Portal hypertensive enteropathy; Portal hypertensive gastropathy",
+  "role": "global"
+ },
+ {
+  "name": "Portosystemic collaterals",
+  "syn": "portosystemic collateral pathways; spontaneous portosystemic shunts",
+  "role": "global"
+ },
+ {
+  "name": "Spontaneous splenorenal shunt",
+  "syn": "Splenorenal collateral",
+  "role": "global"
+ },
+ {
+  "name": "Tamoxifen-induced hepatic steatosis",
+  "syn": "Tamoxifen-induced reversible hepatic steatosis",
+  "role": "global"
+ },
+ {
+  "name": "Acute aspiration pneumonitis",
+  "syn": "Aspiration pneumonitis",
+  "role": "global"
+ },
+ {
+  "name": "Acute eosinophilic pneumonia",
+  "syn": "AEP",
+  "role": "global"
+ },
+ {
+  "name": "Acute respiratory distress syndrome",
+  "syn": "ARDS",
+  "role": "global"
+ },
+ {
+  "name": "Air space nodules",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Alveolar sarcoidosis",
+  "syn": "pseudoalveolar sarcoidosis",
+  "role": "global"
+ },
+ {
+  "name": "Aspiration bronchiolitis",
+  "syn": "diffuse aspiration bronchiolitis",
+  "role": "global"
+ },
+ {
+  "name": "Aspiration pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Atypical pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bronchiolitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bronchopneumonia",
+  "syn": "lobular pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Calcified pulmonary nodules",
+  "syn": "calcific pulmonary nodules",
+  "role": "global"
+ },
+ {
+  "name": "Cavitating pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Central bronchiectasis",
+  "syn": "Central bronchial dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Centrilobular pulmonary emphysema",
+  "syn": "Centriacinar pulmonary emphysema",
+  "role": "global"
+ },
+ {
+  "name": "Chlamydia pneumonia",
+  "syn": "Chlamydophila pneumoniae pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Chronic interstitial pneumonitis",
+  "syn": "Chronic interstitial pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Chronic pulmonary aspergillosis",
+  "syn": "CPA; Chronic cavitary pulmonary aspergillosis; Chronic fibrosing pulmonary aspergillosis; Chronic necrotising pulmonary aspergillosis",
+  "role": "global"
+ },
+ {
+  "name": "Cicatrisation atelectasis",
+  "syn": "Cicatricial atelectasis; Scarring atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Combined pulmonary fibrosis and emphysema",
+  "syn": "CPFE",
+  "role": "global"
+ },
+ {
+  "name": "Compressive atelectasis",
+  "syn": "Compression atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Connective tissue disease-related interstitial lung disease",
+  "syn": "CTD-ILD; CVD-IP; Collagen vascular disease related interstitial pneumonitis; Connective tissue disease-associated interstitial lung disease",
+  "role": "global"
+ },
+ {
+  "name": "Crazy paving pattern",
+  "syn": "Crazy-paving pattern",
+  "role": "global"
+ },
+ {
+  "name": "Cylindrical bronchiectasis",
+  "syn": "Tubular bronchiectasis",
+  "role": "global"
+ },
+ {
+  "name": "Cystic bronchiectasis",
+  "syn": "Saccular bronchiectasis",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse alveolar damage",
+  "syn": "DAD",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse panbronchiolitis",
+  "syn": "diffuse Asian panbronchiolitis",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse pulmonary nodules",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Endobronchial tuberculosis",
+  "syn": "Endobronchial TB",
+  "role": "global"
+ },
+ {
+  "name": "Endogenous lipoid pneumonia",
+  "syn": "cholesterol pneumonia; golden pneumonia; idiopathic lipoid pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Fat containing solitary pulmonary nodule",
+  "syn": "Fat-containing pulmonary nodule",
+  "role": "global"
+ },
+ {
+  "name": "Fibroatelectasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fibrotic idiopathic interstitial pneumonia",
+  "syn": "FIIP",
+  "role": "global"
+ },
+ {
+  "name": "Focal interstitial pulmonary fibrosis",
+  "syn": "Localized pulmonary fibrosis",
+  "role": "global"
+ },
+ {
+  "name": "Free standing bronchiectasis",
+  "syn": "non-traction bronchiectasis",
+  "role": "global"
+ },
+ {
+  "name": "Gravity-dependent atelectasis",
+  "syn": "Dependent atelectasis; Dependent lung collapse",
+  "role": "global"
+ },
+ {
+  "name": "Ground-glass nodule",
+  "syn": "GGN; pure ground-glass nodule",
+  "role": "global"
+ },
+ {
+  "name": "Honeycombing",
+  "syn": "Pulmonary honeycombing",
+  "role": "global"
+ },
+ {
+  "name": "Hyperattenuating pulmonary mass lesion",
+  "syn": "hyperdense pulmonary mass",
+  "role": "global"
+ },
+ {
+  "name": "Hyperdense pulmonary nodules",
+  "syn": "Hyperattenuating pulmonary nodules",
+  "role": "global"
+ },
+ {
+  "name": "Hypersensitivity pneumonitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Idiopathic interstitial pneumonia",
+  "syn": "IIPs; Idiopathic Interstitial Pneumonias",
+  "role": "global"
+ },
+ {
+  "name": "Idiopathic pulmonary fibrosis",
+  "syn": "CFA; Cryptogenic fibrosing alveolitis; IPF",
+  "role": "global"
+ },
+ {
+  "name": "Infectious bronchiolitis",
+  "syn": "viral bronchiolitis",
+  "role": "global"
+ },
+ {
+  "name": "Inflammatory bronchiolitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Interstitial pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Interstitial pneumonia with autoimmune features",
+  "syn": "IPAF",
+  "role": "global"
+ },
+ {
+  "name": "Intrapulmonary lymph nodes",
+  "syn": "Intraparenchymal lymph nodes; Juxtapleural lymph nodes; Perifissural lymph nodes",
+  "role": "global"
+ },
+ {
+  "name": "Lady Windermere syndrome",
+  "syn": "pulmonary Mycobacterium avium complex infection (nodular bronchiectatic form)",
+  "role": "global"
+ },
+ {
+  "name": "Left lower lobe collapse",
+  "syn": "Left lower lobe atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Left lower lobe consolidation",
+  "syn": "Lobar consolidation of the left lower lobe",
+  "role": "global"
+ },
+ {
+  "name": "Left upper lobe collapse",
+  "syn": "Left upper lobe atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Left upper lobe consolidation",
+  "syn": "LUL consolidation",
+  "role": "global"
+ },
+ {
+  "name": "Linear atelectasis",
+  "syn": "Fleischner lines; Subsegmental atelectasis; band atelectasis; discoid atelectasis; plate atelectasis; plate-like atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Lobar consolidation",
+  "syn": "Exudative lobar consolidation",
+  "role": "global"
+ },
+ {
+  "name": "Lobar pneumonia",
+  "syn": "Pulmonary hepatisation",
+  "role": "global"
+ },
+ {
+  "name": "Localised pulmonary emphysema",
+  "syn": "focal pulmonary emphysema",
+  "role": "global"
+ },
+ {
+  "name": "Lower lobe bronchiectasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Lymphangitis carcinomatosa",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Middle lobe bronchiectasis",
+  "syn": "RMLP bronchiectasis; Right middle lobe predominant bronchiectasis",
+  "role": "global"
+ },
+ {
+  "name": "Necrotising pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Organising pneumonia",
+  "syn": "Organizing pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Panlobular emphysema",
+  "syn": "Panacinar emphysema",
+  "role": "global"
+ },
+ {
+  "name": "Paracicatricial emphysema",
+  "syn": "irregular emphysema",
+  "role": "global"
+ },
+ {
+  "name": "Parapneumonic effusion",
+  "syn": "Exudative pleural effusion associated with pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Paraseptal emphysema",
+  "syn": "distal acinar emphysema",
+  "role": "global"
+ },
+ {
+  "name": "Part-solid lung nodule",
+  "syn": "PSN; Subsolid lung nodule with solid component",
+  "role": "global"
+ },
+ {
+  "name": "Passive atelectasis",
+  "syn": "relaxation atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Peribronchovascular consolidation",
+  "syn": "Peribronchovascular opacification",
+  "role": "global"
+ },
+ {
+  "name": "Pleuroparenchymal fibrosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pneumatocele",
+  "syn": "intrapulmonary gas-filled cystic space",
+  "role": "global"
+ },
+ {
+  "name": "Post-primary pulmonary tuberculosis",
+  "syn": "reactivation tuberculosis; secondary tuberculosis",
+  "role": "global"
+ },
+ {
+  "name": "Primary pulmonary tuberculosis",
+  "syn": "Primary TB",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary aspergillosis",
+  "syn": "Aspergillosis of the lungs",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary bleb",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary bulla",
+  "syn": "Paraseptal emphysema (bullous); Subpleural bullae; Subpleural pulmonary bullae; bullae",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary contusion",
+  "syn": "Lung contusion",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary fibrosis",
+  "syn": "Fibrosing alveolitis; Fibrosing lung disease; Interstitial lung fibrosis",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary fungal disease",
+  "syn": "Invasive pulmonary fungal infection; Pulmonary mycosis",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary hamartoma",
+  "syn": "Pulmonary hamartomata",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary meningothelial nodules",
+  "syn": "Diffuse pulmonary meningotheliomatosis; MPMNs; Minute pulmonary meningothelial-like nodules; pulmonary chemodectomas",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary micronodule",
+  "syn": "Pulmonary micronodular pattern",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary mycetoma",
+  "syn": "aspergilloma; fungus ball",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary non-tuberculous mycobacterial infection",
+  "syn": "NTM lung disease; Non-tuberculous mycobacteria infection",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary oedema",
+  "syn": "Pulmonary edema",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary paragonimiasis",
+  "syn": "lung fluke infection",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary parenchymal bands",
+  "syn": "parenchymal bands; Parenchymal lung bands",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary Pseudomonas aeruginosa infection",
+  "syn": "Pseudomonas pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary sarcoidosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary schistosomiasis",
+  "syn": "Lung schistosomiasis",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary tuberculosis",
+  "syn": "Tuberculosis (pulmonary manifestations)",
+  "role": "global"
+ },
+ {
+  "name": "Pure ground glass nodule",
+  "syn": "pGGN; pure ground-glass opacity nodule",
+  "role": "global"
+ },
+ {
+  "name": "Radiation-induced organising pneumonia",
+  "syn": "RIOP",
+  "role": "global"
+ },
+ {
+  "name": "Radiation-induced pulmonary fibrosis",
+  "syn": "Chronic radiation-induced lung injury",
+  "role": "global"
+ },
+ {
+  "name": "Ranke complex",
+  "syn": "healed primary pulmonary tuberculosis",
+  "role": "global"
+ },
+ {
+  "name": "Resorptive atelectasis",
+  "syn": "Lung collapse; Obstructive atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Respiratory bronchiolitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Right lower lobe collapse",
+  "syn": "Right lower lobe atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Right lower lobe consolidation",
+  "syn": "RLL consolidation; Right lower lobe airspace opacification",
+  "role": "global"
+ },
+ {
+  "name": "Right middle lobe consolidation",
+  "syn": "RML consolidation",
+  "role": "global"
+ },
+ {
+  "name": "Right upper lobe collapse",
+  "syn": "Right upper lobe atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Right upper lobe consolidation",
+  "syn": "RUL consolidation; Right upper lobe airspace opacification",
+  "role": "global"
+ },
+ {
+  "name": "Round atelectasis",
+  "syn": "Blesovsky's syndrome; Comet tail sign; Crow's foot sign; Crow’s foot sign; Rounded atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Segmental atelectasis",
+  "syn": "Segmental lung collapse",
+  "role": "global"
+ },
+ {
+  "name": "Small pulmonary nodules",
+  "syn": "ditzels",
+  "role": "global"
+ },
+ {
+  "name": "Smoking-related interstitial fibrosis",
+  "syn": "AEF; RBF; SRIF; airspace enlargement with fibrosis; respiratory bronchiolitis with fibrosis",
+  "role": "global"
+ },
+ {
+  "name": "Smoking-related interstitial lung disease",
+  "syn": "SR-ILD; smoking-related ILDs",
+  "role": "global"
+ },
+ {
+  "name": "Solitary pulmonary nodule",
+  "syn": "SPN; coin lesion",
+  "role": "global"
+ },
+ {
+  "name": "Subpleural pulmonary nodules",
+  "syn": "Perilymphatic nodules (subpleural type)",
+  "role": "global"
+ },
+ {
+  "name": "Swyer-James syndrome",
+  "syn": "Bret syndrome; Janus syndrome; Swyer-James-MacLeod syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Traction bronchiectasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tree-in-bud pattern",
+  "syn": "Tree-in-bud opacity",
+  "role": "global"
+ },
+ {
+  "name": "Unclassifiable interstitial lung disease",
+  "syn": "Unclassifiable ILD",
+  "role": "global"
+ },
+ {
+  "name": "Upper lobe bronchiectasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Usual Interstitial Pneumonia",
+  "syn": "UIP pattern",
+  "role": "global"
+ },
+ {
+  "name": "Varicose bronchiectasis",
+  "syn": "Varicoid bronchiectasis",
+  "role": "global"
+ },
+ {
+  "name": "Axillary lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bilateral axillary lymphadenopathy",
+  "syn": "Bilateral axillary lymph node enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Bilateral hilar lymphadenopathy",
+  "syn": "Bilateral hilar lymph node enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Cervical lymph node metastasis",
+  "syn": "Metastatic cervical lymphadenopathy; Regional nodal involvement of the neck",
+  "role": "global"
+ },
+ {
+  "name": "Cervical lymphadenopathy",
+  "syn": "Enlarged cervical lymph nodes",
+  "role": "global"
+ },
+ {
+  "name": "Cystic necrotic lymphadenopathy",
+  "syn": "Cystic lymph nodes; Necrotic lymph nodes; Cystic lymphadenopathy",
+  "role": "global"
+ },
+ {
+  "name": "Extranodal extension",
+  "syn": "extracapsular extension; extracapsular spread; extranodal spread",
+  "role": "global"
+ },
+ {
+  "name": "High attenuation lymphadenopathy",
+  "syn": "High attenuation adenopathy",
+  "role": "global"
+ },
+ {
+  "name": "Hilar lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Low attenuation lymphadenopathy",
+  "syn": "Hypoattenuating lymphadenopathy",
+  "role": "global"
+ },
+ {
+  "name": "Mediastinal lymphadenopathy",
+  "syn": "Mediastinal lymph node enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Mesenteric lymphadenitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mesenteric lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Paraaortic lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pelvic lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Periportal lymphadenopathy",
+  "syn": "Periportal lymph node enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Right hilar lymphadenopathy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Right paratracheal lymphadenopathy",
+  "syn": "Right paratracheal nodal enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Anterior mediastinal mass",
+  "syn": "Prevascular mass",
+  "role": "global"
+ },
+ {
+  "name": "Visceral mediastinal mass",
+  "syn": "Middle mediastinal mass",
+  "role": "global"
+ },
+ {
+  "name": "HIV-associated salivary gland disease",
+  "syn": "Benign lymphoepithelial lesions of HIV; HIV-associated lymphoepithelial cysts",
+  "role": "global"
+ },
+ {
+  "name": "Multinodular goitre",
+  "syn": "MNG; nodular goiter",
+  "role": "global"
+ },
+ {
+  "name": "Parotid gland enlargement",
+  "syn": "parotidomegaly",
+  "role": "global"
+ },
+ {
+  "name": "Parotitis",
+  "syn": "Parotid gland inflammation",
+  "role": "global"
+ },
+ {
+  "name": "Sialadenitis",
+  "syn": "acute suppurative sialadenitis; inflammation of the salivary glands",
+  "role": "global"
+ },
+ {
+  "name": "Sialolithiasis",
+  "syn": "salivary stones",
+  "role": "global"
+ },
+ {
+  "name": "Sialosis",
+  "syn": "Sialadenosis",
+  "role": "global"
+ },
+ {
+  "name": "Submandibular gland enlargement",
+  "syn": "Submandibular gland hypertrophy; Submandibular sialadenosis",
+  "role": "global"
+ },
+ {
+  "name": "Substernal goitre",
+  "syn": "Intrathoracic goitre; Retrosternal goitre",
+  "role": "global"
+ },
+ {
+  "name": "Thyroid calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Thyroid heterogeneity",
+  "syn": "Thyroid parenchyma heterogeneity",
+  "role": "global"
+ },
+ {
+  "name": "Thyroid hyperplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Thyroiditis",
+  "syn": "Graves disease; Hashimoto thyroiditis; Riedel thyroiditis; autoimmune thyroiditis; chronic lymphocytic thyroiditis; de Quervain thyroiditis; granulomatous thyroiditis; painless thyroiditis",
+  "role": "global"
+ },
+ {
+  "name": "Bladder cancer",
+  "syn": "Urinary bladder cancer",
+  "role": "global"
+ },
+ {
+  "name": "Breast cancer",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Breast cancer metastasis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cervical cancer",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cholangiocarcinoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Colorectal cancer",
+  "syn": "Colon cancer; Colonic adenocarcinoma; Colonic carcinoma",
+  "role": "global"
+ },
+ {
+  "name": "Cutaneous and subcutaneous metastases",
+  "syn": "Skin metastases; Subcutaneous metastases",
+  "role": "global"
+ },
+ {
+  "name": "Cutaneous squamous cell carcinoma",
+  "syn": "cSCC",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse large B-cell lymphoma",
+  "syn": "DLBCL",
+  "role": "global"
+ },
+ {
+  "name": "Digestive system neuroendocrine tumours",
+  "syn": "GEP-NETs; Gastroenteropancreatic neuroendocrine tumours",
+  "role": "global"
+ },
+ {
+  "name": "Endometrial carcinoma",
+  "syn": "carcinoma of the endometrium; endometrial adenocarcinoma; endometrial cancer; uterine corpus cancer",
+  "role": "global"
+ },
+ {
+  "name": "Extramural vascular invasion",
+  "syn": "EMVI",
+  "role": "global"
+ },
+ {
+  "name": "Follicular lymphoma",
+  "syn": "Follicular NHL",
+  "role": "global"
+ },
+ {
+  "name": "Gastric adenocarcinoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gastric malignancy",
+  "syn": "Gastric cancer; Stomach cancer",
+  "role": "global"
+ },
+ {
+  "name": "Gastrointestinal stromal tumour",
+  "syn": "GIST",
+  "role": "global"
+ },
+ {
+  "name": "Head and neck squamous cell carcinoma",
+  "syn": "HNSCC",
+  "role": "global"
+ },
+ {
+  "name": "Hypervascular metastases",
+  "syn": "Hypervascular metastatic disease",
+  "role": "global"
+ },
+ {
+  "name": "Intravascular lung metastases",
+  "syn": "Beaded vessel sign",
+  "role": "global"
+ },
+ {
+  "name": "Laryngeal cancer",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Lung adenocarcinoma",
+  "syn": "Adenocarcinoma of the lung; Bronchoalveolar carcinoma; Invasive adenocarcinoma of lung",
+  "role": "global"
+ },
+ {
+  "name": "Lung cancer",
+  "syn": "Bronchogenic carcinoma; Primary lung cancer",
+  "role": "global"
+ },
+ {
+  "name": "Lymphoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Malignant melanoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Multiple myeloma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nasopharyngeal carcinoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Neuroendocrine neoplasm",
+  "syn": "Carcinoid tumour; NET; Neuroendocrine tumour",
+  "role": "global"
+ },
+ {
+  "name": "Non-Hodgkin lymphoma",
+  "syn": "NHL",
+  "role": "global"
+ },
+ {
+  "name": "Non-small cell lung cancer",
+  "syn": "NSCLC",
+  "role": "global"
+ },
+ {
+  "name": "Oesophageal carcinoma",
+  "syn": "Esophageal cancer; Oesophageal cancer; Oesophageal malignancy",
+  "role": "global"
+ },
+ {
+  "name": "Oligometastases",
+  "syn": "Oligometastatic disease",
+  "role": "global"
+ },
+ {
+  "name": "Peritoneal carcinomatosis",
+  "syn": "Peritoneal implants",
+  "role": "global"
+ },
+ {
+  "name": "Pleural metastases",
+  "syn": "pleural carcinomatosis; pleural seeding of tumours; Diffuse pleural metastases; Malignant pleural carcinomatosis",
+  "role": "global"
+ },
+ {
+  "name": "Prostate cancer",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary metastases",
+  "syn": "Lung metastases",
+  "role": "global"
+ },
+ {
+  "name": "Renal cell carcinoma",
+  "syn": "Grawitz tumour; hypernephroma",
+  "role": "global"
+ },
+ {
+  "name": "Secondary malignant cardiac tumour",
+  "syn": "Cardiac metastases",
+  "role": "global"
+ },
+ {
+  "name": "Secondary pleural lymphoma",
+  "syn": "Secondary involvement of the pleura with lymphoma",
+  "role": "global"
+ },
+ {
+  "name": "Small lymphocytic lymphoma",
+  "syn": "Chronic lymphocytic leukaemia; SLL",
+  "role": "global"
+ },
+ {
+  "name": "Thyroid carcinoma",
+  "syn": "anaplastic thyroid carcinoma; differentiated thyroid cancer; follicular thyroid carcinoma; medullary thyroid carcinoma; oncocytic (Hurthle cell) thyroid carcinoma; papillary thyroid carcinoma; thyroid cancer",
+  "role": "global"
+ },
+ {
+  "name": "Tumour deposit",
+  "syn": "Tumour deposits (colorectal cancer)",
+  "role": "global"
+ },
+ {
+  "name": "Upper tract urothelial carcinoma",
+  "syn": "UTUC; pyeloureteral urothelial carcinoma; renal pelvic urothelial carcinoma; transitional cell carcinoma of the upper urinary tract; ureteral urothelial carcinoma; urothelial carcinoma of the renal pelvis; urothelial carcinoma of the ureter",
+  "role": "global"
+ },
+ {
+  "name": "Urothelial carcinoma of the bladder",
+  "syn": "Bladder urothelial carcinoma; Transitional cell carcinoma of the bladder; Urothelial carcinoma of the urinary bladder",
+  "role": "global"
+ },
+ {
+  "name": "Visceral pleural invasion",
+  "syn": "PL invasion",
+  "role": "global"
+ },
+ {
+  "name": "Abdominal adhesions",
+  "syn": "Intra-abdominal adhesions",
+  "role": "global"
+ },
+ {
+  "name": "Abusive head trauma",
+  "syn": "Non-accidental head injury; Shaken baby syndrome; Traumatic head injury due to child maltreatment",
+  "role": "global"
+ },
+ {
+  "name": "Adenoid hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal calcification",
+  "syn": "Calcified adrenal gland",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal hyperplasia",
+  "syn": "Adrenal cortical hyperplasia",
+  "role": "global"
+ },
+ {
+  "name": "Adrenal insufficiency",
+  "syn": "Addison disease; Primary adrenal insufficiency; Secondary adrenal insufficiency",
+  "role": "global"
+ },
+ {
+  "name": "Ahaustral colon",
+  "syn": "Lead pipe colon",
+  "role": "global"
+ },
+ {
+  "name": "Aicardi-Goutières syndrome",
+  "syn": "AGS",
+  "role": "global"
+ },
+ {
+  "name": "Air trapping",
+  "syn": "gas trapping",
+  "role": "global"
+ },
+ {
+  "name": "Allergic bronchopulmonary aspergillosis",
+  "syn": "ABPA",
+  "role": "global"
+ },
+ {
+  "name": "Allergic rhinitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Alpha-1-antitrypsin deficiency",
+  "syn": "AAT deficiency",
+  "role": "global"
+ },
+ {
+  "name": "Amiodarone deposition in the liver",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Amiodarone lung",
+  "syn": "Amiodarone pulmonary toxicity",
+  "role": "global"
+ },
+ {
+  "name": "Ankylosing spondylitis (thoracic manifestations)",
+  "syn": "Ankylosing spondylitis pulmonary involvement",
+  "role": "global"
+ },
+ {
+  "name": "Annular pancreas",
+  "syn": "crocodile jaw pancreas",
+  "role": "global"
+ },
+ {
+  "name": "Anti-synthetase syndrome",
+  "syn": "anti-tRNA synthetase syndrome; antisynthetase syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Antiphospholipid syndrome (pulmonary manifestations)",
+  "syn": "APS pulmonary involvement",
+  "role": "global"
+ },
+ {
+  "name": "Aortic dissection",
+  "syn": "DeBakey type I dissection; DeBakey type II dissection; DeBakey type III dissection; Stanford type A aortic dissection; Stanford type B aortic dissection; acute aortic dissection; acute aortic syndrome (dissection subtype); aortic dissection type A",
+  "role": "global"
+ },
+ {
+  "name": "Aphakia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Appendicolith",
+  "syn": "Appendiceal calculus",
+  "role": "global"
+ },
+ {
+  "name": "Arterioportal shunt",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Arteriovenous malformation",
+  "syn": "AVM",
+  "role": "global"
+ },
+ {
+  "name": "Asbestos-related benign pleural disease",
+  "syn": "BAPD; Benign asbestos pleural disease",
+  "role": "global"
+ },
+ {
+  "name": "Asbestos-related diseases",
+  "syn": "Asbestos-related pleural disease",
+  "role": "global"
+ },
+ {
+  "name": "Ascariasis",
+  "syn": "Ascaris lumbricoides infection",
+  "role": "global"
+ },
+ {
+  "name": "Atlanto-occipital assimilation",
+  "syn": "Occipital assimilation of the atlas",
+  "role": "global"
+ },
+ {
+  "name": "Atypical adenomatous hyperplasia",
+  "syn": "AAH",
+  "role": "global"
+ },
+ {
+  "name": "Barrel chest",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Basilar invagination",
+  "syn": "atlantoaxial impaction; basilar impression; cranial settling",
+  "role": "global"
+ },
+ {
+  "name": "Behçet disease",
+  "syn": "Adamantiades-Behçet disease",
+  "role": "global"
+ },
+ {
+  "name": "Bilateral adrenal gland enlargement",
+  "syn": "Bilateral adrenomegaly",
+  "role": "global"
+ },
+ {
+  "name": "Biliary obstruction",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bladder wall trabeculation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bone erosion",
+  "syn": "Bony erosions; Cortical erosions",
+  "role": "global"
+ },
+ {
+  "name": "Bone Torsion",
+  "syn": "Femoral antetorsion; Torsional deformity",
+  "role": "global"
+ },
+ {
+  "name": "Bony Coalition",
+  "syn": "Carpal coalition",
+  "role": "global"
+ },
+ {
+  "name": "Bony sequestrum",
+  "syn": "Sequestrum",
+  "role": "global"
+ },
+ {
+  "name": "Bowel wall fat deposition",
+  "syn": "Fat halo sign",
+  "role": "global"
+ },
+ {
+  "name": "Brachiocephalic vein stenosis",
+  "syn": "Brachiocephalic vein narrowing",
+  "role": "global"
+ },
+ {
+  "name": "Brain arteriovenous malformation",
+  "syn": "BAVM; CAVM; cerebral arteriovenous malformation; pial arteriovenous malformation",
+  "role": "global"
+ },
+ {
+  "name": "Breast calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Breast mass",
+  "syn": "Breast nodule",
+  "role": "global"
+ },
+ {
+  "name": "Breast skin thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Bronchial arterial enlargement",
+  "syn": "Bronchial artery hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Bronchial hamartoma",
+  "syn": "Endobronchial hamartoma",
+  "role": "global"
+ },
+ {
+  "name": "Bronchiolectasis",
+  "syn": "dilatation of bronchioles",
+  "role": "global"
+ },
+ {
+  "name": "Bronchopulmonary dysplasia",
+  "syn": "BPD; CLDP; chronic lung disease of prematurity",
+  "role": "global"
+ },
+ {
+  "name": "Calcaneal spur",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Calcaneonavicular coalition",
+  "syn": "Calcaneonavicular synostosis",
+  "role": "global"
+ },
+ {
+  "name": "Calcific tendinitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Calcified mediastinal lymph nodes",
+  "syn": "Mediastinal lymph node calcification",
+  "role": "global"
+ },
+ {
+  "name": "Calvarial thickening",
+  "syn": "Hyperostosis of the calvarium; Skull thickening",
+  "role": "global"
+ },
+ {
+  "name": "Cam morphology",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Carbon monoxide poisoning",
+  "syn": "Carbon monoxide toxicity; Gas geyser syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Cardiac calcification",
+  "syn": "Cardiac mineralization",
+  "role": "global"
+ },
+ {
+  "name": "Cardiovascular postmortem changes",
+  "syn": "Postmortem cardiovascular imaging findings",
+  "role": "global"
+ },
+ {
+  "name": "Carotid artery tortuosity",
+  "syn": "extracranial carotid artery tortuosity; intracranial carotid artery tortuosity",
+  "role": "global"
+ },
+ {
+  "name": "Carotid web",
+  "syn": "carotid diaphragms; carotid intimal variant fibromuscular dysplasia; carotid pseudovalvular folds; carotid septa; carotid shelves; carotid weblike formations; thrombotic carotid megabulbs",
+  "role": "global"
+ },
+ {
+  "name": "Cavernoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cephalic arch stenosis",
+  "syn": "Cephalic vein stenosis at the arch",
+  "role": "global"
+ },
+ {
+  "name": "Cerebral amyloid angiopathy",
+  "syn": "CAA",
+  "role": "global"
+ },
+ {
+  "name": "Cerebral malaria",
+  "syn": "Neurological malaria",
+  "role": "global"
+ },
+ {
+  "name": "Cerebrovascular malformations",
+  "syn": "Brain vascular malformations; Cerebral vascular malformations",
+  "role": "global"
+ },
+ {
+  "name": "Cerumen impaction",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cervical artery dissection",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cervical foraminal stenosis",
+  "syn": "Cervical neural exit foraminal stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Cervical spine injury",
+  "syn": "C-spine injury; Cervical spinal trauma",
+  "role": "global"
+ },
+ {
+  "name": "Charcot joint",
+  "syn": "Charcot neuroarthropathy; Charcot osteoarthropathy; neuropathic joint",
+  "role": "global"
+ },
+ {
+  "name": "Chest wall lipoma",
+  "syn": "Thoracic lipoma",
+  "role": "global"
+ },
+ {
+  "name": "Chest wall tumours",
+  "syn": "Tumours of the chest wall",
+  "role": "global"
+ },
+ {
+  "name": "Chiari malformation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cholangitis",
+  "syn": "Biliary inflammation",
+  "role": "global"
+ },
+ {
+  "name": "Cholecystoduodenal fistula",
+  "syn": "Cholecystoduodenal communication",
+  "role": "global"
+ },
+ {
+  "name": "Cholecystoenteric fistula",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cholesteatoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic aspiration pneumonia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic bronchitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic obstructive pulmonary disease",
+  "syn": "COPD",
+  "role": "global"
+ },
+ {
+  "name": "Chronic osteomyelitis",
+  "syn": "Chronic bone infection",
+  "role": "global"
+ },
+ {
+  "name": "Circumcaval ureter",
+  "syn": "Retrocaval ureter",
+  "role": "global"
+ },
+ {
+  "name": "Clonorchiasis",
+  "syn": "Chinese liver fluke infection",
+  "role": "global"
+ },
+ {
+  "name": "Cochlear incomplete partition",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Colonic lipoma",
+  "syn": "Colonic lipomata",
+  "role": "global"
+ },
+ {
+  "name": "Colonic stricture",
+  "syn": "Colon stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Colorectal villous adenoma",
+  "syn": "Colorectal villous polyps; Villous adenoma of the large intestine",
+  "role": "global"
+ },
+ {
+  "name": "Congenital cytomegalovirus infection",
+  "syn": "Congenital CMV",
+  "role": "global"
+ },
+ {
+  "name": "Congenital lumbar spinal stenosis",
+  "syn": "Developmental lumbar spinal stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Contracted gallbladder",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Contrast media extravasation",
+  "syn": "Contrast extravasation",
+  "role": "global"
+ },
+ {
+  "name": "Contrast staining",
+  "syn": "cerebral intraparenchymal hyperattenuation; postinterventional cerebral hyperdensity",
+  "role": "global"
+ },
+ {
+  "name": "Coronary arterial ectasia",
+  "syn": "CAE; diffuse coronary artery dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Coup-contrecoup injury",
+  "syn": "Coup-contrecoup brain injury",
+  "role": "global"
+ },
+ {
+  "name": "COVID-19",
+  "syn": "coronavirus disease-2019",
+  "role": "global"
+ },
+ {
+  "name": "Craniosynostosis",
+  "syn": "Premature cranial suture closure",
+  "role": "global"
+ },
+ {
+  "name": "Crohn disease",
+  "syn": "regional enteritis",
+  "role": "global"
+ },
+ {
+  "name": "Crystal arthropathy",
+  "syn": "Crystal-induced arthropathy",
+  "role": "global"
+ },
+ {
+  "name": "Crystalluria",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cysticercosis",
+  "syn": "Taeniasis (cystic form)",
+  "role": "global"
+ },
+ {
+  "name": "Cystitis",
+  "syn": "Inflammation of the urinary bladder",
+  "role": "global"
+ },
+ {
+  "name": "Cystitis cystica",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cystitis glandularis",
+  "syn": "Glandular cystitis",
+  "role": "global"
+ },
+ {
+  "name": "Dacryocystitis",
+  "syn": "Inflammation of the nasolacrimal sac",
+  "role": "global"
+ },
+ {
+  "name": "Dacryocystocele",
+  "syn": "Nasolacrimal duct cyst",
+  "role": "global"
+ },
+ {
+  "name": "Decomposition",
+  "syn": "Postmortem decay; Putrefaction",
+  "role": "global"
+ },
+ {
+  "name": "Delayed nephrogram",
+  "syn": "delayed renal enhancement",
+  "role": "global"
+ },
+ {
+  "name": "Diaphragmatic elevation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Diaphragmatic eventration",
+  "syn": "Eventration of the diaphragm",
+  "role": "global"
+ },
+ {
+  "name": "Diastasis recti",
+  "syn": "Rectus diastasis",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse colonic nodularity",
+  "syn": "Colonic nodularity",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse small bowel disease",
+  "syn": "Diffuse enteropathy",
+  "role": "global"
+ },
+ {
+  "name": "Distal radioulnar joint instability",
+  "syn": "DRUJ instability",
+  "role": "global"
+ },
+ {
+  "name": "Dolichocolon",
+  "syn": "colonic elongation; redundant colon",
+  "role": "global"
+ },
+ {
+  "name": "Dolichoectasia",
+  "syn": "Arterial dolichoectasia; Vertebrobasilar dolichoectasia",
+  "role": "global"
+ },
+ {
+  "name": "Domestically acquired particulate lung disease",
+  "syn": "hut lung",
+  "role": "global"
+ },
+ {
+  "name": "Dorsocervical fat pad",
+  "syn": "Buffalo hump",
+  "role": "global"
+ },
+ {
+  "name": "Drowning",
+  "syn": "Death by drowning",
+  "role": "global"
+ },
+ {
+  "name": "Ductus deferens calcification",
+  "syn": "Vas deferens calcification",
+  "role": "global"
+ },
+ {
+  "name": "Eagle syndrome",
+  "syn": "styloidogenic jugular venous compression syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Ectopic ureter",
+  "syn": "Ureteral ectopia",
+  "role": "global"
+ },
+ {
+  "name": "Elastofibroma dorsi",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Embolism",
+  "syn": "Thromboembolism",
+  "role": "global"
+ },
+ {
+  "name": "Empyema and Pulmonary Abscess",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Encephalomalacia",
+  "syn": "cerebral parenchymal loss",
+  "role": "global"
+ },
+ {
+  "name": "Endoleak",
+  "syn": "Endovascular leak",
+  "role": "global"
+ },
+ {
+  "name": "Endometrial fluid",
+  "syn": "Intrauterine fluid",
+  "role": "global"
+ },
+ {
+  "name": "Endometrial thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Enlarged perivascular spaces",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Enlarged vestibular aqueduct",
+  "syn": "large endolymphatic duct and sac anomaly; large endolymphatic duct and sac syndrome; large vestibular aqueduct",
+  "role": "global"
+ },
+ {
+  "name": "Enteroenteric fistula",
+  "syn": "Small bowel-to-small bowel fistula",
+  "role": "global"
+ },
+ {
+  "name": "Enterolithiasis",
+  "syn": "Enteroliths; Intestinal lithiasis",
+  "role": "global"
+ },
+ {
+  "name": "Enthesopathy",
+  "syn": "Enthesitis; Insertional tendinopathy",
+  "role": "global"
+ },
+ {
+  "name": "Epiploic appendagitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Esophagitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Excessive lateral pressure syndrome",
+  "syn": "lateral patellar compression syndrome",
+  "role": "global"
+ },
+ {
+  "name": "External auditory canal exostoses",
+  "syn": "surfer's ear",
+  "role": "global"
+ },
+ {
+  "name": "Extra-axial collection",
+  "syn": "Extra-axial fluid collection",
+  "role": "global"
+ },
+ {
+  "name": "Extrapleural lipomatosis",
+  "syn": "Extrapleural fat deposition",
+  "role": "global"
+ },
+ {
+  "name": "Facial clefts",
+  "syn": "Cleft lip; Cleft palate; Craniofacial clefts",
+  "role": "global"
+ },
+ {
+  "name": "Faecolith",
+  "syn": "coprolith; stercolith",
+  "role": "global"
+ },
+ {
+  "name": "Fascioliasis",
+  "syn": "hepatic distomiasis; liver fluke disease",
+  "role": "global"
+ },
+ {
+  "name": "Fat necrosis",
+  "syn": "Adipose necrosis",
+  "role": "global"
+ },
+ {
+  "name": "Fatty nodal metaplasia",
+  "syn": "Fatty lymph node metaplasia",
+  "role": "global"
+ },
+ {
+  "name": "Femoral anteversion",
+  "syn": "Femoral antetorsion; Increased femoral anteversion",
+  "role": "global"
+ },
+ {
+  "name": "Femoroacetabular impingement syndrome",
+  "syn": "FAI",
+  "role": "global"
+ },
+ {
+  "name": "Fibroma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fibromuscular dysplasia",
+  "syn": "FMD",
+  "role": "global"
+ },
+ {
+  "name": "Fibular trochlea hypertrophy",
+  "syn": "peroneal tubercle hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Fissural thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fistula",
+  "syn": "fistulation; fistulous tract",
+  "role": "global"
+ },
+ {
+  "name": "Focal calvarial thinning",
+  "syn": "Localized skull thinning",
+  "role": "global"
+ },
+ {
+  "name": "Focal hepatic steatosis",
+  "syn": "focal fatty infiltration; focal hepatosteatosis",
+  "role": "global"
+ },
+ {
+  "name": "Fundal adenomyomatosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder adenomyomatosis",
+  "syn": "Adenomyomatosis of the gallbladder",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder distension",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder perforation",
+  "syn": "Perforated gallbladder",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder polyp",
+  "syn": "Cholecystic polyp",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder sludge",
+  "syn": "Biliary sludge",
+  "role": "global"
+ },
+ {
+  "name": "Gallbladder wall thickening",
+  "syn": "GB wall thickening",
+  "role": "global"
+ },
+ {
+  "name": "Gastric dilatation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gastric wall fatty infiltration",
+  "syn": "Gastric fat halo sign",
+  "role": "global"
+ },
+ {
+  "name": "Gastritis",
+  "syn": "Gastric mucosal inflammation",
+  "role": "global"
+ },
+ {
+  "name": "Gastroesophageal reflux",
+  "syn": "Gastroesophageal reflux disease",
+  "role": "global"
+ },
+ {
+  "name": "Gastrointestinal angiodysplasia",
+  "syn": "angioectasias",
+  "role": "global"
+ },
+ {
+  "name": "Gastrointestinal leiomyoma",
+  "syn": "GI leiomyoma",
+  "role": "global"
+ },
+ {
+  "name": "Gastrointestinal tract lipoma",
+  "syn": "GI lipoma",
+  "role": "global"
+ },
+ {
+  "name": "Glenoid hypoplasia",
+  "syn": "glenoid dysplasia; posterior glenoid rim deficiency",
+  "role": "global"
+ },
+ {
+  "name": "Glenoid retroversion",
+  "syn": "Posterior glenoid version",
+  "role": "global"
+ },
+ {
+  "name": "Gliosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gluteal injection site granuloma",
+  "syn": "Injection site granuloma",
+  "role": "global"
+ },
+ {
+  "name": "Gout",
+  "syn": "Acute gouty arthritis; Chronic tophaceous gout; Gout flare; Gouty arthritis",
+  "role": "global"
+ },
+ {
+  "name": "Granulomatous lung disease",
+  "syn": "Pulmonary granulomatosis",
+  "role": "global"
+ },
+ {
+  "name": "Gunshot injury",
+  "syn": "Ballistic injury; Penetrating firearm injury",
+  "role": "global"
+ },
+ {
+  "name": "Gynecomastia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Haemangioma",
+  "syn": "Congenital haemangioma; Epithelioid haemangioma; Hemangioma; Infantile haemangioma; Intramuscular haemangioma; Spindle-cell haemangioma",
+  "role": "global"
+ },
+ {
+  "name": "Hamartoma",
+  "syn": "Hamartomata",
+  "role": "global"
+ },
+ {
+  "name": "Heart failure",
+  "syn": "Congestive heart failure",
+  "role": "global"
+ },
+ {
+  "name": "Hemifacial microsomia",
+  "syn": "craniofacial microsomia; first and second branchial arch syndrome; lateral facial dysplasia; otomandibular dysostosis",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic calcification",
+  "syn": "Liver calcification",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic capsular retraction",
+  "syn": "capsular retraction of the liver",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic pseudolesion near falciform ligament",
+  "syn": "Hepatic pseudolesions near falciform ligament; focal fatty sparing near falciform ligament; focal hepatic steatosis near falciform ligament",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic pseudolesions",
+  "syn": "Pseudolesions of the liver; Transient hepatic attenuation differences (THAD)",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic Schistosomiasis",
+  "syn": "Schistosomiasis (hepatic manifestations)",
+  "role": "global"
+ },
+ {
+  "name": "Hepatolithiasis",
+  "syn": "Intrahepatic lithiasis",
+  "role": "global"
+ },
+ {
+  "name": "Hereditary haemorrhagic telangiectasia",
+  "syn": "Osler-Weber-Rendu syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Heterotaxy syndrome",
+  "syn": "Asplenia syndrome; Cardiosplenic syndrome; Isomerism; Left isomerism; Polysplenia syndrome; Right isomerism; Situs ambiguus",
+  "role": "global"
+ },
+ {
+  "name": "Heterotopic ossification",
+  "syn": "extraskeletal bone",
+  "role": "global"
+ },
+ {
+  "name": "Hip dysplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "HIV-associated dementia",
+  "syn": "AIDS dementia complex; HIV encephalopathy",
+  "role": "global"
+ },
+ {
+  "name": "HIV/AIDS (pulmonary and thoracic manifestations)",
+  "syn": "AIDS-related chest conditions",
+  "role": "global"
+ },
+ {
+  "name": "Hydrocele",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hyperextension cervical injury",
+  "syn": "Cervical hyperextension injury",
+  "role": "global"
+ },
+ {
+  "name": "Hyperostosis frontalis interna",
+  "syn": "HFI; Hyperosteosis frontalis interna",
+  "role": "global"
+ },
+ {
+  "name": "Hyperostosis frontoparietalis",
+  "syn": "Hyperostosis frontalis interna variant",
+  "role": "global"
+ },
+ {
+  "name": "Hyperostosis of the skull",
+  "syn": "Skull hyperostosis",
+  "role": "global"
+ },
+ {
+  "name": "Hypertrophy of the caudate lobe",
+  "syn": "Caudate lobe hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Hypostasis",
+  "syn": "livor mortis; post-mortem hypostasis",
+  "role": "global"
+ },
+ {
+  "name": "Hypoxic-ischaemic encephalopathy",
+  "syn": "global hypoxic-ischaemic injury; Anoxic brain injury",
+  "role": "global"
+ },
+ {
+  "name": "Iliac vein occlusion",
+  "syn": "Iliac vein obstruction",
+  "role": "global"
+ },
+ {
+  "name": "Impacted teeth",
+  "syn": "Dental impaction",
+  "role": "global"
+ },
+ {
+  "name": "Increased splenic attenuation",
+  "syn": "Splenic hyperattenuation",
+  "role": "global"
+ },
+ {
+  "name": "Inflammatory bowel disease",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Inflammatory pseudopolyp",
+  "syn": "Pseudopolyp",
+  "role": "global"
+ },
+ {
+  "name": "Intercalary bone",
+  "syn": "discal ossification",
+  "role": "global"
+ },
+ {
+  "name": "Intermuscular lipoma",
+  "syn": "infiltrating lipoma",
+  "role": "global"
+ },
+ {
+  "name": "Interstitial lung abnormality",
+  "syn": "ILA",
+  "role": "global"
+ },
+ {
+  "name": "Interstitial thickening",
+  "syn": "Pulmonary interstitial thickening",
+  "role": "global"
+ },
+ {
+  "name": "Intestinal nonrotation",
+  "syn": "Nonrotation of the gut",
+  "role": "global"
+ },
+ {
+  "name": "Intra-articular fragments",
+  "syn": "Intra-articular fracture fragments; Osseous intra-articular bodies; Osteochondral fragments",
+  "role": "global"
+ },
+ {
+  "name": "Intra-articular gas",
+  "syn": "Pneumarthrosis",
+  "role": "global"
+ },
+ {
+  "name": "Intra-articular loose body",
+  "syn": "Intra-articular loose bodies; Joint mouse; intra-articular bodies; joint mice",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial lipoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intramural fat of the urinary bladder",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intramuscular lipoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intraosseous gas",
+  "syn": "osseous pneumatosis",
+  "role": "global"
+ },
+ {
+  "name": "Intussusception",
+  "syn": "Bowel intussusception",
+  "role": "global"
+ },
+ {
+  "name": "Irritable bowel syndrome",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ischaemic penumbra",
+  "syn": "Ischemic penumbra",
+  "role": "global"
+ },
+ {
+  "name": "Ischemic gliosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ischiopubic synchondrosis asymmetry",
+  "syn": "van Neck-Odelberg disease",
+  "role": "global"
+ },
+ {
+  "name": "Joint effusion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Joint space narrowing",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ladd bands",
+  "syn": "peritoneal bands of malrotation",
+  "role": "global"
+ },
+ {
+  "name": "Large vessel vasculitis",
+  "syn": "Giant cell arteritis; LVV; Takayasu arteritis",
+  "role": "global"
+ },
+ {
+  "name": "Lateral hemivertebra",
+  "syn": "Hemivertebra",
+  "role": "global"
+ },
+ {
+  "name": "Left ventricular hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ligamentum arteriosum calcification",
+  "syn": "Calcification of the ligamentum arteriosum",
+  "role": "global"
+ },
+ {
+  "name": "Limb ischaemia",
+  "syn": "Acute limb ischaemia; Chronic limb-threatening ischaemia",
+  "role": "global"
+ },
+ {
+  "name": "Lipomatosis",
+  "syn": "Diffuse excessive fat deposition",
+  "role": "global"
+ },
+ {
+  "name": "Lipomatosis of the ileocaecal valve",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Lipomatous hypertrophy of the interatrial septum",
+  "syn": "LHIS",
+  "role": "global"
+ },
+ {
+  "name": "Lipomatous lesions",
+  "syn": "Fatty tumors; Lipomatous neoplasms",
+  "role": "global"
+ },
+ {
+  "name": "Liquefactive necrosis",
+  "syn": "Colliquative necrosis",
+  "role": "global"
+ },
+ {
+  "name": "Liver hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Liver lobulation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Liver trauma",
+  "syn": "Hepatic trauma; Liver injury",
+  "role": "global"
+ },
+ {
+  "name": "Lung hyperinflation",
+  "syn": "Pulmonary hyperinflation",
+  "role": "global"
+ },
+ {
+  "name": "Luxury perfusion",
+  "syn": "post-ischaemic hyperperfusion",
+  "role": "global"
+ },
+ {
+  "name": "Malignant pleural disease",
+  "syn": "Pleural malignancy",
+  "role": "global"
+ },
+ {
+  "name": "Marijuana lung",
+  "syn": "bong lung; cannabis lung",
+  "role": "global"
+ },
+ {
+  "name": "Mastoid sclerosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Maxillary sinus wall defect",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "May-Thurner syndrome",
+  "syn": "Cockett syndrome; May-Thurner compression syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Mediastinal lipomatosis",
+  "syn": "Mediastinal fat deposition",
+  "role": "global"
+ },
+ {
+  "name": "Mediastinal shift",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Medication-related osteonecrosis of the jaw",
+  "syn": "BRONJ; Bisphosphonate-related osteonecrosis of the jaw; MRONJ",
+  "role": "global"
+ },
+ {
+  "name": "Meniscal ossicle",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mesenteric lymph node calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Metastatic calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Metastatic pulmonary calcification",
+  "syn": "MPC",
+  "role": "global"
+ },
+ {
+  "name": "Methotrexate lung disease",
+  "syn": "Methotrexate lung; Methotrexate-induced lung disease; Methotrexate-induced lung injury; Methotrexate-induced pneumonitis",
+  "role": "global"
+ },
+ {
+  "name": "Middle ear atelectasis",
+  "syn": "Tympanic membrane retraction stage III",
+  "role": "global"
+ },
+ {
+  "name": "Middle turbinate hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Milk of calcium",
+  "syn": "Colloidal calcium suspension",
+  "role": "global"
+ },
+ {
+  "name": "Mondini malformation",
+  "syn": "Incomplete partition type II (IP-II)",
+  "role": "global"
+ },
+ {
+  "name": "Multifocal hepatic steatosis",
+  "syn": "multifocal nodular hepatic steatosis",
+  "role": "global"
+ },
+ {
+  "name": "Myocardial infarction",
+  "syn": "heart attack",
+  "role": "global"
+ },
+ {
+  "name": "Myocardial ischaemia",
+  "syn": "Myocardial ischemia",
+  "role": "global"
+ },
+ {
+  "name": "Myochosis coli",
+  "syn": "muscular hypertrophy of the colon",
+  "role": "global"
+ },
+ {
+  "name": "Myositis ossificans",
+  "syn": "myositis ossificans circumscripta",
+  "role": "global"
+ },
+ {
+  "name": "Myringosclerosis",
+  "syn": "calcification of the tympanic membrane",
+  "role": "global"
+ },
+ {
+  "name": "Nasal septum perforation",
+  "syn": "Nasal septal perforation",
+  "role": "global"
+ },
+ {
+  "name": "Nasal stenosis",
+  "syn": "Nasal airway stenosis; Nasal meatus stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Nasal synechia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nasopharyngeal wall thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Nephroptosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Neurocysticercosis",
+  "syn": "Cysticercosis of the central nervous system",
+  "role": "global"
+ },
+ {
+  "name": "Neurofibromatosis type 1",
+  "syn": "von Recklinghausen disease",
+  "role": "global"
+ },
+ {
+  "name": "Neurogenic thoracic outlet syndrome",
+  "syn": "nTOS",
+  "role": "global"
+ },
+ {
+  "name": "Non-atherosclerotic coronary artery disease",
+  "syn": "non-atherosclerotic coronary artery abnormalities",
+  "role": "global"
+ },
+ {
+  "name": "Nutcracker phenomenon",
+  "syn": "left renal vein entrapment; nutcracker anatomy",
+  "role": "global"
+ },
+ {
+  "name": "Nutmeg liver",
+  "syn": "congestive hepatopathy; hepatic venous congestion",
+  "role": "global"
+ },
+ {
+  "name": "Obstructive uropathy",
+  "syn": "Urinary tract obstruction",
+  "role": "global"
+ },
+ {
+  "name": "Oesophageal dilatation",
+  "syn": "Esophageal dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Oesophageal leiomyoma",
+  "syn": "Leiomyoma of the esophagus",
+  "role": "global"
+ },
+ {
+  "name": "Omental cake",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Omental infarction",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Organomegaly",
+  "syn": "splanchnomegaly; visceromegaly",
+  "role": "global"
+ },
+ {
+  "name": "Organophosphate poisoning",
+  "syn": "Organophosphate toxicity",
+  "role": "global"
+ },
+ {
+  "name": "Ossicular chain fixation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Osteochondral lesion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Osteoma cutis",
+  "syn": "cutaneous ossification",
+  "role": "global"
+ },
+ {
+  "name": "Osteomeatal complex obstruction",
+  "syn": "Osteomeatal complex narrowing; Osteomeatal unit obstruction",
+  "role": "global"
+ },
+ {
+  "name": "Osteonecrosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Otosclerosis",
+  "syn": "otospongiosis",
+  "role": "global"
+ },
+ {
+  "name": "Ovarian venous varix",
+  "syn": "Variceal dilatation of the ovarian vein",
+  "role": "global"
+ },
+ {
+  "name": "Pancreatic duct dilatation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Panniculitis",
+  "syn": "Inflammation of adipose tissue",
+  "role": "global"
+ },
+ {
+  "name": "Paracaval lipoma",
+  "syn": "juxtacaval fat collection; pseudolipoma of the inferior vena cava",
+  "role": "global"
+ },
+ {
+  "name": "Parathyroid adenoma",
+  "syn": "abnormal parathyroid gland",
+  "role": "global"
+ },
+ {
+  "name": "Parathyroid tumour",
+  "syn": "Parathyroid carcinoma",
+  "role": "global"
+ },
+ {
+  "name": "Parenchymal lung disease",
+  "syn": "Diffuse parenchymal lung disease",
+  "role": "global"
+ },
+ {
+  "name": "Patellar subluxation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pathological gas",
+  "syn": "extraluminal gas; pneumatosis",
+  "role": "global"
+ },
+ {
+  "name": "Patulous tube syndrome",
+  "syn": "patulous dysfunction of the Eustachian tube",
+  "role": "global"
+ },
+ {
+  "name": "Pectus excavatum",
+  "syn": "funnel chest; trichterbrust",
+  "role": "global"
+ },
+ {
+  "name": "Pelvic congestion syndrome",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pelvic inflammatory disease",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Penetrating trauma",
+  "syn": "Penetrating injury; Perforating injury",
+  "role": "global"
+ },
+ {
+  "name": "Perforation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Periapical cemento-osseous dysplasia",
+  "syn": "periapical cemental dysplasia",
+  "role": "global"
+ },
+ {
+  "name": "Periapical granuloma",
+  "syn": "Chronic apical periodontitis",
+  "role": "global"
+ },
+ {
+  "name": "Pericardial thickening",
+  "syn": "Thickened pericardium",
+  "role": "global"
+ },
+ {
+  "name": "Pericarditis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pericoronitis",
+  "syn": "inflammation of the pericoronal tissues",
+  "role": "global"
+ },
+ {
+  "name": "Periodontal ligament widening",
+  "syn": "PDL widening",
+  "role": "global"
+ },
+ {
+  "name": "Periportal edema",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Perirenal fat stranding",
+  "syn": "Perinephric edema; Perinephric stranding; Perirenal Edema; Perirenal inflammation; Perirenal stranding",
+  "role": "global"
+ },
+ {
+  "name": "Peritoneal loose body",
+  "syn": "peritoneal mice",
+  "role": "global"
+ },
+ {
+  "name": "Peritoneal thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Peritonitis",
+  "syn": "inflammation of the peritoneum",
+  "role": "global"
+ },
+ {
+  "name": "Persistent hypophyseal canal",
+  "syn": "craniopharyngeal canal; large craniopharyngeal canal; transsphenoidal canal",
+  "role": "global"
+ },
+ {
+  "name": "Phlebolith",
+  "syn": "Pelvic phlebolith",
+  "role": "global"
+ },
+ {
+  "name": "Phlegmon",
+  "syn": "inflammatory mass; phlegmonous change",
+  "role": "global"
+ },
+ {
+  "name": "Pincer morphology",
+  "syn": "acetabular overcoverage; pincer deformity",
+  "role": "global"
+ },
+ {
+  "name": "Pituitary hyperplasia",
+  "syn": "Diffuse pituitary enlargement",
+  "role": "global"
+ },
+ {
+  "name": "Plagiocephaly",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Platybasia",
+  "syn": "flattening of the skull base",
+  "role": "global"
+ },
+ {
+  "name": "Pleural adhesions",
+  "syn": "Pleural symphysis",
+  "role": "global"
+ },
+ {
+  "name": "Pleural retraction",
+  "syn": "Pleuroparenchymal retraction",
+  "role": "global"
+ },
+ {
+  "name": "Pneumatosis coli",
+  "syn": "Pneumatosis cystoides coli; Pneumatosis intestinalis (colonic); Pneumatosis linearis coli",
+  "role": "global"
+ },
+ {
+  "name": "Pneumatosis cystoides intestinalis",
+  "syn": "Pneumatosis cystoides coli",
+  "role": "global"
+ },
+ {
+  "name": "Pneumatosis intestinalis",
+  "syn": "Intramural bowel gas",
+  "role": "global"
+ },
+ {
+  "name": "Pneumaturia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pneumobilia",
+  "syn": "aerobilia",
+  "role": "global"
+ },
+ {
+  "name": "Pneumocephalus",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pneumomediastinum",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Popliteal artery entrapment syndrome",
+  "syn": "PAES",
+  "role": "global"
+ },
+ {
+  "name": "Porcelain gallbladder",
+  "syn": "Cholecystopathia chronica calcarea",
+  "role": "global"
+ },
+ {
+  "name": "Portal vein dilatation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Post-radiation changes in the neck",
+  "syn": "Radiation-induced changes of the neck",
+  "role": "global"
+ },
+ {
+  "name": "Postmortem changes",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Preinvasive adenocarcinoma lesion of the lung",
+  "syn": "AAH; AIS; Adenocarcinoma in situ",
+  "role": "global"
+ },
+ {
+  "name": "Preinvasive lesions of the lung",
+  "syn": "Adenocarcinoma in situ of the lung; Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia; Preinvasive adenocarcinoma of the lung; Squamous dysplasia of lungs",
+  "role": "global"
+ },
+ {
+  "name": "Proliferating trichilemmal cyst",
+  "syn": "Proliferating trichilemmel cyst; giant hair matrix tumour; hydatidiform keratinous cyst; invasive hair matrix tumour; pilar tumour of the scalp; proliferating epidermoid cyst; proliferating trichilemmal tumour; trichochlamydocarcinoma",
+  "role": "global"
+ },
+ {
+  "name": "Prostatic calcification",
+  "syn": "Prostate calcifications",
+  "role": "global"
+ },
+ {
+  "name": "Prostatitis",
+  "syn": "inflammation of the prostate gland; prostate infection",
+  "role": "global"
+ },
+ {
+  "name": "Pseudomeningocele",
+  "syn": "CSF pseudomeningocele",
+  "role": "global"
+ },
+ {
+  "name": "Pseudomyxoma peritonei",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pubic diastasis",
+  "syn": "Separation of the pubic symphysis; Symphysis pubis diastasis",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary arteriovenous malformation",
+  "syn": "PAVM",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary aspiration diseases",
+  "syn": "Aspiration pneumonitis; Exogenous lipoid pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary calcification",
+  "syn": "calcific pulmonary densities",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary congestion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary hypoplasia",
+  "syn": "Underdevelopment of the lungs",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary infarction",
+  "syn": "Hampton hump",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary manifestations of psoriasis",
+  "syn": "Psoriatic lung disease",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary necrotising granuloma",
+  "syn": "Necrotizing granulomatous pneumonia",
+  "role": "global"
+ },
+ {
+  "name": "Quadrigeminal cistern lipoma",
+  "syn": "Intracranial lipoma of the quadrigeminal cistern",
+  "role": "global"
+ },
+ {
+  "name": "Raised intracranial pressure",
+  "syn": "Increased intracranial pressure",
+  "role": "global"
+ },
+ {
+  "name": "Randall plaques",
+  "syn": "subepithelial calcifications of the renal papilla",
+  "role": "global"
+ },
+ {
+  "name": "Reduced leaflet motion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Regenerative liver nodule",
+  "syn": "Cirrhotic liver nodules; Hepatocellular carcinoma in cirrhosis; Regenerative liver nodules",
+  "role": "global"
+ },
+ {
+  "name": "Renal forniceal rupture",
+  "syn": "Calyceal rupture; Perirenal urine leak",
+  "role": "global"
+ },
+ {
+  "name": "Renal infarction",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal sinus lipomatosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal vein varices",
+  "syn": "Renal venous varices",
+  "role": "global"
+ },
+ {
+  "name": "Respiratory postmortem changes",
+  "syn": "Normal respiratory postmortem changes",
+  "role": "global"
+ },
+ {
+  "name": "Retro-odontoid pseudotumour",
+  "syn": "periodontoid pseudotumour; retro-odontoid soft tissue thickening",
+  "role": "global"
+ },
+ {
+  "name": "Reversible bronchiectasis",
+  "syn": "traction bronchiectasis associated with atelectasis",
+  "role": "global"
+ },
+ {
+  "name": "Right heart strain",
+  "syn": "Acute right heart syndrome; Right ventricular strain",
+  "role": "global"
+ },
+ {
+  "name": "Rigid spine",
+  "syn": "Fused spine; Spinal rigidity",
+  "role": "global"
+ },
+ {
+  "name": "Sacroiliitis",
+  "syn": "Inflammation of the sacroiliac joints",
+  "role": "global"
+ },
+ {
+  "name": "Scaphocephaly",
+  "syn": "Dolichocephaly",
+  "role": "global"
+ },
+ {
+  "name": "Scleroderma",
+  "syn": "Systemic sclerosis",
+  "role": "global"
+ },
+ {
+  "name": "Semicircular canal dehiscence",
+  "syn": "Lateral semicircular canal dehiscence; Posterior semicircular canal dehiscence; Superior semicircular canal dehiscence",
+  "role": "global"
+ },
+ {
+  "name": "Seminal vesiculitis",
+  "syn": "Inflammation of the seminal vesicles",
+  "role": "global"
+ },
+ {
+  "name": "Sigmoid sinus dehiscence",
+  "syn": "sigmoid plate dehiscence",
+  "role": "global"
+ },
+ {
+  "name": "Sigmoid sinus diverticulum",
+  "syn": "Sigmoid sinus outpouching",
+  "role": "global"
+ },
+ {
+  "name": "Situs inversus",
+  "syn": "Situs inversus totalis; Situs inversus viscerum",
+  "role": "global"
+ },
+ {
+  "name": "Sjögren disease (thoracic manifestations)",
+  "syn": "Pulmonary involvement of Sjögren syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Skeletal fluorosis",
+  "syn": "Fluorosis",
+  "role": "global"
+ },
+ {
+  "name": "Skin laceration",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Soft tissue calcification",
+  "syn": "Ectopic calcification; Pathologic calcification",
+  "role": "global"
+ },
+ {
+  "name": "Spinal cord compression",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Spinal fusion",
+  "syn": "Vertebral fusion",
+  "role": "global"
+ },
+ {
+  "name": "Spinal stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Spleen tumours",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Splenic calcification",
+  "syn": "Calcified splenic lesions",
+  "role": "global"
+ },
+ {
+  "name": "Splenic granulomatous disease",
+  "syn": "Splenic granulomatosis",
+  "role": "global"
+ },
+ {
+  "name": "Splenic haemangioma",
+  "syn": "splenic cavernous malformations; splenic slow flow venous malformations; splenic venous malformations",
+  "role": "global"
+ },
+ {
+  "name": "Splenic hamartoma",
+  "syn": "Hamartoma of the spleen",
+  "role": "global"
+ },
+ {
+  "name": "Splenic infarct",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Splenic volvulus",
+  "syn": "splenic torsion",
+  "role": "global"
+ },
+ {
+  "name": "Splenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Spondylolysis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sternal defect",
+  "syn": "Focal sternal defect",
+  "role": "global"
+ },
+ {
+  "name": "Subarticular zone stenosis",
+  "syn": "Lateral recess stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Subcutaneous emphysema",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Subcutaneous nodule",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Subdural hygroma",
+  "syn": "subdural effusion; traumatic subdural hygroma",
+  "role": "global"
+ },
+ {
+  "name": "Superior mesenteric artery compression disorders",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Superior mesenteric artery syndrome",
+  "syn": "Wilkie syndrome; aortomesenteric duodenal compression syndrome; cast syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Superior semicircular canal dehiscence syndrome",
+  "syn": "SSCD",
+  "role": "global"
+ },
+ {
+  "name": "Syndesmophyte",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Synostosis",
+  "syn": "bony coalition; osseous fusion",
+  "role": "global"
+ },
+ {
+  "name": "Systemic lupus erythematosus (gastrointestinal manifestations)",
+  "syn": "SLE gastrointestinal involvement",
+  "role": "global"
+ },
+ {
+  "name": "Systemic lupus erythematosus (thoracic manifestations)",
+  "syn": "SLE thoracic involvement",
+  "role": "global"
+ },
+ {
+  "name": "Talocalcaneal coalition",
+  "syn": "Subtalar coalition; TCC",
+  "role": "global"
+ },
+ {
+  "name": "Tarsal coalition",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tegmen tympani defect",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Temporomandibular joint dislocation",
+  "syn": "TMJ dislocation",
+  "role": "global"
+ },
+ {
+  "name": "Thoracolith",
+  "syn": "thoracolithiasis",
+  "role": "global"
+ },
+ {
+  "name": "Thymic hyperplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tibial torsion",
+  "syn": "External tibial torsion; Internal tibial torsion",
+  "role": "global"
+ },
+ {
+  "name": "Tonsillar Hypertrophy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tonsillitis",
+  "syn": "inflammation of the tonsils",
+  "role": "global"
+ },
+ {
+  "name": "Tonsillolith",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tophaceous Gout",
+  "syn": "Tophi; Tophus",
+  "role": "global"
+ },
+ {
+  "name": "Tracheal calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheal deviation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheobronchial calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Transient hepatic attenuation differences",
+  "syn": "THAD",
+  "role": "global"
+ },
+ {
+  "name": "Transient intussusception",
+  "syn": "Uncomplicated intussusception",
+  "role": "global"
+ },
+ {
+  "name": "Transverse sinus stenosis",
+  "syn": "lateral sinus stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Traumatic Brain Injury",
+  "syn": "TBI; closed head injury; penetrating head injury",
+  "role": "global"
+ },
+ {
+  "name": "Trefoil spinal canal",
+  "syn": "Cloverleaf spinal canal appearance",
+  "role": "global"
+ },
+ {
+  "name": "Trochlear dysplasia",
+  "syn": "Trochlear hypoplasia",
+  "role": "global"
+ },
+ {
+  "name": "Turbinate hypertrophy",
+  "syn": "Concha hypertrophy; Nasal Conchae Hypertrophy; Nasal Turbinate Hypertrophy; Nasal concha hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Tympanic membrane perforation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tympanic membrane retraction",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tympanic membrane thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tympanosclerosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Typhoid fever",
+  "syn": "Enteric fever",
+  "role": "global"
+ },
+ {
+  "name": "Ureteritis cystica",
+  "syn": "pyeloureteritis cystica",
+  "role": "global"
+ },
+ {
+  "name": "Ureteropelvic junction stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Urinary bladder wall thickening",
+  "syn": "Bladder wall thickening; Bladder wall hypertrophy",
+  "role": "global"
+ },
+ {
+  "name": "Urinary Schistosomiasis",
+  "syn": "Bilharzia of the bladder; Bladder schistosomiasis",
+  "role": "global"
+ },
+ {
+  "name": "Urothelial thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Uterine calcification",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Uterine enlargement",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Varices",
+  "syn": "Varicosity; Varix",
+  "role": "global"
+ },
+ {
+  "name": "Vascular tortuosity",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vasculitis",
+  "syn": "Vasculitides",
+  "role": "global"
+ },
+ {
+  "name": "Ventricular asymmetry",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral artery ectasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral artery loop",
+  "syn": "Vertebral artery tortuosity; dolichoarterial loop of Danziger",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral height loss",
+  "syn": "Vertebral body height loss",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral scalloping",
+  "syn": "anterior vertebral scalloping; posterior vertebral scalloping",
+  "role": "global"
+ },
+ {
+  "name": "Wallerian degeneration",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Acute pancreatitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic pancreatitis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Fatty pancreas",
+  "syn": "fatty replacement of the pancreas; lipomatous pseudohypertrophy; non-alcoholic fatty pancreas; pancreatic lipomatosis; pancreatic steatosis",
+  "role": "global"
+ },
+ {
+  "name": "Gallstone pancreatitis",
+  "syn": "Biliary pancreatitis",
+  "role": "global"
+ },
+ {
+  "name": "Interstitial oedematous pancreatitis",
+  "syn": "acute interstitial edematous pancreatitis; uncomplicated acute pancreatitis",
+  "role": "global"
+ },
+ {
+  "name": "Intraductal papillary mucinous neoplasm",
+  "syn": "IPMN; IPMT; Intraductal papillary mucinous tumours",
+  "role": "global"
+ },
+ {
+  "name": "Mass-forming chronic pancreatitis",
+  "syn": "Focal chronic pancreatitis",
+  "role": "global"
+ },
+ {
+  "name": "Necrotising pancreatitis",
+  "syn": "Necrotic pancreatitis",
+  "role": "global"
+ },
+ {
+  "name": "Pancreatic calcifications",
+  "syn": "Pancreatic calcification",
+  "role": "global"
+ },
+ {
+  "name": "Pancreatic duct stone",
+  "syn": "pancreatic calculus; pancreaticolithiasis; pancreatolithiasis; pancreolithiasis",
+  "role": "global"
+ },
+ {
+  "name": "Pancreatic lipoma",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Serous cystadenoma of the pancreas",
+  "syn": "grandmother tumour; microcystic adenoma",
+  "role": "global"
+ },
+ {
+  "name": "Tropical pancreatitis",
+  "syn": "Tropical chronic pancreatitis",
+  "role": "global"
+ },
+ {
+  "name": "Hydrosalpinx",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ovarian cancer",
+  "syn": "Malignant ovarian neoplasm",
+  "role": "global"
+ },
+ {
+  "name": "Ovarian cyst",
+  "syn": "corpus luteum cyst; follicular cyst; functional ovarian cyst; physiological ovarian cyst; simple cyst of ovary",
+  "role": "global"
+ },
+ {
+  "name": "Rokitansky nodule",
+  "syn": "dermoid plug",
+  "role": "global"
+ },
+ {
+  "name": "Uterine leiomyoma",
+  "syn": "fibroid; leiomyomata uteri; myoma; uterine fibroid",
+  "role": "global"
+ },
+ {
+  "name": "Uterine lipoleiomyoma",
+  "syn": "Leiomyolipoma of the uterus",
+  "role": "global"
+ },
+ {
+  "name": "Mesenteric fat stranding",
+  "syn": "Mesenteric edema; Mesenteric stranding",
+  "role": "global"
+ },
+ {
+  "name": "Mesenteric ischaemia",
+  "syn": "acute mesenteric ischaemia; intestinal ischaemia",
+  "role": "global"
+ },
+ {
+  "name": "Postoperative pneumoperitoneum",
+  "syn": "Postoperative free intraperitoneal gas",
+  "role": "global"
+ },
+ {
+  "name": "Sclerosing mesenteritis",
+  "syn": "Mesenteric panniculitis; idiopathic mesenteric fibrosis; inflammatory pseudotumour; liposclerotic mesenteritis; mesenteric Weber-Christian disease; mesenteric lipodystrophy; misty mesentery; retractile mesenteritis",
+  "role": "global"
+ },
+ {
+  "name": "Bilateral pleural effusion",
+  "syn": "Bilateral pleural fluid",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse pleural thickening",
+  "syn": "asbestos-related diffuse pleural thickening; diffuse pleural fibrosis",
+  "role": "global"
+ },
+ {
+  "name": "Empyema",
+  "syn": "Pleural empyema; Pyothorax",
+  "role": "global"
+ },
+ {
+  "name": "Fibrothorax",
+  "syn": "Pleural peel",
+  "role": "global"
+ },
+ {
+  "name": "Hairy pleural plaque",
+  "syn": "Asbestos-related hairy pleural plaque",
+  "role": "global"
+ },
+ {
+  "name": "Malignant pleural mesothelioma",
+  "syn": "MPM; diffuse malignant pleural mesothelioma; mesothelioma; pleural mesothelioma",
+  "role": "global"
+ },
+ {
+  "name": "Pleural calcification",
+  "syn": "Calcified pleura",
+  "role": "global"
+ },
+ {
+  "name": "Pleural effusion secondary to pulmonary embolism",
+  "syn": "Pleural effusions in pulmonary embolism",
+  "role": "global"
+ },
+ {
+  "name": "Pleural plaque",
+  "syn": "Asbestos-related pleural plaques",
+  "role": "global"
+ },
+ {
+  "name": "Pleural pseudotumour",
+  "syn": "vanishing tumor",
+  "role": "global"
+ },
+ {
+  "name": "Tension pneumothorax",
+  "syn": "tension PTX",
+  "role": "global"
+ },
+ {
+  "name": "Burr hole",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Colostomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Craniectomy defect",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Craniotomy defect",
+  "syn": "Craniotomy",
+  "role": "global"
+ },
+ {
+  "name": "Esophagojejunostomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Gastrojejunostomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ileocolic anastomosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Ileostomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Laminectomy defect",
+  "syn": "Laminectomy",
+  "role": "global"
+ },
+ {
+  "name": "Liver ablation site",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Liver transplant",
+  "syn": "Liver transplantation; Status post liver transplantation",
+  "role": "global"
+ },
+ {
+  "name": "Mastoidectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Renal transplant",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Resection cavity",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Right adrenalectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sleeve gastrectomy",
+  "syn": "Status post sleeve gastrectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post appendectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post colectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post colorectal cancer surgery",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post distal pancreatectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post gastrectomy",
+  "syn": "Status post gastrectomy and gastrojejunostomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post hemicolectomy",
+  "syn": "Status post right hemicolectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post hepatectomy",
+  "syn": "Hepatectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post hysterectomy",
+  "syn": "Hysterectomy; Hysterectomy and bilateral oophorectomy; Status post hysterectomy and salpingo-oophorectomy; Status post total abdominal hysterectomy and bilateral salpingo-oophorectomy; Total abdominal hysterectomy and bilateral salpingo-oophorectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post lobectomy",
+  "syn": "Lobectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post mastectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post nephrectomy",
+  "syn": "Nephrectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post orchiectomy",
+  "syn": "Orchiectomy",
+  "role": "global"
+ },
+ {
+  "name": "Status post partial nephrectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post pneumonectomy",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Status post splenectomy",
+  "syn": "Splenectomy",
+  "role": "global"
+ },
+ {
+  "name": "Benign prostatic hyperplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Acute rhinosinusitis",
+  "syn": "Acute sinusitis",
+  "role": "global"
+ },
+ {
+  "name": "Allergic fungal sinusitis",
+  "syn": "AFS",
+  "role": "global"
+ },
+ {
+  "name": "Antrochoanal polyp",
+  "syn": "ACP",
+  "role": "global"
+ },
+ {
+  "name": "Antrolith",
+  "syn": "Maxillary sinus stone",
+  "role": "global"
+ },
+ {
+  "name": "Barosinusitis",
+  "syn": "aerosinusitis; sinus barotrauma",
+  "role": "global"
+ },
+ {
+  "name": "Chronic rhinosinusitis",
+  "syn": "Chronic sinusitis",
+  "role": "global"
+ },
+ {
+  "name": "Fungal sinusitis",
+  "syn": "Fungal rhinosinusitis",
+  "role": "global"
+ },
+ {
+  "name": "Hyperattenuating paranasal sinus opacification",
+  "syn": "Hyperdense sinus opacification",
+  "role": "global"
+ },
+ {
+  "name": "Intrasinus calcification",
+  "syn": "Paranasal sinus calcification",
+  "role": "global"
+ },
+ {
+  "name": "Odontogenic sinusitis",
+  "syn": "Dental sinusitis; Maxillary sinusitis of odontogenic origin",
+  "role": "global"
+ },
+ {
+  "name": "Paranasal sinus mucosal thickening",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sinonasal polyposis",
+  "syn": "Nasal polyposis",
+  "role": "global"
+ },
+ {
+  "name": "Sinusitis",
+  "syn": "Paranasal sinus inflammation; Rhinosinusitis",
+  "role": "global"
+ },
+ {
+  "name": "Scalp Edema",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Altered spinal lordosis",
+  "syn": "Flattening of cervical lordosis; Increased lumbar lordosis; Loss of cervical lordosis; Loss of lumbar lordosis",
+  "role": "global"
+ },
+ {
+  "name": "Anterolisthesis",
+  "syn": "Anterior spondylolisthesis; Forward slip of the vertebrae",
+  "role": "global"
+ },
+ {
+  "name": "Diffuse idiopathic skeletal hyperostosis",
+  "syn": "DISH; Forestier disease; Forestier-Rotes-Querol disease; senile ankylosing hyperostosis",
+  "role": "global"
+ },
+ {
+  "name": "Kyphoscoliosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Kyphosis",
+  "syn": "Cervical kyphosis",
+  "role": "global"
+ },
+ {
+  "name": "Ossification of the ligamentum flavum",
+  "syn": "OLF",
+  "role": "global"
+ },
+ {
+  "name": "Ossification of the posterior longitudinal ligament",
+  "syn": "OPLL",
+  "role": "global"
+ },
+ {
+  "name": "Retrolisthesis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Scoliosis",
+  "syn": "Rotoscoliosis",
+  "role": "global"
+ },
+ {
+  "name": "Acquired cholesteatoma",
+  "syn": "Middle ear acquired cholesteatoma",
+  "role": "global"
+ },
+ {
+  "name": "Adhesive otitis media",
+  "syn": "Chronic adhesive otitis media",
+  "role": "global"
+ },
+ {
+  "name": "Chronic otomastoiditis",
+  "syn": "Chronic otitis media and mastoiditis",
+  "role": "global"
+ },
+ {
+  "name": "Chronic otomastoiditis with ossicular erosions",
+  "syn": "non-cholesteatomatous ossicular erosions; post-inflammatory ossicular erosions",
+  "role": "global"
+ },
+ {
+  "name": "Chronic otomastoiditis with tympanosclerosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mastoid air cell opacification",
+  "syn": "Opacification of mastoid air cells",
+  "role": "global"
+ },
+ {
+  "name": "Middle ear granulation tissue",
+  "syn": "Granulation tissue of the middle ear",
+  "role": "global"
+ },
+ {
+  "name": "Otitis media",
+  "syn": "Middle ear inflammation; Otitis media with effusion",
+  "role": "global"
+ },
+ {
+  "name": "Bladder calculus",
+  "syn": "Bladder stones; Cystolithiasis",
+  "role": "global"
+ },
+ {
+  "name": "Congenital megaureter",
+  "syn": "Primary megaureter",
+  "role": "global"
+ },
+ {
+  "name": "Drug-induced renal calculi",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hydroureter",
+  "syn": "Megaureter; Ureteral dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Mulberry stone",
+  "syn": "Mamillated calcium oxalate dihydrate stone; Mulberry calculus",
+  "role": "global"
+ },
+ {
+  "name": "Ureteric calculus",
+  "syn": "Ureteral calculus; Ureteral stone; Ureteral stones; Ureteric calculi; Ureteric stones; Ureterolithiasis; Ureteral calcification",
+  "role": "global"
+ },
+ {
+  "name": "Accessory hepatic vein",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Accessory maxillary ostium",
+  "syn": "Accessory maxillary sinus ostium; Accessory ostium",
+  "role": "global"
+ },
+ {
+  "name": "Accessory navicular bone",
+  "syn": "Accessory os naviculare",
+  "role": "global"
+ },
+ {
+  "name": "Accessory renal artery",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Agger nasi cell",
+  "syn": "Agernazi cells; Agger nasi cells",
+  "role": "global"
+ },
+ {
+  "name": "Anterior cerebral artery hypoplasia or absence",
+  "syn": "A1 segment hypoplasia; ACA aplasia; ACA hypoplasia",
+  "role": "global"
+ },
+ {
+  "name": "Aortic ductus diverticulum",
+  "syn": "Ductus diverticulum",
+  "role": "global"
+ },
+ {
+  "name": "Arrested pneumatisation of the skull base",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Azygos lobe",
+  "syn": "Azygos fissure",
+  "role": "global"
+ },
+ {
+  "name": "Basilar artery hypoplasia",
+  "syn": "Hypoplastic basilar artery",
+  "role": "global"
+ },
+ {
+  "name": "Bovine arch",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cavum septum pellucidum",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Cavum vergae",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chilaiditi sign",
+  "syn": "Chilaiditi syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Clinoid process pneumatization",
+  "syn": "Pneumatized Clinoid Process; Pneumatized anterior clinoid process",
+  "role": "global"
+ },
+ {
+  "name": "Coccyx angulation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Concha bullosa",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Congenital anomalies of the posterior atlas arch",
+  "syn": "C1 posterior arch dysplasia; Posterior arch aplasia of C1",
+  "role": "global"
+ },
+ {
+  "name": "Crista galli pneumatization",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Dehiscent jugular bulb",
+  "syn": "Jugular bulb dehiscence",
+  "role": "global"
+ },
+ {
+  "name": "Developmental Venous Anomaly",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Deviated nasal septum",
+  "syn": "DNS",
+  "role": "global"
+ },
+ {
+  "name": "Double Renal Vein",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Duplication of the inferior vena cava",
+  "syn": "Double inferior vena cava",
+  "role": "global"
+ },
+ {
+  "name": "Ectopic parathyroid gland",
+  "syn": "Aberrant parathyroid gland; Ectopic parathyroid adenoma",
+  "role": "global"
+ },
+ {
+  "name": "Extrarenal pelvis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Facet joint tropism",
+  "syn": "Facet tropism",
+  "role": "global"
+ },
+ {
+  "name": "Fatty falx cerebri",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Frontal sinus aplasia",
+  "syn": "Frontal sinus agenesis",
+  "role": "global"
+ },
+ {
+  "name": "Frontal Sinus Hyperplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Frontal sinus hypoplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Giant ethmoid bulla",
+  "syn": "Ethmoid bulla",
+  "role": "global"
+ },
+ {
+  "name": "Haller cell",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Hepatic artery variation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "High riding jugular bulb",
+  "syn": "High jugular bulb",
+  "role": "global"
+ },
+ {
+  "name": "Infected concha bullosa",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial arterial fenestration",
+  "syn": "segmental duplication of intracranial arteries",
+  "role": "global"
+ },
+ {
+  "name": "Intrapancreatic accessory spleen",
+  "syn": "Intrapancreatic splenunculus",
+  "role": "global"
+ },
+ {
+  "name": "Jugular bulb diverticulum",
+  "syn": "Jugular bulb outpouching",
+  "role": "global"
+ },
+ {
+  "name": "Left coronary dominance",
+  "syn": "Left Dominant Coronary Circulation",
+  "role": "global"
+ },
+ {
+  "name": "Limbus vertebra",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mandibular protrusion",
+  "syn": "Prognathism",
+  "role": "global"
+ },
+ {
+  "name": "Mandibular retrusion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Mandibular torus",
+  "syn": "Mandibular tori",
+  "role": "global"
+ },
+ {
+  "name": "Maxillary protrusion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Maxillary sinus hypoplasia",
+  "syn": "Congenital maxillary sinus hypoplasia",
+  "role": "global"
+ },
+ {
+  "name": "Maxillary torus",
+  "syn": "Maxillary tori; Torus palatinus",
+  "role": "global"
+ },
+ {
+  "name": "Mega cisterna magna",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Metopic ridge",
+  "syn": "Metopic suture ridge",
+  "role": "global"
+ },
+ {
+  "name": "Nasal septal spur",
+  "syn": "Nasal spur",
+  "role": "global"
+ },
+ {
+  "name": "Occipital vertebra",
+  "syn": "Occipital vertebrae",
+  "role": "global"
+ },
+ {
+  "name": "Onodi cell",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Oppenheimer ossicle",
+  "syn": "accessory ossicle of the lumbar facet joint",
+  "role": "global"
+ },
+ {
+  "name": "Os fabella",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Os trigonum",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Paradoxical middle turbinate",
+  "syn": "Inverted middle turbinate; Paradoxical turbinate",
+  "role": "global"
+ },
+ {
+  "name": "Pericardial fat pad",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Persistent descending mesocolon",
+  "syn": "Non-fusion of the descending mesocolon",
+  "role": "global"
+ },
+ {
+  "name": "Persistent hypoglossal artery",
+  "syn": "PHA",
+  "role": "global"
+ },
+ {
+  "name": "Persistent primitive trigeminal artery",
+  "syn": "PPTA",
+  "role": "global"
+ },
+ {
+  "name": "Persistent sciatic artery",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Persistent stapedial artery",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pineal calcification",
+  "syn": "Pineal gland calcification",
+  "role": "global"
+ },
+ {
+  "name": "Portal vein variation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Posterior cerebral artery hypoplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Prominent processus vaginalis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Pterygoalar and pterygospinous ligament ossification",
+  "syn": "Ligament of Civinini ossification; Ligamentum crotaphitico-buccinatorium ossification; Ossified pterygospinous ligament; Pterygoalar bar",
+  "role": "global"
+ },
+ {
+  "name": "Renal hilar lip",
+  "syn": "renal hilar cortical bulge",
+  "role": "global"
+ },
+ {
+  "name": "Renal lobulation",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Retroaortic left renal vein",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Retrocecal appendix",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Retroverted uterus",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Riedel lobe",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Sphenoid sinus hypoplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Spina bifida occulta",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Splenunculus",
+  "syn": "accessory spleen; splenule; supernumerary spleen",
+  "role": "global"
+ },
+ {
+  "name": "Split atlas",
+  "syn": "Bipartite atlas",
+  "role": "global"
+ },
+ {
+  "name": "Stafne bone cavity",
+  "syn": "Stafne bone cyst; Stafne defect; lingual salivary gland inclusion defect; static bone cavity of the mandible",
+  "role": "global"
+ },
+ {
+  "name": "Thymic remnant",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Tracheobronchial branching anomalies",
+  "syn": "Abnormal bronchial branching; Tracheobronchial anomalies",
+  "role": "global"
+ },
+ {
+  "name": "Transitional vertebra",
+  "syn": "LSV; Lumbosacral transitional vertebra",
+  "role": "global"
+ },
+ {
+  "name": "Urachal remnant",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral artery hypoplasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Annuloaortic ectasia",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Aortic aneurysm",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Aortic coarctation",
+  "syn": "Coarctation of the aorta",
+  "role": "global"
+ },
+ {
+  "name": "Aortic intramural haematoma",
+  "syn": "IMH; aortic intramural hemorrhage; intramural haematoma of the aorta; intramural hemorrhage; thrombosed-type aortic dissection",
+  "role": "global"
+ },
+ {
+  "name": "Aortic mural thrombus",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Aortic root dilatation",
+  "syn": "Aortic root aneurysm; Aortic root ectasia",
+  "role": "global"
+ },
+ {
+  "name": "Aortoiliac occlusive disease",
+  "syn": "Leriche syndrome",
+  "role": "global"
+ },
+ {
+  "name": "Ascending aorta calcification",
+  "syn": "Calcification of the ascending aorta",
+  "role": "global"
+ },
+ {
+  "name": "Ascending aorta dilatation",
+  "syn": "Ascending aortic ectasia",
+  "role": "global"
+ },
+ {
+  "name": "Ascending aortic aneurysm",
+  "syn": "Ascending thoracic aortic aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Basilar artery aneurysm",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Carotid artery stenosis",
+  "syn": "extracranial carotid artery stenosis; internal carotid artery stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Celiac artery stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Chronic mesenteric ischaemia",
+  "syn": "abdominal angina; intestinal angina",
+  "role": "global"
+ },
+ {
+  "name": "Chronic thromboembolic pulmonary hypertension",
+  "syn": "CTEPH; chronic pulmonary artery thromboembolic obstruction; chronic thromboembolic pulmonary disease with pulmonary hypertension; post-embolic pulmonary hypertension",
+  "role": "global"
+ },
+ {
+  "name": "Cor pulmonale",
+  "syn": "Right heart failure due to pulmonary hypertension",
+  "role": "global"
+ },
+ {
+  "name": "Coronary artery aneurysm",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Coronary artery stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Iliac artery stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Iliofemoral deep vein thrombosis",
+  "syn": "Iliofemoral DVT; Proximal deep vein thrombosis",
+  "role": "global"
+ },
+ {
+  "name": "In situ pulmonary artery thrombosis",
+  "syn": "ISPAT",
+  "role": "global"
+ },
+ {
+  "name": "Inflammatory abdominal aortic aneurysm",
+  "syn": "IAAA",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial arterial calcification",
+  "syn": "Cerebral artery calcification; Intracranial vascular calcification",
+  "role": "global"
+ },
+ {
+  "name": "Intracranial atherosclerotic disease",
+  "syn": "ICAS; intracranial atherosclerosis; intracranial atherosclerotic stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Large vessel occlusion",
+  "syn": "PLVO; Proximal large vessel occlusion",
+  "role": "global"
+ },
+ {
+  "name": "Median arcuate ligament syndrome",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Medium vessel occlusion",
+  "syn": "DMVO; DVO; MeVO; distal medium vessel occlusion; distal vessel occlusion",
+  "role": "global"
+ },
+ {
+  "name": "Middle cerebral artery occlusion",
+  "syn": "Gács sign; Hyperdense MCA sign; MCA dot sign; MCA occlusion; MCA thromboembolism; Middle Cerebral Artery (MCA) Thromboembolism; Sylvian fissure sign",
+  "role": "global"
+ },
+ {
+  "name": "Penetrating atherosclerotic ulcer",
+  "syn": "PAU; penetrating aortic ulcer",
+  "role": "global"
+ },
+ {
+  "name": "Peripheral arterial disease",
+  "syn": "Occlusive arterial disease of the extremities; PAD; Peripheral artery disease",
+  "role": "global"
+ },
+ {
+  "name": "Porcelain aorta",
+  "syn": "Circumferential calcification of the ascending aorta",
+  "role": "global"
+ },
+ {
+  "name": "Protruding aortic plaque",
+  "syn": "protruding atheroma",
+  "role": "global"
+ },
+ {
+  "name": "Pseudoaneurysm",
+  "syn": "False aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary arterial atherosclerosis",
+  "syn": "Pulmonary artery atherosclerosis",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary artery ectasia",
+  "syn": "Pulmonary arterial ectasia; Diffuse pulmonary artery dilatation",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary artery stenosis",
+  "syn": "Pulmonary artery narrowing",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary hypertension associated with chronic obstructive pulmonary disease",
+  "syn": "PH-COPD",
+  "role": "global"
+ },
+ {
+  "name": "Pulmonary trunk dilatation",
+  "syn": "dilatation of the main pulmonary artery; enlarged pulmonary trunk",
+  "role": "global"
+ },
+ {
+  "name": "Renal artery aneurysm",
+  "syn": "RAA",
+  "role": "global"
+ },
+ {
+  "name": "Renal artery calcification",
+  "syn": "renovascular calcifications",
+  "role": "global"
+ },
+ {
+  "name": "Renal artery stenosis",
+  "syn": "RAS",
+  "role": "global"
+ },
+ {
+  "name": "Ruptured saccular aneurysm",
+  "syn": "Ruptured berry aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Saccular cerebral aneurysm",
+  "syn": "berry aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Splenic artery aneurysm",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Splenic vein thrombosis",
+  "syn": "Splenic vein occlusion",
+  "role": "global"
+ },
+ {
+  "name": "Subclavian artery stenosis",
+  "syn": "Subclavian artery narrowing",
+  "role": "global"
+ },
+ {
+  "name": "Subclavian steal syndrome",
+  "syn": "Subclavian steal phenomenon",
+  "role": "global"
+ },
+ {
+  "name": "Submassive pulmonary embolism",
+  "syn": "Intermediate-risk pulmonary embolism",
+  "role": "global"
+ },
+ {
+  "name": "Superior mesenteric artery stenosis",
+  "syn": "SMA stenosis",
+  "role": "global"
+ },
+ {
+  "name": "Thin-cap fibroatheroma",
+  "syn": "High-risk coronary artery atherosclerotic plaque",
+  "role": "global"
+ },
+ {
+  "name": "Thoracic aortic aneurysm",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Thoracic aortic dilatation",
+  "syn": "Aortic ectasia",
+  "role": "global"
+ },
+ {
+  "name": "Thoracic aortic stenosis",
+  "syn": "Aortic narrowing",
+  "role": "global"
+ },
+ {
+  "name": "Transitional aneurysm",
+  "syn": "juxtadural aneurysm; paraclinoid aneurysm; transitional paraclinoid aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "True aneurysm",
+  "syn": "True vascular aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Venous thromboembolism",
+  "syn": "VTE",
+  "role": "global"
+ },
+ {
+  "name": "Venous thrombosis",
+  "syn": "Bland thrombus; Non-malignant venous thrombus; Portal vein thrombosis",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral artery occlusion",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Vertebral artery stenosis",
+  "syn": "",
+  "role": "global"
+ },
+ {
+  "name": "Visceral artery aneurysm",
+  "syn": "Splanchnic artery aneurysm",
+  "role": "global"
+ },
+ {
+  "name": "Vulnerable plaque",
+  "syn": "HRP; High-risk plaque",
+  "role": "global"
+ },
+ {
+  "name": "Abdominal wall hernia",
+  "syn": "GENERAL: Ventral, umbilical, paraumbilical, incisional, port-site or other anterior abdominal wall hernia. Also called: Ventral hernia; Anterior abdominal wall hernia",
+  "role": "general"
+ },
+ {
+  "name": "Groin hernia (inguinal/femoral)",
+  "syn": "GENERAL: Groin hernia: inguinal (direct/indirect) or femoral. Also called: inguinal herniation; Inguinal hernia; Groin herniation",
+  "role": "general"
+ },
+ {
+  "name": "Hernia",
+  "syn": "GENERAL: Any hernia (abdominal wall, inguinal, femoral, hiatal, diaphragmatic, internal). Also called: Abdominal hernia; Abdominal herniation; Internal hernia; Herniation",
+  "role": "general"
+ },
+ {
+  "name": "Inguinal hernia",
+  "syn": "GENERAL: Inguinal (direct, indirect or combined) hernia; child of Groin hernia.",
+  "role": "general"
+ },
+ {
+  "name": "Adrenal nodule",
+  "syn": "GENERAL: Focal adrenal nodule or mass (adenoma, myelolipoma, metastasis, other tumour, cyst). Also called: Adrenal Mass; Adrenal masses",
+  "role": "general"
+ },
+ {
+  "name": "Mucoid impaction",
+  "syn": "GENERAL: Mucus-filled airways (mucoid impaction, inspissated secretions, high-attenuation mucus). Also called: bronchocele; mucus plugging",
+  "role": "general"
+ },
+ {
+  "name": "Tracheobronchial abnormality",
+  "syn": "GENERAL: Large-airway disease: stenosis, malacia, wall thickening, diverticulum, dynamic collapse. Also called: Large airways disease",
+  "role": "general"
+ },
+ {
+  "name": "Biliary ductal dilation",
+  "syn": "GENERAL: Dilatation of intra- and/or extrahepatic bile ducts (drop \"including biliary obstruction\"). Also called: Biliary duct dilatation; Biliary tract dilatation; Hepatobiliary duct dilatation",
+  "role": "general"
+ },
+ {
+  "name": "Bone lesion",
+  "syn": "GENERAL: Focal bone lesion (lytic, sclerotic, mixed; bone island, haemangioma, metastasis, myeloma).",
+  "role": "general"
+ },
+ {
+  "name": "Degenerative arthropathy",
+  "syn": "GENERAL: Degenerative joint disease anywhere: osteophytes, osteoarthritis, degenerative spine disease, spurs. Also called: Bone degeneration; Degenerative bone disease; Degenerative bone changes",
+  "role": "general"
+ },
+ {
+  "name": "Fracture",
+  "syn": "GENERAL: Any fracture of any bone (acute, healing, pathological, insufficiency, compression, avulsion).",
+  "role": "general"
+ },
+ {
+  "name": "Osteoarthritis",
+  "syn": "GENERAL: Degenerative arthritis of a joint (hip, knee, shoulder/AC, sternoclavicular, TMJ). Also called: Degenerative joint disease",
+  "role": "general"
+ },
+ {
+  "name": "Osteopenia",
+  "syn": "GENERAL: Reduced bone mineral density (osteopenia, osteoporosis).",
+  "role": "general"
+ },
+ {
+  "name": "Rib fracture",
+  "syn": "GENERAL: Fracture of one or more ribs. Also called: Rib fractures; Costal fractures",
+  "role": "general"
+ },
+ {
+  "name": "Brain atrophy",
+  "syn": "GENERAL: Cerebral or cerebellar volume loss.",
+  "role": "general"
+ },
+ {
+  "name": "Cerebral oedema",
+  "syn": "GENERAL: Brain oedema of any type (vasogenic, cytotoxic, interstitial/transependymal). Also called: Brain edema; Cytotoxic edema",
+  "role": "general"
+ },
+ {
+  "name": "Cerebral small vessel disease",
+  "syn": "GENERAL: Chronic small-vessel ischaemic white-matter disease (leukoaraiosis, microangiopathy). Also called: Chronic cerebral ischaemia; Chronic ischemic changes; Chronic microvascular ischaemic change; Leukoaraiosis; Microangiopathic leukoencephalopathy; Small vessel disease",
+  "role": "general"
+ },
+ {
+  "name": "Hydrocephalus",
+  "syn": "GENERAL: Ventricular enlargement from impaired CSF dynamics (communicating, obstructive, NPH).",
+  "role": "general"
+ },
+ {
+  "name": "Intracranial aneurysm",
+  "syn": "GENERAL: Aneurysm of an intracranial artery (saccular, fusiform, ruptured). Also called: Berry aneurysm; Cerebral aneurysm",
+  "role": "general"
+ },
+ {
+  "name": "Intracranial calcification",
+  "syn": "GENERAL: Calcification within the cranial cavity (basal ganglia, dural/falx, cortical, hippocampal, Fahr).",
+  "role": "general"
+ },
+ {
+  "name": "Intracranial haemorrhage",
+  "syn": "GENERAL: Any intracranial bleed: intraparenchymal, subarachnoid, subdural, epidural, intraventricular, haemorrhagic contusion or transformation. Also called: Intracranial bleed; Intracranial hemorrhage",
+  "role": "general"
+ },
+ {
+  "name": "Intracranial mass",
+  "syn": "GENERAL: Intracranial space-occupying mass lesion of any cause, excluding intracranial lipomas. Also called: Brain mass lesion",
+  "role": "general"
+ },
+ {
+  "name": "Intracranial mass effect",
+  "syn": "GENERAL: Mass effect on brain structures, including midline shift and brain herniation. Also called: Mass effect",
+  "role": "general"
+ },
+ {
+  "name": "Ischaemic stroke",
+  "syn": "GENERAL: Cerebral infarction of any territory or age (acute, subacute, chronic, lacunar, watershed). Also called: Acute ischaemic stroke; Cerebral infarction; Ischaemic infarct; Ischemic stroke",
+  "role": "general"
+ },
+ {
+  "name": "Stroke",
+  "syn": "GENERAL: Stroke of any type (ischaemic or haemorrhagic). Also called: CVA; Cerebrovascular accident",
+  "role": "general"
+ },
+ {
+  "name": "Ventriculomegaly",
+  "syn": "GENERAL: Enlarged cerebral ventricles of any cause (including hydrocephalus). Also called: Ventricular enlargement",
+  "role": "general"
+ },
+ {
+  "name": "Device complication",
+  "syn": "GENERAL: Complication of an implanted device: loosening, malposition, migration, catheter fibrin sheath.",
+  "role": "general"
+ },
+ {
+  "name": "Medical material",
+  "syn": "GENERAL: Any iatrogenic material or device: stents, catheters, lines, ports, pacemaker/ICD leads, prostheses, sternotomy wires, surgical clips, grafts, spinal fixation, embolisation coils, drains, tubes.",
+  "role": "general"
+ },
+ {
+  "name": "Appendicitis",
+  "syn": "GENERAL: Inflammation of the appendix (including perforated/complicated appendicitis, appendiceal abscess). Also called: Acute appendicitis",
+  "role": "general"
+ },
+ {
+  "name": "Bowel dilatation",
+  "syn": "GENERAL: Dilated small or large bowel loops (including obstruction, ileus, megacolon, megarectum). Also called: Bowel distension; Dilated bowel loops",
+  "role": "general"
+ },
+ {
+  "name": "Bowel obstruction",
+  "syn": "GENERAL: Mechanical obstruction of small or large bowel (including strangulating, closed-loop, adhesive). Also called: Intestinal obstruction",
+  "role": "general"
+ },
+ {
+  "name": "Diverticular disease",
+  "syn": "GENERAL: Diverticulosis or diverticulitis of the colon. Also called: Colonic diverticular disease",
+  "role": "general"
+ },
+ {
+  "name": "Faecal impaction",
+  "syn": "GENERAL: Impacted faeces in the colon/rectum (faecaloma). Also called: Faecaloma; Faecal loading",
+  "role": "general"
+ },
+ {
+  "name": "Gastrointestinal wall thickening",
+  "syn": "GENERAL: Thickening of the oesophageal, gastric, small bowel or colonic wall of any cause (including colitis, enteritis, proctitis).",
+  "role": "general"
+ },
+ {
+  "name": "Hiatal hernia",
+  "syn": "GENERAL: Herniation of stomach through the oesophageal hiatus (sliding or paraoesophageal). Also called: Hiatus hernia",
+  "role": "general"
+ },
+ {
+  "name": "Submucosal edema",
+  "syn": "GENERAL: Oedema of the bowel wall (submucosal oedema / target sign).",
+  "role": "general"
+ },
+ {
+  "name": "Cholecystitis",
+  "syn": "GENERAL: Inflammation of the gallbladder (acute, gangrenous, emphysematous, perforated, empyema). Also called: Gallbladder inflammation",
+  "role": "general"
+ },
+ {
+  "name": "Cholelithiasis",
+  "syn": "GENERAL: Calculi in the gallbladder (cholelithiasis), including gallstone-related complications. Also called: Gallstone; Gallstones",
+  "role": "general"
+ },
+ {
+  "name": "Surgically absent gallbladder",
+  "syn": "GENERAL: Gallbladder absent after cholecystectomy. Also called: Cholecystectomized; Status post cholecystectomy",
+  "role": "general"
+ },
+ {
+  "name": "Abscess",
+  "syn": "GENERAL: Walled-off infected collection of any organ (pelvic, hepatic, pulmonary, peritonsillar, appendiceal, soft tissue). Also called: suppurative inflammatory collection",
+  "role": "general"
+ },
+ {
+  "name": "Atrophy",
+  "syn": "GENERAL: Volume loss of an organ or tissue (renal, hepatic, pancreatic, cerebral, muscle). Also called: Organ atrophy; Tissue atrophy",
+  "role": "general"
+ },
+ {
+  "name": "Cyst",
+  "syn": "GENERAL: Cystic lesion of any organ (renal, hepatic, ovarian, splenic, pancreatic, cerebral, bone, skin). Also called: epithelial cyst",
+  "role": "general"
+ },
+ {
+  "name": "Diverticulum",
+  "syn": "GENERAL: Outpouching of a hollow organ (bladder, duodenum, colon, small bowel, oesophagus, trachea, bronchus, calyx, stomach). Also called: Diverticula",
+  "role": "general"
+ },
+ {
+  "name": "Fluid collection",
+  "syn": "GENERAL: Localised fluid collection of any kind (abscess, seroma, biloma, peripancreatic collection, pseudocyst, lymphocele). Also called: collection; loculated fluid",
+  "role": "general"
+ },
+ {
+  "name": "Foreign body",
+  "syn": "GENERAL: Foreign material not placed for treatment (metal, glass, ocular, ingested, aspirated, gunshot fragments).",
+  "role": "general"
+ },
+ {
+  "name": "Haemorrhage",
+  "syn": "GENERAL: Bleeding anywhere, including haematoma (intracranial, intrathoracic, abdominal, retroperitoneal, soft tissue, GI). Also called: Bleeding; Hemorrhage",
+  "role": "general"
+ },
+ {
+  "name": "Orbital abnormality",
+  "syn": "GENERAL: Abnormality of the orbit or globe: proptosis, orbital fracture, extraocular muscle enlargement, globe calcification, orbital foreign body.",
+  "role": "general"
+ },
+ {
+  "name": "Aortic valve calcification",
+  "syn": "GENERAL: Calcification of the aortic valve. Also called: Calcific aortic valve disease",
+  "role": "general"
+ },
+ {
+  "name": "Cardiac chamber enlargement",
+  "syn": "GENERAL: Enlargement of one or more cardiac chambers (atrial or ventricular dilatation).",
+  "role": "general"
+ },
+ {
+  "name": "Cardiomegaly",
+  "syn": "GENERAL: Enlarged heart (increased cardiothoracic ratio / cardiac chambers).",
+  "role": "general"
+ },
+ {
+  "name": "Congenital cardiovascular anomaly",
+  "syn": "GENERAL: Congenital heart, great-vessel or coronary anomaly.",
+  "role": "general"
+ },
+ {
+  "name": "Congenital heart disease",
+  "syn": "GENERAL: Congenital cardiac/great-vessel defect (ASD, VSD, PDA, bicuspid aortic valve, coarctation, anomalous venous return, double outlet RV).",
+  "role": "general"
+ },
+ {
+  "name": "Coronary artery anomaly",
+  "syn": "GENERAL: Congenital coronary artery variant/anomaly (origin, course, hypoplasia, duplication, fistula, myocardial bridging). Also called: Congenital coronary artery anomalies",
+  "role": "general"
+ },
+ {
+  "name": "Pericardial effusion",
+  "syn": "GENERAL: Fluid in the pericardial sac (including haemopericardium).",
+  "role": "general"
+ },
+ {
+  "name": "Valvular calcification",
+  "syn": "GENERAL: Calcification of cardiac valves or mitral annulus.",
+  "role": "general"
+ },
+ {
+  "name": "Tuberculosis",
+  "syn": "GENERAL: Tuberculosis of any site (pulmonary primary/post-primary, endobronchial, pleural, extrapulmonary, ileocaecal). Also called: Consumption; Phthisis; TB",
+  "role": "general"
+ },
+ {
+  "name": "Congenital renal anomaly",
+  "syn": "GENERAL: Congenital renal variant: horseshoe, ectopic, crossed-fused, malrotation, duplex system, hypoplasia.",
+  "role": "general"
+ },
+ {
+  "name": "Hydronephrosis",
+  "syn": "GENERAL: Dilatation of the renal collecting system (any grade), including hydroureteronephrosis. Also called: Chronic hydronephrosis; Dilatation of the urinary collecting system",
+  "role": "general"
+ },
+ {
+  "name": "Nephrocalcinosis",
+  "syn": "GENERAL: Calcification of the renal parenchyma (medullary, cortical). Also called: Albright calcinosis; Anderson-Carr kidney",
+  "role": "general"
+ },
+ {
+  "name": "Pyelonephritis",
+  "syn": "GENERAL: Infection of the kidney (acute, chronic, emphysematous). Also called: Renal pelvis and parenchymal infection",
+  "role": "general"
+ },
+ {
+  "name": "Renal calculus",
+  "syn": "GENERAL: Calculus within the kidney (pyelolithiasis, nephrolithiasis, staghorn). Also called: kidney stone; renal stone; nephrolithiasis; stone in the kidney",
+  "role": "general"
+ },
+ {
+  "name": "Renal cyst",
+  "syn": "GENERAL: Cyst of the kidney (simple, cortical, parapelvic/sinus, hyperdense, complex, polycystic, acquired cystic disease). Also called: Cystic renal lesion; Renal epithelial cyst; Simple renal cyst",
+  "role": "general"
+ },
+ {
+  "name": "Renal hypodensities",
+  "syn": "GENERAL: Hypodense renal lesions (cysts or indeterminate hypoattenuating lesions).",
+  "role": "general"
+ },
+ {
+  "name": "Renal mass",
+  "syn": "GENERAL: Solid or complex renal mass / neoplasm (RCC, angiomyolipoma, oncocytoma, urothelial of the upper tract). Also called: Kidney mass; Renal neoplasm",
+  "role": "general"
+ },
+ {
+  "name": "Renal parenchymal disease",
+  "syn": "GENERAL: Diffuse renal parenchymal change: chronic kidney disease, enlargement or hypertrophy, atrophy, oedema, cortical scarring.",
+  "role": "general"
+ },
+ {
+  "name": "Chronic liver disease",
+  "syn": "GENERAL: Chronic liver parenchymal disease, including cirrhosis.",
+  "role": "general"
+ },
+ {
+  "name": "Cirrhosis",
+  "syn": "GENERAL: Cirrhotic liver (including cirrhosis-associated/regenerative/dysplastic nodules).",
+  "role": "general"
+ },
+ {
+  "name": "Focal liver lesion",
+  "syn": "GENERAL: Any focal liver lesion: cyst, haemangioma, FNH, adenoma, abscess, metastasis, HCC, other tumour or indeterminate hypodense lesion.",
+  "role": "general"
+ },
+ {
+  "name": "Hepatic steatosis",
+  "syn": "GENERAL: Diffuse fatty infiltration of the liver (decreased liver attenuation), any cause. Also called: Hepatosteatosis; fatty liver",
+  "role": "general"
+ },
+ {
+  "name": "Hepatomegaly",
+  "syn": "GENERAL: Enlarged liver. Also called: Enlarged liver",
+  "role": "general"
+ },
+ {
+  "name": "Portal hypertension",
+  "syn": "GENERAL: Portal hypertension or its signs: portosystemic collaterals, gastric/oesophageal varices, spontaneous splenorenal shunt. Also called: Portal hypertensive vasculopathy",
+  "role": "general"
+ },
+ {
+  "name": "Atelectasis",
+  "syn": "GENERAL: Loss of lung volume from incomplete aeration (linear/plate-like, subsegmental, segmental, lobar collapse, compressive, passive, round). Also called: Lung atelectasis; adhesive atelectasis; cicatrisation atelectasis; compressive atelectasis; discoid atelectasis; linear atelectasis; lung collapse; passive atelectasis",
+  "role": "general"
+ },
+ {
+  "name": "Bronchiectasis",
+  "syn": "GENERAL: Irreversible bronchial dilatation (cylindrical, varicose, cystic, traction); excludes bronchiolectasis. Also called: bronchiectases",
+  "role": "general"
+ },
+ {
+  "name": "Consolidation",
+  "syn": "GENERAL: Airspace filling that obscures vessels (lobar, segmental or patchy consolidation, pneumonic consolidation). Also called: Airspace opacification; Alveolar consolidation; Lung consolidation; Pulmonary consolidation",
+  "role": "general"
+ },
+ {
+  "name": "Cystic lung lesion",
+  "syn": "GENERAL: Thin-walled air-containing lung spaces: bulla, bleb, pulmonary cyst, pneumatocele, cystic lung disease. Also called: Diffuse cystic lung disease; Cystic lung disease",
+  "role": "general"
+ },
+ {
+  "name": "Emphysema",
+  "syn": "GENERAL: Permanent destruction of alveolar walls with airspace enlargement (centrilobular, paraseptal, panlobular, paracicatricial). Also called: Pulmonary emphysema",
+  "role": "general"
+ },
+ {
+  "name": "Ground-glass opacity",
+  "syn": "GENERAL: Hazy increased lung attenuation with preserved vessels and bronchi (not a discrete nodule).",
+  "role": "general"
+ },
+ {
+  "name": "Interlobular septal thickening",
+  "syn": "GENERAL: Thickening of the interlobular septa (smooth or nodular), including lymphangitic spread. Also called: Septal thickening",
+  "role": "general"
+ },
+ {
+  "name": "Interstitial lung disease",
+  "syn": "GENERAL: Established interstitial lung disease; excludes incidental interstitial lung abnormality (ILA). Also called: ILD; diffuse lung disease",
+  "role": "general"
+ },
+ {
+  "name": "Lung mass",
+  "syn": "GENERAL: Morphological: pulmonary lesion > 3 cm. Remove lung cancer/bronchogenic terms from its regex. Also called: Pulmonary mass",
+  "role": "general"
+ },
+ {
+  "name": "Lung opacity",
+  "syn": "GENERAL: Any abnormal increase in lung parenchymal attenuation: consolidation, ground-glass opacity, pneumonic infiltrate, oedema, haemorrhage or contusion.",
+  "role": "general"
+ },
+ {
+  "name": "Mosaic attenuation pattern",
+  "syn": "GENERAL: Patchwork of regions of differing lung attenuation (small-airways or vascular), including air trapping described as mosaic. Also called: Mosaic attenuation",
+  "role": "general"
+ },
+ {
+  "name": "Peribronchial thickening",
+  "syn": "GENERAL: Thickening of bronchial walls / peribronchovascular interstitium. Also called: Bronchial wall thickening",
+  "role": "general"
+ },
+ {
+  "name": "Pneumonia",
+  "syn": "GENERAL: Infectious airspace disease of the lung (any organism or pattern).",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary cavity",
+  "syn": "GENERAL: Gas-filled space within a lung lesion or consolidation. Also called: Cavitary lesion",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary fibrotic sequela",
+  "syn": "GENERAL: Fibrotic scarring of the lung: parenchymal bands, reticulation, focal/diffuse fibrosis, honeycombing, traction bronchiectasis, radiation fibrosis. Also called: Parenchymal sequelae; Pulmonary sequelae; Sequelae; Pleuroparenchymal sequelae",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary infection",
+  "syn": "GENERAL: Infection of the lung parenchyma or airways (pneumonia, tuberculosis, fungal, mycobacterial, infectious bronchiolitis). Also called: Lung infection",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary nodule",
+  "syn": "GENERAL: Discrete rounded lung opacity up to 3 cm (solid, part-solid, ground-glass, calcified, micronodules, metastatic nodules). Also called: Lung nodule; Pulmonary nodules",
+  "role": "general"
+ },
+ {
+  "name": "Radiation-induced lung disease",
+  "syn": "GENERAL: Radiation pneumonitis or post-radiation fibrosis. Also called: RILD; radiation fibrosis; radiation pneumonitis",
+  "role": "general"
+ },
+ {
+  "name": "Sarcoidosis",
+  "syn": "GENERAL: Sarcoidosis (thoracic or systemic). Also called: Systemic sarcoidosis",
+  "role": "general"
+ },
+ {
+  "name": "Small airways disease",
+  "syn": "GENERAL: Bronchiolar disease (bronchiolitis of any type, constrictive bronchiolitis); air trapping is a separate sign. Also called: bronchiolitis",
+  "role": "general"
+ },
+ {
+  "name": "Lymphadenopathy",
+  "syn": "GENERAL: Pathologically enlarged or abnormal lymph nodes at any station (mediastinal, hilar, axillary, cervical, abdominal, pelvic), including nodal metastases. Also called: Lymph node enlargement; Lymphadenomegaly",
+  "role": "general"
+ },
+ {
+  "name": "Mediastinal/hilar lymphadenopathy",
+  "syn": "GENERAL: Enlarged mediastinal or hilar lymph nodes.",
+  "role": "general"
+ },
+ {
+  "name": "Mediastinal mass",
+  "syn": "GENERAL: Mass or abnormal soft tissue in the mediastinum (anterior, visceral, thymic). Also called: Mediastinal lesion; Mediastinal tumor",
+  "role": "general"
+ },
+ {
+  "name": "Goitre",
+  "syn": "GENERAL: Enlarged thyroid gland (diffuse, multinodular, substernal). Also called: Thyroid enlargement; Thyromegaly",
+  "role": "general"
+ },
+ {
+  "name": "Salivary gland disease",
+  "syn": "GENERAL: Salivary gland abnormality: sialadenitis, sialolithiasis, gland enlargement, parotid/submandibular lesions.",
+  "role": "general"
+ },
+ {
+  "name": "Thyroid disease",
+  "syn": "GENERAL: Any thyroid abnormality: nodule, goitre, thyroiditis, heterogeneity, calcification, carcinoma.",
+  "role": "general"
+ },
+ {
+  "name": "Thyroid nodule",
+  "syn": "GENERAL: Nodule or nodular goitre of the thyroid. Also called: incidental thyroid nodule; solitary thyroid nodule; thyroid incidentaloma; thyroid nodular disease",
+  "role": "general"
+ },
+ {
+  "name": "Metastatic disease",
+  "syn": "GENERAL: Metastatic malignancy anywhere (lung, liver, bone, brain, adrenal, peritoneal, pleural, nodal, skin, lymphangitic).",
+  "role": "general"
+ },
+ {
+  "name": "Primary malignancy",
+  "syn": "GENERAL: Named primary malignant neoplasm of any organ (carcinoma, sarcoma, lymphoma, mesothelioma, GIST, HCC, RCC...).",
+  "role": "general"
+ },
+ {
+  "name": "Adrenal abnormality",
+  "syn": "GENERAL: Any adrenal imaging abnormality: nodule/mass, hyperplasia, enlargement, calcification.",
+  "role": "general"
+ },
+ {
+  "name": "Airway dilatation",
+  "syn": "GENERAL: Abnormal dilatation of bronchi or bronchioles (bronchiectasis, bronchiolectasis).",
+  "role": "general"
+ },
+ {
+  "name": "Biliary tract abnormality",
+  "syn": "GENERAL: Any abnormality of the bile ducts/biliary tree: dilatation, obstruction, cholangitis, pneumobilia, bile-duct neoplasm, biloma.",
+  "role": "general"
+ },
+ {
+  "name": "Breast abnormality",
+  "syn": "GENERAL: Any breast abnormality: mass, calcification, skin thickening, cancer, gynaecomastia.",
+  "role": "general"
+ },
+ {
+  "name": "Craniovertebral junction anomaly",
+  "syn": "GENERAL: Congenital or acquired abnormality of the occiput-C1-C2 junction.",
+  "role": "general"
+ },
+ {
+  "name": "Dental / periodontal abnormality",
+  "syn": "GENERAL: Abnormality of the teeth or periodontium.",
+  "role": "general"
+ },
+ {
+  "name": "Gallbladder abnormality",
+  "syn": "GENERAL: Any gallbladder abnormality (stones, inflammation, perforation, wall thickening, polyp, adenomyomatosis, distension, sludge, porcelain GB).",
+  "role": "general"
+ },
+ {
+  "name": "Hepatobiliary parasitic infection",
+  "syn": "GENERAL: Parasitic infection of the liver or bile ducts (hydatid, schistosomiasis, clonorchiasis, fascioliasis).",
+  "role": "general"
+ },
+ {
+  "name": "Infarction",
+  "syn": "GENERAL: Ischaemic tissue infarction of any organ (kidney, spleen, lung, myocardium, omentum).",
+  "role": "general"
+ },
+ {
+  "name": "Joint disease",
+  "syn": "GENERAL: Any abnormality of a (non-spinal) synovial joint: arthritis/arthropathy of any cause, effusion, dislocation/instability, joint-space narrowing, subchondral cyst.",
+  "role": "general"
+ },
+ {
+  "name": "Nasal cavity abnormality",
+  "syn": "GENERAL: Abnormality of the nasal cavity: septal perforation/spur, stenosis, synechia, turbinate hypertrophy.",
+  "role": "general"
+ },
+ {
+  "name": "Pancreatic abnormality",
+  "syn": "GENERAL: Any pancreatic abnormality: parenchymal disease, neoplasm, ductal dilatation or stone, congenital anomaly.",
+  "role": "general"
+ },
+ {
+  "name": "Parasitic infection",
+  "syn": "GENERAL: Helminthic/parasitic infection of any organ.",
+  "role": "general"
+ },
+ {
+  "name": "Peritoneal abnormality",
+  "syn": "GENERAL: Any peritoneal/omental abnormality: peritonitis, thickening/nodularity, omental cake, pseudomyxoma, adhesions, loose body, omental infarction.",
+  "role": "general"
+ },
+ {
+  "name": "Pharyngeal/tonsillar disease",
+  "syn": "GENERAL: Abnormality of the pharynx or Waldeyer's ring lymphoid tissue.",
+  "role": "general"
+ },
+ {
+  "name": "Pleural abnormality",
+  "syn": "GENERAL: Any pleural abnormality: effusion, thickening/plaque, adhesions, retraction, malignant pleural disease, pneumothorax.",
+  "role": "general"
+ },
+ {
+  "name": "Prostate disease",
+  "syn": "GENERAL: Any prostate abnormality: enlargement, calcification, inflammation or neoplasm.",
+  "role": "general"
+ },
+ {
+  "name": "Schistosomiasis",
+  "syn": "GENERAL: Schistosoma infection of any organ (liver, lung, urinary tract).",
+  "role": "general"
+ },
+ {
+  "name": "Situs / laterality anomaly",
+  "syn": "GENERAL: Abnormal left-right arrangement of thoraco-abdominal organs (situs inversus, heterotaxy/isomerism).",
+  "role": "general"
+ },
+ {
+  "name": "Spinal canal or foraminal stenosis",
+  "syn": "GENERAL: Narrowing of the spinal canal, lateral recess or neural foramen of any cause (degenerative, congenital, neoplastic, traumatic).",
+  "role": "general"
+ },
+ {
+  "name": "Temporal bone abnormality",
+  "syn": "GENERAL: Any abnormality of the temporal bone, middle ear, mastoid or external auditory canal (otomastoiditis, cholesteatoma, tympanosclerosis, mastoid sclerosis, TM abnormality).",
+  "role": "general"
+ },
+ {
+  "name": "Tympanic membrane abnormality",
+  "syn": "GENERAL: Abnormality of the tympanic membrane: perforation, retraction, thickening, myringosclerosis.",
+  "role": "general"
+ },
+ {
+  "name": "Urinary bladder abnormality",
+  "syn": "GENERAL: Any urinary bladder abnormality: inflammation, wall thickening/trabeculation, calculus, diverticulum, hernia, neoplasm.",
+  "role": "general"
+ },
+ {
+  "name": "Uterine abnormality",
+  "syn": "GENERAL: Any uterine abnormality: mass/neoplasm, enlargement, calcification, endometrial thickening or fluid.",
+  "role": "general"
+ },
+ {
+  "name": "Venous stenosis or occlusion",
+  "syn": "GENERAL: Narrowing, compression or occlusion of a vein or dural venous sinus.",
+  "role": "general"
+ },
+ {
+  "name": "Pancreatic atrophy",
+  "syn": "GENERAL: Reduced pancreatic volume / parenchymal atrophy. Also called: Fatty replacement of the pancreas",
+  "role": "general"
+ },
+ {
+  "name": "Pancreatic neoplasms",
+  "syn": "GENERAL: Pancreatic tumour of any kind (adenocarcinoma, IPMN, serous/mucinous cystic neoplasm, neuroendocrine, lipoma). Also called: Pancreatic tumors",
+  "role": "general"
+ },
+ {
+  "name": "Pancreatic parenchymal disease",
+  "syn": "GENERAL: Pancreatic parenchymal change, diffuse or focal: fatty infiltration, atrophy, calcification, pancreatitis.",
+  "role": "general"
+ },
+ {
+  "name": "Pancreatitis",
+  "syn": "GENERAL: Acute or chronic pancreatic inflammation (oedematous, necrotising, gallstone, mass-forming chronic). Also called: Inflammation of the pancreas",
+  "role": "general"
+ },
+ {
+  "name": "Adnexal lesion",
+  "syn": "GENERAL: Ovarian or adnexal cyst or mass.",
+  "role": "general"
+ },
+ {
+  "name": "Uterine mass or neoplasm",
+  "syn": "GENERAL: Uterine mass: leiomyoma, lipoleiomyoma, endometrial carcinoma. Also called: Uterine mass",
+  "role": "general"
+ },
+ {
+  "name": "Ascites",
+  "syn": "GENERAL: Free fluid in the peritoneal cavity (any amount). Also called: Free intraperitoneal fluid; free peritoneal fluid; hydroperitoneum",
+  "role": "general"
+ },
+ {
+  "name": "Mesenteric abnormality",
+  "syn": "GENERAL: Mesenteric fat stranding/oedema, panniculitis, sclerosing mesenteritis, mesenteric ischaemia or lymphadenitis.",
+  "role": "general"
+ },
+ {
+  "name": "Pneumoperitoneum",
+  "syn": "GENERAL: Free intraperitoneal gas (pneumoperitoneum), including postoperative. Also called: Free air",
+  "role": "general"
+ },
+ {
+  "name": "Pleural effusion",
+  "syn": "GENERAL: Fluid in the pleural space of any type or side (simple, bilateral, parapneumonic, haemothorax, empyema, malignant). Also called: Large unilateral pleural effusion",
+  "role": "general"
+ },
+ {
+  "name": "Pleural thickening",
+  "syn": "GENERAL: Pleural thickening, plaques or calcification (including asbestos-related pleural disease, fibrothorax, pleural metastases/mesothelioma). Also called: Focal pleural thickening; Pleural fibrosis",
+  "role": "general"
+ },
+ {
+  "name": "Pneumothorax",
+  "syn": "GENERAL: Air in the pleural space (including tension pneumothorax). Also called: PTX; pleural air; spontaneous pneumothorax; tension pneumothorax; traumatic pneumothorax",
+  "role": "general"
+ },
+ {
+  "name": "Post-surgical state",
+  "syn": "GENERAL: Status after surgery: organ resection (…ectomy), transplant, craniotomy/laminectomy/sternotomy, stoma, anastomosis, resection/ablation site.",
+  "role": "general"
+ },
+ {
+  "name": "Status post lung resection",
+  "syn": "GENERAL: Prior resection of lung tissue (wedge, segmentectomy, lobectomy, pneumonectomy).",
+  "role": "general"
+ },
+ {
+  "name": "Prostatomegaly",
+  "syn": "GENERAL: Enlarged prostate gland. Also called: Prostate enlargement; Prostate hypertrophy; Prostatic hypertrophy",
+  "role": "general"
+ },
+ {
+  "name": "Paranasal sinus disease",
+  "syn": "GENERAL: Paranasal sinus disease or opacification of any cause (inflammatory, fungal, inspissated secretions, haemosinus, antrolith/intrasinus calcification, retention cysts, polyps).",
+  "role": "general"
+ },
+ {
+  "name": "Sinonasal anatomical variant",
+  "syn": "GENERAL: Sinonasal developmental variant (septal deviation, concha bullosa, sinus hypoplasia, Haller/Onodi cell).",
+  "role": "general"
+ },
+ {
+  "name": "Anasarca",
+  "syn": "GENERAL: Generalised subcutaneous and body-wall oedema. Also called: generalized edema",
+  "role": "general"
+ },
+ {
+  "name": "Soft tissue oedema",
+  "syn": "GENERAL: Oedema/swelling of subcutaneous or soft tissues (local or generalised, including anasarca). Also called: Soft tissue edema; Subcutaneous Edema",
+  "role": "general"
+ },
+ {
+  "name": "Degenerative spine disease",
+  "syn": "GENERAL: Degenerative changes of the spine: spondylosis, osteophytes, disc degeneration/herniation, osteochondrosis, facet arthropathy, vacuum phenomenon, Schmorl nodes.",
+  "role": "general"
+ },
+ {
+  "name": "Spinal curvature abnormality",
+  "syn": "GENERAL: Abnormal spinal curvature: scoliosis, kyphosis, kyphoscoliosis, loss or increase of lordosis.",
+  "role": "general"
+ },
+ {
+  "name": "Spinal fracture",
+  "syn": "GENERAL: Fracture of any vertebra (compression, burst, wedge, pathological). Also called: Spinal column fracture; Vertebral fracture",
+  "role": "general"
+ },
+ {
+  "name": "Spinal ligament ossification",
+  "syn": "GENERAL: Ossification of spinal ligaments: OPLL, ligamentum flavum ossification, DISH.",
+  "role": "general"
+ },
+ {
+  "name": "Spondylolisthesis",
+  "syn": "GENERAL: Slippage of one vertebral body on another (antero-/retrolisthesis).",
+  "role": "general"
+ },
+ {
+  "name": "Splenomegaly",
+  "syn": "GENERAL: Enlarged spleen. Also called: Spleen enlargement; Spleenomegaly; enlarged spleen",
+  "role": "general"
+ },
+ {
+  "name": "Otomastoiditis",
+  "syn": "GENERAL: Middle ear / mastoid inflammatory disease (otitis media, mastoiditis, cholesteatoma, opacification). Also called: Acute otomastoiditis; Otitis media with mastoiditis",
+  "role": "general"
+ },
+ {
+  "name": "Urinary tract dilatation",
+  "syn": "GENERAL: Dilatation of the collecting system and/or ureter (hydronephrosis, hydroureter, obstructive uropathy, megaureter).",
+  "role": "general"
+ },
+ {
+  "name": "Urolithiasis",
+  "syn": "GENERAL: Calculi anywhere in the urinary tract (kidney, ureter, bladder). Also called: Bladder stones; Renal tract calculi; Ureteral stones; Urinary tract calculi",
+  "role": "general"
+ },
+ {
+  "name": "Accessory ossicle",
+  "syn": "GENERAL: Accessory ossicle or sesamoid variant.",
+  "role": "general"
+ },
+ {
+  "name": "Anatomical variant",
+  "syn": "GENERAL: Normal anatomical variant; kept for completeness but not a pathology.",
+  "role": "general"
+ },
+ {
+  "name": "Hepatic vascular variant",
+  "syn": "GENERAL: Normal variant of hepatic arteries, portal or hepatic veins.",
+  "role": "general"
+ },
+ {
+  "name": "Jugular bulb variant",
+  "syn": "GENERAL: Developmental variant of the jugular bulb (high-riding, dehiscent, diverticulum).",
+  "role": "general"
+ },
+ {
+  "name": "Persistent embryonic artery",
+  "syn": "GENERAL: Persistence of a fetal artery (trigeminal, hypoglossal, stapedial, sciatic).",
+  "role": "general"
+ },
+ {
+  "name": "Renal vascular variant",
+  "syn": "GENERAL: Normal variant of renal arteries or veins.",
+  "role": "general"
+ },
+ {
+  "name": "Vertebral developmental variant",
+  "syn": "GENERAL: Segmentation/fusion developmental variant of the spine.",
+  "role": "general"
+ },
+ {
+  "name": "Abdominal aortic aneurysm",
+  "syn": "GENERAL: Aneurysmal dilatation of the abdominal aorta (including inflammatory AAA). Also called: AAA",
+  "role": "general"
+ },
+ {
+  "name": "Acute aortic syndrome",
+  "syn": "GENERAL: Aortic dissection, intramural haematoma or penetrating atherosclerotic ulcer.",
+  "role": "general"
+ },
+ {
+  "name": "Aneurysm",
+  "syn": "GENERAL: Focal arterial dilatation of any vessel (aortic, intracranial, visceral, coronary, iliac; true or pseudoaneurysm). Also called: arterial dilatation; vascular aneurysm",
+  "role": "general"
+ },
+ {
+  "name": "Aortic dilatation",
+  "syn": "GENERAL: Dilatation or aneurysm of the thoracic or abdominal aorta (root, ascending, arch, descending, abdominal).",
+  "role": "general"
+ },
+ {
+  "name": "Arterial stenosis or occlusion",
+  "syn": "GENERAL: Narrowing or occlusion of an artery (carotid, renal, mesenteric, subclavian, intracranial large/medium vessel, coarctation).",
+  "role": "general"
+ },
+ {
+  "name": "Arterial wall calcification",
+  "syn": "GENERAL: Calcification in the wall of any artery (aorta, coronary, carotid, iliac, intracranial, visceral). Also called: Arterial calcification; Vascular calcification",
+  "role": "general"
+ },
+ {
+  "name": "Atherosclerosis",
+  "syn": "GENERAL: Atherosclerotic disease of any artery: calcified or non-calcified plaque, arteriosclerosis, atherosclerotic stenosis/occlusion, coronary artery disease. Also called: Arteriosclerosis; Arteriolosclerosis; Mönckeberg medial calcific sclerosis",
+  "role": "general"
+ },
+ {
+  "name": "Coronary artery calcification",
+  "syn": "GENERAL: Calcification of the coronary arteries (CT-RATE: coronary artery wall calcification). Also called: Coronary artery wall calcification; Coronary calcification; CAC",
+  "role": "general"
+ },
+ {
+  "name": "Coronary artery disease",
+  "syn": "GENERAL: Coronary atherosclerotic disease (plaque, stenosis) — includes coronary calcification. Also called: Coronary artery atherosclerosis; CAD; Coronary atherosclerosis; Stable coronary artery disease",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary artery enlargement",
+  "syn": "GENERAL: Dilatation of the pulmonary trunk or pulmonary arteries.",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary embolism",
+  "syn": "GENERAL: Embolic filling defect in pulmonary arteries (acute or chronic, any extent). Also called: PE",
+  "role": "general"
+ },
+ {
+  "name": "Pulmonary hypertension",
+  "syn": "GENERAL: Pulmonary hypertension of any group (including CTEPH, PH with COPD, cor pulmonale).",
+  "role": "general"
+ },
+ {
+  "name": "Thrombosis",
+  "syn": "GENERAL: Thrombus in any vessel or cardiac chamber: venous thrombosis, DVT, pulmonary embolism, portal/splenic/mesenteric vein thrombosis, intracardiac thrombus.",
+  "role": "general"
+ }
+]

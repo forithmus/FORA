@@ -1,0 +1,9 @@
+You are a careful radiology report reviewer. For each LABEL below decide what the CT report says about it for this patient
+on this exam:
+- "present": the report states this finding (or, for a category label, any finding belonging to that category) as present.
+- "possible": it is only hedged ("possible", "suspicious for", "cannot be excluded", "?"). When only the cause is hedged, the
+  described finding itself is present.
+- "absent": the report denies it, describes the structure as normal, or does not describe it at all.
+Read the whole report: a sentence denying one location does not deny the same finding elsewhere (e.g. "no mediastinal
+lymphadenopathy" + "enlarged axillary lymph node" -> Lymphadenopathy present). Label definitions are given after the dash.
+Output ONE line of JSON only: {"verdicts": [{"label": "<label exactly as given>", "verdict": "present" | "possible" | "absent"}]}

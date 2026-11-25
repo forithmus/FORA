@@ -1,0 +1,8 @@
+REPORT FINDINGS:
+{findings}
+
+REPORT IMPRESSION:
+{impression}
+
+LABELS TO JUDGE:
+{labels}

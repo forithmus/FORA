@@ -1,0 +1,13 @@
+--modality cxr --stage pretrain --arch large
+--batch-size 8 --workers 16 --seed 3407
+--cxr-global 1024 --cxr-local 512 --cxr-spacing-mm 0 --local-crops 8 --global-overlap 0.25
+--cxr-student-windows 0:1,0:0.65,0.2:0.8,0.45:1
+--dino-prototypes 16384 --ibot-prototypes 16384 --dino-head-hidden-dim 2048 --ibot-head-hidden-dim 2048
+--dino-bottleneck-dim 256 --ibot-bottleneck-dim 256 --position-bins 1 3 3
+--cross-view-weight 1.0 --ibot-weight 1.0 --koleo-weight 0.1 --gram-weight 0.0
+--mask-min 0.1 --mask-max 0.5 --ibot-loss-chunk-size 2048
+--lr 0.001 --min-lr 0.000001 --warmup-steps 2500 --weight-decay 0.04 --weight-decay-end 0.4
+--adamw-beta1 0.9 --adamw-beta2 0.999 --layerwise-decay 0.9 --patch-embed-lr-mult 0.2 --freeze-last-layer-steps 1250
+--teacher-momentum 0.992 --teacher-temperature 0.07 --teacher-warmup-temperature 0.04 --teacher-warmup-steps 10000
+--steps 30000 --stop-after-step 30000
+--clip-grad 3.0 --save-every 2000 --keep-checkpoints 1 --log-every 10 --compile

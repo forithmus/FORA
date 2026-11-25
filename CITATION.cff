@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or the FORA models, please cite the paper below."
+title: "FORA"
+repository-code: "https://github.com/forithmus/FORA"
+license: CC-BY-NC-SA-4.0
+preferred-citation:
+  type: article
+  title: "Reliable and grounded reporting of any computed tomography scan with FORA"
+  journal: "arXiv preprint arXiv:2611.32823"
+  year: 2026
+  url: "https://arxiv.org/abs/2611.32823"
+  authors:
+    - {family-names: Er, given-names: Sezgin}
+    - {family-names: Turkbey, given-names: Utku}
+    - {family-names: Gür, given-names: Alperen}
+    - {family-names: Durugol, given-names: Omer Faruk}
+    - {family-names: Shit, given-names: Suprosanna}
+    - {family-names: Xu, given-names: Murong}
+    - {family-names: Wolleb, given-names: Julia}
+    - {family-names: Wang, given-names: Jiayi}
+    - {family-names: Wang, given-names: Xiaoliang}
+    - {family-names: Reynaud, given-names: Hadrien}
+    - {family-names: Spasojevic, given-names: Teodora}
+    - {family-names: Yang, given-names: Dong}
+    - {family-names: Myronenko, given-names: Andriy}
+    - {family-names: Guo, given-names: Pengfei}
+    - {family-names: He, given-names: Yufan}
+    - {family-names: Zhao, given-names: Can}
+    - {family-names: Edgar, given-names: Marc}
+    - {family-names: Maier, given-names: Andreas}
+    - {family-names: Moor, given-names: Michael}
+    - {family-names: Ozdemir, given-names: Mehmet Kemal}
+    - {family-names: Xu, given-names: Daguang}
+    - {family-names: Kainz, given-names: Bernhard}
+    - {family-names: Menze, given-names: Bjoern}
+    - {family-names: Hamamci, given-names: Ibrahim Ethem}

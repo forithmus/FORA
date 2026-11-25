@@ -1,0 +1,11 @@
+{
+ "_comment": "Head tiers on train counts; excluded classes are removed from the own heads (not visible on CT).",
+ "own_min_pos": 200,
+ "own_min_neg": 200,
+ "attach_min_pos": 20,
+ "exclude": [
+  "Crystalluria",
+  "Gastroesophageal reflux"
+ ],
+ "note": "Classes excluded as not visible on CT: Crystalluria, Gastroesophageal reflux."
+}

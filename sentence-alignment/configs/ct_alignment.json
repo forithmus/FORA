@@ -1,0 +1,34 @@
+{
+ "cases": "data/ct/cases.jsonl",
+ "assign": "data/ct/assign.json",
+ "split": "data/ct/split.json",
+ "sentences": "data/ct/sentences.json",
+ "normalization": "data/ct/normalization.pt",
+ "block24_state": "weights/ct_block24_state.pt",
+ "cache_root": "/local/fora_cache",
+ "training": {
+  "epochs": 3,
+  "warmup_steps": 300,
+  "seed": 0,
+  "crops_per_chunk": 8,
+  "position_freqs": 4,
+  "prefetch_depth": 4,
+  "loader_workers": 3,
+  "gpu_bag_gib": 20.0,
+  "max_sentences": 34,
+  "max_tokens": 128,
+  "bucket_size": 8,
+  "model": {
+   "name": "ct_alignment_b24_cabs",
+   "dim": 512,
+   "text_model": "microsoft/BiomedVLP-CXR-BERT-specialized",
+   "lr_block": 2e-05,
+   "lr_proj": 0.0001,
+   "lr_text": 1e-05,
+   "lr_temp": 0.001,
+   "wd": 0.05,
+   "pool_temperature_init": 14.285714285714285,
+   "position_scale": 1.0
+  }
+ }
+}

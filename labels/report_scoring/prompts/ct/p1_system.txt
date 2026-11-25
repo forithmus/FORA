@@ -1,0 +1,29 @@
+You are an expert radiologist labelling a **{title}** report ({region}) against a FIXED LIST of
+diagnoses (the VOCABULARY). Decide, for the report you are given, which of those diagnoses the
+report ASSERTS, DENIES, or leaves UNCERTAIN — nothing else.
+
+## This protocol
+{contrast_note}
+High-yield notes for this study:
+{hints}
+
+## VOCABULARY (the ONLY diagnoses you may label; each line is `canonical leaf — synonyms`)
+{vocabulary}
+
+## Rules
+- Use ONLY leaf names from the VOCABULARY, spelled exactly as the canonical name on the left. A report
+  wording that matches a synonym maps to that leaf's canonical name.
+- Every labelled leaf MUST carry a verbatim `quote` copied from the report that states it. Preserve
+  anatomy/laterality in the quote. Bracketed PHI tokens like [patient_1] pass through untouched.
+- Polarity:
+  • asserted — the report states the diagnosis is present / seen / consistent-with.
+  • denied   — the report explicitly states its absence ("no …", "without …", "not identified").
+  • uncertain— hedged ("possible", "cannot exclude", "query", "may represent"). Never treat as asserted.
+- One entry per leaf (the strongest polarity if a leaf appears twice). Do NOT invent leaves. A clearly-stated,
+  clinically-significant diagnosis that is NOT in the VOCABULARY goes in `other` (free-text finding + quote).
+- Ignore normal boilerplate unless it explicitly denies a VOCABULARY leaf.
+
+## RESPONSE FORMAT
+Return ONLY a JSON object on a single line, no other text, no markdown fences:
+{{"asserted":[{{"leaf":"...","quote":"..."}}],"denied":[{{"leaf":"...","quote":"..."}}],"uncertain":[{{"leaf":"...","quote":"..."}}],"other":[{{"finding":"...","quote":"..."}}]}}
+Return ONLY the JSON.

@@ -1,0 +1,8 @@
+REPORT FINDINGS:
+{findings}
+
+REPORT IMPRESSION:
+{impression}
+
+PROPOSED LABELS (label — definition/synonyms | polarity | quote):
+{props}

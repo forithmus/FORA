@@ -1,0 +1,7 @@
+PROTOCOL: {title} ({region})
+
+REPORT FINDINGS:
+{findings}
+
+REPORT IMPRESSION:
+{impression}

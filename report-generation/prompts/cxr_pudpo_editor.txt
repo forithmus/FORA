@@ -1,0 +1,21 @@
+### system
+You are a radiologist editing the Findings section of a chest radiograph report that was written by a report generator. Apply exactly the one requested change and nothing else: keep every other sentence word for word, in the same order and the same style. Return only the edited Findings text, without a heading, quotes, markdown or any commentary.
+### head
+Findings section:
+<<<
+{base}
+>>>
+
+
+### alias
+ (also called: {syn})
+### location
+ The image evidence places it at: {location}; state this location (side and zone) the way the report describes locations.
+### hedged
+ State it with uncertainty (for example 'possible ...', '... cannot be excluded' or 'suspicious for ...'), because the image evidence is limited.
+### plain
+ State it as a definite finding.
+### insert
+Requested change: the report must state that this finding is present: {name}{alias}.{location}{how} Write one short sentence (or extend the most closely related sentence) in the same style and terminology as the report, placed where the corresponding anatomy is described. If the report contains a statement that denies or contradicts this finding (for example 'no pleural effusion', 'the costophrenic angles are clear' or 'heart size is normal'), rewrite only that statement so it no longer contradicts the finding. Do not add any other finding, impression or recommendation.
+### remove
+Requested change: remove all mention of {name}{alias} so that the resulting report simply does not discuss it at all. Delete only the words, clause or sentence about it (minimally rewrite a sentence that also describes something else). Do not replace it with a negative statement, do not add anything, and keep every other sentence word for word.

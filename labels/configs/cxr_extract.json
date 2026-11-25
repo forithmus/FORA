@@ -1,0 +1,13 @@
+{
+ "_comment": "X-ray training-label extraction (chunk 2000 when labelling generated/reference reports for report scoring).",
+ "prompt_dir": "prompts/cxr",
+ "vocabulary": "data/cxr/vocabulary.json",
+ "max_model_len": 24576,
+ "p1_max_tokens": 4096,
+ "p2_max_tokens": 1536,
+ "p3_max_tokens": 4096,
+ "gpu_memory_utilization": 0.92,
+ "seed": 42,
+ "dtype": "auto",
+ "chunk_size": 5000
+}

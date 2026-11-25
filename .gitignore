@@ -1,49 +1,9 @@
-# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
-dist/
-build/
-*.so
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Testing / Coverage
-.pytest_cache/
-htmlcov/
-.coverage
-coverage.xml
-*.cover
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Data / Results (large files)
+*.pyc
 *.pt
-*.pth
-*.npz
-*.npy
-*.nii
-*.nii.gz
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-
-# Logs
-*.log
-*.out
-*.err
-slurm-*.out
-core.*
+outputs/
+runs/
+.pytest_cache/
+*.egg-info/
+build/
+dist/

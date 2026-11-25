@@ -1,0 +1,15 @@
+{
+ "_comment": "CT report-scoring extractor: per-protocol closed vocabularies, greedy, one process per GPU.",
+ "prompt_dir": "report_scoring/prompts/ct",
+ "protocols": "report_scoring/data/ct_protocols_scoring.json",
+ "vocabulary": null,
+ "max_model_len": 24576,
+ "p1_max_tokens": 4096,
+ "p2_max_tokens": 1536,
+ "p3_max_tokens": 4096,
+ "repair_truncated": false,
+ "gpu_memory_utilization": 0.85,
+ "seed": 42,
+ "dtype": "auto",
+ "chunk_size": 512
+}

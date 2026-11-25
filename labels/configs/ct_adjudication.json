@@ -1,0 +1,15 @@
+{
+ "protocols": "data/ct/protocols.json",
+ "vocabulary": "data/ct/global_vocabulary.json",
+ "gpu_memory_utilization": 0.9,
+ "seed": 0,
+ "dtype": "bfloat16",
+ "max_model_len": 49152,
+ "max_tokens": 2048,
+ "prompts": {
+  "judge_system": "prompts/ct_adjudication/judge_system.txt",
+  "judge_user": "prompts/ct_adjudication/judge_user.txt",
+  "map_system": "prompts/ct_adjudication/map_system.txt",
+  "map_user": "prompts/ct_adjudication/map_user.txt"
+ }
+}

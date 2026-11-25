@@ -1,18 +1,42 @@
-[tool.pytest.ini_options]
-pythonpath = ["rad_rate", "vision_encoder"]
-testpaths = ["tests"]
-addopts = "--cov=rad_rate --cov=vision_encoder --cov-report=term-missing --cov-report=html --cov-report=xml"
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
 
-[tool.coverage.run]
-source = ["rad_rate", "vision_encoder"]
-omit = ["*/setup.py"]
-
-[tool.coverage.report]
-exclude_lines = [
-    "pragma: no cover",
-    "if __name__ == .__main__.",
-    "raise NotImplementedError",
-    "if dist.is_initialized",
-    "if debug",
+[project]
+name = "fora"
+version = "1.0.0"
+description = "FORA: reliable and grounded reporting of any computed tomography scan (shared package of the pipeline stages)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+# The encoder blocks come from DINOv3, which is not on PyPI. Install it separately, unmodified:
+#   pip install "dinov3 @ git+https://github.com/facebookresearch/dinov3@6876159"
+# (or put a checkout of commit 6876159 on PYTHONPATH).
+dependencies = [
+    "torch>=2.5",
+    "numpy",
+    "scipy",
+    "h5py",
+    "nibabel",
+    "Pillow",
 ]
-show_missing = true
+
+[project.optional-dependencies]
+# report writer, sentence alignment (CXR-BERT) and the report-generation stage
+reportgen = ["transformers>=5.0", "peft"]
+# LLM label extraction, protocol classification and DPO pair synthesis
+llm = ["vllm"]
+# data preparation (protocol classification tables, public X-ray release decoding)
+data = ["pandas", "pyarrow", "tqdm", "imagecodecs"]
+# DICOM input at inference
+dicom = ["pydicom"]
+test = ["pytest"]
+all = ["fora[reportgen,llm,data,dicom,test]"]
+
+[tool.setuptools.packages.find]
+include = ["fora", "fora.*"]
+
+[tool.setuptools.package-data]
+"fora.reportgen.plan" = ["plan_templates.txt"]
+"fora.reportgen.decoding" = ["ban_lists/*.json"]
+"fora.reportgen.cxr" = ["highauc_classes.json"]

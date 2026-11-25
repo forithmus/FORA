@@ -1,0 +1,6 @@
+{
+ "min_train_pos": 50,
+ "drop_classes": [
+  "No Finding / Normal study"
+ ]
+}

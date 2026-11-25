@@ -1,0 +1,4 @@
+{
+  "_comment": "X-ray plan calibration (fora_report.cxr.calibration): per-class Platt on the TRAIN study-bag logits of the X-ray MIL (raw weights), probable = calibrated p >= 0.5 never below the train Youden cutoff, possible = train Youden cutoff. Output name: calibration_train_platt.json + dense_predictions.npz.",
+  "platt_l2": 1.0
+}

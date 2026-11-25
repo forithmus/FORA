@@ -1,0 +1,52 @@
+{
+ "cases": "data/ct/cases.jsonl",
+ "assign": "data/ct/assign.json",
+ "split": "data/ct/split.json",
+ "sentences": "data/ct/sentences.json",
+ "normalization": "data/ct/normalization.pt",
+ "block24_state": "weights/ct_block24_state.pt",
+ "cache_root": "/local/fora_cache",
+ "training": {
+  "epochs": 10,
+  "warmup_steps": 200,
+  "seed": 1,
+  "crops_per_chunk": 8,
+  "position_freqs": 4,
+  "prefetch_depth": 4,
+  "loader_workers": 3,
+  "gpu_bag_gib": 20.0,
+  "max_sentences": 34,
+  "max_tokens": 128,
+  "bucket_size": 8,
+  "model": {
+   "name": "ct_alignment_b24_cabs",
+   "dim": 512,
+   "text_model": "microsoft/BiomedVLP-CXR-BERT-specialized",
+   "lr_block": 1e-05,
+   "lr_proj": 5e-05,
+   "lr_text": 5e-06,
+   "lr_temp": 0.0005,
+   "wd": 0.05,
+   "pool_temperature_init": 14.285714285714285,
+   "position_scale": 1.0
+  },
+  "epochs_schedule": [
+   [
+    0,
+    2
+   ],
+   [
+    1000,
+    7
+   ],
+   [
+    11840,
+    10
+   ]
+  ],
+  "stop_after_epoch": 7,
+  "continuation": {
+   "init": "epoch_03.pt of the ct_alignment.json run"
+  }
+ }
+}

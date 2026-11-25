@@ -1,0 +1,7 @@
+Label the following {title} report against the VOCABULARY.
+
+FINDINGS:
+{findings}
+
+IMPRESSION:
+{impression}

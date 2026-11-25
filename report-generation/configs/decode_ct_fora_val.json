@@ -1,0 +1,20 @@
+{
+  "_note": "FORA val (patient-level validation split, all studies): nucleus sampling, no opener, no phrase ban.",
+  "opener": "none",
+  "ban_list": "none",
+  "restrict_store_to_plan": 0,
+  "sampling": "t08",
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "top_k": 0,
+  "seed_index": 42,
+  "max_new_tokens": 2048,
+  "dino_token_cap": 0,
+  "fallback_caps": "2097152,1048576,524288",
+  "plan_possible_cap": 20,
+  "plan_cap_rank": "prob",
+  "plan_prob": 1,
+  "fimg_tokens": 6,
+  "fimg_views": 6,
+  "fimg_soft": 140
+}

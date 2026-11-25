@@ -1,0 +1,5118 @@
+{
+"Abdominal adhesions": [
+"peritoneum"
+],
+"Abdominal aortic aneurysm": [
+"abdominal_vessels",
+"kidneys"
+],
+"Abdominal wall hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Aberrant right subclavian artery": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Abnormal renal rotation": [
+"kidneys"
+],
+"Abscess": [
+"body"
+],
+"Abusive head trauma": [
+"intracranial",
+"skull"
+],
+"Accessory hepatic vein": [
+"liver"
+],
+"Accessory maxillary ostium": [
+"oral_dental",
+"sinonasal"
+],
+"Accessory navicular bone": [
+"bones",
+"soft_tissue"
+],
+"Accessory ossicle": [
+"bones"
+],
+"Accessory renal artery": [
+"abdominal_vessels",
+"kidneys"
+],
+"Acquired cholesteatoma": [
+"temporal_bone"
+],
+"Acquired cystic kidney disease": [
+"kidneys"
+],
+"Acromioclavicular joint osteoarthritis": [
+"shoulder"
+],
+"Acute aortic syndrome": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Acute aspiration pneumonitis": [
+"lungs"
+],
+"Acute eosinophilic pneumonia": [
+"lungs"
+],
+"Acute pancreatitis": [
+"pancreas",
+"peritoneum"
+],
+"Acute peripancreatic fluid collection": [
+"duodenum",
+"pancreas",
+"peritoneum"
+],
+"Acute pyelonephritis": [
+"kidneys"
+],
+"Acute respiratory distress syndrome": [
+"lungs"
+],
+"Acute rhinosinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Adenoid hypertrophy": [
+"oral_dental",
+"pharynx_larynx",
+"sinonasal"
+],
+"Adhesive otitis media": [
+"temporal_bone"
+],
+"Adnexal lesion": [
+"pelvis"
+],
+"Adrenal abnormality": [
+"adrenals"
+],
+"Adrenal adenoma": [
+"adrenals"
+],
+"Adrenal calcification": [
+"adrenals"
+],
+"Adrenal hyperplasia": [
+"adrenals"
+],
+"Adrenal insufficiency": [
+"adrenals"
+],
+"Adrenal metastasis": [
+"adrenals"
+],
+"Adrenal myelolipoma": [
+"adrenals"
+],
+"Adrenal neoplasm": [
+"adrenals"
+],
+"Adrenal nodule": [
+"adrenals"
+],
+"Adult cystic renal disease": [
+"kidneys"
+],
+"Agger nasi cell": [
+"sinonasal"
+],
+"Aggressive vertebral haemangioma": [
+"spinal_canal",
+"spine"
+],
+"Ahaustral colon": [
+"colon"
+],
+"Aicardi-Gouti\u00e8res syndrome": [
+"intracranial"
+],
+"Air space nodules": [
+"lungs"
+],
+"Air trapping": [
+"lungs"
+],
+"Allergic bronchopulmonary aspergillosis": [
+"lungs"
+],
+"Allergic fungal sinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Allergic rhinitis": [
+"sinonasal"
+],
+"Altered spinal lordosis": [
+"spinal_canal",
+"spine"
+],
+"Alveolar sarcoidosis": [
+"lungs"
+],
+"Amiodarone deposition in the liver": [
+"liver"
+],
+"Airway dilatation": [
+"airway",
+"lungs"
+],
+"Alpha-1-antitrypsin deficiency": [
+"lungs"
+],
+"Amiodarone lung": [
+"lungs"
+],
+"Amoebic colitis": [
+"colon"
+],
+"Amyand hernia": [
+"appendix_rlq",
+"groin",
+"pelvis"
+],
+"Anatomical variant": [
+"body"
+],
+"Aneurysm": [
+"vessels"
+],
+"Angiomyolipoma": [
+"kidneys"
+],
+"Annular pancreas": [
+"duodenum",
+"pancreas"
+],
+"Annuloaortic ectasia": [
+"aorta_thoracic",
+"heart"
+],
+"Anomalous aortic origin of coronary artery": [
+"heart"
+],
+"Anomalous course of coronary arteries": [
+"heart"
+],
+"Anterior cerebral artery hypoplasia or absence": [
+"intracranial"
+],
+"Anterior circulation infarction": [
+"intracranial"
+],
+"Anterior mediastinal mass": [
+"mediastinum"
+],
+"Anterolisthesis": [
+"spinal_canal",
+"spine",
+"spine_lumbosacral"
+],
+"Anti-synthetase syndrome": [
+"lungs"
+],
+"Antiphospholipid syndrome (pulmonary manifestations)": [
+"lungs",
+"pulmonary_arteries"
+],
+"Antrochoanal polyp": [
+"oral_dental",
+"pharynx_larynx",
+"sinonasal"
+],
+"Antrolith": [
+"oral_dental",
+"sinonasal"
+],
+"Aortic aneurysm": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Aortic coarctation": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Aortic dilatation": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Aortic dissection": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Aortic ductus diverticulum": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Aortic intramural haematoma": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Aortic mural thrombus": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Aortic root dilatation": [
+"aorta_thoracic",
+"heart"
+],
+"Aortic valve calcification": [
+"heart"
+],
+"Aortic valve replacement": [
+"heart"
+],
+"Aortoiliac occlusive disease": [
+"abdominal_vessels"
+],
+"Aphakia": [
+"orbit"
+],
+"Appendicitis": [
+"appendix_rlq"
+],
+"Appendicolith": [
+"appendix_rlq"
+],
+"Arachnoid cyst": [
+"intracranial"
+],
+"Arrested pneumatisation of the skull base": [
+"sinonasal",
+"skull",
+"soft_tissue"
+],
+"Arterial stenosis or occlusion": [
+"vessels"
+],
+"Arterial wall calcification": [
+"vessels"
+],
+"Arterioportal shunt": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Arteriovenous malformation": [
+"body"
+],
+"Asbestos-related benign pleural disease": [
+"pleura"
+],
+"Asbestos-related diseases": [
+"lungs",
+"pleura"
+],
+"Ascariasis": [
+"biliary",
+"bowel",
+"small_bowel"
+],
+"Ascending aorta calcification": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Ascending aorta dilatation": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Ascending aortic aneurysm": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Ascites": [
+"peritoneum"
+],
+"Aspiration bronchiolitis": [
+"lungs"
+],
+"Aspiration pneumonia": [
+"lungs"
+],
+"Atelectasis": [
+"lungs"
+],
+"Anasarca": [
+"peritoneum",
+"soft_tissue"
+],
+"Ankylosing spondylitis (thoracic manifestations)": [
+"lungs",
+"spinal_canal",
+"spine",
+"spine_thoracic"
+],
+"Atlanto-occipital assimilation": [
+"skull",
+"spinal_canal",
+"spine_cervical"
+],
+"Atrial enlargement": [
+"heart"
+],
+"Atrial septal defect": [
+"heart"
+],
+"Atrophy": [
+"body"
+],
+"Atypical adenomatous hyperplasia": [
+"lungs"
+],
+"Atypical pneumonia": [
+"lungs"
+],
+"Autosplenectomy": [
+"spleen"
+],
+"Axillary lymphadenopathy": [
+"axilla"
+],
+"Azygos continuation of the inferior vena cava": [
+"abdominal_vessels",
+"aorta_thoracic",
+"mediastinum"
+],
+"Barosinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Basal ganglia calcification": [
+"intracranial"
+],
+"Basal ganglia haemorrhage": [
+"intracranial"
+],
+"Basilar artery aneurysm": [
+"intracranial"
+],
+"Basilar artery hypoplasia": [
+"intracranial"
+],
+"Basilar invagination": [
+"skull",
+"soft_tissue",
+"spine_cervical"
+],
+"Basilar skull fracture": [
+"skull",
+"soft_tissue",
+"temporal_bone"
+],
+"Benign notochordal cell tumour": [
+"skull",
+"spinal_canal",
+"spine"
+],
+"Benign prostatic hyperplasia": [
+"prostate"
+],
+"Bicuspid Aortic Valve": [
+"heart"
+],
+"Bilateral adrenal gland enlargement": [
+"adrenals"
+],
+"Bilateral axillary lymphadenopathy": [
+"axilla"
+],
+"Bilateral pleural effusion": [
+"pleura"
+],
+"Bilateral renal enlargement": [
+"kidneys"
+],
+"Biliary ductal dilation": [
+"biliary"
+],
+"Biliary obstruction": [
+"biliary"
+],
+"Biliary stent": [
+"biliary"
+],
+"Biliary tract abnormality": [
+"biliary"
+],
+"Bilioma": [
+"biliary",
+"peritoneum"
+],
+"Bladder calculus": [
+"bladder"
+],
+"Bladder cancer": [
+"bladder"
+],
+"Bladder wall trabeculation": [
+"bladder"
+],
+"Bone erosion": [
+"bones",
+"soft_tissue"
+],
+"Bone island": [
+"bones",
+"soft_tissue"
+],
+"Bone lesion": [
+"bones",
+"soft_tissue"
+],
+"Bone metastases": [
+"bones",
+"soft_tissue"
+],
+"Bone Torsion": [
+"bones",
+"soft_tissue"
+],
+"Bony Coalition": [
+"bones",
+"soft_tissue"
+],
+"Bony sequestrum": [
+"bones",
+"soft_tissue"
+],
+"Bovine arch": [
+"aorta_thoracic"
+],
+"Bowel dilatation": [
+"bowel"
+],
+"Bowel obstruction": [
+"bowel"
+],
+"Bowel wall fat deposition": [
+"bowel"
+],
+"Bowel wall thickening": [
+"bowel"
+],
+"Atherosclerosis": [
+"vessels"
+],
+"Azygos lobe": [
+"aorta_thoracic",
+"lung_rul",
+"mediastinum",
+"pleura"
+],
+"Barrel chest": [
+"chest_wall",
+"ribs"
+],
+"Beh\u00e7et disease": [
+"body",
+"vessels"
+],
+"Bilateral hilar lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Biliary drainage catheter": [
+"biliary"
+],
+"Brachiocephalic vein stenosis": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Brain arteriovenous malformation": [
+"intracranial"
+],
+"Brain atrophy": [
+"intracranial"
+],
+"Breast abnormality": [
+"breast",
+"chest_wall"
+],
+"Breast calcification": [
+"breast",
+"chest_wall"
+],
+"Breast cancer": [
+"breast",
+"chest_wall"
+],
+"Breast cancer metastasis": [
+"body",
+"breast",
+"chest_wall"
+],
+"Breast mass": [
+"breast",
+"chest_wall"
+],
+"Breast skin thickening": [
+"breast",
+"chest_wall"
+],
+"Bronchial arterial enlargement": [
+"hila",
+"lungs",
+"mediastinum"
+],
+"Bronchial diverticulum": [
+"airway",
+"lungs"
+],
+"Bronchial hamartoma": [
+"airway",
+"lungs"
+],
+"Bronchial stenosis": [
+"airway",
+"lungs"
+],
+"Bronchiectasis": [
+"lungs"
+],
+"Bronchiolectasis": [
+"lungs"
+],
+"Bronchiolitis": [
+"lungs"
+],
+"Bronchomalacia": [
+"airway",
+"lungs"
+],
+"Bronchopneumonia": [
+"lungs"
+],
+"Bronchopulmonary dysplasia": [
+"lungs"
+],
+"Buckle rib fracture": [
+"chest_wall",
+"ribs"
+],
+"Burr hole": [
+"skull"
+],
+"Burst fracture": [
+"spinal_canal",
+"spine"
+],
+"Butterfly fragment fracture": [
+"bones",
+"soft_tissue"
+],
+"Calcaneal fracture": [
+"bones",
+"soft_tissue"
+],
+"Calcaneonavicular coalition": [
+"bones",
+"soft_tissue"
+],
+"Calcification of the globe": [
+"orbit"
+],
+"Calcified mediastinal lymph nodes": [
+"hila",
+"mediastinum"
+],
+"Calcified pulmonary nodules": [
+"lungs"
+],
+"Calvarial thickening": [
+"skull",
+"soft_tissue"
+],
+"Calyceal diverticulum": [
+"kidneys"
+],
+"Cam morphology": [
+"pelvic_bones_hips"
+],
+"Carbon monoxide poisoning": [
+"intracranial"
+],
+"Cardiac calcification": [
+"heart"
+],
+"Cardiac chamber enlargement": [
+"heart"
+],
+"Cardiac sclerosis": [
+"liver"
+],
+"Cardiomegaly": [
+"heart"
+],
+"Cardiovascular postmortem changes": [
+"heart",
+"vessels"
+],
+"Carotid artery stenosis": [
+"neck_vessels"
+],
+"Carotid artery tortuosity": [
+"neck_vessels"
+],
+"Carotid web": [
+"neck_vessels"
+],
+"Caseous calcification of the mitral annulus": [
+"heart"
+],
+"Cavernoma": [
+"intracranial"
+],
+"Cavitating pneumonia": [
+"lungs"
+],
+"Cavum septum pellucidum": [
+"intracranial"
+],
+"Cavum vergae": [
+"intracranial"
+],
+"Celiac artery stenosis": [
+"abdominal_vessels",
+"vessels"
+],
+"Breast implant": [
+"breast",
+"chest_wall"
+],
+"Broncholithiasis": [
+"hila",
+"lungs"
+],
+"Cachexia": [
+"body"
+],
+"Calcaneal spur": [
+"bones",
+"soft_tissue"
+],
+"Calcific tendinitis": [
+"shoulder",
+"soft_tissue"
+],
+"Central bronchiectasis": [
+"lungs"
+],
+"Centrifugal enhancement liver haemangioma": [
+"liver"
+],
+"Centrilobular pulmonary emphysema": [
+"lungs"
+],
+"Cephalic arch stenosis": [
+"axilla",
+"shoulder",
+"vessels"
+],
+"Cephalohematoma": [
+"skull"
+],
+"Cerebral amyloid angiopathy": [
+"intracranial"
+],
+"Cerebral atrophy": [
+"intracranial"
+],
+"Cerebral cortical calcification": [
+"intracranial"
+],
+"Cerebral haemorrhagic contusion": [
+"intracranial"
+],
+"Cerebral malaria": [
+"intracranial"
+],
+"Cerebral oedema": [
+"intracranial"
+],
+"Cerebral small vessel disease": [
+"intracranial"
+],
+"Cerebrovascular malformations": [
+"intracranial"
+],
+"Cerumen impaction": [
+"temporal_bone"
+],
+"Cervical artery dissection": [
+"neck_vessels"
+],
+"Cervical cancer": [
+"pelvis"
+],
+"Cervical foraminal stenosis": [
+"spinal_canal",
+"spine_cervical"
+],
+"Cervical lymph node metastasis": [
+"neck"
+],
+"Cervical lymphadenopathy": [
+"neck"
+],
+"Cervical spine fractures": [
+"spinal_canal",
+"spine_cervical"
+],
+"Cervical spine injury": [
+"spinal_canal",
+"spine_cervical"
+],
+"Chalk stick fracture": [
+"spinal_canal",
+"spine"
+],
+"Charcot joint": [
+"bones",
+"soft_tissue"
+],
+"Chest wall lipoma": [
+"chest_wall",
+"ribs"
+],
+"Chest wall tumours": [
+"chest_wall",
+"ribs"
+],
+"Chiari malformation": [
+"intracranial",
+"spinal_canal"
+],
+"Chilaiditi sign": [
+"colon",
+"liver"
+],
+"Chlamydia pneumonia": [
+"lungs"
+],
+"Cholangiocarcinoma": [
+"biliary",
+"liver"
+],
+"Cholangitis": [
+"biliary"
+],
+"Cholecystitis": [
+"biliary",
+"gallbladder"
+],
+"Cholecystoduodenal fistula": [
+"biliary",
+"duodenum",
+"gallbladder"
+],
+"Cholelithiasis": [
+"biliary",
+"gallbladder"
+],
+"Cholesteatoma": [
+"temporal_bone"
+],
+"Choroid plexus calcification": [
+"intracranial"
+],
+"Choroidal fissure cyst": [
+"intracranial"
+],
+"Chronic aspiration pneumonia": [
+"lungs"
+],
+"Chronic bronchitis": [
+"lungs"
+],
+"Chronic interstitial pneumonitis": [
+"lungs"
+],
+"Chronic kidney disease": [
+"kidneys"
+],
+"Chronic liver disease": [
+"liver"
+],
+"Chronic mesenteric ischaemia": [
+"abdominal_vessels",
+"bowel"
+],
+"Chronic obstructive pulmonary disease": [
+"lungs"
+],
+"Chronic osteomyelitis": [
+"bones",
+"soft_tissue"
+],
+"Chronic otomastoiditis": [
+"temporal_bone"
+],
+"Chronic otomastoiditis with ossicular erosions": [
+"temporal_bone"
+],
+"Chronic otomastoiditis with tympanosclerosis": [
+"temporal_bone"
+],
+"Chronic pancreatitis": [
+"pancreas"
+],
+"Central venous catheter": [
+"heart",
+"neck_vessels",
+"vessels"
+],
+"Cholecystoenteric fistula": [
+"biliary",
+"colon",
+"duodenum",
+"gallbladder"
+],
+"Chronic pulmonary aspergillosis": [
+"lungs"
+],
+"Chronic pyelonephritis": [
+"kidneys"
+],
+"Chronic rhinosinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Chronic thromboembolic pulmonary hypertension": [
+"lungs",
+"pulmonary_arteries"
+],
+"Cicatrisation atelectasis": [
+"lungs"
+],
+"Cirrhosis": [
+"liver"
+],
+"Cirrhosis-associated nodule (LR2)": [
+"liver"
+],
+"Clavicle fracture": [
+"shoulder"
+],
+"Clinoid process pneumatization": [
+"sinonasal",
+"skull"
+],
+"Clonorchiasis": [
+"biliary",
+"liver"
+],
+"Clostridioides difficile colitis": [
+"colon"
+],
+"Coccyx angulation": [
+"spine_lumbosacral"
+],
+"Cochlear incomplete partition": [
+"temporal_bone"
+],
+"Colitis": [
+"colon"
+],
+"Colonic diverticulitis": [
+"colon"
+],
+"Colonic diverticulosis": [
+"colon"
+],
+"Colonic lipoma": [
+"colon"
+],
+"Colonic stricture": [
+"colon"
+],
+"Colorectal cancer": [
+"colon"
+],
+"Colorectal villous adenoma": [
+"colon"
+],
+"Colostomy": [
+"abdominal_wall",
+"colon"
+],
+"Combined pulmonary fibrosis and emphysema": [
+"lungs"
+],
+"Communicating hydrocephalus": [
+"intracranial"
+],
+"Complete fracture": [
+"bones",
+"soft_tissue"
+],
+"Complex midfacial fracture": [
+"oral_dental",
+"orbit",
+"sinonasal",
+"skull"
+],
+"Concha bullosa": [
+"sinonasal"
+],
+"Congenital anomalies of the posterior atlas arch": [
+"spinal_canal",
+"spine_cervical"
+],
+"Congenital cardiovascular anomaly": [
+"aorta_thoracic",
+"heart",
+"pulmonary_arteries"
+],
+"Congenital cytomegalovirus infection": [
+"intracranial"
+],
+"Congenital heart disease": [
+"aorta_thoracic",
+"heart",
+"pulmonary_arteries"
+],
+"Congenital lumbar spinal stenosis": [
+"spinal_canal",
+"spine_lumbosacral"
+],
+"Congenital renal anomaly": [
+"kidneys"
+],
+"Congenital tracheomalacia": [
+"airway",
+"lungs"
+],
+"Connective tissue disease-related interstitial lung disease": [
+"lungs"
+],
+"Consolidation": [
+"lungs"
+],
+"Contracted gallbladder": [
+"biliary",
+"gallbladder"
+],
+"Contrast media extravasation": [
+"body"
+],
+"Contrast staining": [
+"body"
+],
+"Cor pulmonale": [
+"heart",
+"pulmonary_arteries"
+],
+"Coronary arterial ectasia": [
+"heart"
+],
+"Coronary artery aneurysm": [
+"heart"
+],
+"Coronary artery anomaly": [
+"heart"
+],
+"Coronary artery calcification": [
+"heart"
+],
+"Coronary artery disease": [
+"heart"
+],
+"Coronary artery stenosis": [
+"heart"
+],
+"Coronary artery stent": [
+"heart"
+],
+"Circumcaval ureter": [
+"abdominal_vessels",
+"bladder",
+"kidneys",
+"ureters"
+],
+"Compressive atelectasis": [
+"lungs"
+],
+"Congenital megaureter": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Coronary artery bypass graft": [
+"heart",
+"mediastinum"
+],
+"Coronary artery-to-pulmonary artery fistula": [
+"heart",
+"pulmonary_arteries"
+],
+"Coronary cameral fistula": [
+"heart"
+],
+"Coronary hypoplasia": [
+"heart"
+],
+"Cosmetic silicone injection": [
+"breast",
+"soft_tissue"
+],
+"Coup-contrecoup injury": [
+"intracranial"
+],
+"COVID-19": [
+"lungs"
+],
+"Craniosynostosis": [
+"skull",
+"soft_tissue"
+],
+"Craniovertebral junction anomaly": [
+"skull",
+"soft_tissue",
+"spine_cervical"
+],
+"Crazy paving pattern": [
+"lungs"
+],
+"Crista galli pneumatization": [
+"sinonasal",
+"skull"
+],
+"Crohn disease": [
+"colon",
+"small_bowel"
+],
+"Crossed fused renal ectopia": [
+"kidneys"
+],
+"Crystal arthropathy": [
+"bones",
+"soft_tissue"
+],
+"Cutaneous and subcutaneous metastases": [
+"soft_tissue"
+],
+"Cutaneous squamous cell carcinoma": [
+"soft_tissue"
+],
+"Cylindrical bronchiectasis": [
+"lungs"
+],
+"Cyst": [
+"body"
+],
+"Cystic adrenal neoplasm": [
+"adrenals"
+],
+"Cystic bronchiectasis": [
+"lungs"
+],
+"Cystic hepatic metastases": [
+"liver"
+],
+"Cystic lung lesion": [
+"lungs"
+],
+"Cystic necrotic lymphadenopathy": [
+"body_minus_lungs"
+],
+"Cystic renal diseases": [
+"kidneys"
+],
+"Cystitis": [
+"bladder"
+],
+"Cystitis cystica": [
+"bladder"
+],
+"Cystitis glandularis": [
+"bladder"
+],
+"Dacryocystitis": [
+"orbit"
+],
+"Dacryocystocele": [
+"orbit",
+"sinonasal"
+],
+"Decomposition": [
+"body"
+],
+"Degenerative arthropathy": [
+"bones",
+"soft_tissue"
+],
+"Degenerative spine disease": [
+"spinal_canal",
+"spine"
+],
+"Dehiscent jugular bulb": [
+"temporal_bone"
+],
+"Delayed nephrogram": [
+"kidneys"
+],
+"Dental / periodontal abnormality": [
+"oral_dental"
+],
+"Dentigerous cyst": [
+"oral_dental"
+],
+"Dermal filler injection": [
+"soft_tissue"
+],
+"Dermoid cyst": [
+"body"
+],
+"Developmental Venous Anomaly": [
+"intracranial"
+],
+"Deviated nasal septum": [
+"oral_dental",
+"sinonasal"
+],
+"Device complication": [
+"body"
+],
+"Diaphragmatic elevation": [
+"peritoneum",
+"pleura"
+],
+"Diaphragmatic eventration": [
+"peritoneum",
+"pleura"
+],
+"Diastasis recti": [
+"abdominal_wall"
+],
+"Die-punch fracture": [
+"bones",
+"soft_tissue"
+],
+"Diffuse alveolar damage": [
+"lungs"
+],
+"Craniectomy defect": [
+"skull"
+],
+"Craniotomy defect": [
+"skull",
+"soft_tissue"
+],
+"Crystalluria": [
+"bladder",
+"kidneys"
+],
+"Cysticercosis": [
+"intracranial",
+"soft_tissue"
+],
+"Deep brain stimulation device": [
+"chest_wall",
+"intracranial",
+"skull"
+],
+"Diffuse cerebellar atrophy": [
+"intracranial"
+],
+"Diffuse colonic nodularity": [
+"colon"
+],
+"Diffuse idiopathic skeletal hyperostosis": [
+"spinal_canal",
+"spine"
+],
+"Diffuse large B-cell lymphoma": [
+"body_minus_lungs"
+],
+"Diffuse panbronchiolitis": [
+"lungs"
+],
+"Diffuse pleural thickening": [
+"pleura"
+],
+"Diffuse pulmonary nodules": [
+"lungs"
+],
+"Diffuse small bowel disease": [
+"small_bowel"
+],
+"Diffuse tracheal narrowing": [
+"airway",
+"lungs"
+],
+"Direct inguinal hernia": [
+"groin",
+"pelvis"
+],
+"Disproportionately enlarged subarachnoid space hydrocephalus": [
+"intracranial"
+],
+"Distal radioulnar joint instability": [
+"bones",
+"soft_tissue"
+],
+"Diverticular disease": [
+"colon"
+],
+"Dolichocolon": [
+"colon"
+],
+"Dolichoectasia": [
+"intracranial"
+],
+"Domestically acquired particulate lung disease": [
+"lungs"
+],
+"Dorsocervical fat pad": [
+"neck",
+"soft_tissue"
+],
+"Double outlet right ventricle": [
+"heart"
+],
+"Double Renal Vein": [
+"abdominal_vessels",
+"kidneys"
+],
+"Double-chambered right ventricle": [
+"heart"
+],
+"Drainage catheter": [
+"body"
+],
+"Drowning": [
+"lungs"
+],
+"Drug-induced renal calculi": [
+"kidneys"
+],
+"Dual left anterior descending coronary artery": [
+"heart"
+],
+"Dual right coronary artery": [
+"heart"
+],
+"Duodenal diverticulum": [
+"duodenum"
+],
+"Duplex collecting system": [
+"kidneys",
+"ureters"
+],
+"Duplication of the inferior vena cava": [
+"abdominal_vessels"
+],
+"Dural calcification": [
+"intracranial"
+],
+"Dysphagia lusoria": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Dysphagia megalatriensis": [
+"esophagus",
+"heart"
+],
+"Dysplastic liver nodules": [
+"liver"
+],
+"Ectopic parathyroid gland": [
+"mediastinum",
+"neck",
+"thyroid"
+],
+"Ectopic ureter": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Embolism": [
+"pulmonary_arteries",
+"vessels"
+],
+"Emphysema": [
+"lungs"
+],
+"Empyema": [
+"pleura"
+],
+"Empyema and Pulmonary Abscess": [
+"lungs",
+"pleura"
+],
+"Encephalomalacia": [
+"intracranial"
+],
+"Enchondroma": [
+"bones",
+"soft_tissue"
+],
+"Endobronchial tuberculosis": [
+"airway",
+"lungs"
+],
+"Endogenous lipoid pneumonia": [
+"lungs"
+],
+"Endoleak": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Endometrial carcinoma": [
+"pelvis"
+],
+"Digestive system neuroendocrine tumours": [
+"appendix_rlq",
+"bowel",
+"duodenum",
+"pancreas",
+"stomach"
+],
+"Diverticulum": [
+"airway",
+"bladder",
+"bowel",
+"duodenum",
+"esophagus",
+"kidneys",
+"stomach"
+],
+"Ductus deferens calcification": [
+"pelvis",
+"prostate"
+],
+"Eagle syndrome": [
+"neck",
+"pharynx_larynx",
+"temporal_bone"
+],
+"Ectopic kidney": [
+"kidneys"
+],
+"Elastofibroma dorsi": [
+"chest_wall",
+"ribs"
+],
+"Endometrial fluid": [
+"pelvis"
+],
+"Endometrial thickening": [
+"pelvis"
+],
+"Endotracheal tube": [
+"airway",
+"lungs",
+"pharynx_larynx"
+],
+"Enlarged extraocular muscles": [
+"orbit"
+],
+"Enlarged perivascular spaces": [
+"intracranial"
+],
+"Enlarged vestibular aqueduct": [
+"temporal_bone"
+],
+"Enteritis": [
+"small_bowel"
+],
+"Enteroenteric fistula": [
+"bowel"
+],
+"Enterolithiasis": [
+"bowel"
+],
+"Enthesopathy": [
+"bones",
+"soft_tissue"
+],
+"Epidermal inclusion cyst": [
+"skull",
+"soft_tissue"
+],
+"Epiploic appendagitis": [
+"appendix_rlq",
+"colon",
+"peritoneum"
+],
+"Esophagitis": [
+"esophagus"
+],
+"Esophagojejunostomy": [
+"esophagus",
+"small_bowel"
+],
+"Excessive dynamic airway collapse": [
+"airway",
+"lungs"
+],
+"Excessive lateral pressure syndrome": [
+"bones",
+"soft_tissue"
+],
+"Expiratory central airway collapse": [
+"airway",
+"lungs"
+],
+"External auditory canal exostoses": [
+"temporal_bone"
+],
+"Extra-axial collection": [
+"intracranial"
+],
+"Extradural haematoma": [
+"intracranial"
+],
+"Extramural vascular invasion": [
+"colon"
+],
+"Extranodal extension": [
+"body_minus_lungs"
+],
+"Extrapleural lipomatosis": [
+"chest_wall",
+"pleura"
+],
+"Extrapulmonary tuberculosis": [
+"body"
+],
+"Extrarenal pelvis": [
+"kidneys"
+],
+"Facet joint arthropathy": [
+"spinal_canal",
+"spine"
+],
+"Facet joint tropism": [
+"spinal_canal",
+"spine"
+],
+"Facet joint vacuum phenomenon": [
+"spinal_canal",
+"spine"
+],
+"Facial clefts": [
+"oral_dental",
+"sinonasal"
+],
+"Facial fractures": [
+"oral_dental",
+"orbit",
+"sinonasal"
+],
+"Faecal impaction": [
+"colon"
+],
+"Faecaloma": [
+"colon"
+],
+"Faecolith": [
+"appendix_rlq",
+"colon"
+],
+"Fahr syndrome": [
+"intracranial"
+],
+"Falx ossification": [
+"intracranial"
+],
+"Fascioliasis": [
+"biliary",
+"liver"
+],
+"Fat containing liver lesions": [
+"liver"
+],
+"Fat containing solitary pulmonary nodule": [
+"lungs"
+],
+"Fat-containing adrenal lesions": [
+"adrenals"
+],
+"Fatty falx cerebri": [
+"intracranial"
+],
+"Fatty nodal metaplasia": [
+"body_minus_lungs"
+],
+"Fatty pancreas": [
+"pancreas"
+],
+"Femoral hernia": [
+"groin",
+"pelvis"
+],
+"Femoroacetabular impingement syndrome": [
+"pelvic_bones_hips"
+],
+"Fibrin sheath": [
+"vessels"
+],
+"Fibroatelectasis": [
+"lungs"
+],
+"Exophytic hepatic mass": [
+"liver",
+"peritoneum"
+],
+"Fat necrosis": [
+"body",
+"soft_tissue"
+],
+"Femoral anteversion": [
+"bones",
+"pelvic_bones_hips",
+"soft_tissue"
+],
+"Femur fracture": [
+"bones",
+"pelvic_bones_hips",
+"soft_tissue"
+],
+"Fibroma": [
+"body"
+],
+"Fibromuscular dysplasia": [
+"vessels"
+],
+"Fibrothorax": [
+"pleura"
+],
+"Fibrotic idiopathic interstitial pneumonia": [
+"lungs"
+],
+"Fibrous dysplasia": [
+"bones"
+],
+"Fibula fracture": [
+"bones",
+"soft_tissue"
+],
+"Fibular trochlea hypertrophy": [
+"bones",
+"soft_tissue"
+],
+"Fissural thickening": [
+"lungs",
+"pleura"
+],
+"Fistula": [
+"body"
+],
+"Flash filling hepatic haemangioma": [
+"liver"
+],
+"Fluid collection": [
+"body"
+],
+"Focal calvarial thinning": [
+"skull",
+"soft_tissue"
+],
+"Focal fatty sparing of the liver": [
+"liver"
+],
+"Focal hepatic steatosis": [
+"liver"
+],
+"Focal interstitial pulmonary fibrosis": [
+"lungs"
+],
+"Focal liver lesion": [
+"liver"
+],
+"Focal nodular hyperplasia": [
+"liver"
+],
+"Follicular lymphoma": [
+"body_minus_lungs"
+],
+"Foreign body": [
+"body"
+],
+"Foreign body aspiration": [
+"airway",
+"lungs"
+],
+"Fracture": [
+"bones",
+"soft_tissue"
+],
+"Free standing bronchiectasis": [
+"lungs"
+],
+"Frontal sinus aplasia": [
+"oral_dental",
+"sinonasal"
+],
+"Frontal Sinus Hyperplasia": [
+"oral_dental",
+"sinonasal"
+],
+"Frontal sinus hypoplasia": [
+"oral_dental",
+"sinonasal"
+],
+"Fundal adenomyomatosis": [
+"biliary",
+"gallbladder"
+],
+"Fungal sinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Gallbladder abnormality": [
+"biliary",
+"gallbladder"
+],
+"Gallbladder adenomyomatosis": [
+"biliary",
+"gallbladder"
+],
+"Gallbladder distension": [
+"biliary",
+"gallbladder"
+],
+"Gallbladder empyema": [
+"gallbladder"
+],
+"Gallbladder perforation": [
+"biliary",
+"gallbladder",
+"peritoneum"
+],
+"Gallbladder polyp": [
+"biliary",
+"gallbladder"
+],
+"Gallbladder sludge": [
+"biliary",
+"gallbladder"
+],
+"Gallbladder wall thickening": [
+"biliary",
+"gallbladder"
+],
+"Gangrenous cholecystitis": [
+"biliary",
+"gallbladder"
+],
+"Gastric adenocarcinoma": [
+"stomach"
+],
+"Gastric dilatation": [
+"stomach"
+],
+"Gastric diverticulum": [
+"stomach"
+],
+"Gastric malignancy": [
+"stomach"
+],
+"Gastric varices": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Gastric wall fatty infiltration": [
+"stomach"
+],
+"Gastric wall thickening": [
+"stomach"
+],
+"Gastritis": [
+"stomach"
+],
+"Gastroesophageal reflux": [
+"esophagus",
+"stomach"
+],
+"Gastrointestinal angiodysplasia": [
+"bowel"
+],
+"Gastrointestinal bleeding": [
+"bowel",
+"stomach"
+],
+"Gastrointestinal leiomyoma": [
+"bowel",
+"esophagus",
+"stomach"
+],
+"Gastrointestinal stromal tumour": [
+"bowel",
+"stomach"
+],
+"Gallstone pancreatitis": [
+"biliary",
+"gallbladder",
+"pancreas"
+],
+"Gastrointestinal tract lipoma": [
+"bowel",
+"stomach"
+],
+"Gastrointestinal wall thickening": [
+"bowel",
+"esophagus",
+"stomach"
+],
+"Gastrojejunostomy": [
+"small_bowel",
+"stomach"
+],
+"Giant ethmoid bulla": [
+"sinonasal"
+],
+"Giant hepatic haemangioma": [
+"liver"
+],
+"Glass foreign body": [
+"body"
+],
+"Glenoid hypoplasia": [
+"shoulder"
+],
+"Glenoid retroversion": [
+"shoulder"
+],
+"Gliosis": [
+"intracranial"
+],
+"Gluteal injection site granuloma": [
+"pelvic_bones_hips",
+"soft_tissue"
+],
+"Gout": [
+"bones",
+"soft_tissue"
+],
+"Gravity-dependent atelectasis": [
+"lungs"
+],
+"Groin hernia (inguinal/femoral)": [
+"groin",
+"pelvis"
+],
+"Ground-glass nodule": [
+"lungs"
+],
+"Ground-glass opacity": [
+"lungs"
+],
+"Gunshot injury": [
+"body"
+],
+"Gynecomastia": [
+"breast"
+],
+"Haemangioma": [
+"body"
+],
+"Haematoma": [
+"body"
+],
+"Haemorrhage": [
+"body"
+],
+"Haemorrhagic stroke": [
+"intracranial"
+],
+"Haemorrhagic transformation of ischaemic stroke": [
+"intracranial"
+],
+"Haemothorax": [
+"pleura"
+],
+"Haemotympanum": [
+"temporal_bone"
+],
+"Hairy pleural plaque": [
+"pleura"
+],
+"Haller cell": [
+"sinonasal"
+],
+"Hamartoma": [
+"body"
+],
+"Hardware loosening": [
+"bones"
+],
+"Head and neck squamous cell carcinoma": [
+"neck",
+"oral_dental",
+"pharynx_larynx",
+"sinonasal"
+],
+"Heart failure": [
+"heart",
+"lungs",
+"pleura"
+],
+"Heart valve replacement": [
+"heart"
+],
+"Hepatic artery variation": [
+"abdominal_vessels",
+"liver"
+],
+"Hepatic atrophy": [
+"liver"
+],
+"Hepatic calcification": [
+"liver"
+],
+"Hepatic capsular retraction": [
+"liver"
+],
+"Hepatic haemangioma": [
+"liver"
+],
+"Hepatic hydatid cyst": [
+"liver"
+],
+"Hepatic hypodense lesion": [
+"liver"
+],
+"Hepatic metastases": [
+"liver"
+],
+"Hepatic pseudolesion near falciform ligament": [
+"liver"
+],
+"Hepatic pseudolesions": [
+"liver"
+],
+"Hepatic steatosis": [
+"liver"
+],
+"Hepatic vascular variant": [
+"abdominal_vessels",
+"liver",
+"portal_venous"
+],
+"Hepatobiliary parasitic infection": [
+"biliary",
+"liver"
+],
+"Hepatocellular carcinoma": [
+"liver"
+],
+"Goitre": [
+"thyroid"
+],
+"Gonarthrosis": [
+"bones",
+"soft_tissue"
+],
+"Granulomatous lung disease": [
+"lungs"
+],
+"Hemifacial microsomia": [
+"oral_dental",
+"orbit",
+"sinonasal",
+"skull",
+"temporal_bone"
+],
+"Hepatic Schistosomiasis": [
+"liver"
+],
+"Hepatolithiasis": [
+"biliary",
+"liver"
+],
+"Hepatomegaly": [
+"liver"
+],
+"Hepatosplenomegaly": [
+"liver",
+"spleen"
+],
+"Hereditary haemorrhagic telangiectasia": [
+"liver",
+"lungs",
+"pulmonary_arteries",
+"vessels"
+],
+"Hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Heterotopic ossification": [
+"bones",
+"soft_tissue"
+],
+"Hiatal hernia": [
+"esophagus",
+"stomach"
+],
+"High attenuation lymphadenopathy": [
+"body_minus_lungs"
+],
+"High riding jugular bulb": [
+"temporal_bone"
+],
+"Hill-Sachs defect": [
+"shoulder"
+],
+"Hip dysplasia": [
+"pelvic_bones_hips"
+],
+"Hip osteoarthritis": [
+"pelvic_bones_hips"
+],
+"Hip prosthesis": [
+"pelvic_bones_hips"
+],
+"Hippocampal calcification": [
+"intracranial"
+],
+"HIV-associated dementia": [
+"intracranial"
+],
+"HIV-associated salivary gland disease": [
+"salivary"
+],
+"HIV/AIDS (pulmonary and thoracic manifestations)": [
+"lungs",
+"mediastinum",
+"pleura"
+],
+"Honeycombing": [
+"lungs"
+],
+"Horseshoe kidney": [
+"kidneys"
+],
+"Humeral head fracture": [
+"shoulder"
+],
+"Humerus fracture": [
+"shoulder"
+],
+"Hydatid cyst": [
+"liver",
+"lungs"
+],
+"Hydrocele": [
+"groin"
+],
+"Hydrocephalus": [
+"intracranial"
+],
+"Hydronephrosis": [
+"kidneys"
+],
+"Hydrosalpinx": [
+"pelvis"
+],
+"Hydroureter": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Hydroureteronephrosis": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Hyperattenuating cerebral metastases": [
+"intracranial"
+],
+"Hyperattenuating paranasal sinus opacification": [
+"oral_dental",
+"sinonasal"
+],
+"Hyperattenuating pulmonary mass lesion": [
+"lungs"
+],
+"Hyperdense pulmonary nodules": [
+"lungs"
+],
+"Hyperdense renal cyst": [
+"kidneys"
+],
+"Hyperextension cervical injury": [
+"spinal_canal",
+"spine_cervical"
+],
+"Hyperostosis frontalis interna": [
+"skull",
+"soft_tissue"
+],
+"Hyperostosis frontoparietalis": [
+"skull",
+"soft_tissue"
+],
+"Hyperostosis of the skull": [
+"skull",
+"soft_tissue"
+],
+"Hypersensitivity pneumonitis": [
+"lungs"
+],
+"Hypertensive intracerebral haemorrhage": [
+"intracranial"
+],
+"Hypertrophy of the caudate lobe": [
+"liver"
+],
+"Hypervascular liver lesions": [
+"liver"
+],
+"Hypervascular metastases": [
+"body"
+],
+"Hypoglobus": [
+"orbit"
+],
+"Hypoplastic circumflex artery": [
+"heart"
+],
+"Hypoplastic right coronary artery": [
+"heart"
+],
+"Hypostasis": [
+"lungs"
+],
+"Hypoxic-ischaemic encephalopathy": [
+"intracranial"
+],
+"Heterotaxy syndrome": [
+"abdominal_vessels",
+"heart",
+"liver",
+"spleen",
+"stomach"
+],
+"High attenuation mucus": [
+"lungs"
+],
+"Hilar lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Idiopathic interstitial pneumonia": [
+"lungs"
+],
+"Idiopathic pulmonary fibrosis": [
+"lungs"
+],
+"Ileocaecal tuberculosis": [
+"colon",
+"small_bowel"
+],
+"Ileocolic anastomosis": [
+"colon",
+"small_bowel"
+],
+"Ileostomy": [
+"abdominal_wall",
+"small_bowel"
+],
+"Ileus": [
+"bowel"
+],
+"Iliac artery stenosis": [
+"abdominal_vessels",
+"kidneys"
+],
+"Iliac vein occlusion": [
+"abdominal_vessels"
+],
+"Impacted teeth": [
+"oral_dental"
+],
+"Implant malposition": [
+"body",
+"breast",
+"chest_wall"
+],
+"Implant migration": [
+"body",
+"breast",
+"chest_wall"
+],
+"Implantable venous access port": [
+"breast",
+"chest_wall",
+"mediastinum"
+],
+"In situ pulmonary artery thrombosis": [
+"lungs",
+"pulmonary_arteries"
+],
+"Incarcerated hernia": [
+"abdominal_wall",
+"groin",
+"peritoneum"
+],
+"Incisional hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Incisive canal cyst": [
+"oral_dental",
+"sinonasal"
+],
+"Increased splenic attenuation": [
+"spleen"
+],
+"Indirect inguinal hernia": [
+"groin",
+"pelvis"
+],
+"Infarction": [
+"body"
+],
+"Infected concha bullosa": [
+"sinonasal"
+],
+"Infectious bronchiolitis": [
+"lungs"
+],
+"Infectious colitis": [
+"colon"
+],
+"Inflammatory abdominal aortic aneurysm": [
+"abdominal_vessels"
+],
+"Inflammatory bowel disease": [
+"bowel"
+],
+"Inflammatory bronchiolitis": [
+"lungs"
+],
+"Inflammatory pseudopolyp": [
+"colon"
+],
+"Ingested bones": [
+"bowel",
+"esophagus",
+"pharynx_larynx",
+"stomach"
+],
+"Inguinal hernia": [
+"groin",
+"pelvis"
+],
+"Inspissated secretions": [
+"airway",
+"lungs"
+],
+"Interbody cage": [
+"spine"
+],
+"Intercalary bone": [
+"bones",
+"soft_tissue",
+"spine"
+],
+"Interlobular septal thickening": [
+"lungs"
+],
+"Intermuscular lipoma": [
+"soft_tissue"
+],
+"Interstitial lung abnormality": [
+"lungs"
+],
+"Interstitial lung disease": [
+"lungs"
+],
+"Interstitial oedematous pancreatitis": [
+"pancreas",
+"peritoneum"
+],
+"Interstitial pneumonia": [
+"lungs"
+],
+"Interstitial pneumonia with autoimmune features": [
+"lungs"
+],
+"Interstitial thickening": [
+"lungs"
+],
+"Intervertebral disc calcification": [
+"spinal_canal",
+"spine"
+],
+"Intervertebral disc degeneration": [
+"spinal_canal",
+"spine"
+],
+"Intervertebral disc herniation": [
+"spinal_canal",
+"spine"
+],
+"Intestinal nonrotation": [
+"bowel",
+"duodenum"
+],
+"Intra-adenoidal retention cyst": [
+"pharynx_larynx",
+"sinonasal"
+],
+"Iliofemoral deep vein thrombosis": [
+"abdominal_vessels",
+"bones",
+"groin",
+"soft_tissue",
+"vessels"
+],
+"Inferior orbital wall fracture": [
+"orbit"
+],
+"Interarterial course of the left coronary artery": [
+"heart"
+],
+"Interarterial course of the right coronary artery": [
+"heart"
+],
+"Intra-articular fragments": [
+"bones",
+"soft_tissue"
+],
+"Intra-articular gas": [
+"bones",
+"soft_tissue"
+],
+"Intra-articular loose body": [
+"bones",
+"soft_tissue"
+],
+"Intracerebral haemorrhage": [
+"intracranial"
+],
+"Intracranial aneurysm": [
+"intracranial"
+],
+"Intracranial arterial calcification": [
+"intracranial"
+],
+"Intracranial arterial fenestration": [
+"intracranial"
+],
+"Intracranial atherosclerotic disease": [
+"intracranial"
+],
+"Intracranial calcification": [
+"intracranial"
+],
+"Intracranial haemorrhage": [
+"intracranial"
+],
+"Intracranial herniation": [
+"intracranial"
+],
+"Intracranial lipoma": [
+"intracranial"
+],
+"Intracranial mass": [
+"intracranial"
+],
+"Intracranial mass effect": [
+"intracranial"
+],
+"Intracranial metastases": [
+"intracranial"
+],
+"Intracranial non-neoplastic cysts": [
+"intracranial"
+],
+"Intracranial tumours": [
+"intracranial"
+],
+"Intraductal papillary mucinous neoplasm": [
+"pancreas"
+],
+"Intrahepatic biliary duct dilatation": [
+"biliary"
+],
+"Intramural fat of the urinary bladder": [
+"bladder"
+],
+"Intramuscular lipoma": [
+"soft_tissue"
+],
+"Intraosseous ganglion": [
+"bones",
+"soft_tissue"
+],
+"Intraosseous gas": [
+"bones",
+"soft_tissue"
+],
+"Intraosseous lipoma": [
+"bones",
+"soft_tissue"
+],
+"Intraosseous pneumatocyst": [
+"bones"
+],
+"Intrapancreatic accessory spleen": [
+"pancreas"
+],
+"Intrapulmonary lymph nodes": [
+"lungs"
+],
+"Intrasinus calcification": [
+"oral_dental",
+"sinonasal"
+],
+"Intrauterine device": [
+"pelvis"
+],
+"Intravascular lung metastases": [
+"lungs",
+"pulmonary_arteries"
+],
+"Intussusception": [
+"bowel"
+],
+"Irritable bowel syndrome": [
+"bowel"
+],
+"Ischaemic colitis": [
+"colon"
+],
+"Ischaemic penumbra": [
+"intracranial"
+],
+"Ischaemic stroke": [
+"intracranial"
+],
+"Ischemic gliosis": [
+"intracranial"
+],
+"Ischemic Stroke Infarct Core": [
+"intracranial"
+],
+"Ischiopubic synchondrosis asymmetry": [
+"pelvic_bones_hips"
+],
+"Isolated intrahepatic biliary duct dilatation": [
+"biliary"
+],
+"Jejunoileal diverticulosis": [
+"small_bowel"
+],
+"Joint disease": [
+"bones",
+"soft_tissue"
+],
+"Joint effusion": [
+"bones",
+"soft_tissue"
+],
+"Jugular bulb diverticulum": [
+"temporal_bone"
+],
+"Jugular bulb variant": [
+"temporal_bone"
+],
+"Kommerell diverticulum": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Kyphoscoliosis": [
+"spine"
+],
+"Kyphosis": [
+"spine"
+],
+"K\u00fcmmell disease": [
+"spinal_canal",
+"spine"
+],
+"Lady Windermere syndrome": [
+"lung_lul",
+"lung_rml",
+"lungs"
+],
+"Intrathoracic sleeve migration": [
+"esophagus",
+"stomach"
+],
+"Joint space narrowing": [
+"bones",
+"soft_tissue"
+],
+"Ladd bands": [
+"bowel",
+"colon",
+"duodenum",
+"peritoneum"
+],
+"Lamina papyracea dehiscence": [
+"orbit",
+"sinonasal"
+],
+"Laminectomy defect": [
+"spine"
+],
+"Large bowel obstruction": [
+"bowel",
+"colon"
+],
+"Large vessel occlusion": [
+"intracranial"
+],
+"Laryngeal cancer": [
+"neck",
+"pharynx_larynx"
+],
+"Laryngeal cyst": [
+"neck",
+"pharynx_larynx"
+],
+"Lateral hemivertebra": [
+"spinal_canal",
+"spine"
+],
+"Left atrial enlargement": [
+"heart"
+],
+"Left circumflex artery arising from the right coronary sinus": [
+"heart"
+],
+"Left coronary dominance": [
+"heart"
+],
+"Left lower lobe collapse": [
+"lung_lll"
+],
+"Left lower lobe consolidation": [
+"lung_lll"
+],
+"Left upper lobe collapse": [
+"lung_lul"
+],
+"Left upper lobe consolidation": [
+"lung_lul"
+],
+"Left ventricular enlargement": [
+"heart"
+],
+"Left ventricular hypertrophy": [
+"heart"
+],
+"Left-sided superior vena cava": [
+"aorta_thoracic",
+"heart",
+"mediastinum"
+],
+"Limb ischaemia": [
+"bones",
+"soft_tissue",
+"vessels"
+],
+"Limbus vertebra": [
+"spinal_canal",
+"spine"
+],
+"Linear atelectasis": [
+"lungs"
+],
+"Lipomatosis": [
+"body",
+"soft_tissue"
+],
+"Lipomatosis of the ileocaecal valve": [
+"colon"
+],
+"Lipomatous hypertrophy of the interatrial septum": [
+"heart"
+],
+"Lipomatous lesions": [
+"body",
+"soft_tissue"
+],
+"Liquefactive necrosis": [
+"body"
+],
+"Liver ablation site": [
+"liver"
+],
+"Liver cysts": [
+"liver"
+],
+"Liver hypertrophy": [
+"liver"
+],
+"Liver lobulation": [
+"liver"
+],
+"Liver transplant": [
+"liver"
+],
+"Liver trauma": [
+"liver"
+],
+"Liver tumours": [
+"liver"
+],
+"Lobar consolidation": [
+"lungs"
+],
+"Lobar intracerebral haemorrhage": [
+"intracranial"
+],
+"Lobar pneumonia": [
+"lungs"
+],
+"Localised pulmonary emphysema": [
+"lungs"
+],
+"Low attenuation lymphadenopathy": [
+"body_minus_lungs"
+],
+"Lower gastrointestinal bleeding": [
+"bowel",
+"colon",
+"small_bowel"
+],
+"Lower lobe bronchiectasis": [
+"lung_lll",
+"lung_rll"
+],
+"Lumbar spine fracture": [
+"spinal_canal",
+"spine_lumbosacral"
+],
+"Lung abscess": [
+"lungs"
+],
+"Lung adenocarcinoma": [
+"lungs"
+],
+"Lung cancer": [
+"lungs"
+],
+"Lung hyperinflation": [
+"lungs"
+],
+"Lung mass": [
+"lungs"
+],
+"Lung opacity": [
+"lungs"
+],
+"Luxury perfusion": [
+"intracranial"
+],
+"Lymphadenopathy": [
+"body_minus_lungs"
+],
+"Large vessel vasculitis": [
+"vessels"
+],
+"Ligamentum arteriosum calcification": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Lymphangitis carcinomatosa": [
+"lungs"
+],
+"Lymphoma": [
+"body_minus_lungs"
+],
+"Malignant melanoma": [
+"body"
+],
+"Malignant pleural disease": [
+"pleura"
+],
+"Malignant pleural mesothelioma": [
+"pleura"
+],
+"Mandibular fracture": [
+"oral_dental",
+"sinonasal"
+],
+"Mandibular protrusion": [
+"oral_dental",
+"sinonasal"
+],
+"Mandibular retrusion": [
+"oral_dental",
+"sinonasal"
+],
+"Mandibular torus": [
+"oral_dental",
+"sinonasal"
+],
+"Marijuana lung": [
+"lungs"
+],
+"Mass-forming chronic pancreatitis": [
+"pancreas"
+],
+"Mastoid air cell opacification": [
+"temporal_bone"
+],
+"Mastoid sclerosis": [
+"temporal_bone"
+],
+"Mastoidectomy": [
+"temporal_bone"
+],
+"Maxillary sinus hypoplasia": [
+"oral_dental",
+"sinonasal"
+],
+"Maxillary sinus wall defect": [
+"oral_dental",
+"sinonasal"
+],
+"Maxillary torus": [
+"oral_dental",
+"sinonasal"
+],
+"May-Thurner syndrome": [
+"abdominal_vessels"
+],
+"Median arcuate ligament syndrome": [
+"abdominal_vessels"
+],
+"Mediastinal lipomatosis": [
+"mediastinum"
+],
+"Mediastinal mass": [
+"mediastinum"
+],
+"Mediastinal shift": [
+"mediastinum"
+],
+"Mediastinal/hilar lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Medical material": [
+"body"
+],
+"Medication-related osteonecrosis of the jaw": [
+"oral_dental"
+],
+"Medium vessel occlusion": [
+"intracranial"
+],
+"Medullary nephrocalcinosis": [
+"kidneys"
+],
+"Medullary sponge kidney": [
+"kidneys"
+],
+"Mega cisterna magna": [
+"intracranial"
+],
+"Megarectum": [
+"colon"
+],
+"Meningothelial meningioma": [
+"intracranial"
+],
+"Meniscal ossicle": [
+"bones"
+],
+"Mesenteric ischaemia": [
+"abdominal_vessels",
+"bowel"
+],
+"Metal foreign body": [
+"body"
+],
+"Metastatic calcification": [
+"body"
+],
+"Metastatic disease": [
+"body"
+],
+"Metastatic pulmonary calcification": [
+"lungs"
+],
+"Lymphocele": [
+"abdominal_vessels",
+"axilla",
+"groin",
+"pelvis",
+"peritoneum"
+],
+"Lytic bone metastases": [
+"bones",
+"soft_tissue"
+],
+"Lytic skull lesion": [
+"skull",
+"soft_tissue"
+],
+"Malleolar fracture": [
+"bones",
+"soft_tissue"
+],
+"Maxillary protrusion": [
+"oral_dental",
+"sinonasal"
+],
+"Meckel diverticulitis": [
+"peritoneum",
+"small_bowel"
+],
+"Mediastinal lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Mesenteric abnormality": [
+"bowel",
+"peritoneum"
+],
+"Mesenteric fat stranding": [
+"bowel",
+"peritoneum"
+],
+"Mesenteric lymph node calcification": [
+"peritoneum"
+],
+"Mesenteric lymphadenitis": [
+"bowel",
+"peritoneum"
+],
+"Mesenteric lymphadenopathy": [
+"peritoneum"
+],
+"Metacarpal fracture": [
+"bones",
+"soft_tissue"
+],
+"Metatarsal fracture": [
+"bones",
+"soft_tissue"
+],
+"Methotrexate lung disease": [
+"lungs"
+],
+"Metopic ridge": [
+"skull",
+"soft_tissue"
+],
+"Middle cerebral artery infarct": [
+"intracranial"
+],
+"Middle cerebral artery occlusion": [
+"intracranial"
+],
+"Middle ear atelectasis": [
+"temporal_bone"
+],
+"Middle ear granulation tissue": [
+"temporal_bone"
+],
+"Middle lobe bronchiectasis": [
+"lung_rml"
+],
+"Middle turbinate hypertrophy": [
+"sinonasal"
+],
+"Milk of calcium": [
+"biliary",
+"gallbladder",
+"kidneys"
+],
+"Mitral annular calcification": [
+"heart"
+],
+"Mitral valve calcification": [
+"heart"
+],
+"Mitral valve leaflet calcification": [
+"heart"
+],
+"Mixed attenuation bone lesion": [
+"bones",
+"soft_tissue"
+],
+"Mixed lytic and sclerotic bone metastases": [
+"bones",
+"soft_tissue"
+],
+"Mondini malformation": [
+"temporal_bone"
+],
+"Morgagni hernia": [
+"mediastinum",
+"peritoneum"
+],
+"Mosaic attenuation pattern": [
+"lungs"
+],
+"Mulberry stone": [
+"bladder"
+],
+"Multifocal hepatic steatosis": [
+"liver"
+],
+"Multinodular goitre": [
+"thyroid"
+],
+"Multiple intracranial calcifications": [
+"intracranial"
+],
+"Multiple myeloma": [
+"bones"
+],
+"Muscle atrophy": [
+"soft_tissue"
+],
+"Myocardial bridging": [
+"heart"
+],
+"Myocardial infarction": [
+"heart"
+],
+"Myocardial ischaemia": [
+"heart"
+],
+"Myochosis coli": [
+"colon"
+],
+"Myositis ossificans": [
+"soft_tissue"
+],
+"Myringosclerosis": [
+"temporal_bone"
+],
+"Nabothian cyst": [
+"pelvis"
+],
+"Nasal bone fracture": [
+"oral_dental",
+"sinonasal"
+],
+"Nasal cavity abnormality": [
+"oral_dental",
+"sinonasal"
+],
+"Nasal septal spur": [
+"oral_dental",
+"sinonasal"
+],
+"Nasal septum perforation": [
+"oral_dental",
+"sinonasal"
+],
+"Nasal stenosis": [
+"oral_dental",
+"sinonasal"
+],
+"Nasal synechia": [
+"oral_dental",
+"sinonasal"
+],
+"Nasogastric tube": [
+"esophagus",
+"pharynx_larynx",
+"sinonasal",
+"stomach"
+],
+"Nasopharyngeal wall thickening": [
+"neck",
+"pharynx_larynx"
+],
+"Necrotising pneumonia": [
+"lungs"
+],
+"Nephrocalcinosis": [
+"kidneys"
+],
+"Nephroptosis": [
+"kidneys"
+],
+"Neurocysticercosis": [
+"intracranial"
+],
+"Neuroendocrine neoplasm": [
+"body"
+],
+"Neurofibromatosis type 1": [
+"body"
+],
+"Mucoid impaction": [
+"airway",
+"lungs"
+],
+"Nasopharyngeal carcinoma": [
+"neck",
+"pharynx_larynx"
+],
+"Necrotising pancreatitis": [
+"duodenum",
+"pancreas",
+"peritoneum"
+],
+"Nephrostomy catheter": [
+"kidneys"
+],
+"Neurogenic thoracic outlet syndrome": [
+"neck",
+"shoulder"
+],
+"Non-atherosclerotic coronary artery disease": [
+"heart"
+],
+"Non-Hodgkin lymphoma": [
+"body_minus_lungs"
+],
+"Non-small cell lung cancer": [
+"lungs"
+],
+"Nontoxic megacolon": [
+"colon"
+],
+"Nutcracker phenomenon": [
+"abdominal_vessels",
+"kidneys"
+],
+"Nutmeg liver": [
+"liver"
+],
+"Obstructive hydrocephalus": [
+"intracranial"
+],
+"Obstructive uropathy": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Occipital vertebra": [
+"skull",
+"spinal_canal",
+"spine_cervical"
+],
+"Ocular foreign body": [
+"orbit"
+],
+"Odontogenic sinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Oesophageal carcinoma": [
+"esophagus"
+],
+"Oesophageal dilatation": [
+"esophagus"
+],
+"Oesophageal foreign body": [
+"esophagus"
+],
+"Oesophageal leiomyoma": [
+"esophagus"
+],
+"Oesophageal wall thickening": [
+"esophagus"
+],
+"Oligometastases": [
+"body"
+],
+"Omental cake": [
+"peritoneum"
+],
+"Omental infarction": [
+"peritoneum"
+],
+"Onodi cell": [
+"sinonasal"
+],
+"Oppenheimer ossicle": [
+"spine_lumbosacral"
+],
+"Orbital abnormality": [
+"orbit"
+],
+"Orbital blow-out fracture": [
+"orbit",
+"sinonasal"
+],
+"Organising pneumonia": [
+"lungs"
+],
+"Organomegaly": [
+"body"
+],
+"Organophosphate poisoning": [
+"body"
+],
+"Orthodontic appliance": [
+"oral_dental"
+],
+"Ossicular chain fixation": [
+"temporal_bone"
+],
+"Ossification of the ligamentum flavum": [
+"spinal_canal",
+"spine"
+],
+"Ossification of the posterior longitudinal ligament": [
+"spinal_canal",
+"spine"
+],
+"Osteoarthritis": [
+"bones",
+"soft_tissue"
+],
+"Osteoarthritis of the temporomandibular joint": [
+"oral_dental",
+"temporal_bone"
+],
+"Osteochondral lesion": [
+"bones",
+"soft_tissue"
+],
+"Osteolytic bone lesion": [
+"bones",
+"soft_tissue"
+],
+"Osteoma": [
+"sinonasal",
+"skull"
+],
+"Osteoma cutis": [
+"soft_tissue"
+],
+"Osteomeatal complex obstruction": [
+"sinonasal"
+],
+"Osteonecrosis": [
+"bones",
+"soft_tissue"
+],
+"Osteopenia": [
+"bones",
+"soft_tissue"
+],
+"Osteophyte": [
+"bones",
+"soft_tissue"
+],
+"Osteophyte-induced adjacent pulmonary atelectasis and fibrosis": [
+"lungs",
+"spine_thoracic"
+],
+"Osteoporosis": [
+"bones",
+"soft_tissue"
+],
+"Otitis media": [
+"temporal_bone"
+],
+"Otomastoiditis": [
+"temporal_bone"
+],
+"Otosclerosis": [
+"temporal_bone"
+],
+"Ovarian cancer": [
+"pelvis"
+],
+"Ovarian cyst": [
+"pelvis"
+],
+"Os fabella": [
+"bones"
+],
+"Os trigonum": [
+"body"
+],
+"Ovarian venous varix": [
+"abdominal_vessels",
+"pelvis"
+],
+"Pacemaker": [
+"chest_wall",
+"heart"
+],
+"Pancreatic abnormality": [
+"pancreas"
+],
+"Pancreatic atrophy": [
+"pancreas"
+],
+"Pancreatic calcifications": [
+"pancreas"
+],
+"Pancreatic duct dilatation": [
+"biliary",
+"pancreas"
+],
+"Pancreatic duct stone": [
+"pancreas"
+],
+"Pancreatic lipoma": [
+"pancreas"
+],
+"Pancreatic neoplasms": [
+"pancreas"
+],
+"Pancreatic parenchymal disease": [
+"pancreas"
+],
+"Panlobular emphysema": [
+"lungs"
+],
+"Panniculitis": [
+"peritoneum"
+],
+"Pantaloon hernia": [
+"groin",
+"pelvis"
+],
+"Paraaortic lymphadenopathy": [
+"abdominal_vessels"
+],
+"Paracaval lipoma": [
+"abdominal_vessels"
+],
+"Paracicatricial emphysema": [
+"lungs"
+],
+"Paradoxical middle turbinate": [
+"sinonasal"
+],
+"Paranasal sinus disease": [
+"oral_dental",
+"sinonasal"
+],
+"Paranasal sinus fractures": [
+"oral_dental",
+"sinonasal"
+],
+"Paranasal sinus mucosal thickening": [
+"oral_dental",
+"sinonasal"
+],
+"Paranasal sinus osteoma": [
+"oral_dental",
+"sinonasal"
+],
+"Paranasal sinus retention cyst": [
+"oral_dental",
+"sinonasal"
+],
+"Paraoesophageal hernia": [
+"esophagus",
+"stomach"
+],
+"Parapneumonic effusion": [
+"lungs",
+"pleura"
+],
+"Paraseptal emphysema": [
+"lungs"
+],
+"Parasitic infection": [
+"body",
+"lungs"
+],
+"Parasymphyseal insufficiency fracture": [
+"bones",
+"pelvic_bones_hips",
+"soft_tissue"
+],
+"Parathyroid adenoma": [
+"thyroid"
+],
+"Parathyroid tumour": [
+"thyroid"
+],
+"Paraumbilical hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Parenchymal lung disease": [
+"lungs"
+],
+"Parotid gland enlargement": [
+"salivary"
+],
+"Parotitis": [
+"salivary"
+],
+"Part-solid lung nodule": [
+"lungs"
+],
+"Partial anomalous pulmonary venous return": [
+"heart",
+"hila",
+"lungs",
+"mediastinum",
+"pulmonary_arteries"
+],
+"Passive atelectasis": [
+"lungs"
+],
+"Patellar fracture": [
+"bones",
+"soft_tissue"
+],
+"Patellar subluxation": [
+"bones"
+],
+"Patent ductus arteriosus": [
+"aorta_thoracic",
+"pulmonary_arteries",
+"vessels"
+],
+"Pathological fracture": [
+"bones",
+"soft_tissue"
+],
+"Pathological gas": [
+"body"
+],
+"Patulous tube syndrome": [
+"pharynx_larynx",
+"temporal_bone"
+],
+"Pectus excavatum": [
+"chest_wall",
+"ribs"
+],
+"Pedicle screws": [
+"spine"
+],
+"Pedunculated hepatic haemangioma": [
+"liver"
+],
+"PEG tube": [
+"abdominal_wall",
+"stomach"
+],
+"Pelvic abscess": [
+"pelvis"
+],
+"Pancreatitis": [
+"duodenum",
+"pancreas",
+"peritoneum"
+],
+"Paradoxical reaction in tuberculosis": [
+"body",
+"lungs"
+],
+"Paraduodenal hernia": [
+"duodenum",
+"small_bowel"
+],
+"Pelvic congestion syndrome": [
+"abdominal_vessels",
+"pelvis"
+],
+"Pelvic fractures": [
+"pelvic_bones_hips"
+],
+"Pelvic inflammatory disease": [
+"pelvis"
+],
+"Pelvic lymphadenopathy": [
+"abdominal_vessels",
+"pelvis"
+],
+"Penetrating atherosclerotic ulcer": [
+"abdominal_vessels",
+"aorta_thoracic"
+],
+"Penetrating trauma": [
+"body"
+],
+"Perforated appendix": [
+"appendix_rlq"
+],
+"Periampullary diverticulum": [
+"duodenum"
+],
+"Periapical cemento-osseous dysplasia": [
+"oral_dental"
+],
+"Periapical granuloma": [
+"oral_dental"
+],
+"Peribronchial thickening": [
+"lungs"
+],
+"Peribronchovascular consolidation": [
+"lungs"
+],
+"Pericardial effusion": [
+"heart"
+],
+"Pericardial fat pad": [
+"heart"
+],
+"Pericardial thickening": [
+"heart"
+],
+"Pericarditis": [
+"heart"
+],
+"Pericoronitis": [
+"oral_dental"
+],
+"Periodontal ligament widening": [
+"oral_dental"
+],
+"Peripheral arterial disease": [
+"bones",
+"soft_tissue",
+"vessels"
+],
+"Periportal edema": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Periportal lymphadenopathy": [
+"liver",
+"pancreas",
+"portal_venous"
+],
+"Perirenal fat stranding": [
+"kidneys"
+],
+"Peritoneal abnormality": [
+"peritoneum"
+],
+"Peritoneal carcinomatosis": [
+"peritoneum"
+],
+"Peritoneal loose body": [
+"peritoneum"
+],
+"Peritoneal thickening": [
+"peritoneum"
+],
+"Peritonitis": [
+"peritoneum"
+],
+"Peritonsillar abscess": [
+"neck",
+"pharynx_larynx"
+],
+"Persistent descending mesocolon": [
+"colon"
+],
+"Persistent hypophyseal canal": [
+"sinonasal",
+"skull"
+],
+"Persistent primitive trigeminal artery": [
+"intracranial"
+],
+"Persistent stapedial artery": [
+"temporal_bone"
+],
+"Pharyngeal/tonsillar disease": [
+"neck",
+"pharynx_larynx"
+],
+"Phlebolith": [
+"pelvis"
+],
+"Phlegmon": [
+"body",
+"peritoneum"
+],
+"Phthisis bulbi": [
+"orbit"
+],
+"Pincer morphology": [
+"pelvic_bones_hips"
+],
+"Pineal calcification": [
+"intracranial"
+],
+"Pineal cyst": [
+"intracranial"
+],
+"Pituitary hyperplasia": [
+"intracranial"
+],
+"Pituitary region masses": [
+"intracranial"
+],
+"Plagiocephaly": [
+"skull",
+"soft_tissue"
+],
+"Platybasia": [
+"skull",
+"soft_tissue",
+"spine_cervical"
+],
+"Pleural abnormality": [
+"pleura"
+],
+"Pleural adhesions": [
+"pleura"
+],
+"Pleural calcification": [
+"pleura"
+],
+"Pleural effusion": [
+"pleura"
+],
+"Perforation": [
+"bowel",
+"peritoneum",
+"stomach"
+],
+"Persistent embryonic artery": [
+"intracranial",
+"neck_vessels",
+"temporal_bone",
+"vessels"
+],
+"Persistent hypoglossal artery": [
+"intracranial",
+"neck_vessels"
+],
+"Persistent sciatic artery": [
+"bones",
+"pelvic_bones_hips",
+"soft_tissue",
+"vessels"
+],
+"Pleural metastases": [
+"pleura"
+],
+"Pleural plaque": [
+"pleura"
+],
+"Pleural retraction": [
+"lungs",
+"pleura"
+],
+"Pleural thickening": [
+"pleura"
+],
+"Pleuroparenchymal fibrosis": [
+"lungs",
+"pleura"
+],
+"Pneumatocele": [
+"lungs"
+],
+"Pneumatosis coli": [
+"bowel",
+"colon"
+],
+"Pneumatosis cystoides intestinalis": [
+"bowel"
+],
+"Pneumatosis intestinalis": [
+"bowel"
+],
+"Pneumaturia": [
+"bladder"
+],
+"Pneumocephalus": [
+"intracranial"
+],
+"Pneumomediastinum": [
+"mediastinum"
+],
+"Pneumonia": [
+"lungs"
+],
+"Pneumoperitoneum": [
+"peritoneum"
+],
+"Pneumothorax": [
+"pleura"
+],
+"Popliteal artery entrapment syndrome": [
+"bones",
+"soft_tissue",
+"vessels"
+],
+"Porcelain aorta": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Porcelain gallbladder": [
+"biliary",
+"gallbladder"
+],
+"Port site hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Portal vein variation": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Post-primary pulmonary tuberculosis": [
+"lungs"
+],
+"Post-radiation changes in the neck": [
+"neck"
+],
+"Post-surgical state": [
+"body"
+],
+"Posterior cerebral artery hypoplasia": [
+"intracranial"
+],
+"Posterior cerebral artery infarct": [
+"intracranial"
+],
+"Postmortem changes": [
+"body"
+],
+"Postoperative pneumoperitoneum": [
+"peritoneum"
+],
+"Preinvasive adenocarcinoma lesion of the lung": [
+"lungs"
+],
+"Preinvasive lesions of the lung": [
+"lungs"
+],
+"Prepulmonic coronary course": [
+"heart"
+],
+"Primary intraosseous haemangioma": [
+"bones",
+"soft_tissue"
+],
+"Primary malignancy": [
+"body"
+],
+"Primary renal neoplasia": [
+"kidneys"
+],
+"Proctitis": [
+"colon"
+],
+"Proptosis": [
+"orbit"
+],
+"Prostate cancer": [
+"prostate"
+],
+"Prostate disease": [
+"prostate"
+],
+"Prostatic calcification": [
+"prostate"
+],
+"Prostatitis": [
+"prostate"
+],
+"Pleural effusion secondary to pulmonary embolism": [
+"lungs",
+"pleura"
+],
+"Pleural pseudotumour": [
+"pleura"
+],
+"Portal hypertension": [
+"esophagus",
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Portal hypertensive gastroenterocolopathy": [
+"bowel",
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Portal vein dilatation": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Portosystemic collaterals": [
+"esophagus",
+"liver",
+"peritoneum",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Posterior malleolus fracture": [
+"bones",
+"soft_tissue"
+],
+"Primary pulmonary tuberculosis": [
+"hila",
+"lungs",
+"mediastinum"
+],
+"Proliferating trichilemmal cyst": [
+"skull",
+"soft_tissue"
+],
+"Prominent processus vaginalis": [
+"groin"
+],
+"Pneumobilia": [
+"biliary"
+],
+"Prostatomegaly": [
+"prostate"
+],
+"Pseudoaneurysm": [
+"vessels"
+],
+"Pseudomyxoma peritonei": [
+"peritoneum"
+],
+"Pterygoalar and pterygospinous ligament ossification": [
+"skull",
+"soft_tissue"
+],
+"Pubic diastasis": [
+"pelvic_bones_hips"
+],
+"Pubic ramus fracture": [
+"pelvic_bones_hips"
+],
+"Pulmonary arterial atherosclerosis": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary arteriovenous malformation": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary artery ectasia": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary artery enlargement": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary artery stenosis": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary aspergillosis": [
+"lungs"
+],
+"Pulmonary bleb": [
+"lungs"
+],
+"Pulmonary bulla": [
+"lungs"
+],
+"Pulmonary calcification": [
+"lungs"
+],
+"Pulmonary cavity": [
+"lungs"
+],
+"Pulmonary congestion": [
+"lungs"
+],
+"Pulmonary contusion": [
+"lungs"
+],
+"Pulmonary cyst": [
+"lungs"
+],
+"Pulmonary embolism": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary fibrosis": [
+"lungs"
+],
+"Pulmonary fungal disease": [
+"lungs"
+],
+"Pulmonary hamartoma": [
+"lungs"
+],
+"Pulmonary hypertension": [
+"heart",
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary hypertension associated with chronic obstructive pulmonary disease": [
+"heart",
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary hypoplasia": [
+"lungs"
+],
+"Pulmonary infarction": [
+"lungs"
+],
+"Pulmonary infection": [
+"lungs"
+],
+"Pulmonary manifestations of psoriasis": [
+"lungs"
+],
+"Pulmonary meningothelial nodules": [
+"lungs"
+],
+"Pulmonary metastases": [
+"lungs"
+],
+"Pulmonary micronodule": [
+"lungs"
+],
+"Pulmonary mycetoma": [
+"lungs"
+],
+"Pulmonary necrotising granuloma": [
+"lungs"
+],
+"Pulmonary nodule": [
+"lungs"
+],
+"Pulmonary non-tuberculous mycobacterial infection": [
+"lungs"
+],
+"Pulmonary oedema": [
+"lungs"
+],
+"Pulmonary parenchymal bands": [
+"lungs"
+],
+"Pulmonary Pseudomonas aeruginosa infection": [
+"lungs"
+],
+"Pulmonary sarcoidosis": [
+"hila",
+"lungs",
+"mediastinum"
+],
+"Pulmonary schistosomiasis": [
+"lungs"
+],
+"Pulmonary trunk dilatation": [
+"lungs",
+"pulmonary_arteries"
+],
+"Pulmonary tuberculosis": [
+"lungs"
+],
+"Pulmonary valve calcification": [
+"heart"
+],
+"Pure ground glass nodule": [
+"lungs"
+],
+"Protruding aortic plaque": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Pseudomeningocele": [
+"soft_tissue",
+"spinal_canal",
+"spine"
+],
+"Pulmonary aspiration diseases": [
+"lungs"
+],
+"Pulmonary fibrotic sequela": [
+"lungs",
+"pleura"
+],
+"Pulmonary paragonimiasis": [
+"lungs",
+"pleura"
+],
+"Pyelolithiasis": [
+"kidneys"
+],
+"Pyelonephritis": [
+"kidneys"
+],
+"Quadrigeminal cistern lipoma": [
+"intracranial"
+],
+"Radial head fracture": [
+"bones",
+"soft_tissue"
+],
+"Radiation-induced enteritis": [
+"small_bowel"
+],
+"Radiation-induced lung disease": [
+"lungs"
+],
+"Radiation-induced organising pneumonia": [
+"lungs"
+],
+"Radiation-induced pulmonary fibrosis": [
+"lungs"
+],
+"Radius fracture": [
+"bones",
+"soft_tissue"
+],
+"Raised intracranial pressure": [
+"intracranial"
+],
+"Randall plaques": [
+"kidneys"
+],
+"Ranula": [
+"oral_dental",
+"salivary"
+],
+"Reduced leaflet motion": [
+"heart"
+],
+"Regenerative liver nodule": [
+"liver"
+],
+"Renal agenesis": [
+"kidneys"
+],
+"Renal artery aneurysm": [
+"abdominal_vessels",
+"kidneys"
+],
+"Renal artery calcification": [
+"abdominal_vessels",
+"kidneys"
+],
+"Renal artery stenosis": [
+"abdominal_vessels",
+"kidneys"
+],
+"Renal atrophy": [
+"kidneys"
+],
+"Renal calculus": [
+"kidneys"
+],
+"Renal cell carcinoma": [
+"kidneys"
+],
+"Renal cortical defect": [
+"kidneys"
+],
+"Renal cortical scar": [
+"kidneys"
+],
+"Renal cyst": [
+"kidneys"
+],
+"Renal edema": [
+"kidneys"
+],
+"Renal forniceal rupture": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Renal hilar lip": [
+"kidneys"
+],
+"Renal hypertrophy": [
+"kidneys"
+],
+"Renal hypodensities": [
+"kidneys"
+],
+"Renal hypoplasia": [
+"kidneys"
+],
+"Renal infarction": [
+"kidneys"
+],
+"Renal leiomyoma": [
+"kidneys"
+],
+"Renal lobulation": [
+"kidneys"
+],
+"Renal mass": [
+"kidneys"
+],
+"Renal papillary adenoma": [
+"kidneys"
+],
+"Renal parenchymal disease": [
+"kidneys"
+],
+"Renal sinus cyst": [
+"kidneys"
+],
+"Renal sinus lipomatosis": [
+"kidneys"
+],
+"Renal transplant": [
+"kidneys",
+"pelvis"
+],
+"Renal vascular variant": [
+"abdominal_vessels",
+"kidneys"
+],
+"Renal vein varices": [
+"abdominal_vessels",
+"kidneys"
+],
+"Resection cavity": [
+"body",
+"lungs"
+],
+"Resorptive atelectasis": [
+"lungs"
+],
+"Respiratory bronchiolitis": [
+"lungs"
+],
+"Retained ballistic fragments": [
+"body"
+],
+"Retro-odontoid pseudotumour": [
+"spinal_canal",
+"spine_cervical"
+],
+"Retroaortic coronary course": [
+"heart"
+],
+"Retroaortic left renal vein": [
+"abdominal_vessels",
+"kidneys"
+],
+"Ranke complex": [
+"hila",
+"lungs",
+"mediastinum"
+],
+"Respiratory postmortem changes": [
+"airway",
+"lungs"
+],
+"Retrocecal appendix": [
+"appendix_rlq"
+],
+"Retrolisthesis": [
+"spine"
+],
+"Retroverted uterus": [
+"pelvis"
+],
+"Reversible bronchiectasis": [
+"lungs"
+],
+"Rib fracture": [
+"chest_wall",
+"ribs"
+],
+"Riedel lobe": [
+"liver"
+],
+"Right adrenalectomy": [
+"adrenals"
+],
+"Right aortic arch": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Right hilar lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Right lower lobe collapse": [
+"lung_rll"
+],
+"Right lower lobe consolidation": [
+"lung_rll"
+],
+"Right middle lobe consolidation": [
+"lung_rml"
+],
+"Right paratracheal lymphadenopathy": [
+"hila",
+"mediastinum"
+],
+"Right upper lobe collapse": [
+"lung_rul"
+],
+"Right upper lobe consolidation": [
+"lung_rul"
+],
+"Rigid spine": [
+"spinal_canal",
+"spine"
+],
+"Rokitansky nodule": [
+"pelvis"
+],
+"Round atelectasis": [
+"lungs",
+"pleura"
+],
+"Ruptured saccular aneurysm": [
+"intracranial"
+],
+"Sabre-sheath trachea": [
+"airway",
+"lungs"
+],
+"Saccular cerebral aneurysm": [
+"intracranial"
+],
+"Sacroiliitis": [
+"pelvic_bones_hips",
+"spinal_canal",
+"spine_lumbosacral"
+],
+"Salivary gland disease": [
+"salivary"
+],
+"Sarcoidosis": [
+"hila",
+"lungs",
+"mediastinum"
+],
+"Scalp Edema": [
+"skull",
+"soft_tissue"
+],
+"Scaphocephaly": [
+"skull",
+"soft_tissue"
+],
+"Scaphoid fracture": [
+"bones",
+"soft_tissue"
+],
+"Scaphoid non-union": [
+"bones",
+"soft_tissue"
+],
+"Scapula Fracture": [
+"shoulder"
+],
+"Schistosomiasis": [
+"body"
+],
+"Schmorl node": [
+"spine"
+],
+"Scleroderma": [
+"esophagus",
+"lungs"
+],
+"Sclerosing mesenteritis": [
+"peritoneum",
+"small_bowel"
+],
+"Sclerotic bone lesion": [
+"bones",
+"soft_tissue"
+],
+"Sclerotic bone metastases": [
+"bones",
+"soft_tissue"
+],
+"Scoliosis": [
+"spine"
+],
+"Second branchial cleft cyst": [
+"neck"
+],
+"Secondary malignant cardiac tumour": [
+"heart"
+],
+"Secondary pleural lymphoma": [
+"pleura"
+],
+"Segmental atelectasis": [
+"lungs"
+],
+"Segmental fracture": [
+"bones",
+"soft_tissue"
+],
+"Semicircular canal dehiscence": [
+"temporal_bone"
+],
+"Senile calcific scleral plaques": [
+"orbit"
+],
+"Serous cystadenoma of the pancreas": [
+"pancreas"
+],
+"Sialadenitis": [
+"salivary"
+],
+"Sialolithiasis": [
+"salivary"
+],
+"Sialosis": [
+"salivary"
+],
+"Sigmoid kidney": [
+"kidneys"
+],
+"Right heart strain": [
+"heart"
+],
+"Seminal vesiculitis": [
+"prostate"
+],
+"Sigmoid sinus dehiscence": [
+"temporal_bone"
+],
+"Sigmoid sinus diverticulum": [
+"temporal_bone"
+],
+"Simple hepatic cyst": [
+"liver"
+],
+"Simple splenic cyst": [
+"spleen"
+],
+"Single coronary artery": [
+"heart"
+],
+"Sinonasal anatomical variant": [
+"oral_dental",
+"sinonasal"
+],
+"Sinonasal polyposis": [
+"oral_dental",
+"sinonasal"
+],
+"Sinusitis": [
+"oral_dental",
+"sinonasal"
+],
+"Situs / laterality anomaly": [
+"heart",
+"liver",
+"spleen",
+"stomach"
+],
+"Situs inversus": [
+"heart",
+"liver",
+"spleen",
+"stomach"
+],
+"Sj\u00f6gren disease (thoracic manifestations)": [
+"lungs"
+],
+"Skin laceration": [
+"soft_tissue"
+],
+"Skull fracture": [
+"skull",
+"soft_tissue"
+],
+"Skull metastases": [
+"skull",
+"soft_tissue"
+],
+"Skull tumours": [
+"skull",
+"soft_tissue"
+],
+"Skull vault osteoma": [
+"skull",
+"soft_tissue"
+],
+"Sleeve gastrectomy": [
+"stomach"
+],
+"Small airways disease": [
+"lungs"
+],
+"Small bowel obstruction": [
+"small_bowel"
+],
+"Small intestine diverticular disease": [
+"small_bowel"
+],
+"Small lymphocytic lymphoma": [
+"body_minus_lungs"
+],
+"Small pulmonary nodules": [
+"lungs"
+],
+"Small renal mass": [
+"kidneys"
+],
+"Smoking-related interstitial fibrosis": [
+"lungs"
+],
+"Smoking-related interstitial lung disease": [
+"lungs"
+],
+"Soft tissue calcification": [
+"soft_tissue"
+],
+"Soft tissue oedema": [
+"soft_tissue"
+],
+"Solitary pulmonary nodule": [
+"lungs"
+],
+"Solitary sclerotic bone lesion": [
+"bones",
+"soft_tissue"
+],
+"Sphenoid sinus hypoplasia": [
+"oral_dental",
+"sinonasal"
+],
+"Spina bifida occulta": [
+"spine_lumbosacral"
+],
+"Spinal canal or foraminal stenosis": [
+"spinal_canal",
+"spine"
+],
+"Spinal compression fracture": [
+"spinal_canal",
+"spine"
+],
+"Spinal cord compression": [
+"spinal_canal",
+"spine"
+],
+"Spinal curvature abnormality": [
+"spinal_canal",
+"spine"
+],
+"Spinal fusion": [
+"spinal_canal",
+"spine"
+],
+"Spinal instrumentation": [
+"spinal_canal",
+"spine"
+],
+"Spinal ligament ossification": [
+"spinal_canal",
+"spine"
+],
+"Spinal stenosis": [
+"spinal_canal",
+"spine"
+],
+"Spinal synovial cyst": [
+"spinal_canal",
+"spine"
+],
+"Spinal wedge fracture": [
+"spinal_canal",
+"spine"
+],
+"Spleen tumours": [
+"spleen"
+],
+"Splenic calcification": [
+"spleen"
+],
+"Splenic cyst": [
+"spleen"
+],
+"Splenic granulomatous disease": [
+"spleen"
+],
+"Splenic haemangioma": [
+"spleen"
+],
+"Splenic hamartoma": [
+"spleen"
+],
+"Skeletal fluorosis": [
+"bones",
+"soft_tissue"
+],
+"Spinal fracture": [
+"spinal_canal",
+"spine"
+],
+"Splenic artery aneurysm": [
+"abdominal_vessels",
+"spleen"
+],
+"Splenic infarct": [
+"spleen"
+],
+"Splenic pseudocyst": [
+"spleen"
+],
+"Splenic volvulus": [
+"spleen"
+],
+"Splenomegaly": [
+"spleen"
+],
+"Splenosis": [
+"peritoneum",
+"spleen"
+],
+"Splenunculus": [
+"spleen"
+],
+"Split atlas": [
+"spinal_canal",
+"spine_cervical"
+],
+"Spondylolysis": [
+"spinal_canal",
+"spine_lumbosacral"
+],
+"Spontaneous rib fracture": [
+"chest_wall",
+"ribs"
+],
+"Stafne bone cavity": [
+"oral_dental"
+],
+"Staghorn calculus": [
+"kidneys"
+],
+"Staphyloma": [
+"orbit"
+],
+"Status post appendectomy": [
+"appendix_rlq"
+],
+"Status post colectomy": [
+"colon"
+],
+"Status post colorectal cancer surgery": [
+"colon"
+],
+"Status post hepatectomy": [
+"liver"
+],
+"Status post hysterectomy": [
+"pelvis"
+],
+"Status post lobectomy": [
+"lungs"
+],
+"Status post lung resection": [
+"lungs"
+],
+"Status post nephrectomy": [
+"kidneys"
+],
+"Status post orchiectomy": [
+"groin"
+],
+"Status post partial nephrectomy": [
+"kidneys"
+],
+"Status post splenectomy": [
+"spleen"
+],
+"Sternal defect": [
+"chest_wall",
+"ribs"
+],
+"Sternal fracture": [
+"chest_wall",
+"ribs"
+],
+"Sternoclavicular joint osteoarthritis": [
+"chest_wall",
+"shoulder"
+],
+"Sternotomy": [
+"chest_wall"
+],
+"Stroke": [
+"intracranial"
+],
+"Subarachnoid haemorrhage": [
+"intracranial"
+],
+"Subarticular zone stenosis": [
+"spinal_canal",
+"spine"
+],
+"Subchondral cyst": [
+"bones"
+],
+"Subcutaneous emphysema": [
+"chest_wall",
+"neck",
+"soft_tissue"
+],
+"Subcutaneous nodule": [
+"soft_tissue"
+],
+"Subdural haemorrhage": [
+"intracranial"
+],
+"Subdural hygroma": [
+"intracranial"
+],
+"Subependymal cyst": [
+"intracranial"
+],
+"Subfalcine herniation": [
+"intracranial"
+],
+"Splenic vein thrombosis": [
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Spondylolisthesis": [
+"spinal_canal",
+"spine",
+"spine_lumbosacral"
+],
+"Spondylosis": [
+"spinal_canal",
+"spine"
+],
+"Spontaneous retroperitoneal haemorrhage": [
+"abdominal_vessels",
+"kidneys"
+],
+"Spontaneous splenorenal shunt": [
+"kidneys",
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Status post distal pancreatectomy": [
+"pancreas"
+],
+"Status post gastrectomy": [
+"small_bowel",
+"stomach"
+],
+"Status post hemicolectomy": [
+"colon",
+"small_bowel"
+],
+"Status post mastectomy": [
+"breast"
+],
+"Status post pneumonectomy": [
+"lungs",
+"pleura"
+],
+"Strangulating bowel obstruction": [
+"bowel",
+"peritoneum"
+],
+"Subclavian artery stenosis": [
+"aorta_thoracic",
+"mediastinum",
+"neck_vessels"
+],
+"Subclavian steal syndrome": [
+"aorta_thoracic",
+"neck_vessels"
+],
+"Submandibular gland enlargement": [
+"salivary"
+],
+"Subpleural pulmonary nodules": [
+"lungs"
+],
+"Subscapularis insufficiency after shoulder arthroplasty": [
+"shoulder"
+],
+"Substernal goitre": [
+"mediastinum",
+"thyroid"
+],
+"Superior mesenteric artery compression disorders": [
+"abdominal_vessels",
+"duodenum"
+],
+"Superior mesenteric artery stenosis": [
+"abdominal_vessels"
+],
+"Superior mesenteric artery syndrome": [
+"abdominal_vessels",
+"duodenum"
+],
+"Superior semicircular canal dehiscence syndrome": [
+"temporal_bone"
+],
+"Superior vena caval duplication": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Surgical clip": [
+"body"
+],
+"Surgical haemostatic material": [
+"body"
+],
+"Surgical suture": [
+"body"
+],
+"Swyer-James syndrome": [
+"lungs"
+],
+"Syndesmophyte": [
+"spine"
+],
+"Synostosis": [
+"bones",
+"soft_tissue"
+],
+"Systemic lupus erythematosus (thoracic manifestations)": [
+"heart",
+"lungs",
+"pleura"
+],
+"Talc pleurodesis": [
+"pleura"
+],
+"Talocalcaneal coalition": [
+"bones",
+"soft_tissue"
+],
+"Tamoxifen-induced hepatic steatosis": [
+"liver"
+],
+"Tarsal coalition": [
+"bones",
+"soft_tissue"
+],
+"Tarsal fracture": [
+"bones",
+"soft_tissue"
+],
+"Tegmen tympani defect": [
+"temporal_bone"
+],
+"Temporal bone abnormality": [
+"bones",
+"soft_tissue",
+"temporal_bone"
+],
+"Temporomandibular joint dislocation": [
+"oral_dental",
+"temporal_bone"
+],
+"Tension pneumothorax": [
+"pleura"
+],
+"Terminal ileitis": [
+"small_bowel"
+],
+"Thoracic aortic aneurysm": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Thoracic aortic dilatation": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Thoracic aortic stenosis": [
+"aorta_thoracic",
+"mediastinum"
+],
+"Thoracolith": [
+"pleura"
+],
+"Thoracolumbar spine fracture": [
+"spinal_canal",
+"spine_lumbosacral",
+"spine_thoracic"
+],
+"Thrombosis": [
+"vessels"
+],
+"Thymic hyperplasia": [
+"mediastinum"
+],
+"Thymic remnant": [
+"mediastinum"
+],
+"Thyroid calcification": [
+"thyroid"
+],
+"Thyroid carcinoma": [
+"thyroid"
+],
+"Thyroid disease": [
+"thyroid"
+],
+"Thyroid eye disease": [
+"orbit"
+],
+"Thyroid heterogeneity": [
+"thyroid"
+],
+"Thyroid hyperplasia": [
+"thyroid"
+],
+"Thyroid nodule": [
+"thyroid"
+],
+"Thyroiditis": [
+"thyroid"
+],
+"Tibia fracture": [
+"bones",
+"soft_tissue"
+],
+"Tibial plateau fracture": [
+"bones",
+"soft_tissue"
+],
+"Submassive pulmonary embolism": [
+"heart",
+"lungs",
+"pulmonary_arteries"
+],
+"Submucosal edema": [
+"bowel",
+"stomach"
+],
+"Surgically absent gallbladder": [
+"biliary",
+"gallbladder"
+],
+"Systemic lupus erythematosus (gastrointestinal manifestations)": [
+"bowel",
+"peritoneum"
+],
+"Thin-cap fibroatheroma": [
+"heart",
+"vessels"
+],
+"Thyroglossal duct cyst": [
+"neck",
+"thyroid"
+],
+"Tibial torsion": [
+"bones",
+"soft_tissue"
+],
+"Tibiotalar spurs": [
+"bones",
+"soft_tissue"
+],
+"Tonsillar Hypertrophy": [
+"neck",
+"pharynx_larynx"
+],
+"Tonsillitis": [
+"neck",
+"pharynx_larynx"
+],
+"Tonsillolith": [
+"neck",
+"pharynx_larynx"
+],
+"Tophaceous Gout": [
+"bones",
+"soft_tissue"
+],
+"Tornwaldt cyst": [
+"pharynx_larynx",
+"sinonasal"
+],
+"Tracheal calcification": [
+"airway",
+"lungs"
+],
+"Tracheal deviation": [
+"airway",
+"lungs"
+],
+"Tracheal diverticulum": [
+"airway",
+"lungs"
+],
+"Tracheal secretions": [
+"airway",
+"lungs"
+],
+"Tracheal wall thickening": [
+"airway",
+"lungs"
+],
+"Tracheobronchial abnormality": [
+"airway",
+"lungs"
+],
+"Tracheobronchial branching anomalies": [
+"airway",
+"lungs"
+],
+"Tracheobronchial calcification": [
+"airway",
+"lungs"
+],
+"Tracheobronchial stenosis": [
+"airway",
+"lungs"
+],
+"Tracheobronchopathia osteochondroplastica": [
+"airway",
+"lungs"
+],
+"Tracheomalacia": [
+"airway",
+"lungs"
+],
+"Tracheomegaly": [
+"airway",
+"lungs"
+],
+"Tracheostomy": [
+"airway",
+"lungs",
+"neck"
+],
+"Traction bronchiectasis": [
+"lungs"
+],
+"Transependymal oedema": [
+"intracranial"
+],
+"Transient hepatic attenuation differences": [
+"liver"
+],
+"Transient intussusception": [
+"bowel",
+"small_bowel"
+],
+"Transitional aneurysm": [
+"intracranial",
+"vessels"
+],
+"Transitional vertebra": [
+"spinal_canal",
+"spine_lumbosacral"
+],
+"Transtentorial herniation": [
+"intracranial"
+],
+"Transverse sinus stenosis": [
+"intracranial"
+],
+"Traumatic Brain Injury": [
+"intracranial"
+],
+"Traumatic subarachnoid haemorrhage": [
+"intracranial"
+],
+"Tree-in-bud pattern": [
+"lungs"
+],
+"Trefoil spinal canal": [
+"spinal_canal",
+"spine",
+"spine_lumbosacral"
+],
+"Trichilemmal cyst": [
+"skull",
+"soft_tissue"
+],
+"Tricuspid valve calcification": [
+"heart"
+],
+"Trimalleolar fracture": [
+"bones",
+"soft_tissue"
+],
+"Trochlear apparatus calcification": [
+"orbit"
+],
+"Trochlear dysplasia": [
+"bones"
+],
+"Tropical pancreatitis": [
+"pancreas"
+],
+"True aneurysm": [
+"vessels"
+],
+"Tuberculosis": [
+"body"
+],
+"Tuberculous pleuritis": [
+"pleura"
+],
+"Tumour deposit": [
+"body"
+],
+"Turbinate atrophy": [
+"sinonasal"
+],
+"Turbinate hypertrophy": [
+"sinonasal"
+],
+"Tympanic membrane abnormality": [
+"temporal_bone"
+],
+"Tympanic membrane perforation": [
+"temporal_bone"
+],
+"Tympanic membrane retraction": [
+"temporal_bone"
+],
+"Tympanic membrane thickening": [
+"temporal_bone"
+],
+"Tympanosclerosis": [
+"temporal_bone"
+],
+"Typhoid fever": [
+"colon",
+"small_bowel"
+],
+"Ulnar styloid fracture": [
+"bones",
+"soft_tissue"
+],
+"Umbilical hernia": [
+"abdominal_wall",
+"peritoneum"
+],
+"Unclassifiable interstitial lung disease": [
+"lungs"
+],
+"Upper lobe bronchiectasis": [
+"lung_lul",
+"lung_rul"
+],
+"Upper tract urothelial carcinoma": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Urachal remnant": [
+"abdominal_wall",
+"bladder"
+],
+"Ureteral stent": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Ureteric calculus": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Ureteropelvic junction stenosis": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Urinary bladder abnormality": [
+"bladder"
+],
+"Urinary bladder diverticulum": [
+"bladder"
+],
+"Urinary bladder hernia": [
+"bladder",
+"groin"
+],
+"Urinary bladder wall thickening": [
+"bladder"
+],
+"Urinary Schistosomiasis": [
+"bladder",
+"ureters"
+],
+"Urinary tract dilatation": [
+"kidneys",
+"ureters"
+],
+"Urolithiasis": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Urothelial carcinoma of the bladder": [
+"bladder"
+],
+"Urothelial thickening": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Usual Interstitial Pneumonia": [
+"lungs"
+],
+"Uterine abnormality": [
+"pelvis"
+],
+"Uterine calcification": [
+"pelvis"
+],
+"Uterine enlargement": [
+"pelvis"
+],
+"Uterine leiomyoma": [
+"pelvis"
+],
+"Uterine lipoleiomyoma": [
+"pelvis"
+],
+"Uterine mass or neoplasm": [
+"pelvis"
+],
+"Vacuum phenomenon": [
+"spinal_canal",
+"spine"
+],
+"Valvular calcification": [
+"heart"
+],
+"Varices": [
+"esophagus",
+"liver",
+"portal_venous",
+"spleen",
+"stomach"
+],
+"Varicose bronchiectasis": [
+"lungs"
+],
+"Vascular tortuosity": [
+"vessels"
+],
+"Vasculitis": [
+"vessels"
+],
+"Vasogenic cerebral oedema": [
+"intracranial"
+],
+"Venous thromboembolism": [
+"lungs",
+"pulmonary_arteries",
+"vessels"
+],
+"Ventricular asymmetry": [
+"intracranial"
+],
+"Ventricular septal defect": [
+"heart"
+],
+"Ventriculomegaly": [
+"intracranial"
+],
+"Vertebral artery hypoplasia": [
+"neck_vessels"
+],
+"Vertebral artery loop": [
+"neck_vessels"
+],
+"Vertebral artery occlusion": [
+"neck_vessels"
+],
+"Vertebral artery stenosis": [
+"neck_vessels"
+],
+"Vertebral haemangioma": [
+"spinal_canal",
+"spine"
+],
+"Vertebral height loss": [
+"spinal_canal",
+"spine"
+],
+"Ureteritis cystica": [
+"bladder",
+"kidneys",
+"ureters"
+],
+"Vascular stent": [
+"vessels"
+],
+"Venous stenosis or occlusion": [
+"intracranial",
+"vessels"
+],
+"Venous thrombosis": [
+"vessels"
+],
+"Ventriculoperitoneal shunt": [
+"intracranial",
+"peritoneum",
+"skull",
+"soft_tissue"
+],
+"Vertebral artery ectasia": [
+"intracranial",
+"neck_vessels"
+],
+"Vertebral body pathological fracture": [
+"spinal_canal",
+"spine"
+],
+"Vertebral developmental variant": [
+"spinal_canal",
+"spine"
+],
+"Vertebral scalloping": [
+"spinal_canal",
+"spine"
+],
+"Vertebroplasty": [
+"spinal_canal",
+"spine"
+],
+"Visceral mediastinal mass": [
+"mediastinum"
+],
+"Visceral pleural invasion": [
+"lungs",
+"pleura"
+],
+"Wallerian degeneration": [
+"intracranial"
+],
+"Watershed cerebral infarction": [
+"intracranial"
+],
+"Vertebral metastases": [
+"spinal_canal",
+"spine"
+],
+"Visceral artery aneurysm": [
+"abdominal_vessels",
+"pancreas",
+"spleen"
+],
+"Vulnerable plaque": [
+"heart",
+"neck_vessels",
+"vessels"
+]
+}

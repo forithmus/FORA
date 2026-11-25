@@ -1,0 +1,22 @@
+{
+  "_comment": "CT plan settings for SFT stage 2, DPO and decoding. SFT stage 1 uses a different calibration and no cap: see configs/plan_ct_stage1.json.",
+  "calibration": {
+    "builder": "python -m fora_report.plan.calibration_tiers --dense DENSE_LOGITS.npz --labels-npz LABELS.npz --split split.json --out calibration_train_platt.json --stats calibration_train_platt_stats.json",
+    "platt_l2": 1.0,
+    "platt_min_slope": 0.05,
+    "plan_rule": "platt50_train",
+    "possible_rule": "youden_train"
+  },
+  "plan": {
+    "dataset_kind": "ct",
+    "mode": "all_classes",
+    "plan_possible_cap": 20,
+    "plan_cap_rank": "prob",
+    "plan_prob": true,
+    "fimg_tokens": 6,
+    "evidence_descriptions": true
+  },
+  "targets": {
+    "builder": "python -m fora_report.plan.targets --calibration calibration_train_platt.json --dense DENSE_LOGITS.npz --split split.json --out-dir TARGETS_DIR --plan-possible-cap 20 --plan-cap-rank prob"
+  }
+}

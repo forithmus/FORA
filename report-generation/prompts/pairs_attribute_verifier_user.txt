@@ -1,0 +1,4 @@
+ATTRIBUTE: {attribute}
+TARGET FINDING: {finding}
+ORIGINAL: {sentence}
+EDITED: {edited}

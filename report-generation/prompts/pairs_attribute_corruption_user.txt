@@ -1,0 +1,4 @@
+ATTRIBUTE: {attribute}
+TARGET FINDING: {finding}
+SENTENCE: {sentence}
+DETECTED {attribute_upper} EXPRESSIONS (hint): {spans}

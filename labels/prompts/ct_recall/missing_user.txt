@@ -1,0 +1,10 @@
+PROTOCOL: {title} ({region})
+
+REPORT FINDINGS:
+{findings}
+
+REPORT IMPRESSION:
+{impression}
+
+ALREADY LABELLED:
+{have}

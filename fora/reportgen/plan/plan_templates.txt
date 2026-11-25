@@ -1,0 +1,79 @@
+Diagnostic-plan prompt fragments (Supplementary Fig. 11). Read by reportgen/plan/diagnostic_plan.py.
+Each fragment is the exact text between "[[name]]" + newline and newline + "[[/name]]"; newlines inside a fragment
+are part of the prompt. {image_name} is "CT" or "chest radiograph"; other {fields} are filled by the plan builder.
+
+[[findings_instruction]]
+Generate only the complete English radiology Findings section from this {image_name} study. Be precise, include pertinent negatives, and do not produce an Impression or Conclusion.
+
+
+[[/findings_instruction]]
+
+[[study_measurements]]
+Automatic image measurements (verify against the images): {study_line}.
+
+[[/study_measurements]]
+
+[[plan_header]]
+Predicted diagnostic plan from the frozen image classifier (verify every item against the images).
+
+[[/plan_header]]
+
+[[confident_ct]]
+Confident findings: {confident}.
+
+[[/confident_ct]]
+
+[[confident_cxr]]
+Probable findings (calibrated probability at least 0.5): {confident}.
+
+[[/confident_cxr]]
+
+[[possible]]
+Possible findings (lower-confidence classifier signal; verify carefully): {possible}.
+
+[[/possible]]
+
+[[plan_footer]]
+These are candidates rather than output truth. Use the complete image and disease-specific visual evidence to accept, hedge, or reject them, and recover a supported finding even when its classifier score is below threshold.
+[[/plan_footer]]
+
+[[cxr_locations_probability]]
+
+Parentheses give, as a classifier hint to verify against the images, where the classifier's evidence for the finding lies on the frontal film (the patient's right or left side or bilateral, and the upper, mid or lower zone) when the finding is lateralised, then its calibrated probability and how that compares with how often the finding is reported on chest radiographs (its base rate). Treat low probabilities with caution.
+[[/cxr_locations_probability]]
+
+[[cxr_probability]]
+
+Parentheses give the classifier's calibrated probability for each finding and how it compares with how often that finding is reported on chest radiographs (its base rate). Treat low probabilities with caution.
+[[/cxr_probability]]
+
+[[cxr_evidence_token]]
+ A finding followed by an evidence token carries the classifier's attention-pooled radiograph feature for that finding, taken from all films of the study.
+[[/cxr_evidence_token]]
+
+[[ct_descriptions_probability]]
+
+Parentheses give, for each finding, the classifier's calibrated probability, the distribution of its image evidence (focal, clustered, multifocal with the number of sites, or diffuse; bilateral when both sides are involved), the main site (organ, lobe or nodal station, the patient's right or left side, and the position inside the organ: pole, zone, anterior or posterior, medial or lateral, subpleural, central or subcapsular), further sites, organ involvement for diffuse processes, and an automated measurement (lesion caliper, vessel diameter, organ length, effusion thickness, or midline shift). Use them when the images support them, keep the stated sides, describe multiple sites as a radiologist would, report sizes in millimetres, and treat low probabilities with caution.
+[[/ct_descriptions_probability]]
+
+[[ct_descriptions]]
+
+Parentheses give the image-derived location (organ, lobe or segment, and the patient's right or left side) and an automated measurement (caliper on the lesion, vessel diameter, organ length, effusion thickness, or midline shift). Use them when the images support them, keep the stated side, and report sizes in millimetres as a radiologist would.
+[[/ct_descriptions]]
+
+[[ct_attention_locations]]
+
+Locations in parentheses are derived from classifier attention (organ region, body side, and position within the scanned range) and may be imprecise; verify them.
+[[/ct_attention_locations]]
+
+[[ct_evidence_tokens_foci]]
+ The evidence tokens after a finding carry its attention-pooled image feature followed by image features from each evidence focus, with their position inside the organ.
+[[/ct_evidence_tokens_foci]]
+
+[[ct_evidence_images]]
+ The last tokens of each finding encode zoomed CT images with the classifier's evidence outlined: axial, coronal and sagittal views of its main site and an axial view of each further site (up to three).
+[[/ct_evidence_images]]
+
+[[ct_evidence_token]]
+ A finding followed by an evidence token carries the classifier's attention-pooled image feature for that finding.
+[[/ct_evidence_token]]
