@@ -214,11 +214,3 @@ python -m pytest inference/tests
 CPU only and without weights: argument parsing, CT and X-ray input reading, view rule, decoding seed and opener,
 phrase-ban loading, CT foci reading, X-ray localization on a toy bag and the result JSON of both entry points with
 mocked models.
-
-## Differences from the paper text
-
-* `--opener auto` maps protocols to the two cohort openers of the paper. The paper evaluated only the fixed cohort
-  openers (CT-RATE chest, Merlin abdomen).
-* The X-ray localization foci use the 0.3 x q99.5 component rule with the top-mass focus, while the CT foci use HDR50
-  components restricted to the finding's anatomical family (up to four foci reach the writer). The Methods text
-  describes the CT rule.

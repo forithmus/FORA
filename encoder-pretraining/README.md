@@ -65,14 +65,3 @@ phase 2.
 
 Phase 2 starts from the phase-1 checkpoint including its AdamW moments, sampler position and RNG states; the step counter
 and all schedules restart at 0 and the Gram anchor is the phase-1 EMA teacher.
-
-## Differences from the paper text
-
-- CT phase 1 uses cosine schedules for 125,000 steps and stops at step 20,000, where the learning rate is still about
-  0.95 of its peak. Phase 2 uses schedules for 10,000 steps and stops at step 5,000.
-- In both CT phases, for a lung CT with a native lung window, global crop 2 and every local crop are each replaced with
-  probability 0.25 by the 10 mm slab MIP in the narrowest-centre lung window.
-- The X-ray encoder's RoPE uses the CT voxel spacing (one pixel = 0.5 mm, periods from 6 mm) although films are used at
-  native resolution (about 0.15 mm per pixel). `fora.encoder.backbone.CXR_VOXEL_SPACING_MM` records this; downstream
-  X-ray stages must use the same values.
-- X-ray resumes used `--resume-allow-partial`.

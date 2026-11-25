@@ -175,8 +175,3 @@ python -m pytest evaluation/tests
 The tests compare the metrics with scikit-learn, check the influence functions against finite differences, check
 interval coverage on synthetic data, Holm on a hand example, exact binomial intervals against SciPy, and the
 localization measures on toy grids.
-
-## Differences from the paper text
-
-* The CT AUPRC sorts scores with a stable sort; for scores with exact ties this can change the fourth decimal
-  compared with an unstable sort.

@@ -52,13 +52,3 @@ SIGUSR1 saves `latest.pt` and exits; restarting with the same command resumes.
 | `configs/ct_alignment.json` | CT, 3 epochs (2,368 steps per epoch), warm-up 300, lr block 2e-5 / projections 1e-4 / BERT 1e-5 / temperatures 1e-3, wd 0.05, seed 0 |
 | `configs/ct_alignment_continuation.json` | CT continuation from `epoch_03.pt` with half the learning rates, warm-up 200, seed 1; cosine horizon 2 epochs for steps 0-999, 7 epochs for steps 1,000-11,839, 10 epochs from step 11,840 (`epochs_schedule`); stops after epoch 7 (step 16,576) |
 | `configs/cxr_alignment.json` | X-ray, 2,006 steps per epoch; cosine horizon 100 epochs for steps 0-8,999 and 10 epochs from step 9,000 (`epochs_schedule`); 10 epochs (20,060 steps) |
-
-## Differences from the paper text
-
-- The CT block 24 used downstream comes from epoch 7 of the continuation, i.e. 3 + 7 = 10 epochs of alignment. At that
-  checkpoint the learning rate is about 0.21 of its peak, not annealed, because the cosine horizon of the continuation
-  was 10 epochs from step 11,840 on.
-- The X-ray learning rate follows a 100-epoch cosine for the first 9,000 steps (still 0.995 of peak at step 9,000) and a
-  10-epoch cosine afterwards (0.59 of peak at step 9,010, 0 at step 20,060).
-- The CT normalization statistics (`normalization.pt`) are the mean and rms of block-24 tokens of the encoder on CT-RATE
-  training scans; the X-ray statistics are computed by `train_cxr normalization` from 200 random training films.

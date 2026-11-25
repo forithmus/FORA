@@ -149,20 +149,6 @@ ReportUID = `<source>|<study id>`, findings = text without a leading "Findings:"
 `labels.cxr.merge_shards`, and mapped with `cxr_states.CXRResolver(label_db, classes)`. The metrics are computed in
 `evaluation/`.
 
-## Differences from the paper text
-
-- The CT label DB merges a per-protocol-vocabulary extraction (positives only) with the global-vocabulary extraction;
-  the global run had two retry runs with 3x token budgets, the second one keeping the complete items of JSON replies cut
-  at the token cap.
-- The recall, malignancy and adjudication inputs and the head tiers use `hierarchy_base.json`; only the final DB uses
-  `hierarchy.json`. Head counts in `heads_1028.json` therefore come from the DB built on `hierarchy_base.json`; tiering
-  on the final DB gives the same 1,028 class names, with different parents for 3 attached heads.
-- The CT report scorer maps with `hierarchy_base.json` and uses per-protocol vocabularies (1,106 labels), not the global
-  training vocabulary.
-- The X-ray label index has 311 labels (304 vocabulary leaves + 7 extractor spellings); Supplementary Data 3 lists the 304.
-- The definition texts of "Intracranial mass" and "Inguinal hernia" in the shipped vocabulary and hierarchy files were
-  rewritten as plain definitions; the extraction runs used earlier wording of these two entries.
-
 ## Tests
 
 ```bash

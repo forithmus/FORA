@@ -145,17 +145,3 @@ python -m pytest data-preprocessing/tests
 
 CPU smoke tests on a synthetic shard: geometry, windows and the MIP rule, the cache codec, a tiny plan -> cache (stub
 encoder) -> region bits -> bags -> pack round trip, the split rule, exam types and the protocol-classifier helpers.
-
-## Differences from the paper text
-
-- The lung MIP view of the training data depends only on the presence of a native lung window; the inference bundle
-  also requires a lung-CT protocol (see step 2).
-- 4-D series contribute one series per timepoint.
-- The protocol-classification prompt mentions a few class names that are not in the menu (whole-body trauma, HRCT,
-  thoraco-abdominal CTA, pulmonary embolism protocol); the model can only return menu numbers, so they act as mapping
-  hints.
-- CADS masks used for the region bits had four post-processing rules applied (labels on voxels <= -2000 HU removed,
-  solid-tissue labels in air <= -900 HU removed, the brain model kept only where head or neck anatomy is in the frame,
-  a rule for inner-auditory-canal series). The inference bundle runs CADS without these rules.
-
-See [GAPS.md](GAPS.md) for steps whose code is not part of this repository.

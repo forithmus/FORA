@@ -87,21 +87,6 @@ Common CT settings: 128 ranks x 1 study bag per step (2,396 steps per epoch), Ad
 route penalty), route lr 1e-2, route penalty initialised at 5, token drop 0.2, feature drop 0.1, EMA 0.998,
 attach decay 0.5, gradient clip 1.0, seed 0. Total CT steps: 26,356 + 2,800 + 9,584 = 38,740.
 
-## Differences from the paper text
-
-- Block 24 of the classifier starts from block 24 of the sentence-alignment model (CT: alignment checkpoint after 7 epochs;
-  X-ray: after 10 epochs); the head starts from scratch. The paper only states that block 24 is trainable.
-- Stage 1 switches from routing table 1 to routing table 2 at step 24,800 (resume with the same optimizer state) and stops
-  at step 26,356, before its 12-epoch cosine schedule ends. Stage 2 stops at step 2,800 of its 4,792-step schedule.
-- The released CT model is the raw (not EMA) weights after epoch 4 of stage 3. The released X-ray model is the raw weights
-  with the best validation macro AUROC, which is the last epoch (6).
-- The fixed standardisation statistics of the CT block-24 tokens were computed on CT-RATE training tokens.
-- The balanced accuracy uses rule A: one Youden cut-off per finding and scan type on training studies (all training
-  studies when the scan type has < 50 positives or < 50 negatives), cut-off midway between adjacent scores. The plan tiers
-  of report generation use one per-finding Youden cut-off on all training studies (cut-off at the maximising score).
-- X-ray foci are the 8-connected components of the smoothed referenced evidence >= 0.3 x its 99.5 % quantile with the top
-  focus by mass; CT foci use the HDR50 region and 26-connected components (up to 4 foci for the writer).
-
 ## Tests
 
 ```bash
